@@ -1,0 +1,11 @@
+name: Design By Numbers
+category: programming
+paradigms:
+- object-oriented
+typing:
+  strength: strong
+history:
+  inception: 1999-01-01
+  developer:
+  - John Maeda
+official_website: https://dbn.media.mit.edu/

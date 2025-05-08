@@ -1,0 +1,8 @@
+name: PARI/GP
+category: programming
+history:
+  inception: 1985-01-01
+  developer:
+  - Henri Cohen
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/PARI-GP%20logo.svg
+official_website: https://pari.math.u-bordeaux.fr/

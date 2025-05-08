@@ -1,0 +1,22 @@
+name: ALGOL 60
+category: programming
+paradigms:
+- structured
+- imperative
+typing:
+  system: static
+  strength: strong
+history:
+  developer:
+  - Alan Perlis
+  - Friedrich L. Bauer
+  - Peter Naur
+  - Heinz Rutishauser
+  - John McCarthy
+  - John Backus
+  - Klaus Samelson
+  - Adriaan van Wijngaarden
+  - Bernard Vauquois
+  - Charles Katz
+  designed_by:
+  - John Backus

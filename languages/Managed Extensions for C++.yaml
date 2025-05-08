@@ -1,0 +1,8 @@
+name: Managed Extensions for C++
+category: programming
+history:
+  inception: 2002-01-01
+official_website: https://docs.microsoft.com/en-us/previous-versions/dotnet/netframework-1.1/a6431ht5(v=vs.71)
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/managed-c%2b%2b

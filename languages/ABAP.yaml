@@ -1,0 +1,171 @@
+name: ABAP
+description: ABAP (Advanced Business Application Programming) is a high-level programming language created by SAP for developing business applications in the SAP environment. It is primarily used to develop applications for SAP's R/3 and ERP systems.
+category: programming
+status: active
+aliases:
+- Advanced Business Application Programming
+- ABAP/4
+file_extensions:
+- abap
+compilers:
+- name: SAP NetWeaver
+  type: compiler
+  license: proprietary
+paradigms:
+- imperative
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: partial
+  type_checking: compile-time
+  type_coercion: moderate
+  type_annotations: required
+execution:
+  type:
+  - compiled
+  compiles_to:
+  - bytecode
+  runtime_environments:
+  - language-specific runtime
+  performance:
+    startup_time: moderate
+    memory_usage: high
+    computation_speed: moderate
+domains:
+  primary:
+  - business applications
+  - data processing
+  secondary:
+  - database management
+  - web development
+  - server-side applications
+  emerging:
+  - cloud computing
+platforms:
+  operating_systems:
+  - Windows
+  - Linux
+  - Unix
+  architectures:
+  - x86-64
+  - platform-independent
+ecosystem:
+  maturity: high
+  package_registry: SAP Development Tools
+  community_size: medium
+  learning_resources: large
+  job_market_demand: moderate
+complexity:
+  learning_curve: high
+  cognitive_load: high
+  syntax_complexity: moderate
+  semantic_complexity: high
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: false
+  generics: true
+  c_interop: false
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+  key_features:
+  - modules
+  - named arguments
+  - string interpolation
+  - reflection
+concurrency:
+  model: none
+  ease_of_use: low
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - error chaining
+  - custom error types
+  - cleanup actions
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: SAP Transport System
+  alternatives:
+  - abapGit
+popular_frameworks:
+  frontend:
+  - SAPUI5
+  - Fiori
+  backend:
+  - SAP NetWeaver
+  testing:
+  - ABAP Unit
+development_tools:
+  lsps:
+  - ABAP Language Server
+  debugging:
+  - SAP GUI Debugger
+  - Eclipse Debugger for ABAP
+  profiling:
+  - SAP Performance Analysis
+  build_systems:
+  - SAP Transport System
+  linters:
+  - abaplint
+  - SCI (SAP Code Inspector)
+standard_library:
+  maturity: high
+  key_areas:
+  - file I/O
+  - database access
+  - text processing
+  - date/time
+  - serialization
+  - logging
+  - HTTP client/server
+  - JSON/XML processing
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 1983-01-01
+  developer:
+  - SAP SE
+  - SAP
+  designed_by:
+  - SAP SE
+  influenced_by:
+    languages:
+    - COBOL
+    - SQL
+    paradigms:
+    - procedural
+    - object-oriented
+official_website: https://scn.sap.com/community/abap
+documentation:
+  quality: high
+  official_sources:
+  - https://help.sap.com/doc/abapdocu_latest_index_htm/latest/en-US/index.htm
+  community_resources:
+  - https://community.sap.com/topics/abap
+references:
+  github_topics:
+  - abap
+  - sap-abap
+  quora_topics:
+  - Advanced-Business-Application-Programming-ABAP
+  - Advanced-Business-Application-Programming-ABAP-1
+  - SAP-ABAP-Language
+  - SAP-Programming
+  stackexchange_tags:
+  - abap
+  - sap
+  wikidata_id: Q193785
+color: '#E8274B'

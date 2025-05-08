@@ -1,0 +1,16 @@
+name: Active Server Pages
+category: programming
+file_extensions:
+- aspx
+- asp
+domains:
+  primary:
+  - web development
+history:
+  inception: 1996-01-01
+  developer:
+  - Microsoft
+official_website: https://www.asp.net
+references:
+  quora_topics:
+  - Active-Server-Pages

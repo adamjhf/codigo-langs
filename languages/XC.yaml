@@ -1,0 +1,12 @@
+name: XC
+category: programming
+file_extensions:
+- xc
+history:
+  inception: 2005-01-01
+  developer:
+  - XMOS
+  influenced_by:
+    languages:
+    - occam
+color: '#99DA07'

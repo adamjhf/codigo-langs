@@ -1,0 +1,134 @@
+name: HTML
+description: HyperText Markup Language is the standard markup language for creating web pages and applications. It provides the structure and content of a webpage, working alongside CSS for styling and JavaScript for functionality.
+aliases:
+  - HyperText Markup Language
+file_extensions:
+  - html
+  - htm
+  - xhtml
+category: markup
+status: active
+
+paradigms:
+  - markup
+  - declarative
+
+typing:
+  system: untyped
+  strength: weak
+  inference: none
+  type_coercion: none
+  type_annotations: none
+
+execution:
+  type:
+    - parsed
+  compiles_to: []
+  runtime_environments:
+    - browser
+    - embedded interpreter
+  performance:
+    startup_time: very fast
+    memory_usage: very low
+    compilation_speed: very fast
+
+domains:
+  primary:
+    - web development
+    - hypermedia
+  secondary:
+    - user interface
+    - publishing
+  emerging:
+    - WebAssembly
+
+platforms:
+  architectures:
+    - platform-independent
+
+ecosystem:
+  maturity: very high
+  package_registry: npm
+  community_size: very large
+  learning_resources: very large
+  job_market_demand: very high
+
+complexity:
+  learning_curve: low
+  cognitive_load: low
+  syntax_complexity: low
+  semantic_complexity: low
+
+language_features:
+  key_features:
+    - semantic markup
+    - accessibility attributes
+
+concurrency:
+  model: none
+
+error_handling:
+  primary_mechanism: other
+  features:
+    - validation
+    - fallback content
+  stack_traces: false
+  debugging:
+    source_maps: true
+    breakpoints: false
+    step_debugging: false
+
+standard_library:
+  maturity: very high
+  key_areas:
+    - accessibility
+    - web components
+  size: medium
+  documentation_quality: very high
+
+versioning:
+  release_cycle: living standard
+  backwards_compatibility: very high
+
+history:
+  inception: "1993-01-01"
+  developer:
+    - World Wide Web Consortium (W3C)
+    - WHATWG
+  designed_by:
+    - Tim Berners-Lee
+    - WHATWG
+  described_by: "HTML Living Standard"
+  standards_bodies:
+    - WHATWG
+    - W3C
+  influenced_by:
+    languages:
+      - SGML
+      - XML
+    paradigms:
+      - markup
+      - declarative
+
+official_website: "https://html.spec.whatwg.org/"
+
+documentation:
+  quality: very high
+  official_sources:
+    - "https://html.spec.whatwg.org/"
+    - "https://developer.mozilla.org/en-US/docs/Web/HTML"
+  community_resources:
+    - "https://www.w3schools.com/html/"
+    - "https://web.dev/learn/html/"
+
+references:
+  github_topics:
+    - html
+    - html5
+  stackexchange_tags:
+    - html
+    - html5
+  wikidata_id: "Q8811"
+  subreddit: "html"
+
+color: "#e34c26"

@@ -1,0 +1,11 @@
+name: JSONiq
+category: programming
+file_extensions:
+- jq
+paradigms:
+- declarative
+typing:
+  system: dynamic
+  strength: strong
+official_website: https://www.jsoniq.org/
+color: '#40d47e'

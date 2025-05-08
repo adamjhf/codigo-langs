@@ -1,0 +1,10 @@
+name: Wyvern
+category: programming
+paradigms:
+- object-oriented
+- functional
+typing:
+  structural: true
+history:
+  inception: 2013-01-01
+official_website: https://www.cs.cmu.edu/~aldrich/wyvern/

@@ -1,0 +1,14 @@
+name: 4th Dimension
+category: programming
+file_extensions:
+- 4DB
+- 4DC
+paradigms:
+- imperative
+history:
+  inception: 1984-01-01
+  developer:
+  - 4D SAS
+  designed_by:
+  - Laurent Ribardière
+official_website: https://doc.4d.com

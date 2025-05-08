@@ -1,0 +1,7 @@
+name: Pony
+category: programming
+file_extensions:
+- pony
+paradigms:
+- object-oriented
+official_website: https://www.ponylang.io/

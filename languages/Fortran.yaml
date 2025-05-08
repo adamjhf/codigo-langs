@@ -1,0 +1,210 @@
+name: Fortran
+description: Fortran (Formula Translation) is one of the oldest high-level programming languages, primarily designed for scientific and engineering calculations. It specializes in numerical computation and scientific computing with powerful array processing capabilities.
+category: programming
+status: active
+aliases:
+- FORTRAN
+file_extensions:
+- f
+- f77
+- for
+- fpp
+compilers:
+- name: GNU Fortran
+  type: compiler
+  license: GPL-3.0
+  source_url: https://gcc.gnu.org/git/?p=gcc.git
+- name: Intel Fortran Compiler
+  type: compiler
+  license: proprietary
+- name: IBM XL Fortran
+  type: compiler
+  license: proprietary
+- name: NAG Fortran Compiler
+  type: compiler
+  license: proprietary
+- name: Flang
+  type: compiler
+  license: Apache-2.0
+  source_url: https://github.com/flang-compiler/flang
+paradigms:
+- imperative
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: partial
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: required
+execution:
+  type:
+  - compiled
+  compiles_to:
+  - machine code
+  - LLVM IR
+  runtime_environments:
+  - native OS process
+  - native binary
+  performance:
+    startup_time: very fast
+    memory_usage: low
+    computation_speed: very fast
+    compilation_speed: moderate
+domains:
+  primary:
+  - scientific computing
+  - numerical analysis
+  - high-performance computing
+  - physics
+  - chemistry
+  - analysis
+  secondary:
+  - data science
+  - statistics
+  - simulation
+  emerging:
+  - machine learning frameworks
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - Unix
+  - Solaris
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - PowerPC
+  - SPARC
+  - SPARC64
+  - MIPS
+ecosystem:
+  maturity: very high
+  package_registry: https://fortran-lang.org/packages/
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: moderate
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: false
+  generics: true
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: manual
+    level: moderate
+  memory_management:
+    type: manual
+    implementation: static allocation with optional dynamic allocation
+    manual_control: true
+  key_features:
+  - modules
+  - operator overloading
+  - pure functions
+  - type inference
+  - first-class functions
+  - native FFI
+concurrency:
+  model: threads
+  features:
+  - parallel collections
+  - shared memory
+  - data parallelism
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: error codes
+  features:
+  - error propagation
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: fpm
+  alternatives:
+  - spack
+  - conda
+  - meson
+popular_frameworks:
+  testing:
+  - pFUnit
+  - FRUIT
+development_tools:
+  lsps:
+  - Fortran Language Server
+  - fortls
+  debugging:
+  - gdb
+  - lldb
+  - Intel Debugger
+  - totalview
+  profiling:
+  - gprof
+  - Intel VTune
+  - TAU
+  build_systems:
+  - make
+  - cmake
+  - meson
+  - FPM
+  linters:
+  - flint
+  - fprettify
+standard_library:
+  maturity: high
+  key_areas:
+  - file I/O
+  - mathematics
+  - random number generation
+  - date/time
+  size: medium
+  documentation_quality: moderate
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: moderate
+history:
+  inception: 1957-01-01
+  developer:
+  - IBM
+  - John Backus
+  designed_by:
+  - John Backus
+  described_by: ISO/IEC 1539
+  standards_bodies:
+  - ISO
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Fortran%20logo.svg
+  influenced_by:
+    languages:
+    - IBM 704 assembly
+    - ALGOL
+    - Speedcoding
+official_website: https://fortran-lang.org
+documentation:
+  quality: moderate
+  official_sources:
+  - https://fortran-lang.org/learn/
+  community_resources:
+  - https://fortranwiki.org/
+references:
+  github_topics:
+  - fortran
+  quora_topics:
+  - Fortran-1
+  - FORTRAN-programming-language
+  stackexchange_tags:
+  - fortran
+  - https://stackoverflow.com/tags/fortran
+  wikidata_id: Q100277
+  subreddit: fortran
+color: '#4d41b1'

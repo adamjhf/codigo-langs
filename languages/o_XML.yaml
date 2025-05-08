@@ -1,0 +1,7 @@
+name: o:XML
+category: programming
+paradigms:
+- object-oriented
+typing:
+  system: dynamic
+official_website: https://www.o-xml.org/

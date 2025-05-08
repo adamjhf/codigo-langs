@@ -1,0 +1,12 @@
+name: PowerBASIC
+category: programming
+history:
+  inception: 1989-01-01
+  influenced_by:
+    languages:
+    - Visual Basic
+    - Turbo Basic
+official_website: https://www.powerbasic.com/
+references:
+  quora_topics:
+  - PowerBASIC

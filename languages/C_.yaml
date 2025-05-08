@@ -1,0 +1,11 @@
+name: C*
+category: programming
+paradigms:
+- imperative
+- parallel
+- object-oriented
+typing:
+  system: static
+  strength: weak
+history:
+  inception: 1987-01-01

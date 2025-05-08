@@ -1,0 +1,9 @@
+name: CHICKEN
+category: programming
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 2000-07-20
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Chicken%20Scheme%20logo%20and%20wordmark.svg
+official_website: https://www.call-cc.org/

@@ -1,0 +1,11 @@
+name: CICS
+category: programming
+history:
+  inception: 1968-01-01
+  developer:
+  - IBM
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/IBM%20logo.svg
+official_website: https://www.ibm.com/it-infrastructure/z/cics
+references:
+  quora_topics:
+  - IBM-CICS

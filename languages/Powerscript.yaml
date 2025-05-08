@@ -1,0 +1,11 @@
+name: Powerscript
+category: programming
+paradigms:
+- object-oriented
+history:
+  inception: 1992-07-01
+  developer:
+  - PowerSoft Corp.
+  influenced_by:
+    languages:
+    - C++

@@ -1,0 +1,12 @@
+name: Beatnik
+category: programming
+paradigms:
+- esoteric
+- stack-oriented
+history:
+  developer:
+  - Cliff L. Biffle
+  designed_by:
+  - Cliff L. Biffle
+  described_by: Esolang
+official_website: https://cliffle.com/esoterica/beatnik.html

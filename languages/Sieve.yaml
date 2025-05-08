@@ -1,0 +1,9 @@
+name: Sieve
+category: programming
+file_extensions:
+- sieve
+domains:
+  primary:
+  - email filtering
+history:
+  described_by: 'RFC 5228: Sieve: An Email Filtering Language'

@@ -1,0 +1,8 @@
+name: SMALL
+category: programming
+paradigms:
+- imperative
+- object-oriented
+- structured
+history:
+  inception: 1980-01-01

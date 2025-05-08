@@ -1,0 +1,20 @@
+name: SuperCollider
+category: programming
+file_extensions:
+- sc
+- scd
+paradigms:
+- object-oriented
+- functional
+typing:
+  system: dynamic
+history:
+  inception: 1996-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/SuperCollider%20logo.svg
+official_website: https://supercollider.github.io/
+references:
+  quora_topics:
+  - SuperCollider
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/supercollider
+color: '#46390b'

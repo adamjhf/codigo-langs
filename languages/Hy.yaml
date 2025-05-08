@@ -1,0 +1,19 @@
+name: Hy
+category: programming
+aliases:
+- hylang
+file_extensions:
+- hy
+paradigms:
+- object-oriented
+- imperative
+- generic
+history:
+  inception: 2013-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Hy%20Cuddles.png
+  influenced_by:
+    languages:
+    - Python
+    - Lisp
+official_website: https://hylang.org/
+color: '#7790B2'

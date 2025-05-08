@@ -1,0 +1,12 @@
+name: ProvideX
+category: programming
+paradigms:
+- object-oriented
+- imperative
+typing:
+  strength: strong
+history:
+  inception: 1992-01-01
+  developer:
+  - Sage Group
+official_website: https://home.pvxplus.com/pgsrvr.pvp?pg=downloads

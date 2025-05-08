@@ -1,0 +1,20 @@
+name: eC
+category: programming
+file_extensions:
+- ec
+- eh
+paradigms:
+- imperative
+- object-oriented
+- generic
+typing:
+  system: static
+  structural: false
+  inference: partial
+history:
+  inception: 2004-01-01
+  influenced_by:
+    languages:
+    - C
+official_website: https://ec-lang.org/
+color: '#913960'

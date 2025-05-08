@@ -1,0 +1,13 @@
+name: A♯
+category: programming
+paradigms:
+- functional
+history:
+  inception: 1971-01-01
+  developer:
+  - IBM Thomas J. Watson Research Center
+  influenced_by:
+    languages:
+    - Haskell
+    - Pascal
+official_website: https://axiom-developer.org

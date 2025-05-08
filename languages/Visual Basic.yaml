@@ -1,0 +1,144 @@
+name: Visual Basic
+category: programming
+description: A high-level programming language developed by Microsoft, known for its ease of use and GUI development capabilities. It evolved from BASIC and is designed for rapid application development.
+aliases:
+  - VB
+  - VBA
+  - VB.NET
+file_extensions:
+  - vb
+  - bas
+  - cls
+  - frm
+  - vbs
+status: legacy
+paradigms:
+  - imperative
+  - object-oriented
+  - event-driven
+  - procedural
+  - structured
+typing:
+  system: static
+  type_checking: compile-time
+  structural: false
+  strength: strong
+  inference: partial
+  type_coercion: moderate
+  type_annotations: optional
+execution:
+  type:
+    - compiled
+  compiles_to:
+    - bytecode
+  runtime_environments:
+    - CLR
+    - language-specific runtime
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+    compilation_speed: fast
+domains:
+  primary:
+    - desktop applications
+    - business applications
+    - automation
+    - data processing
+  secondary:
+    - web development
+    - database management
+    - scripting
+platforms:
+  operating_systems:
+    - Windows
+  architectures:
+    - x86
+    - x86-64
+ecosystem:
+  maturity: high
+  package_registry: NuGet
+  community_size: large
+  learning_resources: large
+  job_market_demand: moderate
+complexity:
+  learning_curve: low
+  cognitive_load: low
+  syntax_complexity: low
+  semantic_complexity: low
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: false
+  generics: true
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_management:
+    type: garbage collection
+  key_features:
+    - string interpolation
+    - reflection
+    - modules
+    - named arguments
+concurrency:
+  model: threads
+  features:
+    - async/await
+    - thread pools
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+    - stack traces
+    - custom error types
+    - error propagation
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: NuGet
+popular_frameworks:
+  frontend:
+    - Windows Forms
+    - WPF
+  backend:
+    - ASP.NET
+  testing:
+    - NUnit
+    - MSTest
+standard_library:
+  maturity: high
+  key_areas:
+    - file I/O
+    - networking
+    - data structures
+    - text processing
+    - date/time
+    - mathematics
+    - database access
+    - GUI
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 1991-05-01
+  developer:
+    - Microsoft
+  designed_by:
+    - Alan Cooper
+  influenced_by:
+    languages:
+      - BASIC
+      - QuickBASIC
+    paradigms:
+      - imperative
+      - procedural
+      - object-oriented
+      - event-driven
+official_website: https://docs.microsoft.com/en-us/dotnet/visual-basic/
+color: "#945db7"

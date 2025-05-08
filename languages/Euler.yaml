@@ -1,0 +1,14 @@
+name: Euler
+category: programming
+paradigms:
+- imperative
+- structured
+typing:
+  system: dynamic
+history:
+  inception: 1965-01-01
+  designed_by:
+  - Niklaus Wirth
+  influenced_by:
+    languages:
+    - ALGOL 60

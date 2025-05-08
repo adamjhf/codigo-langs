@@ -1,0 +1,25 @@
+name: X10
+category: programming
+aliases:
+- xten
+file_extensions:
+- x10
+paradigms:
+- array-oriented
+- object-oriented
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 2004-01-01
+  developer:
+  - IBM
+  designed_by:
+  - Vijay Saraswat
+  - Kemal Ebcioglu
+  - Vivek Sarkar
+  influenced_by:
+    languages:
+    - Java
+official_website: https://x10-lang.org
+color: '#4B6BEF'

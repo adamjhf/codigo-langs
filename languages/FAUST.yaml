@@ -1,0 +1,9 @@
+name: FAUST
+category: programming
+paradigms:
+- purely functional
+- functional
+history:
+  inception: 2002-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Logo-Faust.png
+official_website: https://faust.grame.fr

@@ -1,0 +1,36 @@
+name: LiveScript
+category: programming
+aliases:
+- live-script
+- ls
+file_extensions:
+- ls
+- _ls
+paradigms:
+- object-oriented
+- functional
+typing:
+  system: dynamic
+  strength: weak
+history:
+  inception: 2011-01-01
+  developer:
+  - Netscape
+  - Jeremy Ashkenas
+  - Satoshi Murakami
+  - George Zahariev
+  designed_by:
+  - Jeremy Ashkenas
+  - Satoshi Murakami
+  - George Zahariev
+  influenced_by:
+    languages:
+    - JavaScript
+    - Haskell
+    - F#
+    - CoffeeScript
+official_website: https://livescript.net/
+references:
+  github_topics:
+  - livescript
+color: '#499886'

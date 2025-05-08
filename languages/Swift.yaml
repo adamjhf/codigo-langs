@@ -1,0 +1,226 @@
+name: Swift
+description: A powerful and intuitive programming language developed by Apple for iOS, macOS, and other platforms. Swift combines modern programming concepts with an elegant syntax designed for safety, performance, and expressiveness.
+category: programming
+status: active
+aliases:
+- Swift Programming Language
+file_extensions:
+- swift
+compilers:
+- name: Swift Compiler
+  type: compiler
+  license: Apache-2.0
+  source_url: https://github.com/apple/swift
+  is_reference: true
+paradigms:
+- imperative
+- object-oriented
+- functional
+- concurrent
+- generic
+- declarative
+- structured
+- dataflow
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: full
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  - interpreted with JIT compilation
+  compiles_to:
+  - machine code
+  - LLVM IR
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  performance:
+    startup_time: fast
+    memory_usage: moderate
+    computation_speed: fast
+    compilation_speed: moderate
+domains:
+  primary:
+  - server-side applications
+  - desktop applications
+  - mobile development
+  secondary:
+  - web development
+  - game development
+  - cloud computing
+  emerging:
+  - machine learning
+  - server-side applications
+  - WebAssembly
+platforms:
+  operating_systems:
+  - macOS
+  - iOS
+  - Linux
+  - Windows
+  architectures:
+  - x86-64
+  - ARM
+  - ARM64
+ecosystem:
+  maturity: high
+  package_registry: Swift Package Manager
+  community_size: large
+  learning_resources: large
+  job_market_demand: high
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  immutability: default
+  enums: algebraic
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: reference counting
+    implementation: Automatic Reference Counting (ARC)
+    manual_control: true
+  key_features:
+  - algebraic data types
+  - pattern matching
+  - type inference
+  - closures
+  - generics
+  - string interpolation
+  - first-class functions
+  - named arguments
+  - modules
+  - traits/interfaces
+concurrency:
+  model: actors
+  features:
+  - async/await
+  - actors
+  - task parallelism
+  - data parallelism
+  ease_of_use: high
+error_handling:
+  primary_mechanism: result types
+  features:
+  - error propagation
+  - custom error types
+  - multiple error types
+  - cleanup actions
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: Swift Package Manager
+  alternatives:
+  - CocoaPods
+  - Carthage
+popular_frameworks:
+  frontend:
+  - SwiftUI
+  - UIKit
+  backend:
+  - Vapor
+  - Kitura
+  - Perfect
+  testing:
+  - XCTest
+  - Quick
+  - Nimble
+  mobile:
+  - SwiftUI
+  - UIKit
+  - Combine
+development_tools:
+  lsps:
+  - SourceKit-LSP
+  debugging:
+  - Xcode Debugger
+  - LLDB
+  profiling:
+  - Instruments
+  - Time Profiler
+  build_systems:
+  - Swift Package Manager
+  - Xcode Build System
+  linters:
+  - SwiftLint
+  - SwiftFormat
+standard_library:
+  maturity: high
+  key_areas:
+  - data structures
+  - algorithms
+  - concurrency
+  - text processing
+  - networking
+  - file I/O
+  - date/time
+  - mathematics
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 2010-07-01
+  developer:
+  - Apple Inc.
+  designed_by:
+  - Chris Lattner
+  - Doug Gregor
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Swift%20logo.svg
+  influenced_by:
+    languages:
+    - Objective-C
+    - Rust
+    - Haskell
+    - C#
+    - Python
+    - Ruby
+    - Java
+    - C++
+    - Smalltalk
+    - D
+    - Scala
+    - CLU
+    - C
+    paradigms:
+    - object-oriented
+    - functional
+    - generic
+    - concurrent
+official_website: https://swift.org
+official_blog_rss: https://www.swift.org/atom.xml
+documentation:
+  quality: high
+  official_sources:
+  - https://swift.org/documentation/
+  - https://developer.apple.com/swift/resources/
+  community_resources:
+  - https://www.hackingwithswift.com/
+  - https://www.raywenderlich.com/ios/swift
+references:
+  github_topics:
+  - swift
+  - swift-language
+  stackexchange_tags:
+  - swift
+  - swift-language
+  wikidata_id: Q17118377
+  subreddit: swift
+color: '#F05138'

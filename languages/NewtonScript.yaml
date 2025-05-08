@@ -1,0 +1,15 @@
+name: NewtonScript
+category: programming
+paradigms:
+- object-oriented
+- prototype-based
+typing:
+  system: dynamic
+history:
+  inception: 1993-01-01
+  developer:
+  - Apple
+  influenced_by:
+    languages:
+    - Dylan
+    - Self

@@ -1,0 +1,15 @@
+name: Motoko
+category: programming
+file_extensions:
+- mo
+history:
+  developer:
+  - Dfinity
+  - Andreas Rossberg
+official_website: https://sdk.dfinity.org/language-guide/index.html
+references:
+  github_topics:
+  - motoko
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/motoko
+color: '#fbb03b'

@@ -1,0 +1,13 @@
+name: Microsoft C
+category: programming
+paradigms:
+- object-oriented
+- structured
+- declarative
+history:
+  inception: 1983-01-01
+  developer:
+  - Microsoft
+  influenced_by:
+    languages:
+    - Lattice C

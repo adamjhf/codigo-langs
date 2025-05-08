@@ -1,0 +1,14 @@
+name: BQN
+category: programming
+file_extensions:
+- bqn
+paradigms:
+- array-oriented
+history:
+  inception: 2020-01-01
+  influenced_by:
+    languages:
+    - APL
+    - J
+official_website: https://mlochbaum.github.io/BQN/index.html
+color: '#2b7067'

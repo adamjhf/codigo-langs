@@ -1,0 +1,11 @@
+name: Extensible Application Markup Language
+category: programming
+file_extensions:
+- xaml
+paradigms:
+- declarative
+history:
+  inception: 2008-06-01
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/xaml

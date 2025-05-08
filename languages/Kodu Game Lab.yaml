@@ -1,0 +1,12 @@
+name: Kodu Game Lab
+category: programming
+domains:
+  primary:
+  - visual programming
+history:
+  inception: 2009-01-01
+  developer:
+  - Microsoft Research
+official_website: https://www.kodugamelab.com/
+references:
+  subreddit: kodu

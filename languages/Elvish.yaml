@@ -1,0 +1,11 @@
+name: Elvish
+category: programming
+file_extensions:
+- elv
+official_website: https://elv.sh/
+references:
+  github_topics:
+  - elvish
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/elvish
+color: '#55BB55'

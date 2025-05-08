@@ -1,0 +1,15 @@
+name: CGOL
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1973-01-01
+  developer:
+  - Vaughan Ronald Pratt
+  designed_by:
+  - Vaughan Ronald Pratt
+  influenced_by:
+    languages:
+    - Fortran
+    - ALGOL
+    - MLisp

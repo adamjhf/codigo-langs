@@ -1,0 +1,17 @@
+name: Pure
+category: programming
+paradigms:
+- functional
+- declarative
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 2008-01-01
+  influenced_by:
+    languages:
+    - Haskell
+    - Lisp
+    - MATLAB
+    - Alice
+official_website: https://purelang.bitbucket.org/

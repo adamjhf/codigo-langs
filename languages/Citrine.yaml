@@ -1,0 +1,17 @@
+name: Citrine
+category: programming
+file_extensions:
+- ctr
+paradigms:
+- imperative
+- object-oriented
+typing:
+  system: dynamic
+history:
+  inception: 2014-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Citrine%20programming%20language%20logo.png
+  influenced_by:
+    languages:
+    - Smalltalk
+    - Self
+official_website: https://citrine-lang.org

@@ -1,0 +1,157 @@
+name: Transact-SQL
+description: Transact-SQL (T-SQL) is Microsoft's extension of SQL used in SQL Server and Azure SQL Database. It adds procedural programming capabilities to standard SQL with features for transaction control, error handling, and local variables.
+category: query
+status: active
+aliases:
+- T-SQL
+- TSQL
+file_extensions:
+- sql
+- tsql
+compilers:
+- name: SQL Server
+  type: interpreter
+  license: proprietary
+  is_reference: true
+- name: Azure SQL Database
+  type: interpreter
+  license: proprietary
+paradigms:
+- declarative
+- procedural
+- query
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: partial
+  type_checking: compile-time
+  type_coercion: moderate
+  type_annotations: optional
+execution:
+  type:
+  - interpreted
+  - query-optimized
+  compiles_to:
+  - query plan
+  runtime_environments:
+  - language-specific runtime
+  - Docker container
+  - cloud function environment
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+domains:
+  primary:
+  - database management
+  - data integration
+  secondary:
+  - data science
+  emerging:
+  - cloud computing
+platforms:
+  operating_systems:
+  - Windows
+  - Linux
+  architectures:
+  - x86-64
+  - ARM64
+  cloud_function_environments:
+  - Azure Functions
+  - AWS Lambda
+ecosystem:
+  maturity: very high
+  package_registry: none
+  community_size: large
+  learning_resources: large
+  job_market_demand: high
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: moderate
+language_features:
+  immutability: none
+  enums: none
+  metaprogramming: false
+  generics: false
+  c_interop: false
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+error_handling:
+  primary_mechanism: exceptions
+  stack_traces: true
+  debugging:
+    source_maps: false
+    breakpoints: true
+    step_debugging: true
+popular_frameworks:
+  testing:
+  - tSQLt
+development_tools:
+  lsps:
+  - SQL Server Management Studio
+  - Azure Data Studio
+  debugging:
+  - SQL Server Management Studio
+  - Azure Data Studio
+  profiling:
+  - SQL Server Profiler
+  - Extended Events
+  linters:
+  - SQL Prompt
+  - SQLFluff
+standard_library:
+  maturity: high
+  key_areas:
+  - data structures
+  - date/time
+  - mathematics
+  - text processing
+  - cryptography
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 1987-01-01
+  developer:
+  - Microsoft
+  designed_by:
+  - Microsoft
+  standards_bodies:
+  - Microsoft
+  influenced_by:
+    languages:
+    - SQL
+    - Sybase SQL
+    paradigms:
+    - declarative
+    - procedural
+    - query
+official_website: https://www.tsql.info/
+documentation:
+  quality: high
+  official_sources:
+  - https://docs.microsoft.com/en-us/sql/t-sql/language-reference
+  community_resources:
+  - https://sqlservercentral.com/
+  - https://stackoverflow.com/questions/tagged/tsql
+references:
+  github_topics:
+  - tsql
+  - transact-sql
+  quora_topics:
+  - Transact-Sql
+  - Transact-SQL
+  stackexchange_tags:
+  - tsql
+  - sql-server
+  wikidata_id: Q283827
+  subreddit: SQLServer
+color: '#cc2927'

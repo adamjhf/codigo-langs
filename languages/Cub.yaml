@@ -1,0 +1,8 @@
+name: Cub
+category: programming
+typing:
+  system: dynamic
+history:
+  influenced_by:
+    languages:
+    - Swift

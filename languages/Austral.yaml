@@ -1,0 +1,8 @@
+name: Austral
+category: programming
+history:
+  influenced_by:
+    languages:
+    - Ada
+    - Rust
+official_website: https://austral-lang.org/

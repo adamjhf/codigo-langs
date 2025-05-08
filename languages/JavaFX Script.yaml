@@ -1,0 +1,13 @@
+name: JavaFX Script
+category: programming
+paradigms:
+- declarative
+typing:
+  system: static
+history:
+  inception: 2008-01-01
+  developer:
+  - Sun Microsystems
+  influenced_by:
+    languages:
+    - Java

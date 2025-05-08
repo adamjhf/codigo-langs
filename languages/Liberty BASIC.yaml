@@ -1,0 +1,9 @@
+name: Liberty BASIC
+category: programming
+paradigms:
+- event-driven
+typing:
+  system: dynamic
+history:
+  inception: 1992-01-01
+official_website: https://www.libertybasic.com/

@@ -1,0 +1,26 @@
+name: Boo
+category: programming
+file_extensions:
+- boo
+paradigms:
+- object-oriented
+typing:
+  system: static
+  strength: strong
+  inference: full
+history:
+  inception: 2003-01-01
+  developer:
+  - Rodrigo B. De Oliveira
+  designed_by:
+  - Rodrigo B. De Oliveira
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/BooLogo.png
+  influenced_by:
+    languages:
+    - C#
+    - Python
+official_website: https://boo-lang.org/
+references:
+  quora_topics:
+  - Boo-programming-language
+color: '#d4bec1'

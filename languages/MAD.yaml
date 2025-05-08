@@ -1,0 +1,13 @@
+name: MAD
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1959-01-01
+  developer:
+  - Bernard Galler
+  - Bruce Arden
+  - Robert M. Graham
+  influenced_by:
+    languages:
+    - ALGOL 58

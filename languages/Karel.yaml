@@ -1,0 +1,14 @@
+name: Karel
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1981-01-01
+  designed_by:
+  - Richard E. Pattis
+  influenced_by:
+    languages:
+    - robot
+    - Pascal
+    - Karel Čapek
+official_website: https://xkarel.sourceforge.net/

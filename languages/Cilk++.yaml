@@ -1,0 +1,8 @@
+name: Cilk++
+category: programming
+history:
+  inception: 2008-12-01
+  influenced_by:
+    languages:
+    - C++
+    - Cilk

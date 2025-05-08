@@ -1,0 +1,15 @@
+name: ColdFusion Markup Language
+category: programming
+file_extensions:
+- cfml
+paradigms:
+- imperative
+history:
+  developer:
+  - Adobe
+  designed_by:
+  - Jeremy Allaire
+official_website: https://www.adobe.com/products/coldfusion
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/cfml

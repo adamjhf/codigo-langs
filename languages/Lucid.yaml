@@ -1,0 +1,8 @@
+name: Lucid
+category: programming
+paradigms:
+- declarative
+- dataflow
+- reactive
+history:
+  inception: 1976-01-01

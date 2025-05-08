@@ -1,0 +1,23 @@
+name: Factor
+category: programming
+file_extensions:
+- factor
+paradigms:
+- functional
+- concatenative
+- stack-oriented
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 2003-01-01
+  developer:
+  - Slava Pestov
+  influenced_by:
+    languages:
+    - Lisp
+    - Forth
+    - Joy
+    - Self
+official_website: https://factorcode.org
+color: '#636746'

@@ -1,0 +1,12 @@
+name: VisiCalc
+category: programming
+domains:
+  primary:
+  - spreadsheet
+history:
+  inception: 1978-01-01
+  developer:
+  - Dan Bricklin
+  - Bob Frankston
+  - Software Arts
+official_website: https://danbricklin.com/visicalc.htm

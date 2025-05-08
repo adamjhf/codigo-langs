@@ -1,0 +1,28 @@
+name: Agda
+category: programming
+file_extensions:
+- agda
+paradigms:
+- purely functional
+- functional
+typing:
+  system: dependent
+  structural: false
+  strength: strong
+  inference: full
+history:
+  inception: 2007-01-01
+  developer:
+  - Chalmers University of Technology
+  influenced_by:
+    languages:
+    - Haskell
+    - Coq
+    - Epigram
+official_website: https://wiki.portal.chalmers.se/agda/pmwiki.php
+references:
+  quora_topics:
+  - Agda
+  stackexchange_tags:
+  - https://proofassistants.stackexchange.com/tags/agda
+color: '#315665'

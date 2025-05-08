@@ -1,0 +1,10 @@
+name: PL360
+category: programming
+paradigms:
+- structured
+- imperative
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1966-01-01

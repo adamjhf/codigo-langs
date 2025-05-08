@@ -1,0 +1,12 @@
+name: AutoLISP
+category: programming
+typing:
+  system: dynamic
+domains:
+  primary:
+  - computer-aided design
+history:
+  inception: 1986-01-01
+references:
+  quora_topics:
+  - AutoLISP

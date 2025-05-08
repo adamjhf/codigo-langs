@@ -1,0 +1,8 @@
+name: Octave
+category: programming
+file_extensions:
+- m
+history:
+  influenced_by:
+    languages:
+    - MATLAB

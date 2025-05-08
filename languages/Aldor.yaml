@@ -1,0 +1,18 @@
+name: Aldor
+category: programming
+paradigms:
+- object-oriented
+- functional
+- imperative
+- logic
+typing:
+  system: static
+history:
+  inception: 1990-01-01
+  developer:
+  - IBM Thomas J. Watson Research Center
+  influenced_by:
+    languages:
+    - Haskell
+    - Pascal
+official_website: https://www.aldor.org

@@ -1,0 +1,8 @@
+name: Jasmin
+category: programming
+file_extensions:
+- j
+paradigms:
+- object-oriented
+official_website: https://jasmin.sourceforge.net/
+color: '#d03600'

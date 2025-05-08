@@ -1,0 +1,16 @@
+name: Stencyl
+category: programming
+domains:
+  primary:
+  - game development
+history:
+  inception: 2011-05-31
+  developer:
+  - Jonathan Chung
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Stencyl%20logotype.svg
+official_website: https://www.stencyl.com
+references:
+  quora_topics:
+  - Stencyl
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/stencyl

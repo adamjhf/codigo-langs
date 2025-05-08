@@ -1,0 +1,14 @@
+name: Speakeasy
+category: programming
+paradigms:
+- imperative
+typing:
+  system: dynamic
+domains:
+  primary:
+  - scientific computing
+history:
+  inception: 1964-01-01
+  designed_by:
+  - Stanley Cohen
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Speakeasy%20Red%20Logo.png

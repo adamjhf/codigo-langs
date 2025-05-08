@@ -1,0 +1,17 @@
+name: C shell
+category: programming
+domains:
+  primary:
+  - shell
+history:
+  inception: 1978-01-01
+  developer:
+  - Bill Joy
+  influenced_by:
+    languages:
+    - C
+references:
+  quora_topics:
+  - C-Shell
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/csh

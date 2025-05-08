@@ -1,0 +1,14 @@
+name: Cilk Plus
+category: programming
+history:
+  inception: 2010-01-01
+  developer:
+  - Intel
+  influenced_by:
+    languages:
+    - Cilk
+    - Cilk++
+official_website: https://www.cilkplus.org
+references:
+  quora_topics:
+  - Cilk-Plus

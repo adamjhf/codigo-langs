@@ -1,0 +1,162 @@
+name: Sass
+description: Sass (Syntactically Awesome Style Sheets) is a preprocessor scripting language that is interpreted or compiled into CSS. It introduces features like variables, nesting, and mixins to make CSS more maintainable.
+category: stylesheet
+status: active
+aliases:
+- SCSS
+- Sassy CSS
+file_extensions:
+- sass
+- scss
+compilers:
+- name: dart-sass
+  type: compiler
+  license: MIT
+  source_url: https://github.com/sass/dart-sass
+  is_reference: true
+- name: node-sass
+  type: compiler
+  license: MIT
+  source_url: https://github.com/sass/node-sass
+- name: LibSass
+  type: compiler
+  license: MIT
+  source_url: https://github.com/sass/libsass
+paradigms:
+- declarative
+- structured
+typing:
+  system: dynamic
+  structural: true
+  strength: weak
+  inference: partial
+  type_checking: runtime
+  type_coercion: moderate
+  type_annotations: none
+execution:
+  type:
+  - transpiled
+  runtime_environments:
+  - browser
+  - native OS process
+  performance:
+    startup_time: fast
+    memory_usage: low
+    computation_speed: fast
+    compilation_speed: fast
+domains:
+  primary:
+  - web development
+  - user interface
+  secondary:
+  - configuration management
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - Unix
+  architectures:
+  - platform-independent
+ecosystem:
+  maturity: high
+  package_registry: npm
+  community_size: large
+  learning_resources: large
+  job_market_demand: high
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: moderate
+language_features:
+  immutability: none
+  enums: none
+  metaprogramming: true
+  generics: false
+  c_interop: false
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  key_features:
+  - mixins
+  - string interpolation
+  - modules
+concurrency:
+  model: none
+  ease_of_use: low
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - error reporting
+  - error formatting
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: false
+    step_debugging: false
+package_managers:
+  primary: npm
+  alternatives:
+  - yarn
+  - pnpm
+popular_frameworks:
+  frontend:
+  - Bootstrap
+  - Foundation
+  - Bulma
+development_tools:
+  lsps:
+  - vscode-css-languageservice
+  debugging:
+  - browser dev tools
+  linters:
+  - stylelint
+  - sass-lint
+standard_library:
+  maturity: high
+  key_areas:
+  - data structures
+  - text processing
+  size: medium
+  documentation_quality: high
+versioning:
+  release_cycle: semantic versioning
+  backwards_compatibility: high
+history:
+  inception: 2006-11-28
+  developer:
+  - Sass team
+  designed_by:
+  - Hampton Catlin
+  - Natalie Weizenbaum
+  - Chris Eppstein
+  influenced_by:
+    languages:
+    - CSS
+    - Ruby
+    - Haml
+    paradigms:
+    - declarative
+official_website: https://sass-lang.com/
+documentation:
+  quality: high
+  official_sources:
+  - https://sass-lang.com/documentation
+  - https://sass-lang.com/guide
+  community_resources:
+  - https://css-tricks.com/guides/sass/
+references:
+  github_topics:
+  - sass
+  - scss
+  quora_topics:
+  - Sass-stylesheet-language-1
+  stackexchange_tags:
+  - sass
+  - scss
+  wikidata_id: Q756658
+  subreddit: Sass
+color: '#a53b70'

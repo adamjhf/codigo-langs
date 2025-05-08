@@ -1,0 +1,14 @@
+name: Croc
+category: programming
+history:
+  inception: 2006-06-01
+  influenced_by:
+    languages:
+    - Python
+    - Haskell
+    - Lua
+    - ECMAScript
+    - D
+    - Io
+    - Squirrel
+official_website: https://jarrettbillingsley.github.io/Croc/

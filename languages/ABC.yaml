@@ -1,0 +1,19 @@
+name: ABC
+category: programming
+paradigms:
+- imperative
+- structured
+typing:
+  strength: strong
+history:
+  inception: 1975-01-01
+  developer:
+  - Centrum Wiskunde & Informatica
+  designed_by:
+  - Lambert Meertens
+  - Steven Pemberton
+  described_by: An Alternative Simple Language and Environment for PCs
+  influenced_by:
+    languages:
+    - SETL
+official_website: https://homepages.cwi.nl/~steven/abc/

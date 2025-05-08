@@ -1,0 +1,11 @@
+name: Ren'Py
+category: programming
+aliases:
+- renpy
+file_extensions:
+- rpy
+history:
+  inception: 2004-07-24
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Ren%E2%80%99Py%20Eileen%20and%20python.svg
+official_website: https://www.renpy.org/
+color: '#ff7f7f'

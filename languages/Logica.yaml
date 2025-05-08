@@ -1,0 +1,12 @@
+name: Logica
+category: programming
+domains:
+  primary:
+  - database management
+history:
+  designed_by:
+  - Google
+  influenced_by:
+    languages:
+    - Yedalog
+official_website: https://logica.dev/

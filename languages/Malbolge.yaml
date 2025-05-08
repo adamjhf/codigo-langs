@@ -1,0 +1,14 @@
+name: Malbolge
+category: programming
+paradigms:
+- esoteric
+history:
+  inception: 1998-01-01
+  described_by: Esolang
+  influenced_by:
+    languages:
+    - Brainfuck
+    - Befunge
+references:
+  quora_topics:
+  - Malbolge

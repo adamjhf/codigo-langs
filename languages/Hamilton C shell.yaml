@@ -1,0 +1,12 @@
+name: Hamilton C shell
+category: programming
+domains:
+  primary:
+  - shell
+history:
+  developer:
+  - Nicole Hamilton
+  influenced_by:
+    languages:
+    - C shell
+official_website: https://www.hamiltonlabs.com/Cshell.htm

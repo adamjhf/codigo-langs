@@ -1,0 +1,17 @@
+name: UnrealScript
+category: programming
+file_extensions:
+- uc
+paradigms:
+- object-oriented
+- generic
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1998-01-01
+official_website: https://docs.unrealengine.com/udk/Three/UnrealScriptHome.html
+references:
+  quora_topics:
+  - UnrealScript
+color: '#a54c4d'

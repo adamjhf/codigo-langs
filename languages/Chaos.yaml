@@ -1,0 +1,15 @@
+name: Chaos
+category: programming
+history:
+  influenced_by:
+    languages:
+    - PHP
+    - JavaScript
+    - C
+    - Python
+    - Haskell
+    - Perl
+    - Ruby
+    - NumPy
+    - TypeScript
+official_website: https://chaos-lang.org

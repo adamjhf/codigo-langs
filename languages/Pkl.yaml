@@ -1,0 +1,10 @@
+name: Pkl
+category: programming
+file_extensions:
+- pkl
+history:
+  inception: 2024-02-01
+  developer:
+  - Apple
+official_website: https://pkl-lang.org
+color: '#6b9543'

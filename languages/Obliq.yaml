@@ -1,0 +1,13 @@
+name: Obliq
+category: programming
+paradigms:
+- object-oriented
+- prototype-based
+- structured
+- imperative
+- modular
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1993-01-01

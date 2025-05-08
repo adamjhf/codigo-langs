@@ -1,0 +1,26 @@
+name: Q#
+category: programming
+aliases:
+- qsharp
+file_extensions:
+- qs
+paradigms:
+- functional
+- imperative
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 2017-12-11
+  developer:
+  - Microsoft
+  - Microsoft Quantum Architectures and Computation group
+  designed_by:
+  - Microsoft Research
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Q%20mini.png
+  influenced_by:
+    languages:
+    - C#
+    - F#
+official_website: https://docs.microsoft.com/en-us/quantum/quantum-qr-intro
+color: '#fed659'

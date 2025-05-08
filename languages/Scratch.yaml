@@ -1,0 +1,156 @@
+name: Scratch
+description: A visual block-based programming language designed for education and learning the fundamentals of programming, focused on creating interactive stories, games, and animations.
+category: programming
+status: active
+aliases:
+- Scratch Visual Programming
+file_extensions:
+- sb
+- sb2
+- sb3
+- sprite
+- sprite2
+- sprite3
+paradigms:
+- event-driven
+- visual
+- imperative
+typing:
+  system: dynamic
+  structural: true
+  strength: strong
+  inference: full
+  type_checking: runtime
+  type_coercion: none
+  type_annotations: none
+execution:
+  type:
+  - interpreted
+  runtime_environments:
+  - browser
+  - language-specific runtime
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: slow
+domains:
+  primary:
+  - education
+  - game development
+  - animation
+  secondary:
+  - simulation
+  - visual programming
+  - interactive fiction
+  emerging:
+  - IoT
+  - robotics
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - Android
+  - iOS
+  architectures:
+  - platform-independent
+ecosystem:
+  maturity: high
+  package_registry: https://scratch.mit.edu/explore/projects/all
+  community_size: very large
+  learning_resources: very large
+  job_market_demand: low
+complexity:
+  learning_curve: low
+  cognitive_load: low
+  syntax_complexity: very low
+  semantic_complexity: low
+language_features:
+  immutability: none
+  enums: none
+  metaprogramming: false
+  generics: false
+  c_interop: false
+  pattern_matching: false
+  null_safety: true
+  memory_safety:
+    type: managed
+    level: very high
+  memory_management:
+    type: garbage collection
+  key_features:
+  - hot reload
+  - interactive development
+  - modules
+  - iterators/generators
+concurrency:
+  model: event loop
+  features:
+  - message passing
+  ease_of_use: high
+error_handling:
+  primary_mechanism: other
+  features:
+  - graceful degradation
+  stack_traces: false
+  debugging:
+    source_maps: false
+    breakpoints: true
+    step_debugging: true
+popular_frameworks:
+  frontend:
+  - Scratch UI
+  testing:
+  - Scratch Unit Testing Extension
+development_tools:
+  debugging:
+  - Scratch Editor
+standard_library:
+  maturity: high
+  key_areas:
+  - graphics
+  - text processing
+  - mathematics
+  - multimedia
+  - internationalization
+  size: medium
+  documentation_quality: very high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 2001-01-01
+  developer:
+  - MIT Media Lab
+  designed_by:
+  - Mitchel Resnick
+  - John Maloney
+  - Andrés Monroy-Hernández
+  - Natalie Rusk
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Scratchlogo.svg
+  influenced_by:
+    languages:
+    - Logo
+    - Smalltalk
+    - Etoys
+    - StarLogo
+    - AgentSheets
+    paradigms:
+    - visual
+    - event-driven
+official_website: https://scratch.mit.edu
+documentation:
+  quality: very high
+  official_sources:
+  - https://scratch.mit.edu/help
+  - https://en.scratch-wiki.info
+  community_resources:
+  - https://scratch.mit.edu/studios/480437
+  - https://scratch.mit.edu/discuss
+references:
+  github_topics:
+  - scratch
+  stackexchange_tags:
+  - scratch
+  subreddit: scratch
+color: '#4D97FF'

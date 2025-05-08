@@ -1,0 +1,127 @@
+name: Jai
+category: programming
+description: A high-performance systems programming language being developed by Jonathan Blow, focusing on data-oriented design, flexibility, and performance.
+file_extensions:
+  - jai
+status: experimental
+paradigms:
+  - imperative
+  - procedural
+  - dataflow
+  - data-driven
+typing:
+  system: static
+  type_checking: compile-time
+  structural: false
+  strength: strong
+  inference: partial
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+    - compiled
+  compiles_to:
+    - machine code
+  runtime_environments:
+    - native OS process
+  performance:
+    startup_time: very fast
+    memory_usage: low
+    computation_speed: very fast
+    compilation_speed: fast
+domains:
+  primary:
+    - game development
+    - systems programming
+    - high-performance computing
+  secondary:
+    - desktop applications
+  emerging:
+    - compiler
+language_features:
+  immutability: optional
+  enums: algebraic
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: hybrid
+    level: high
+  memory_management:
+    type: manual
+    manual_control: true
+  key_features:
+    - first-class functions
+    - pattern matching
+    - macros
+    - generics
+    - modules
+    - closures
+    - reflection
+    - meta-programming
+concurrency:
+  model: threads
+  features:
+    - atomic operations
+    - shared memory
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: result types
+  features:
+    - stack traces
+    - error propagation
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+platforms:
+  operating_systems:
+    - Windows
+    - macOS
+    - Linux
+  architectures:
+    - x86-64
+ecosystem:
+  maturity: low
+  community_size: small
+  learning_resources: small
+complexity:
+  learning_curve: high
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: high
+standard_library:
+  maturity: moderate
+  size: medium
+  key_areas:
+    - data structures
+    - algorithms
+    - file I/O
+    - networking
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: high
+history:
+  inception: 2014-01-01
+  designed_by:
+    - Jonathan Blow
+  influenced_by:
+    languages:
+      - C
+      - C++
+      - Pascal
+      - Odin
+      - Rust
+    paradigms:
+      - imperative
+      - procedural
+      - data-driven
+development_tools:
+  build_systems:
+    - built-in build system
+references:
+  subreddit: "Jai"
+color: "#007800"

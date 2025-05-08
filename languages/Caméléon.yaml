@@ -1,0 +1,17 @@
+name: Caméléon
+category: programming
+file_extensions:
+- pa
+- cm
+paradigms:
+- functional
+typing:
+  system: static
+history:
+  inception: 2009-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Cam%C3%A9l%C3%A9on%20logo.svg
+  influenced_by:
+    languages:
+    - LabVIEW
+    - YAWL
+official_website: https://www.shinoe.org/cameleon/

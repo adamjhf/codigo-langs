@@ -1,0 +1,13 @@
+name: Microsoft Macro Assembler
+category: programming
+domains:
+  primary:
+  - assembly
+history:
+  inception: 1981-01-01
+  developer:
+  - Microsoft
+official_website: https://www.masm32.com
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/masm

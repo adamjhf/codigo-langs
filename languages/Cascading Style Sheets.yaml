@@ -1,0 +1,18 @@
+name: Cascading Style Sheets
+category: programming
+file_extensions:
+- css
+history:
+  inception: 1996-12-17
+  developer:
+  - CSS Working Group
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Official%20CSS%20Logo.svg
+official_website: https://www.w3.org/Style/CSS/
+references:
+  github_topics:
+  - css
+  quora_topics:
+  - Cascading-Style-Sheets
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/css
+  subreddit: css

@@ -1,0 +1,28 @@
+name: F*
+category: programming
+aliases:
+- fstar
+file_extensions:
+- fst
+- fsti
+paradigms:
+- functional
+- imperative
+typing:
+  system: dependent
+  strength: strong
+  inference: full
+history:
+  developer:
+  - Microsoft Research
+  - Institut National de Recherche en Informatique et en Automatique
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Fstar-official-logo-2015.png
+  influenced_by:
+    languages:
+    - OCaml
+    - Standard ML
+    - F#
+    - Lean
+    - Dafny
+official_website: https://www.fstar-lang.org/
+color: '#572e30'

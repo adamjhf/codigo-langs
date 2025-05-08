@@ -1,0 +1,14 @@
+name: Hartmann pipeline
+category: programming
+paradigms:
+- functional
+- dataflow
+- concatenative
+history:
+  inception: 1986-01-01
+  developer:
+  - IBM
+  influenced_by:
+    languages:
+    - pipeline
+official_website: https://vm.marist.edu/~pipeline

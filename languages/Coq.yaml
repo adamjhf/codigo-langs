@@ -1,0 +1,26 @@
+name: Coq
+category: programming
+file_extensions:
+- coq
+- v
+paradigms:
+- purely functional
+- functional
+domains:
+  primary:
+  - automated theorem proving
+history:
+  inception: 1984-01-01
+  developer:
+  - Institut National de Recherche en Informatique et en Automatique
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Coq%20logo.png
+official_website: https://coq.inria.fr/
+references:
+  github_topics:
+  - coq
+  quora_topics:
+  - Coq-proof-assistant
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/coq
+  - https://proofassistants.stackexchange.com/tags/coq
+color: '#d0b68c'

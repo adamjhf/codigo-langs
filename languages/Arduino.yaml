@@ -1,0 +1,11 @@
+name: Arduino
+category: programming
+file_extensions:
+- ino
+paradigms:
+- imperative
+- functional
+history:
+  developer:
+  - Massimo Banzi
+official_website: https://www.arduino.cc

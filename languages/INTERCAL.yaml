@@ -1,0 +1,11 @@
+name: INTERCAL
+category: programming
+paradigms:
+- esoteric
+history:
+  inception: 1972-01-01
+  described_by: Esolang
+official_website: https://www.catb.org/~esr/intercal/
+references:
+  quora_topics:
+  - Intercal

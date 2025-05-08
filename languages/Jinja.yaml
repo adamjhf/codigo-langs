@@ -1,0 +1,120 @@
+name: Jinja
+description: Jinja is a modern and designer-friendly templating language for Python inspired by Django's templates. It features powerful expression capabilities, extensibility through custom filters and functions, and sandboxed execution for security.
+category: markup
+status: active
+aliases:
+- django
+- html+django
+- html+jinja
+- htmldjango
+file_extensions:
+- jinja
+- j2
+- jinja2
+paradigms:
+- declarative
+- template-based
+typing:
+  system: dynamic
+  strength: weak
+  inference: none
+  type_checking: runtime
+  type_coercion: moderate
+  type_annotations: none
+execution:
+  type:
+  - interpreted
+  compiles_to:
+  - other intermediate representation
+  runtime_environments:
+  - language-specific runtime
+  - embedded interpreter
+  performance:
+    memory_usage: low
+    computation_speed: fast
+domains:
+  primary:
+  - web development
+  - text processing
+  - templating
+  secondary:
+  - configuration management
+  - automation
+  - DevOps
+  emerging:
+  - infrastructure as code
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  architectures:
+  - platform-independent
+ecosystem:
+  maturity: high
+  package_registry: PyPI
+  community_size: large
+  learning_resources: large
+  job_market_demand: moderate
+complexity:
+  learning_curve: low
+  cognitive_load: low
+  syntax_complexity: low
+  semantic_complexity: low
+language_features:
+  key_features:
+  - string interpolation
+  - modules
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - error context
+  - error reporting
+  - error formatting
+standard_library:
+  maturity: high
+  key_areas:
+  - text processing
+  - file I/O
+  - date/time
+  size: medium
+  documentation_quality: high
+versioning:
+  release_cycle: semantic versioning
+  backwards_compatibility: high
+history:
+  inception: 2008-01-01
+  developer:
+  - Pocoo Team
+  - Armin Ronacher
+  designed_by:
+  - Armin Ronacher
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Jinja%20software%20logo.svg
+  influenced_by:
+    languages:
+    - Django Templates
+    - Python
+    - Twig
+    paradigms:
+    - declarative
+    - template-based
+official_website: https://palletsprojects.com/p/jinja/
+documentation:
+  quality: high
+  official_sources:
+  - https://jinja.palletsprojects.com/en/latest/
+  community_resources:
+  - https://realpython.com/primer-on-jinja-templating/
+  - https://docs.ansible.com/ansible/latest/user_guide/playbooks_templating.html
+references:
+  github_topics:
+  - jinja
+  - jinja2
+  - template-engine
+  stackexchange_tags:
+  - jinja2
+  - jinja
+  wikidata_id: Q2749221
+color: '#a52a22'

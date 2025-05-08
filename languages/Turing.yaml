@@ -1,0 +1,23 @@
+name: Turing
+category: programming
+file_extensions:
+- t
+- tu
+paradigms:
+- imperative
+- object-oriented
+typing:
+  system: static
+history:
+  inception: 1982-01-01
+  developer:
+  - Holt Software Associates
+  designed_by:
+  - James Cordy
+  - Ric Holt
+  influenced_by:
+    languages:
+    - Pascal
+    - Euclid
+    - SP/k
+color: '#cf142b'

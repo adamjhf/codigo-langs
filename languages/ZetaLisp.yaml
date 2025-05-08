@@ -1,0 +1,7 @@
+name: ZetaLisp
+category: programming
+history:
+  inception: 1980-01-01
+  influenced_by:
+    languages:
+    - Maclisp

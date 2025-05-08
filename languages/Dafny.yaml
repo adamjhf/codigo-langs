@@ -1,0 +1,15 @@
+name: Dafny
+category: programming
+file_extensions:
+- dfy
+paradigms:
+- functional
+- imperative
+history:
+  inception: 2009-01-01
+  developer:
+  - K. Rustan M. Leino
+  - Remy Willems
+  - Daniel Matichuk
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Dafny%20logo.jpg
+color: '#FFEC25'

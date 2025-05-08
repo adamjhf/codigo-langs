@@ -1,0 +1,106 @@
+name: Brainfuck
+description: An esoteric programming language consisting of only eight simple commands, designed to challenge programmers and minimize compiler size.
+category: programming
+status: active
+aliases:
+- BF
+file_extensions:
+- b
+- bf
+compilers:
+- name: bf
+  type: interpreter
+  license: public domain
+  is_reference: false
+paradigms:
+- imperative
+- structured
+- esoteric
+typing:
+  system: untyped
+  strength: weak
+  inference: none
+  type_checking: runtime
+  type_coercion: none
+  type_annotations: none
+execution:
+  type:
+  - interpreted
+  runtime_environments:
+  - language-specific runtime
+  - embedded interpreter
+  performance:
+    startup_time: fast
+    memory_usage: very low
+    computation_speed: very slow
+domains:
+  primary:
+  - education
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  architectures:
+  - platform-independent
+ecosystem:
+  maturity: very low
+  community_size: very small
+  learning_resources: very small
+  job_market_demand: very low
+complexity:
+  learning_curve: high
+  cognitive_load: very high
+  syntax_complexity: very low
+  semantic_complexity: high
+language_features:
+  immutability: none
+  enums: none
+  metaprogramming: false
+  generics: false
+  c_interop: false
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: manual
+    level: low
+  memory_management:
+    type: manual
+concurrency:
+  model: none
+  ease_of_use: very low
+error_handling:
+  primary_mechanism: other
+  stack_traces: false
+  debugging:
+    source_maps: false
+    breakpoints: false
+    step_debugging: false
+standard_library:
+  maturity: very low
+  size: very small
+  documentation_quality: very low
+versioning:
+  backwards_compatibility: very high
+history:
+  inception: 1993-01-01
+  developer:
+  - Urban Müller
+  designed_by:
+  - Urban Müller
+  described_by: Esolang
+  influenced_by:
+    languages:
+    - P″
+    - 'FALSE'
+    - P′′
+official_website: https://brainfuck.org/
+references:
+  quora_topics:
+  - Brainfuck-programming-language
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/brainfuck
+  subreddit: brainfuck
+color: '#2F2530'

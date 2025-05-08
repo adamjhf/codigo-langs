@@ -1,0 +1,15 @@
+name: Coral 66
+category: programming
+paradigms:
+- imperative
+- structured
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1964-01-01
+  designed_by:
+  - Royal Radar Establishment
+  influenced_by:
+    languages:
+    - ALGOL 60

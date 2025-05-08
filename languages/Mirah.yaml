@@ -1,0 +1,25 @@
+name: Mirah
+category: programming
+file_extensions:
+- druby
+- duby
+- mirah
+paradigms:
+- object-oriented
+- imperative
+typing:
+  system: static
+  strength: strong
+  inference: full
+history:
+  inception: 2008-01-01
+  influenced_by:
+    languages:
+    - Java
+    - Ruby
+    - Boo
+official_website: https://www.mirah.org
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/mirah
+color: '#c7a938'

@@ -1,0 +1,11 @@
+name: COMTRAN
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1957-01-01
+  developer:
+  - Bob Bemer
+  influenced_by:
+    languages:
+    - FLOW-MATIC

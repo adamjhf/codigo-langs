@@ -1,0 +1,4 @@
+name: Portable Standard Lisp
+category: programming
+typing:
+  system: dynamic

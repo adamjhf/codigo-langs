@@ -1,0 +1,8 @@
+name: Vienna Definition Language
+category: programming
+domains:
+  primary:
+  - operational semantics
+history:
+  developer:
+  - IBM

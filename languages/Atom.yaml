@@ -1,0 +1,15 @@
+name: Atom
+category: programming
+paradigms:
+- functional
+- declarative
+typing:
+  strength: strong
+domains:
+  primary:
+  - embedded systems
+history:
+  inception: 2007-01-01
+  designed_by:
+  - Thomas Hawkins
+official_website: https://hackage.haskell.org/package/atom

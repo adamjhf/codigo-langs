@@ -1,0 +1,9 @@
+name: Sleep
+category: programming
+history:
+  inception: 2004-01-01
+  influenced_by:
+    languages:
+    - Perl
+    - Objective-C
+official_website: https://sleep.dashnine.org/

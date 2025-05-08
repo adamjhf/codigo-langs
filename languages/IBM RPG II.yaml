@@ -1,0 +1,9 @@
+name: IBM RPG II
+category: programming
+history:
+  inception: 1965-01-01
+  developer:
+  - IBM
+  influenced_by:
+    languages:
+    - RPG

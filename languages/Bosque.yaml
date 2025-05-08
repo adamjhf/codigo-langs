@@ -1,0 +1,13 @@
+name: Bosque
+category: programming
+paradigms:
+- functional
+typing:
+  system: static
+  structural: true
+history:
+  inception: 2019-01-01
+  developer:
+  - Microsoft Research
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Bosque%20logo.png
+official_website: https://www.microsoft.com/en-us/research/project/bosque-programming-language/

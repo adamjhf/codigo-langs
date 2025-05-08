@@ -1,0 +1,12 @@
+name: Robic
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1975-01-01
+  developer:
+  - Gennady Zvenigorodsky
+  influenced_by:
+    languages:
+    - Pascal
+    - Logo

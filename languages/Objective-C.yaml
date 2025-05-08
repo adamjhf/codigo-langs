@@ -1,0 +1,198 @@
+name: Objective-C
+description: Objective-C is an object-oriented programming language that adds Smalltalk-style messaging to C. It was the primary programming language for macOS and iOS development before Swift.
+category: programming
+status: maintenance
+aliases:
+- obj-c
+- objc
+- objectivec
+file_extensions:
+- m
+- h
+compilers:
+- name: Clang
+  type: compiler
+  license: Apache-2.0
+  source_url: https://github.com/llvm/llvm-project
+  is_reference: true
+- name: GCC
+  type: compiler
+  license: GPL-3.0
+  source_url: https://gcc.gnu.org/git.html
+paradigms:
+- object-oriented
+- imperative
+- reflective
+typing:
+  system: static
+  structural: false
+  strength: weak
+  inference: partial
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  compiles_to:
+  - machine code
+  - LLVM IR
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  performance:
+    startup_time: fast
+    memory_usage: moderate
+    computation_speed: fast
+    compilation_speed: moderate
+domains:
+  primary:
+  - mobile development
+  - desktop applications
+  secondary:
+  - systems programming
+  - game development
+platforms:
+  operating_systems:
+  - macOS
+  - iOS
+  - Windows
+  - Linux
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+ecosystem:
+  maturity: high
+  package_registry: CocoaPods
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: moderate
+complexity:
+  learning_curve: high
+  cognitive_load: high
+  syntax_complexity: high
+  semantic_complexity: high
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: true
+  generics: false
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: manual
+    level: low
+  memory_management:
+    type: reference counting
+    implementation: Automatic Reference Counting (ARC)
+    manual_control: true
+  key_features:
+  - reflection
+concurrency:
+  model: threads
+  features:
+  - async/await
+  - promises/futures
+  - thread pools
+  - shared memory
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - error chaining
+  - cleanup actions
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: CocoaPods
+  alternatives:
+  - Carthage
+  - Swift Package Manager
+popular_frameworks:
+  frontend:
+  - UIKit
+  - AppKit
+  - Cocoa
+  backend:
+  - Core Data
+  - Core Foundation
+  testing:
+  - XCTest
+  - OCMock
+  mobile:
+  - Foundation
+  - CoreAnimation
+development_tools:
+  lsps:
+  - SourceKit
+  - clangd
+  debugging:
+  - Xcode Debugger
+  - LLDB
+  profiling:
+  - Instruments
+  - Time Profiler
+  build_systems:
+  - Xcode Build System
+  - Make
+  linters:
+  - OCLint
+  - clang-tidy
+standard_library:
+  maturity: high
+  key_areas:
+  - data structures
+  - file I/O
+  - networking
+  - text processing
+  - date/time
+  - concurrency
+  - database access
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 1984-01-01
+  developer:
+  - NeXT
+  - Apple Inc.
+  designed_by:
+  - Brad Cox
+  - Tom Love
+  logo: https://upload.wikimedia.org/wikipedia/commons/6/66/Objective-C_logo.svg
+  influenced_by:
+    languages:
+    - C
+    - Smalltalk
+    paradigms:
+    - object-oriented
+    - imperative
+official_website: https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html
+documentation:
+  quality: high
+  official_sources:
+  - https://developer.apple.com/documentation/objectivec
+  - https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ObjectiveC/Introduction/introObjectiveC.html
+  community_resources:
+  - https://nshipster.com/
+  - https://cocoacasts.com/
+references:
+  github_topics:
+  - objective-c
+  - objc
+  quora_topics:
+  - Objective-C-programming-language
+  stackexchange_tags:
+  - objective-c
+  wikidata_id: Q160530
+  subreddit: ObjectiveC
+color: '#438eff'

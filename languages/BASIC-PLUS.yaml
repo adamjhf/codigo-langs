@@ -1,0 +1,11 @@
+name: BASIC-PLUS
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1970-01-01
+  developer:
+  - Digital Equipment Corporation
+  influenced_by:
+    languages:
+    - Dartmouth BASIC

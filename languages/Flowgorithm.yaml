@@ -1,0 +1,13 @@
+name: Flowgorithm
+category: programming
+paradigms:
+- structured
+history:
+  inception: 2014-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Flowgorithm%20Logo.svg
+  influenced_by:
+    languages:
+    - flowchart
+official_website: https://www.flowgorithm.org
+references:
+  subreddit: Flowgorithm

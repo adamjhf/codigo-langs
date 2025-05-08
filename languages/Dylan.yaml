@@ -1,0 +1,25 @@
+name: Dylan
+category: programming
+file_extensions:
+- dylan
+- dyl
+- intr
+- lid
+paradigms:
+- functional
+- object-oriented
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1992-01-01
+  developer:
+  - Apple
+  - Carnegie Mellon University
+  influenced_by:
+    languages:
+    - Lisp
+    - Common Lisp Object System
+    - Common Lisp
+official_website: https://opendylan.org/
+color: '#6c616e'

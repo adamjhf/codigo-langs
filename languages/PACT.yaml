@@ -1,0 +1,9 @@
+name: PACT
+category: programming
+history:
+  inception: 1955-01-01
+  developer:
+  - IBM
+  influenced_by:
+    languages:
+    - Fortran

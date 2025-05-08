@@ -1,0 +1,10 @@
+name: Jolie
+category: programming
+file_extensions:
+- ol
+- iol
+history:
+  developer:
+  - Fabrizio Montesi
+official_website: https://www.jolie-lang.org/
+color: '#843179'

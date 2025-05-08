@@ -1,0 +1,229 @@
+name: D
+description: A systems programming language with C-like syntax and static typing, focusing on combining the performance of compiled languages with programmer productivity.
+category: programming
+status: active
+aliases:
+- Dlang
+file_extensions:
+- d
+- di
+compilers:
+- name: DMD
+  type: compiler
+  source_url: https://github.com/dlang/dmd
+  is_reference: true
+- name: LDC
+  type: compiler
+  license: BSD-3-Clause
+  source_url: https://github.com/ldc-developers/ldc
+- name: GDC
+  type: compiler
+  license: GPL-3.0
+  source_url: https://github.com/D-Programming-GDC/GDC
+paradigms:
+- imperative
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: full
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  compiles_to:
+  - machine code
+  - LLVM IR
+  runtime_environments:
+  - native OS process
+  performance:
+    startup_time: very fast
+    memory_usage: moderate
+    computation_speed: very fast
+    compilation_speed: fast
+domains:
+  primary:
+  - systems programming
+  - game development
+  - server-side applications
+  - scientific computing
+  secondary:
+  - web development
+  - desktop applications
+  - compiler
+  - high-performance computing
+  emerging:
+  - embedded systems
+  - blockchain
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - PowerPC
+ecosystem:
+  maturity: moderate
+  package_registry: https://code.dlang.org/
+  community_size: small
+  learning_resources: medium
+  job_market_demand: low
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: algebraic
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: false
+  memory_safety:
+    type: hybrid
+    level: moderate
+  memory_management:
+    type: garbage collection
+    implementation: mark and sweep with optional manual control
+    manual_control: true
+  key_features:
+  - first-class functions
+  - closures
+  - algebraic data types
+  - type inference
+  - operator overloading
+  - traits/interfaces
+  - zero-cost abstractions
+  - native FFI
+  - reflection
+  - meta-programming
+  - destructuring
+  - variadic functions
+  - modules
+  - generics
+  - lambdas
+  - coroutines
+concurrency:
+  model: threads
+  features:
+  - shared memory
+  - message passing
+  - work stealing
+  - lock-free data structures
+  - atomic operations
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - custom error types
+  - error chaining
+  - resource management
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: DUB
+  alternatives:
+  - DDS
+popular_frameworks:
+  frontend:
+  - GtkD
+  - DlangUI
+  backend:
+  - vibe.d
+  - Hunt
+  - Arsd
+  testing:
+  - DUnit
+  - unit-threaded
+development_tools:
+  lsps:
+  - serve-d
+  debugging:
+  - GDB
+  - LLDB
+  profiling:
+  - perf
+  - valgrind
+  build_systems:
+  - DUB
+  - Make
+  linters:
+  - D-Scanner
+standard_library:
+  maturity: high
+  key_areas:
+  - file I/O
+  - networking
+  - concurrency
+  - data structures
+  - algorithms
+  - text processing
+  - date/time
+  - mathematics
+  - serialization
+  - testing
+  - logging
+  - file system operations
+  - random number generation
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: high
+history:
+  inception: 2001-12-08
+  developer:
+  - Digital Mars
+  - Walter Bright
+  - D Language Foundation
+  designed_by:
+  - Walter Bright
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/D%20Programming%20Language%20logo.svg
+  influenced_by:
+    languages:
+    - C++
+    - C
+    - Java
+    - Python
+    - Ruby
+    - Eiffel
+    - C#
+    paradigms:
+    - imperative
+    - object-oriented
+    - functional
+    - procedural
+official_website: https://dlang.org
+official_blog_rss: https://feeds.feedburner.com/OfficialDBlog
+documentation:
+  quality: high
+  official_sources:
+  - https://dlang.org/documentation.html
+  - https://wiki.dlang.org/
+  community_resources:
+  - https://forum.dlang.org/
+  - https://tour.dlang.org/
+references:
+  github_topics:
+  - dlang
+  - d-language
+  stackexchange_tags:
+  - d
+  - dlang
+  wikidata_id: Q473819
+  subreddit: dlang
+color: '#ba595e'

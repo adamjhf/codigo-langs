@@ -1,0 +1,20 @@
+name: BeanShell
+category: programming
+paradigms:
+- object-oriented
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1999-01-01
+  designed_by:
+  - Java Community Process
+  influenced_by:
+    languages:
+    - Java
+    - JavaScript
+    - Perl
+official_website: https://www.beanshell.org/
+references:
+  quora_topics:
+  - BeanShell

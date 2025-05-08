@@ -1,0 +1,12 @@
+name: Visual Prolog
+category: programming
+paradigms:
+- object-oriented
+- functional
+- imperative
+- logic
+typing:
+  system: static
+  strength: strong
+  inference: full
+official_website: https://www.visual-prolog.com

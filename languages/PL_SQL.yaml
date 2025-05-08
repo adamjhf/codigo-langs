@@ -1,0 +1,15 @@
+name: PL/SQL
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1992-01-01
+  influenced_by:
+    languages:
+    - Ada
+official_website: https://www.oracle.com/technology/tech/pl_sql/index.html
+references:
+  quora_topics:
+  - PL-SQL
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/plsql

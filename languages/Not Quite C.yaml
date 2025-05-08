@@ -1,0 +1,8 @@
+name: Not Quite C
+category: programming
+history:
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Nqc%20logo.gif
+  influenced_by:
+    languages:
+    - C
+official_website: https://bricxcc.sourceforge.net/nqc/

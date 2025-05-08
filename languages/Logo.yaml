@@ -1,0 +1,21 @@
+name: Logo
+category: programming
+paradigms:
+- functional
+- reflective
+- imperative
+typing:
+  system: dynamic
+history:
+  inception: 1967-01-01
+  developer:
+  - Seymour Papert
+  - Idit Harel Caperton
+  - Cynthia Solomon
+  designed_by:
+  - Seymour Papert
+  - Cynthia Solomon
+  - Wally Feurzeig
+  influenced_by:
+    languages:
+    - Lisp

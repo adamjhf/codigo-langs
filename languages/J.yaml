@@ -1,0 +1,26 @@
+name: J
+category: programming
+file_extensions:
+- ijs
+paradigms:
+- array-oriented
+- functional
+- object-oriented
+typing:
+  system: dynamic
+history:
+  inception: 1990-01-01
+  developer:
+  - Kenneth E. Iverson
+  - Roger Hui
+  designed_by:
+  - Kenneth E. Iverson
+  influenced_by:
+    languages:
+    - APL
+    - FL
+official_website: https://www.jsoftware.com
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/j
+color: '#9EEDFF'

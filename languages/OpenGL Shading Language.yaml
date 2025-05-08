@@ -1,0 +1,12 @@
+name: OpenGL Shading Language
+category: programming
+history:
+  inception: 2004-01-01
+  developer:
+  - OpenGL Architecture Review Board
+official_website: https://www.opengl.org/
+references:
+  quora_topics:
+  - GLSL-1
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/glsl

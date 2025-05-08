@@ -1,0 +1,227 @@
+name: Delphi
+description: Object-oriented programming language derived from Pascal. Used for rapid application development with visual component library. Strong Microsoft Windows integration while supporting cross-platform development.
+aliases:
+  - Object Pascal
+  - Embarcadero Delphi
+file_extensions:
+  - pas
+  - dpr
+  - dfm
+category: programming
+status: active
+
+compilers:
+  - name: Embarcadero Delphi
+    type: compiler
+    license: proprietary
+    is_reference: true
+  - name: Free Pascal
+    type: compiler
+    license: GPL-2.0
+    source_url: https://gitlab.com/freepascal.org/fpc/source
+
+paradigms:
+  - object-oriented
+  - imperative
+  - procedural
+  - structured
+  - event-driven
+  - generic
+
+typing:
+  system: static
+  type_checking: compile-time
+  structural: false
+  strength: strong
+  inference: partial
+  type_coercion: conservative
+  type_annotations: required
+
+execution:
+  type:
+    - compiled
+  compiles_to:
+    - machine code
+  runtime_environments:
+    - native OS process
+  performance:
+    startup_time: fast
+    memory_usage: moderate
+    computation_speed: fast
+    compilation_speed: fast
+
+domains:
+  primary:
+    - desktop applications
+    - database management
+  secondary:
+    - web development
+    - business applications
+    - scientific computing
+  emerging:
+    - mobile development
+    - IoT
+
+platforms:
+  operating_systems:
+    - Windows
+    - macOS
+    - Linux
+    - Android
+    - iOS
+  architectures:
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+
+ecosystem:
+  maturity: high
+  package_registry: GetIt
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: moderate
+
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: moderate
+
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: false
+  generics: true
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: reference counting
+    manual_control: false
+  key_features:
+    - traits/interfaces
+    - string interpolation
+    - reflection
+    - operator overloading
+    - extension methods
+    - modules
+
+concurrency:
+  model: threads
+  features:
+    - thread pools
+    - shared memory
+  ease_of_use: moderate
+
+error_handling:
+  primary_mechanism: exceptions
+  features:
+    - stack traces
+    - custom error types
+    - error chaining
+    - cleanup actions
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+
+package_managers:
+  primary: GetIt
+  alternatives:
+    - Delphinus
+    - Boss
+
+popular_frameworks:
+  frontend:
+    - VCL (Visual Component Library)
+    - FireMonkey (FMX)
+  backend:
+    - DataSnap
+    - RemObjects
+    - Intraweb
+  testing:
+    - DUnit
+    - DUnitX
+  mobile:
+    - FireMonkey
+
+development_tools:
+  lsps:
+    - DelphiLanguageServer
+  debugging:
+    - Embarcadero Debugger
+    - GDB
+  profiling:
+    - AQtime
+    - JProfiler
+  build_systems:
+    - MSBuild
+    - FinalBuilder
+  linters:
+    - DelphiCodeAnalyzer
+    - Pascal Analyzer
+
+standard_library:
+  maturity: high
+  key_areas:
+    - file I/O
+    - networking
+    - data structures
+    - text processing
+    - date/time
+    - mathematics
+    - database access
+    - GUI
+    - graphics
+  size: large
+  documentation_quality: high
+
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+
+history:
+  inception: "1995-02-14"
+  developer:
+    - Borland
+    - Embarcadero Technologies
+    - Idera
+  designed_by:
+    - Anders Hejlsberg
+    - Niklaus Wirth
+  influenced_by:
+    languages:
+      - Pascal
+      - Turbo Pascal
+      - C++
+    paradigms:
+      - object-oriented
+      - imperative
+      - procedural
+
+official_website: https://www.embarcadero.com/products/delphi
+
+documentation:
+  quality: high
+  official_sources:
+    - https://docwiki.embarcadero.com/RADStudio/en/Main_Page
+  community_resources:
+    - https://delphi.fandom.com/
+
+references:
+  github_topics:
+    - delphi
+    - pascal
+    - delphi-programming
+  stackexchange_tags:
+    - delphi
+    - pascal
+  wikidata_id: Q187038
+  subreddit: delphi
+
+color: "#EE1F35"

@@ -1,0 +1,10 @@
+name: XPL
+category: programming
+paradigms:
+- structured
+- imperative
+history:
+  inception: 1967-01-01
+  influenced_by:
+    languages:
+    - PL/I

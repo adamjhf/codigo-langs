@@ -1,0 +1,119 @@
+name: Standard ML
+category: programming
+description: Standard ML (SML) is a general-purpose, modular, functional programming language with compile-time type checking and type inference. It is a modern dialect of ML that includes modules, pattern matching, and a sophisticated type system.
+aliases:
+  - SML
+  - ML
+file_extensions:
+  - sml
+  - sig
+  - fun
+status: active
+paradigms:
+  - functional
+  - imperative
+  - modular
+typing:
+  system: static
+  type_checking: compile-time
+  strength: strong
+  inference: full
+  type_annotations: optional
+execution:
+  type:
+    - compiled
+  compiles_to:
+    - bytecode
+    - machine code
+  runtime_environments:
+    - language-specific runtime
+    - native OS process
+domains:
+  primary:
+    - education
+    - compiler
+    - formal verification
+  secondary:
+    - scientific computing
+    - mathematics
+platforms:
+  operating_systems:
+    - Windows
+    - macOS
+    - Linux
+    - Unix
+  architectures:
+    - x86
+    - x86-64
+    - ARM
+    - platform-independent
+ecosystem:
+  maturity: moderate
+  community_size: small
+  learning_resources: small
+  job_market_demand: low
+complexity:
+  learning_curve: high
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: high
+language_features:
+  immutability: default
+  generics: true
+  pattern_matching: true
+  memory_management:
+    type: garbage collection
+  key_features:
+    - pattern matching
+    - algebraic data types
+    - type inference
+    - modules
+    - first-class functions
+    - closures
+error_handling:
+  primary_mechanism: exceptions
+  features:
+    - custom error types
+    - error propagation
+standard_library:
+  maturity: moderate
+  key_areas:
+    - data structures
+    - text processing
+    - file I/O
+  size: medium
+  documentation_quality: moderate
+history:
+  inception: "1983-01-01"
+  designed_by:
+    - Robin Milner
+    - Mads Tofte
+    - Robert Harper
+    - David MacQueen
+  influenced_by:
+    languages:
+      - ML
+      - LISP
+    paradigms:
+      - functional
+      - imperative
+compilers:
+  - name: Standard ML of New Jersey
+    type: compiler
+    license: BSD-3-Clause
+    source_url: https://github.com/smlnj/smlnj
+    is_reference: true
+  - name: MLton
+    type: compiler
+    license: BSD-3-Clause
+    source_url: https://github.com/MLton/mlton
+  - name: Moscow ML
+    type: compiler
+    license: GPL-2.0
+    source_url: https://github.com/kfl/mosml
+  - name: Poly/ML
+    type: compiler
+    license: LGPL-2.1
+    source_url: https://github.com/polyml/polyml
+official_website: https://smlfamily.github.io/
+color: "#DC566D"

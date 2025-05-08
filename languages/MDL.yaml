@@ -1,0 +1,16 @@
+name: MDL
+category: programming
+paradigms:
+- reflective
+- imperative
+- functional
+typing:
+  system: dynamic
+  strength: strong
+domains:
+  primary:
+  - computer-aided design
+history:
+  inception: 1971-01-01
+  developer:
+  - Bentley Systems

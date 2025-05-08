@@ -1,0 +1,14 @@
+name: Csound
+category: programming
+aliases:
+- csound-orc
+file_extensions:
+- orc
+- udo
+history:
+  inception: 1986-01-01
+official_website: https://csound.com/
+references:
+  quora_topics:
+  - Csound-software
+color: '#1a1a1a'

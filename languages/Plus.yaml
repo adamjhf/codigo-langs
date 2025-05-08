@@ -1,0 +1,12 @@
+name: Plus
+category: programming
+paradigms:
+- imperative
+- structured
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1976-01-01
+  developer:
+  - University of British Columbia

@@ -1,0 +1,7 @@
+name: Maclisp
+category: programming
+typing:
+  system: dynamic
+history:
+  developer:
+  - Richard Greenblatt

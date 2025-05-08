@@ -1,0 +1,12 @@
+name: M#
+category: programming
+paradigms:
+- structured
+- object-oriented
+- event-driven
+- imperative
+typing:
+  system: static
+history:
+  inception: 2012-01-01
+official_website: https://www.msharp.co.uk/

@@ -1,0 +1,15 @@
+name: Euclid
+category: programming
+paradigms:
+- structured
+- functional
+- imperative
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1977-01-01
+  developer:
+  - Ric Holt
+  designed_by:
+  - Butler Lampson

@@ -1,0 +1,12 @@
+name: GW-BASIC
+category: programming
+history:
+  inception: 1983-01-01
+  developer:
+  - Microsoft
+  influenced_by:
+    languages:
+    - IBM Advanced BASIC
+references:
+  quora_topics:
+  - GWBASIC

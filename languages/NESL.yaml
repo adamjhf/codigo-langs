@@ -1,0 +1,10 @@
+name: NESL
+category: programming
+paradigms:
+- functional
+- array-oriented
+history:
+  inception: 1993-01-01
+references:
+  quora_topics:
+  - NESL-1

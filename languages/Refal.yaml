@@ -1,0 +1,14 @@
+name: Refal
+category: programming
+paradigms:
+- functional
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1968-01-01
+  developer:
+  - Valentin Turchin
+  designed_by:
+  - Valentin Turchin
+official_website: https://www.refal.net

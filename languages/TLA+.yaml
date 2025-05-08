@@ -1,0 +1,7 @@
+name: TLA+
+category: programming
+history:
+  inception: 1999-04-23
+  designed_by:
+  - Leslie Lamport
+official_website: https://lamport.azurewebsites.net/tla/tla.html

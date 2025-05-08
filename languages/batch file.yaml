@@ -1,0 +1,10 @@
+name: batch file
+category: programming
+file_extensions:
+- btm
+- vbs
+- cmd
+- bat
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/batch-file

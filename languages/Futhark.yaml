@@ -1,0 +1,15 @@
+name: Futhark
+category: programming
+file_extensions:
+- fut
+paradigms:
+- purely functional
+- array-oriented
+- functional
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 2014-01-01
+official_website: https://futhark-lang.org/
+color: '#5f021f'

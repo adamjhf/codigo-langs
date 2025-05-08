@@ -1,0 +1,9 @@
+name: TTCN-3
+category: programming
+typing:
+  strength: strong
+references:
+  quora_topics:
+  - TTCN-3
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/ttcn

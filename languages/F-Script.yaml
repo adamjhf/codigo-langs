@@ -1,0 +1,16 @@
+name: F-Script
+category: programming
+paradigms:
+- object-oriented
+- array-oriented
+typing:
+  system: dynamic
+history:
+  inception: 2009-01-01
+  influenced_by:
+    languages:
+    - Smalltalk
+official_website: https://www.fscript.org
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/f-script

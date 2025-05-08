@@ -1,0 +1,13 @@
+name: Pico
+category: programming
+paradigms:
+- reflective
+- imperative
+history:
+  inception: 1997-01-01
+  developer:
+  - Vrije Universiteit Brussel
+  influenced_by:
+    languages:
+    - Scheme
+official_website: https://pico.vub.ac.be

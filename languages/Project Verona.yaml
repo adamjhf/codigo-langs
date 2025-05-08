@@ -1,0 +1,8 @@
+name: Project Verona
+category: programming
+history:
+  inception: 2019-01-01
+  influenced_by:
+    languages:
+    - Pony
+official_website: https://microsoft.github.io/verona/

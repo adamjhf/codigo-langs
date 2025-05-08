@@ -1,0 +1,11 @@
+name: SAC programming language
+category: programming
+paradigms:
+- array-oriented
+typing:
+  strength: strong
+history:
+  inception: 1994-01-01
+  developer:
+  - Sven-Bodo Scholz
+official_website: https://www.sac-home.org

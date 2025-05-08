@@ -1,0 +1,12 @@
+name: Executive Systems Problem Oriented Language
+category: programming
+paradigms:
+- imperative
+- structured
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1966-01-01
+  developer:
+  - Burroughs Corporation

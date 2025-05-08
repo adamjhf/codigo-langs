@@ -1,0 +1,19 @@
+name: Caml
+category: programming
+paradigms:
+- imperative
+- functional
+typing:
+  system: static
+  strength: strong
+  inference: full
+history:
+  inception: 1985-01-01
+  developer:
+  - Institut National de Recherche en Informatique et en Automatique
+  designed_by:
+  - Gérard Huet
+  influenced_by:
+    languages:
+    - ML
+official_website: https://caml.inria.fr

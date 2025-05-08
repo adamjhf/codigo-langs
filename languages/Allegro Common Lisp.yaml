@@ -1,0 +1,9 @@
+name: Allegro Common Lisp
+category: programming
+paradigms:
+- object-oriented
+typing:
+  system: dynamic
+history:
+  described_by: Marjorie-Wiki
+official_website: https://franz.com/products/allegro-common-lisp/

@@ -1,0 +1,12 @@
+name: ECLiPSe
+category: programming
+file_extensions:
+- ecl
+paradigms:
+- constraint
+history:
+  inception: 1992-01-01
+  developer:
+  - European Computer-Industry Research Center
+official_website: https://eclipseclp.org/
+color: '#001d9d'

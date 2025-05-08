@@ -1,0 +1,16 @@
+name: Xojo
+category: programming
+file_extensions:
+- xojo_code
+- xojo_menu
+- xojo_report
+- xojo_script
+- xojo_toolbar
+- xojo_window
+paradigms:
+- object-oriented
+history:
+  inception: 1996-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Logomark%20Xojo%20Company.svg
+official_website: https://www.xojo.com/
+color: '#81bd41'

@@ -1,0 +1,225 @@
+name: Nim
+description: Nim is a statically typed compiled language with efficient garbage collection that combines the performance of C with the expressiveness of Python. It features a robust macro system, strong metaprogramming capabilities, and compile-time execution.
+category: programming
+status: active
+aliases:
+- Nimrod
+file_extensions:
+- nim
+- nim.cfg
+- nimble
+- nimrod
+- nims
+compilers:
+- name: Nim Compiler
+  type: compiler
+  license: MIT
+  source_url: https://github.com/nim-lang/Nim
+  is_reference: true
+paradigms:
+- imperative
+typing:
+  system: static
+  structural: true
+  strength: strong
+  inference: full
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  - transpiled
+  compiles_to:
+  - C
+  - JavaScript
+  - WebAssembly
+  runtime_environments:
+  - native OS process
+  - browser
+  - native binary
+  performance:
+    startup_time: fast
+    memory_usage: low
+    computation_speed: fast
+    compilation_speed: fast
+domains:
+  primary:
+  - systems programming
+  - web development
+  - game development
+  - desktop applications
+  - scripting
+  secondary:
+  - embedded systems
+  - scientific computing
+  - DevOps
+  - text processing
+  - automation
+  emerging:
+  - blockchain
+  - WebAssembly
+  - distributed system
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Android
+  - iOS
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - WebAssembly
+ecosystem:
+  maturity: moderate
+  package_registry: Nimble
+  community_size: small
+  learning_resources: small
+  job_market_demand: low
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: algebraic
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: false
+  memory_safety:
+    type: hybrid
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: deferred reference counting with cycle collection
+    manual_control: true
+  key_features:
+  - macros
+  - zero-cost abstractions
+  - first-class functions
+  - closures
+  - operator overloading
+  - type inference
+  - string interpolation
+  - destructuring
+  - generics
+  - async/await
+concurrency:
+  model: threads
+  features:
+  - async/await
+  - promises/futures
+  - message passing
+  - thread pools
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - custom error types
+  - cleanup actions
+  - resource management
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: Nimble
+  alternatives:
+  - Nimph
+  - choosenim
+popular_frameworks:
+  frontend:
+  - Karax
+  - Nim UI
+  backend:
+  - Jester
+  - Prologue
+  testing:
+  - unittest
+  - testament
+development_tools:
+  lsps:
+  - nimlsp
+  - nimsuggest
+  debugging:
+  - gdb
+  - lldb
+  profiling:
+  - nimprof
+  build_systems:
+  - nimble
+  - nake
+  linters:
+  - nim check
+  - nimfmt
+standard_library:
+  maturity: high
+  key_areas:
+  - file I/O
+  - networking
+  - concurrency
+  - data structures
+  - algorithms
+  - text processing
+  - cryptography
+  - regular expressions
+  - date/time
+  - mathematics
+  - compression
+  - serialization
+  - testing
+  - logging
+  - process management
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: semantic versioning
+  backwards_compatibility: high
+history:
+  inception: 2008-01-01
+  developer:
+  - Andreas Rumpf and the Nim team
+  designed_by:
+  - Andreas Rumpf
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Nim%20logo.svg
+  influenced_by:
+    languages:
+    - Python
+    - Pascal
+    - Ada
+    - Modula
+    - Oberon
+    - C++
+    - Lisp
+    - C#
+    - Object Pascal
+    - Modula-3
+official_website: https://nim-lang.org/
+official_blog_rss: https://nim-lang.org/feed.xml
+documentation:
+  quality: high
+  official_sources:
+  - https://nim-lang.org/documentation.html
+  - https://nim-lang.org/docs/manual.html
+  community_resources:
+  - https://narimiran.github.io/nim-basics/
+  - https://github.com/nim-lang/Nim/wiki
+references:
+  github_topics:
+  - nim
+  - nim-lang
+  stackexchange_tags:
+  - nim
+  - nim-lang
+  wikidata_id: Q2744507
+  subreddit: Nim
+color: '#ffc200'

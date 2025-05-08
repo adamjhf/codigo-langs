@@ -1,0 +1,10 @@
+name: Esterel
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1980-01-01
+official_website: https://www.esterel.org/
+references:
+  github_topics:
+  - esterel

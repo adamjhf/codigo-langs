@@ -1,0 +1,17 @@
+name: XL
+category: programming
+paradigms:
+- functional
+- imperative
+typing:
+  strength: strong
+history:
+  inception: 2001-01-01
+  developer:
+  - Christophe de Dinechin
+  designed_by:
+  - Christophe de Dinechin
+  influenced_by:
+    languages:
+    - Ada
+official_website: https://xl.inf.ethz.ch/index2.shtml

@@ -1,0 +1,124 @@
+name: ML
+category: programming
+description: "ML (Meta Language) is a family of statically-typed functional programming languages designed for type safety and program verification. It introduced polymorphic type inference with the Hindley-Milner type system, making it influential in programming language theory and functional programming."
+aliases:
+  - Meta Language
+file_extensions:
+  - ml
+  - mli
+status: active
+paradigms:
+  - functional
+  - purely functional
+  - imperative
+  - structured
+typing:
+  system: static
+  type_checking: compile-time
+  structural: true
+  strength: strong
+  inference: full
+  type_coercion: none
+  type_annotations: optional
+execution:
+  type:
+    - compiled
+  compiles_to:
+    - bytecode
+    - machine code
+  runtime_environments:
+    - language-specific runtime
+    - native OS process
+  performance:
+    startup_time: fast
+    memory_usage: moderate
+    computation_speed: fast
+    compilation_speed: fast
+domains:
+  primary:
+    - formal verification
+    - mathematics
+    - education
+  secondary:
+    - scientific computing
+    - data processing
+    - artificial intelligence
+language_features:
+  immutability: default
+  generics: true
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: managed
+    level: very high
+  memory_management:
+    type: garbage collection
+  key_features:
+    - pattern matching
+    - algebraic data types
+    - type inference
+    - first-class functions
+    - closures
+    - pure functions
+    - modules
+concurrency:
+  model: none
+  ease_of_use: low
+error_handling:
+  primary_mechanism: pattern matching
+  features:
+    - custom error types
+    - error propagation
+standard_library:
+  maturity: high
+  key_areas:
+    - data structures
+    - algorithms
+    - mathematics
+    - text processing
+    - file I/O
+  size: medium
+  documentation_quality: high
+history:
+  inception: "1973-01-01"
+  designed_by:
+    - Robin Milner
+  influenced_by:
+    languages:
+      - LISP
+      - ISWIM
+    paradigms:
+      - functional
+      - purely functional
+ecosystem:
+  maturity: high
+  community_size: small
+  learning_resources: medium
+complexity:
+  learning_curve: high
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: high
+platforms:
+  operating_systems:
+    - Linux
+    - macOS
+    - Windows
+    - Unix
+  architectures:
+    - platform-independent
+    - x86-64
+    - ARM64
+popular_frameworks:
+  backend:
+    - OCaml Core
+    - Jane Street Base
+references:
+  wikidata_id: Q2486239
+  github_topics:
+    - ml
+    - meta-language
+  stackexchange_tags:
+    - ml
+    - standard-ml
+color: "#DC566D"

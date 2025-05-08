@@ -1,0 +1,14 @@
+name: DataFlex
+category: programming
+paradigms:
+- object-oriented
+- structured
+- imperative
+history:
+  inception: 1982-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/DF%20Logo%20Compact%20RGB.png
+references:
+  quora_topics:
+  - Dataflex
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/dataflex

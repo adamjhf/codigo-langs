@@ -1,0 +1,8 @@
+name: Joule
+category: programming
+paradigms:
+- object-oriented
+- imperative
+- dataflow
+history:
+  inception: 1996-01-01

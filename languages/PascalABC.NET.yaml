@@ -1,0 +1,20 @@
+name: PascalABC.NET
+category: programming
+file_extensions:
+- pas
+paradigms:
+- object-oriented
+history:
+  inception: 2007-01-01
+  influenced_by:
+    languages:
+    - C#
+    - Python
+    - Pascal
+    - Delphi
+official_website: https://pascalabc.net
+references:
+  github_topics:
+  - pascalabcnet
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/pascalabc.net

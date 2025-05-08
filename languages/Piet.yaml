@@ -1,0 +1,13 @@
+name: Piet
+category: programming
+paradigms:
+- esoteric
+history:
+  inception: 1993-01-01
+  developer:
+  - David Morgan-Mar
+  described_by: Esolang
+  influenced_by:
+    languages:
+    - Piet Mondrian
+official_website: https://dangermouse.net/esoteric/piet.html

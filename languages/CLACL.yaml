@@ -1,0 +1,10 @@
+name: CLACL
+category: programming
+paradigms:
+- logic
+history:
+  inception: 2000-01-01
+  influenced_by:
+    languages:
+    - Prolog
+official_website: https://www.1stleft.com/clac/English/index.htm

@@ -1,0 +1,7 @@
+name: Lustre
+category: programming
+paradigms:
+- declarative
+- dataflow
+history:
+  inception: 1980-01-01

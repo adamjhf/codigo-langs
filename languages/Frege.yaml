@@ -1,0 +1,15 @@
+name: Frege
+category: programming
+file_extensions:
+- fr
+paradigms:
+- functional
+- purely functional
+history:
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Frege%20logo.svg
+  influenced_by:
+    languages:
+    - Java
+    - Haskell
+official_website: https://github.com/Frege/frege/wiki/_pages
+color: '#00cafe'

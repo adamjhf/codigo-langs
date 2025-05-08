@@ -1,0 +1,9 @@
+name: Jakarta Expression Language
+category: programming
+history:
+  developer:
+  - Eclipse Foundation
+official_website: https://javadoc.io/doc/jakarta.el/jakarta.el-api/
+references:
+  quora_topics:
+  - Expression-Language

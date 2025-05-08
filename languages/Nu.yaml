@@ -1,0 +1,17 @@
+name: Nu
+category: programming
+aliases:
+- nush
+file_extensions:
+- nu
+paradigms:
+- object-oriented
+- functional
+- structured
+- imperative
+typing:
+  system: dynamic
+history:
+  inception: 2007-01-01
+official_website: https://programming.nu
+color: '#c9df40'

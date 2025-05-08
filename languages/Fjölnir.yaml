@@ -1,0 +1,15 @@
+name: Fjölnir
+category: programming
+file_extensions:
+- sma
+- ein
+- fjo
+- fjv
+paradigms:
+- imperative
+- object-oriented
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1980-01-01

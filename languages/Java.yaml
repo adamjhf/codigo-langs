@@ -1,0 +1,273 @@
+name: Java
+description: Java is a general-purpose, class-based, object-oriented programming language designed for portability and cross-platform compatibility. It follows the "write once, run anywhere" principle through its use of the Java Virtual Machine (JVM).
+category: programming
+status: active
+file_extensions:
+- java
+- jav
+- jsh
+compilers:
+- name: javac
+  type: compiler
+  license: GPL-2.0
+  is_reference: true
+- name: Eclipse Compiler for Java (ECJ)
+  type: compiler
+- name: GraalVM
+  type: compiler
+  license: GPL-2.0
+paradigms:
+- object-oriented
+- imperative
+- functional
+- generic
+- reflective
+- concurrent
+- structured
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: partial
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: required
+execution:
+  type:
+  - compiled
+  - interpreted with JIT compilation
+  compiles_to:
+  - bytecode
+  runtime_environments:
+  - JVM
+  - native OS process
+  performance:
+    startup_time: moderate
+    memory_usage: high
+    computation_speed: fast
+    compilation_speed: moderate
+domains:
+  primary:
+  - server-side applications
+  - desktop applications
+  - web development
+  - distributed system
+  secondary:
+  - data science
+  - big data
+  - cloud computing
+  - IoT
+  - scientific computing
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  - Solaris
+  - Android
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - SPARC
+  - PowerPC
+  - platform-independent
+ecosystem:
+  maturity: very high
+  package_registry: Maven Central
+  community_size: very large
+  learning_resources: very large
+  job_market_demand: very high
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: extensible
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: Generational with multiple collectors (G1GC, ZGC, etc.)
+    manual_control: false
+  key_features:
+  - first-class functions
+  - closures
+  - operator overloading
+  - multiple inheritance
+  - traits/interfaces
+  - REPL
+  - native FFI
+  - reflection
+  - meta-programming
+  - decorators/annotations
+  - string interpolation
+  - modules
+  - lambdas
+concurrency:
+  model: threads
+  features:
+  - async/await
+  - promises/futures
+  - thread pools
+  - work stealing
+  - shared memory
+  - concurrent data structures
+  - atomic operations
+  - parallel collections
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - error chaining
+  - custom error types
+  - cleanup actions
+  - error logging
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: Maven
+  alternatives:
+  - Gradle
+  - Ant
+  - Ivy
+  - SBT
+popular_frameworks:
+  frontend:
+  - JavaFX
+  - Swing
+  - GWT
+  backend:
+  - Spring
+  - Jakarta EE
+  - Quarkus
+  - Micronaut
+  - Vert.x
+  - Play Framework
+  testing:
+  - JUnit
+  - TestNG
+  - Mockito
+  - AssertJ
+  - Cucumber
+  mobile:
+  - Android SDK
+development_tools:
+  lsps:
+  - Eclipse JDT.LS
+  - IntelliJ IDEA LSP Server
+  debugging:
+  - JDB
+  - JPDA
+  - VisualVM
+  - JConsole
+  profiling:
+  - JProfiler
+  - YourKit
+  - Java Flight Recorder
+  - VisualVM
+  build_systems:
+  - Maven
+  - Gradle
+  - Ant
+  - Bazel
+  linters:
+  - Checkstyle
+  - PMD
+  - SpotBugs
+  - SonarQube
+standard_library:
+  maturity: very high
+  key_areas:
+  - file I/O
+  - networking
+  - concurrency
+  - data structures
+  - algorithms
+  - text processing
+  - cryptography
+  - database access
+  - HTTP client/server
+  - JSON/XML processing
+  - regular expressions
+  - date/time
+  - mathematics
+  - compression
+  - serialization
+  - logging
+  - security
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 1995-01-01
+  developer:
+  - Sun Microsystems
+  - Oracle Corporation
+  designed_by:
+  - James Gosling
+  - Mike Sheridan
+  - Patrick Naughton
+  described_by: The Java Language Specification
+  standards_bodies:
+  - JCP (Java Community Process)
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Duke%20%28Java%20mascot%29%20waving.svg
+  influenced_by:
+    languages:
+    - C++
+    - Objective-C
+    - C#
+    - Ada
+    - Smalltalk
+    - Eiffel
+    - C
+    - Mesa
+    - Modula-3
+    - Simula
+    paradigms:
+    - object-oriented
+    - imperative
+official_website: https://www.oracle.com/java/
+official_blog_rss: https://blogs.oracle.com/java/rss
+documentation:
+  quality: high
+  official_sources:
+  - https://docs.oracle.com/en/java/
+  - https://dev.java/
+  community_resources:
+  - https://www.baeldung.com/
+  - https://www.javatpoint.com/
+  - https://www.tutorialspoint.com/java/index.htm
+references:
+  github_topics:
+  - java
+  - java-library
+  - jvm
+  quora_topics:
+  - Java-Programming-1
+  - Java-programming-language
+  stackexchange_tags:
+  - java
+  - java-8
+  - java-11
+  - java-17
+  wikidata_id: Q251
+  subreddit: java
+color: '#b07219'

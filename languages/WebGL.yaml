@@ -1,0 +1,18 @@
+name: WebGL
+category: programming
+domains:
+  primary:
+  - 3D computer graphics
+history:
+  inception: 2011-03-03
+  developer:
+  - Khronos Group
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/WebGL%20Logo.svg
+official_website: https://www.khronos.org/webgl/
+references:
+  github_topics:
+  - webgl
+  quora_topics:
+  - WebGL
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/webgl

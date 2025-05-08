@@ -1,0 +1,13 @@
+name: Short Code
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1950-01-01
+  developer:
+  - John Mauchly
+  designed_by:
+  - John Mauchly
+  influenced_by:
+    languages:
+    - ENIAC Short Code

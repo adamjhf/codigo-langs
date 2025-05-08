@@ -1,0 +1,233 @@
+name: Dart
+description: A client-optimized programming language for fast apps on multiple platforms. Developed by Google, it's used to build mobile, desktop, server, and web applications.
+category: programming
+status: active
+aliases:
+- Flutter's language
+file_extensions:
+- dart
+compilers:
+- name: Dart SDK
+  type: compiler
+  license: BSD-3-Clause
+  source_url: https://github.com/dart-lang/sdk
+  is_reference: true
+paradigms:
+- object-oriented
+- functional
+- imperative
+- event-driven
+- reflective
+- structured
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: full
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  - transpiled
+  - interpreted with JIT compilation
+  compiles_to:
+  - machine code
+  - JavaScript
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  - browser
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: fast
+    compilation_speed: fast
+domains:
+  primary:
+  - mobile development
+  - web development
+  - server-side applications
+  - desktop applications
+  secondary:
+  - cloud computing
+  - DevOps
+  - IoT
+  emerging:
+  - machine learning frameworks
+  - blockchain
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - Android
+  - iOS
+  architectures:
+  - x86-64
+  - ARM
+  - ARM64
+  - WebAssembly
+  cloud_function_environments:
+  - AWS Lambda
+  - Google Cloud Functions
+  - Azure Functions
+  - Vercel Functions
+ecosystem:
+  maturity: high
+  package_registry: pub.dev
+  community_size: large
+  learning_resources: large
+  job_market_demand: high
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: algebraic
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: generational collector with optional compaction
+    manual_control: false
+  key_features:
+  - first-class functions
+  - closures
+  - type inference
+  - mixins
+  - traits/interfaces
+  - hot reload
+  - REPL
+  - async/await
+  - extension methods
+  - string interpolation
+  - reflection
+  - destructuring
+  - named arguments
+concurrency:
+  model: event loop
+  features:
+  - async/await
+  - promises/futures
+  ease_of_use: high
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - error chaining
+  - custom error types
+  - error propagation
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: pub
+  alternatives:
+  - dart pub
+popular_frameworks:
+  frontend:
+  - Flutter
+  - AngularDart
+  backend:
+  - Aqueduct
+  - Shelf
+  - Angel
+  testing:
+  - test
+  - mockito
+  mobile:
+  - Flutter
+development_tools:
+  lsps:
+  - Dart Analysis Server
+  debugging:
+  - DevTools
+  - Observatory
+  profiling:
+  - DevTools
+  build_systems:
+  - build_runner
+  linters:
+  - dart analyze
+  - linter
+standard_library:
+  maturity: high
+  key_areas:
+  - file I/O
+  - networking
+  - concurrency
+  - data structures
+  - algorithms
+  - text processing
+  - cryptography
+  - HTTP client/server
+  - JSON/XML processing
+  - regular expressions
+  - date/time
+  - mathematics
+  - compression
+  - serialization
+  - testing
+  - logging
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 2011-10-10
+  developer:
+  - Google
+  designed_by:
+  - Lars Bak
+  - Kasper Lund
+  described_by: Dart Programming Language Specification
+  standards_bodies:
+  - Ecma International (ECMA-408)
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Dart%20programming%20language%20logo.svg
+  influenced_by:
+    languages:
+    - Java
+    - JavaScript
+    - C#
+    - Python
+    - Smalltalk
+    - Erlang
+    - Strongtalk
+    paradigms:
+    - object-oriented
+    - functional
+    - imperative
+official_website: https://dart.dev
+official_blog_rss: https://medium.com/feed/dartlang
+documentation:
+  quality: high
+  official_sources:
+  - https://dart.dev/guides
+  - https://api.dart.dev/
+  community_resources:
+  - https://pub.dev/packages
+  - https://stackoverflow.com/questions/tagged/dart
+references:
+  github_topics:
+  - dart
+  - dart-lang
+  stackexchange_tags:
+  - dart
+  - https://stackoverflow.com/tags/dart
+  wikidata_id: Q182017
+  subreddit: dartlang
+  x_handle: dart_lang
+color: '#00B4AB'

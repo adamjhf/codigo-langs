@@ -1,0 +1,8 @@
+name: PLEXIL
+category: programming
+typing:
+  system: static
+  structural: false
+history:
+  inception: 2005-01-01
+official_website: https://plexil.sourceforge.net/

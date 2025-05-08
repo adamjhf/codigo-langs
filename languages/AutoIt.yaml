@@ -1,0 +1,21 @@
+name: AutoIt
+category: programming
+aliases:
+- au3
+- AutoIt3
+- AutoItScript
+file_extensions:
+- au3
+paradigms:
+- reflective
+- functional
+- object-oriented
+- imperative
+domains:
+  primary:
+  - scripting
+history:
+  inception: 1999-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/AutoIt-logo.svg
+official_website: https://www.autoitscript.com
+color: '#1C3552'

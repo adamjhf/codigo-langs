@@ -1,0 +1,27 @@
+name: ALGOL 68
+category: programming
+paradigms:
+- imperative
+typing:
+  system: static
+  structural: true
+  strength: strong
+history:
+  developer:
+  - Adriaan van Wijngaarden
+  - Barry J. Mailloux
+  - Cornelis H. A. Koster
+  - John E. L. Peck
+  designed_by:
+  - Adriaan van Wijngaarden
+  - Barry J. Mailloux
+  - John E. L. Peck
+  influenced_by:
+    languages:
+    - ALGOL 60
+    - ALGOL Y
+references:
+  quora_topics:
+  - ALGOL-68
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/algol68

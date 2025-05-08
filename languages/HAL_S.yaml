@@ -1,0 +1,10 @@
+name: HAL/S
+category: programming
+history:
+  inception: 1978-01-01
+  designed_by:
+  - Intermetrics
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/HAL%20S.png
+  influenced_by:
+    languages:
+    - XPL

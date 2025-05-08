@@ -1,0 +1,26 @@
+name: Modula-2
+category: programming
+file_extensions:
+- mod
+paradigms:
+- structured
+- imperative
+- modular
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1978-01-01
+  developer:
+  - Niklaus Wirth
+  designed_by:
+  - Niklaus Wirth
+  influenced_by:
+    languages:
+    - Pascal
+    - Mesa
+    - Modula
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/modula-2
+color: '#10253f'

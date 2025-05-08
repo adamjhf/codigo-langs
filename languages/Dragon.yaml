@@ -1,0 +1,20 @@
+name: Dragon
+category: programming
+file_extensions:
+- dgn
+paradigms:
+- imperative
+- object-oriented
+typing:
+  system: dynamic
+history:
+  inception: 2018-01-04
+  described_by: Wikibooks
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/DragonLogo.jpg
+  influenced_by:
+    languages:
+    - Java
+    - Python
+    - Lua
+    - QML
+official_website: https://dragon-lang.org

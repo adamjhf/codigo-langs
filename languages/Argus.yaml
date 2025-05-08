@@ -1,0 +1,13 @@
+name: Argus
+category: programming
+history:
+  inception: 1980-01-01
+  developer:
+  - Bob Scheifler
+  - Maurice Herlihy
+  - Barbara Liskov
+  designed_by:
+  - Barbara Liskov
+  influenced_by:
+    languages:
+    - CLU

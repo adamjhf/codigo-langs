@@ -1,0 +1,19 @@
+name: NetLogo
+category: programming
+file_extensions:
+- nlogo
+paradigms:
+- imperative
+- agent-oriented
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1999-01-01
+official_website: https://ccl.northwestern.edu/netlogo/
+references:
+  quora_topics:
+  - NetLogo
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/netlogo
+color: '#ff6375'

@@ -1,0 +1,6 @@
+name: TI-BASIC 83
+category: programming
+paradigms:
+- imperative
+typing:
+  strength: strong

@@ -1,0 +1,8 @@
+name: EasyLanguage
+category: programming
+file_extensions:
+- eld
+history:
+  influenced_by:
+    languages:
+    - Pascal

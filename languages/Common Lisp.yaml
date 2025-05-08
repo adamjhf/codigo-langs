@@ -1,0 +1,260 @@
+name: Common Lisp
+description: A multi-paradigm programming language that descended from the Lisp family, standardized in ANSI X3.226-1994. It supports functional, procedural, and object-oriented programming with a powerful macro system.
+aliases:
+  - CL
+  - ANSI Common Lisp
+file_extensions:
+  - lisp
+  - cl
+  - l
+  - lsp
+  - asd
+category: programming
+status: active
+
+compilers:
+  - name: SBCL
+    type: compiler
+    license: BSD-2-Clause
+    source_url: https://github.com/sbcl/sbcl
+    is_reference: false
+  - name: CLISP
+    type: interpreter
+    license: GPL-2.0
+    source_url: https://gitlab.com/gnu-clisp/clisp
+    is_reference: false
+  - name: Clozure CL
+    type: compiler
+    license: Apache-2.0
+    source_url: https://github.com/Clozure/ccl
+    is_reference: false
+  - name: CMUCL
+    type: compiler
+    license: public domain
+    source_url: https://gitlab.com/cmucl/cmucl
+    is_reference: false
+  - name: ECL
+    type: compiler
+    license: LGPL-2.1
+    source_url: https://gitlab.com/embeddable-common-lisp/ecl
+    is_reference: false
+  - name: ABCL
+    type: compiler
+    license: GPL-2.0
+    source_url: https://github.com/armedbear/abcl
+    is_reference: false
+
+paradigms:
+  - functional
+  - procedural
+  - object-oriented
+  - meta-programming
+  - reflective
+  - symbolic
+
+typing:
+  system: dynamic
+  type_checking: runtime
+  structural: true
+  strength: strong
+  inference: partial
+  type_coercion: moderate
+  type_annotations: optional
+
+execution:
+  type:
+    - compiled
+    - interpreted
+  compiles_to:
+    - bytecode
+    - machine code
+  runtime_environments:
+    - language-specific runtime
+    - native OS process
+  performance:
+    startup_time: moderate
+    memory_usage: high
+    computation_speed: moderate
+    compilation_speed: moderate
+
+domains:
+  primary:
+    - artificial intelligence
+    - scientific computing
+    - knowledge-based system
+  secondary:
+    - web development
+    - data processing
+    - education
+    - mathematics
+  emerging:
+    - machine learning
+
+platforms:
+  operating_systems:
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
+  architectures:
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - platform-independent
+
+ecosystem:
+  maturity: high
+  package_registry: Quicklisp
+  community_size: small
+  learning_resources: medium
+  job_market_demand: low
+
+complexity:
+  learning_curve: high
+  cognitive_load: high
+  syntax_complexity: moderate
+  semantic_complexity: high
+
+language_features:
+  immutability: optional
+  enums: none
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: Various (implementation-dependent)
+    manual_control: false
+  key_features:
+    - first-class functions
+    - closures
+    - macros
+    - reflection
+    - meta-programming
+    - modules
+    - multiple inheritance
+    - REPL
+    - interactive development
+
+concurrency:
+  model: threads
+  features:
+    - shared memory
+    - thread pools
+    - concurrent data structures
+  ease_of_use: moderate
+
+error_handling:
+  primary_mechanism: conditions
+  features:
+    - stack traces
+    - error chaining
+    - custom error types
+    - recovery mechanisms
+    - cleanup actions
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+
+package_managers:
+  primary: Quicklisp
+  alternatives:
+    - ASDF
+    - Qlot
+
+popular_frameworks:
+  frontend:
+    - Weblocks
+    - Parenscript
+  backend:
+    - Hunchentoot
+    - Clack
+  testing:
+    - FiveAM
+    - Prove
+
+development_tools:
+  lsps:
+    - cl-lsp
+  debugging:
+    - SLIME
+    - SLY
+  profiling:
+    - sb-sprof
+  build_systems:
+    - ASDF
+  linters:
+    - sblint
+
+standard_library:
+  maturity: high
+  key_areas:
+    - file I/O
+    - networking
+    - concurrency
+    - data structures
+    - algorithms
+    - text processing
+    - mathematics
+    - serialization
+    - testing
+    - logging
+  size: large
+  documentation_quality: high
+
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: very high
+
+history:
+  inception: 1984-01-01
+  developer:
+    - X3J13 Committee
+  designed_by:
+    - Guy L. Steele Jr.
+    - Scott Fahlman
+    - Richard P. Gabriel
+    - David A. Moon
+  described_by: ANSI X3.226-1994
+  standards_bodies:
+    - ANSI
+  influenced_by:
+    languages:
+      - Lisp
+      - MacLisp
+      - Scheme
+      - Interlisp
+    paradigms:
+      - functional
+      - procedural
+      - object-oriented
+      - symbolic
+
+official_website: https://common-lisp.net/
+documentation:
+  quality: high
+  official_sources:
+    - https://www.lispworks.com/documentation/HyperSpec/Front/index.htm
+  community_resources:
+    - https://lispcookbook.github.io/cl-cookbook/
+    - https://gigamonkeys.com/book/
+
+references:
+  github_topics:
+    - common-lisp
+    - lisp
+  stackexchange_tags:
+    - common-lisp
+  wikidata_id: Q101130
+  subreddit: lisp
+
+color: "#3fb68b"

@@ -1,0 +1,7 @@
+name: ElGolog
+category: programming
+history:
+  described_by: 'ElGolog: A High-Level Programming Language with Memory of the Execution History'
+  influenced_by:
+    languages:
+    - GOLOG

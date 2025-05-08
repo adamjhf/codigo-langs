@@ -1,0 +1,16 @@
+name: Gremlin
+category: programming
+history:
+  inception: 2009-01-01
+  influenced_by:
+    languages:
+    - Java
+    - XPath
+    - SQL
+    - SPARQL
+    - regular expression
+    - Java virtual machine
+official_website: https://tinkerpop.apache.org/
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/gremlin

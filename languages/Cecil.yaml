@@ -1,0 +1,8 @@
+name: Cecil
+category: programming
+paradigms:
+- object-oriented
+typing:
+  system: static
+history:
+  inception: 1992-01-01

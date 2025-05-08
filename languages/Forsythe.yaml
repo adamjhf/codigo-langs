@@ -1,0 +1,8 @@
+name: Forsythe
+category: programming
+paradigms:
+- imperative
+history:
+  influenced_by:
+    languages:
+    - ALGOL 60

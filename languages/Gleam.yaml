@@ -1,0 +1,174 @@
+name: Gleam
+description: A statically typed functional programming language for building type-safe, scalable systems that targets the Erlang Virtual Machine (BEAM) and JavaScript runtimes.
+category: programming
+status: active
+file_extensions:
+- gleam
+compilers:
+- name: Gleam
+  type: compiler
+  license: Apache-2.0
+  source_url: https://github.com/gleam-lang/gleam
+  is_reference: true
+paradigms:
+- functional
+- concurrent
+- structured
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: full
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  compiles_to:
+  - bytecode
+  - JavaScript
+  runtime_environments:
+  - BEAM VM
+  - browser
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+domains:
+  primary:
+  - server-side applications
+  - web development
+  - distributed system
+  secondary:
+  - data processing
+  - database management
+  - cloud computing
+  emerging:
+  - mobile development
+  - WebAssembly
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  architectures:
+  - x86-64
+  - ARM64
+  - platform-independent
+ecosystem:
+  maturity: moderate
+  package_registry: https://hex.pm
+  community_size: small
+  learning_resources: small
+  job_market_demand: low
+complexity:
+  learning_curve: moderate
+  cognitive_load: low
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  immutability: enforced
+  enums: algebraic
+  metaprogramming: false
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: managed
+    level: very high
+  memory_management:
+    type: garbage collection
+  key_features:
+  - algebraic data types
+  - pattern matching
+  - type inference
+  - traits/interfaces
+  - async/await
+  - modules
+concurrency:
+  model: actors
+  features:
+  - message passing
+  - async/await
+  - supervisors
+  - distributed computing
+  ease_of_use: high
+error_handling:
+  primary_mechanism: result types
+  features:
+  - error propagation
+  - custom error types
+  - error chaining
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: hex
+  alternatives:
+  - rebar3
+popular_frameworks:
+  backend:
+  - wisp
+  - mist
+  testing:
+  - gleeunit
+development_tools:
+  lsps:
+  - gleam-language-server
+  debugging:
+  - observer
+  - recon
+  build_systems:
+  - rebar3
+  - mix
+  linters:
+  - gleam-lint
+standard_library:
+  maturity: moderate
+  key_areas:
+  - data structures
+  - algorithms
+  - text processing
+  - HTTP client/server
+  - JSON/XML processing
+  - date/time
+  - testing
+  size: medium
+  documentation_quality: high
+versioning:
+  release_cycle: semantic versioning
+  backwards_compatibility: high
+history:
+  inception: 2016-06-13
+  developer:
+  - Gleam Community
+  designed_by:
+  - Louis Pilfold
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Gleam%20mascot%20Lucy.svg
+  influenced_by:
+    languages:
+    - Elm
+    - OCaml
+    - Rust
+    - Erlang
+    - Elixir
+official_website: https://gleam.run
+official_blog_rss: https://gleam.run/feed.xml
+documentation:
+  quality: high
+  official_sources:
+  - https://gleam.run/documentation/
+  - https://tour.gleam.run/
+  community_resources:
+  - https://github.com/gleam-lang/awesome-gleam
+references:
+  github_topics:
+  - gleam
+  - gleam-lang
+  subreddit: gleamlang
+color: '#ffaff3'

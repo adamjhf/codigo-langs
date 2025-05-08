@@ -1,0 +1,195 @@
+name: Tcl
+description: Tool Command Language (Tcl) is a high-level, dynamic scripting language designed with simplicity and ease of extension in mind. Known for its "everything is a string" philosophy, Tcl provides a lightweight interpreter with powerful text manipulation capabilities.
+category: programming
+status: active
+aliases:
+- sdc
+- xdc
+file_extensions:
+- tcl
+- adp
+- sdc
+- tcl.in
+- tm
+- xdc
+compilers:
+- name: Tcl Core
+  type: interpreter
+  license: BSD-3-Clause
+  source_url: https://core.tcl-lang.org/tcl/
+  is_reference: true
+paradigms:
+- imperative
+typing:
+  system: dynamic
+  strength: weak
+  inference: none
+  type_checking: runtime
+  type_coercion: aggressive
+  type_annotations: none
+execution:
+  type:
+  - interpreted
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  performance:
+    startup_time: fast
+    memory_usage: low
+    computation_speed: moderate
+domains:
+  primary:
+  - scripting
+  - automation
+  - testing
+  - user interface
+  - text processing
+  - embedded systems
+  secondary:
+  - web development
+  - network programming
+  - database management
+  emerging:
+  - IoT
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - Unix
+  - BSD
+  - embedded
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - PowerPC
+  - platform-independent
+ecosystem:
+  maturity: high
+  package_registry: https://core.tcl-lang.org/tcllib/
+  community_size: small
+  learning_resources: medium
+  job_market_demand: low
+complexity:
+  learning_curve: moderate
+  cognitive_load: low
+  syntax_complexity: low
+  semantic_complexity: low
+language_features:
+  immutability: optional
+  enums: none
+  metaprogramming: true
+  generics: false
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: reference counting
+  key_features:
+  - reflection
+  - string interpolation
+  - modules
+  - variadic functions
+  - named arguments
+concurrency:
+  model: event loop
+  features:
+  - async/await
+  - promises/futures
+  - thread pools
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - custom error types
+  - error chaining
+  - error propagation
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: Teapot
+  alternatives:
+  - ActiveTcl
+  - Tclkit
+popular_frameworks:
+  frontend:
+  - Tk
+  - BLT
+  backend:
+  - Tcllib
+  - Tclx
+  testing:
+  - tcltest
+  - Expect
+development_tools:
+  lsps:
+  - TclDevKit LSP
+  debugging:
+  - TclPro Debugger
+  - Tcl Debugger
+  profiling:
+  - TclProf
+  linters:
+  - Nagelfar
+standard_library:
+  maturity: high
+  key_areas:
+  - file I/O
+  - networking
+  - text processing
+  - regular expressions
+  - date/time
+  - process management
+  - file system operations
+  - internationalization
+  size: medium
+  documentation_quality: high
+versioning:
+  release_cycle: semantic versioning
+  backwards_compatibility: high
+history:
+  inception: 1988-01-01
+  developer:
+  - University of California, Berkeley
+  - John Ousterhout
+  designed_by:
+  - John Ousterhout
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Tcl.svg
+  influenced_by:
+    languages:
+    - Bourne shell
+    - Lisp
+    - C
+    - AWK
+    paradigms:
+    - imperative
+    - procedural
+official_website: https://tcl.tk
+documentation:
+  quality: high
+  official_sources:
+  - https://www.tcl-lang.org/doc/
+  - https://www.tcl.tk/man/
+  community_resources:
+  - https://wiki.tcl-lang.org/
+references:
+  github_topics:
+  - tcl
+  - tcl-tk
+  quora_topics:
+  - Tcl-tk
+  stackexchange_tags:
+  - tcl
+  - tk
+  - expect
+  wikidata_id: Q170430
+color: '#e4cc98'

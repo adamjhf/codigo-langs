@@ -1,0 +1,22 @@
+name: Processing
+category: programming
+file_extensions:
+- pde
+paradigms:
+- object-oriented
+history:
+  inception: 2001-01-01
+  developer:
+  - Processing Foundation
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Processing%202021%20logo.svg
+  influenced_by:
+    languages:
+    - Java
+    - C
+    - Logo
+    - PostScript
+    - Design By Numbers
+official_website: https://processing.org/
+references:
+  subreddit: processing
+color: '#0096D8'

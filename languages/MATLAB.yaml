@@ -1,0 +1,195 @@
+name: MATLAB
+description: MATLAB (Matrix Laboratory) is a high-level programming language and environment designed for numerical computation, visualization, and data analysis. It provides powerful mathematical and analytical capabilities, particularly for linear algebra, signal processing, and scientific computing.
+category: programming
+status: active
+aliases:
+- octave
+file_extensions:
+- matlab
+- m
+compilers:
+- name: MATLAB Compiler
+  type: compiler
+  license: proprietary
+  is_reference: true
+- name: MATLAB Coder
+  type: compiler
+  license: proprietary
+  is_reference: false
+paradigms:
+- array-oriented
+- imperative
+- object-oriented
+- functional
+typing:
+  system: dynamic
+  strength: weak
+  inference: partial
+  type_checking: runtime
+  type_coercion: moderate
+  type_annotations: none
+execution:
+  type:
+  - interpreted
+  - compiled
+  - interpreted with JIT compilation
+  compiles_to:
+  - bytecode
+  - machine code
+  - C
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  performance:
+    startup_time: moderate
+    memory_usage: high
+    computation_speed: moderate
+    compilation_speed: moderate
+domains:
+  primary:
+  - scientific computing
+  - numerical analysis
+  - data science
+  - digital image processing
+  - simulation
+  - analysis
+  - data visualization
+  secondary:
+  - artificial intelligence
+  - machine learning frameworks
+  - education
+  - statistics
+  - financial systems
+  - robotics
+  emerging:
+  - IoT
+  - quantum programming
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - Unix
+  architectures:
+  - x86-64
+  - ARM64
+  - platform-independent
+ecosystem:
+  maturity: very high
+  package_registry: MATLAB File Exchange
+  community_size: large
+  learning_resources: very large
+  job_market_demand: high
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: true
+  generics: false
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: automatic memory management
+    manual_control: false
+  key_features:
+  - first-class functions
+  - closures
+  - operator overloading
+  - string interpolation
+  - reflection
+  - meta-programming
+concurrency:
+  model: parallel tasks
+  features:
+  - parallel collections
+  - thread pools
+  - task parallelism
+  - data parallelism
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - custom error types
+  - error chaining
+  - cleanup actions
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: MATLAB Add-On Explorer
+popular_frameworks:
+  frontend:
+  - GUIDE
+  - App Designer
+  backend:
+  - MATLAB Production Server
+  testing:
+  - MATLAB Unit Test Framework
+development_tools:
+  lsps:
+  - MATLAB Language Server
+  debugging:
+  - MATLAB Debugger
+  profiling:
+  - MATLAB Profiler
+  build_systems:
+  - MATLAB Compiler
+  - MATLAB Coder
+  linters:
+  - MATLAB Code Analyzer
+standard_library:
+  maturity: very high
+  key_areas:
+  - mathematics
+  - data structures
+  - algorithms
+  - file I/O
+  - text processing
+  - date/time
+  - graphics
+  size: very large
+  documentation_quality: very high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 1984-01-01
+  developer:
+  - MathWorks
+  designed_by:
+  - Cleve Moler
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Matlab%20Logo.png
+  influenced_by:
+    languages:
+    - Fortran
+    - APL
+    - C
+official_website: https://www.mathworks.com/products/matlab.html
+documentation:
+  quality: very high
+  official_sources:
+  - https://www.mathworks.com/help/matlab/
+  community_resources:
+  - https://www.mathworks.com/matlabcentral/
+references:
+  github_topics:
+  - matlab
+  quora_topics:
+  - MATLAB
+  stackexchange_tags:
+  - matlab
+  wikidata_id: Q184736
+  subreddit: matlab
+color: '#e16737'

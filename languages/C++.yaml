@@ -1,0 +1,292 @@
+name: C++
+description: A general-purpose programming language created as an extension of C, supporting object-oriented, procedural, and generic programming paradigms. C++ is known for its performance, flexibility, and hardware control capabilities.
+category: programming
+status: active
+aliases:
+- cpp
+file_extensions:
+- cpp
+- c++
+- cc
+- cp
+- cppm
+- cxx
+- h
+- h++
+- hh
+- hpp
+- hxx
+- inc
+- inl
+- ino
+- ipp
+- ixx
+- re
+- tcc
+- tpp
+- txx
+compilers:
+- name: GCC
+  type: compiler
+  license: GPL-3.0
+  source_url: https://gcc.gnu.org/git/gcc.git
+  is_reference: false
+- name: Clang
+  type: compiler
+  license: Apache-2.0
+  source_url: https://github.com/llvm/llvm-project
+  is_reference: false
+- name: MSVC
+  type: compiler
+  license: proprietary
+  is_reference: false
+- name: Intel C++ Compiler
+  type: compiler
+  license: proprietary
+  is_reference: false
+paradigms:
+- imperative
+- procedural
+- object-oriented
+- generic
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: partial
+  type_checking: compile-time
+  type_coercion: moderate
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  compiles_to:
+  - machine code
+  - LLVM IR
+  runtime_environments:
+  - native OS process
+  - native binary
+  performance:
+    startup_time: very fast
+    memory_usage: moderate
+    computation_speed: very fast
+    compilation_speed: moderate
+domains:
+  primary:
+  - systems programming
+  - game development
+  - desktop applications
+  - embedded systems
+  - high-performance computing
+  - real-time computing
+  secondary:
+  - scientific computing
+  - financial systems
+  - compiler
+  - operating systems
+  - database management
+  - network programming
+  emerging:
+  - WebAssembly
+  - machine learning frameworks
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  - Solaris
+  - Android
+  - iOS
+  - embedded
+  - bare metal
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - RISC-V
+  - MIPS
+  - PowerPC
+  - SPARC
+  - SPARC64
+  - WebAssembly
+ecosystem:
+  maturity: very high
+  package_registry: vcpkg
+  community_size: very large
+  learning_resources: very large
+  job_market_demand: high
+complexity:
+  learning_curve: high
+  cognitive_load: high
+  syntax_complexity: high
+  semantic_complexity: high
+language_features:
+  immutability: optional
+  enums: extensible
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: manual
+    level: low
+  memory_management:
+    type: manual
+    implementation: RAII
+    manual_control: true
+  key_features:
+  - operator overloading
+  - multiple inheritance
+  - templates
+  - zero-cost abstractions
+  - lambdas
+  - variadic functions
+  - iterators/generators
+  - modules
+  - reflection
+  - destructuring
+concurrency:
+  model: threads
+  features:
+  - async/await
+  - promises/futures
+  - thread pools
+  - shared memory
+  - lock-free data structures
+  - atomic operations
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - custom error types
+  - error propagation
+  - stack traces
+  - cleanup actions
+  - resource management
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: vcpkg
+  alternatives:
+  - Conan
+  - Hunter
+  - CPM
+  - xrepo
+popular_frameworks:
+  frontend:
+  - Qt
+  - wxWidgets
+  - GTK
+  - JUCE
+  backend:
+  - Poco
+  - Boost.Beast
+  - Crow
+  - Oat++
+  testing:
+  - Google Test
+  - Catch2
+  - Boost.Test
+  - doctest
+  mobile:
+  - Qt Mobile
+development_tools:
+  lsps:
+  - clangd
+  - ccls
+  - cquery
+  debugging:
+  - GDB
+  - LLDB
+  - Visual Studio Debugger
+  - WinDbg
+  profiling:
+  - Valgrind
+  - gperftools
+  - perf
+  - Intel VTune
+  build_systems:
+  - CMake
+  - Make
+  - Ninja
+  - MSBuild
+  - Bazel
+  - Meson
+  linters:
+  - clang-tidy
+  - Cppcheck
+  - PVS-Studio
+  - CppDepend
+standard_library:
+  maturity: very high
+  key_areas:
+  - data structures
+  - algorithms
+  - file I/O
+  - date/time
+  - text processing
+  - concurrency
+  - regular expressions
+  - JSON/XML processing
+  - networking
+  - mathematics
+  - random number generation
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 1983-01-01
+  developer:
+  - Bell Labs
+  - ISO C++ Committee
+  designed_by:
+  - Bjarne Stroustrup
+  described_by: ISO/IEC 14882
+  standards_bodies:
+  - ISO
+  - IEC
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/ISO%20C%2B%2B%20Logo.svg
+  influenced_by:
+    languages:
+    - C
+    - Simula
+    - Ada
+    - ALGOL 68
+    - CLU
+    - ML
+    paradigms:
+    - object-oriented
+    - procedural
+    - generic
+official_website: https://isocpp.org/
+official_blog_rss: https://isocpp.org/blog/rss/category/news
+documentation:
+  quality: high
+  official_sources:
+  - https://en.cppreference.com/
+  - https://isocpp.org/
+  community_resources:
+  - https://www.learncpp.com/
+  - https://stackoverflow.com/questions/tagged/c%2B%2B
+references:
+  github_topics:
+  - cpp
+  - cplusplus
+  - c-plus-plus
+  quora_topics:
+  - C++-programming-language
+  stackexchange_tags:
+  - c++
+  - cpp
+  wikidata_id: Q2407
+  subreddit: cpp
+color: '#f34b7d'

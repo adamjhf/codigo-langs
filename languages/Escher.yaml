@@ -1,0 +1,10 @@
+name: Escher
+category: programming
+paradigms:
+- functional
+- logic
+- declarative
+typing:
+  system: static
+history:
+  inception: 1990-01-01

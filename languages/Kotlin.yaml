@@ -1,0 +1,239 @@
+name: Kotlin
+description: A modern, statically typed programming language that combines object-oriented and functional programming features. Designed to be interoperable with Java, Kotlin offers increased productivity, safety, and clarity.
+category: programming
+status: active
+aliases:
+- JetBrains Kotlin
+file_extensions:
+- kt
+- ktm
+- kts
+compilers:
+- name: Kotlin Compiler
+  type: compiler
+  license: Apache-2.0
+  source_url: https://github.com/JetBrains/kotlin
+  is_reference: true
+paradigms:
+- object-oriented
+- functional
+- imperative
+- structured
+- concurrent
+- declarative
+- generic
+- reflective
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: full
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  - interpreted
+  compiles_to:
+  - bytecode
+  - JavaScript
+  - machine code
+  - WebAssembly
+  runtime_environments:
+  - JVM
+  - native OS process
+  - browser
+  - native binary
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: fast
+    compilation_speed: moderate
+domains:
+  primary:
+  - server-side applications
+  - mobile development
+  - web development
+  secondary:
+  - desktop applications
+  - game development
+  - data science
+  emerging:
+  - WebAssembly
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - Android
+  - iOS
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - WebAssembly
+  cloud_function_environments:
+  - AWS Lambda
+  - Google Cloud Functions
+  - Azure Functions
+ecosystem:
+  maturity: high
+  package_registry: Maven Central
+  community_size: large
+  learning_resources: large
+  job_market_demand: high
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: algebraic
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: JVM garbage collector
+    manual_control: false
+  key_features:
+  - extension methods
+  - string interpolation
+  - type inference
+  - coroutines
+  - first-class functions
+  - closures
+  - lambdas
+  - destructuring
+  - operator overloading
+  - named arguments
+concurrency:
+  model: coroutines
+  features:
+  - async/await
+  - channels
+  - shared memory
+  - concurrent data structures
+  ease_of_use: high
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - error chaining
+  - custom error types
+  - error context
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: Gradle
+  alternatives:
+  - Maven
+  - Ant
+popular_frameworks:
+  frontend:
+  - Compose Multiplatform
+  - KVision
+  - Kotlin/JS
+  backend:
+  - Ktor
+  - Spring Boot
+  - Micronaut
+  - Quarkus
+  - Javalin
+  - Vertx
+  testing:
+  - JUnit
+  - Kotest
+  - MockK
+  - Spek
+  mobile:
+  - Kotlin Multiplatform Mobile
+  - Compose Multiplatform
+  - Ktor Client
+development_tools:
+  lsps:
+  - Kotlin Language Server
+  debugging:
+  - IntelliJ IDEA Debugger
+  - Android Studio Debugger
+  profiling:
+  - JVM Profilers
+  - YourKit
+  - VisualVM
+  build_systems:
+  - Gradle
+  - Maven
+  linters:
+  - ktlint
+  - Detekt
+standard_library:
+  maturity: high
+  key_areas:
+  - file I/O
+  - networking
+  - concurrency
+  - data structures
+  - text processing
+  - JSON/XML processing
+  - date/time
+  - serialization
+  - testing
+  - logging
+  size: medium
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 2011-07-22
+  developer:
+  - JetBrains
+  designed_by:
+  - Andrey Breslav
+  - JetBrains Team
+  - JetBrains
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Kotlin%20logo%202021.svg
+  influenced_by:
+    languages:
+    - Java
+    - Scala
+    - Groovy
+    - C#
+    - JavaScript
+    - Python
+    - Ruby
+    - Apache Groovy
+    - ML
+    - Gosu
+    paradigms:
+    - object-oriented
+    - functional
+official_website: https://kotlinlang.org/
+official_blog_rss: https://blog.jetbrains.com/kotlin/feed/
+documentation:
+  quality: high
+  official_sources:
+  - https://kotlinlang.org/docs/
+  - https://kotlinlang.org/api/latest/jvm/stdlib/
+references:
+  github_topics:
+  - kotlin
+  - kotlin-language
+  stackexchange_tags:
+  - kotlin
+  - https://stackoverflow.com/tags/kotlin
+  wikidata_id: Q3816639
+  subreddit: kotlin
+  x_handle: kotlin
+color: '#A97BFF'

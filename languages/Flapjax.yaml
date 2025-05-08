@@ -1,0 +1,7 @@
+name: Flapjax
+category: programming
+paradigms:
+- reactive
+typing:
+  system: dynamic
+official_website: https://www.flapjax-lang.org/

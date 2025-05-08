@@ -1,0 +1,17 @@
+name: Oberon-2
+category: programming
+paradigms:
+- object-oriented
+- imperative
+typing:
+  strength: strong
+history:
+  inception: 1991-01-01
+  developer:
+  - Niklaus Wirth
+  designed_by:
+  - Niklaus Wirth
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Oberon%20programming%20language%20logo.svg
+  influenced_by:
+    languages:
+    - Oberon

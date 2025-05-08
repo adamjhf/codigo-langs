@@ -1,0 +1,11 @@
+name: CFEngine
+category: programming
+domains:
+  primary:
+  - configuration management
+  - build automation
+history:
+  developer:
+  - Mark Burgess
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/CFEngine-logo.svg
+official_website: https://www.cfengine.com

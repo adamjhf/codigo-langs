@@ -1,0 +1,13 @@
+name: DADiSP
+category: programming
+typing:
+  system: dynamic
+  strength: weak
+domains:
+  primary:
+  - scientific computing
+history:
+  influenced_by:
+    languages:
+    - APL
+official_website: https://www.dadisp.com

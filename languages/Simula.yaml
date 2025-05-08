@@ -1,0 +1,25 @@
+name: Simula
+category: programming
+paradigms:
+- structured
+- object-oriented
+- imperative
+typing:
+  system: static
+  structural: false
+history:
+  inception: 1962-01-01
+  developer:
+  - Kristen Nygaard
+  designed_by:
+  - Ole-Johan Dahl
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Simula%20-%20logo.svg
+  influenced_by:
+    languages:
+    - ALGOL 60
+    - SIMSCRIPT
+references:
+  github_topics:
+  - simula
+  quora_topics:
+  - Simula-simulation-language

@@ -1,0 +1,38 @@
+name: WebAssembly
+category: programming
+aliases:
+- wast
+- wasm
+file_extensions:
+- wast
+- wat
+paradigms:
+- structured
+- imperative
+- stack-oriented
+history:
+  inception: 2015-01-01
+  developer:
+  - Google
+  - Apple
+  - Microsoft
+  - Mozilla
+  - World Wide Web Consortium
+  designed_by:
+  - World Wide Web Consortium
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/WebAssembly%20Logo.svg
+  influenced_by:
+    languages:
+    - Google Native Client
+    - asm.js
+official_website: https://webassembly.org/
+references:
+  github_topics:
+  - wasm
+  - webassembly
+  quora_topics:
+  - WebAssembly
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/webassembly
+  subreddit: WebAssembly
+color: '#04133b'

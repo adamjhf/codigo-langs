@@ -1,0 +1,235 @@
+name: Erlang
+description: Erlang is a general-purpose, concurrent, functional programming language designed for building massively scalable distributed systems. It features built-in support for concurrency, distribution, and fault tolerance, with a focus on high availability.
+category: programming
+status: active
+aliases:
+- BEAM (often used to refer to the VM)
+file_extensions:
+- erl
+- app
+- app.src
+- es
+- escript
+- hrl
+- xrl
+- yrl
+compilers:
+- name: BEAM VM
+  type: hybrid
+  license: Apache-2.0
+  source_url: https://github.com/erlang/otp
+  is_reference: true
+paradigms:
+- functional
+- concurrent
+- distributed
+- declarative
+typing:
+  system: dynamic
+  structural: true
+  strength: strong
+  inference: partial
+  type_checking: runtime
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  - interpreted with JIT compilation
+  compiles_to:
+  - bytecode
+  runtime_environments:
+  - BEAM VM
+  - native OS process
+  - cloud function environment
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+    compilation_speed: fast
+domains:
+  primary:
+  - distributed system
+  - telecommunications
+  - real-time computing
+  - network programming
+  - blockchain
+  secondary:
+  - web development
+  - database management
+  - IoT
+  emerging:
+  - blockchain
+  - edge computing
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  - Solaris
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - PowerPC
+  cloud_function_environments:
+  - AWS Lambda
+  - Google Cloud Functions
+  - Azure Functions
+ecosystem:
+  maturity: high
+  package_registry: hex.pm
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: moderate
+complexity:
+  learning_curve: high
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: high
+language_features:
+  immutability: enforced
+  enums: none
+  metaprogramming: true
+  generics: false
+  c_interop: true
+  pattern_matching: true
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: generational
+    manual_control: false
+  key_features:
+  - pattern matching
+  - hot reload
+  - REPL
+  - native FFI
+concurrency:
+  model: actors
+  features:
+  - message passing
+  - supervisors
+  - distributed computing
+  - concurrent data structures
+  ease_of_use: high
+error_handling:
+  primary_mechanism: pattern matching
+  features:
+  - stack traces
+  - error propagation
+  - cleanup actions
+  - resource management
+  - error logging
+  - error reporting
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: rebar3
+  alternatives:
+  - mix
+  - erlang.mk
+popular_frameworks:
+  frontend:
+  - Phoenix LiveView
+  backend:
+  - OTP
+  - Cowboy
+  - Phoenix
+  testing:
+  - EUnit
+  - Common Test
+  - PropEr
+  - QuickCheck
+development_tools:
+  lsps:
+  - erlang_ls
+  debugging:
+  - Erlang Debugger
+  - Recon
+  profiling:
+  - fprof
+  - eprof
+  - cprof
+  build_systems:
+  - rebar3
+  - mix
+  linters:
+  - elvis
+  - dialyzer
+standard_library:
+  maturity: very high
+  key_areas:
+  - file I/O
+  - networking
+  - concurrency
+  - data structures
+  - algorithms
+  - text processing
+  - cryptography
+  - regular expressions
+  - date/time
+  - process management
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 1986-01-01
+  developer:
+  - Ericsson
+  designed_by:
+  - Joe Armstrong
+  - Robert Virding
+  - Mike Williams
+  described_by: Concurrent Programming in ERLANG
+  standards_bodies:
+  - Erlang Software Foundation
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Erlang%20logo.svg
+  influenced_by:
+    languages:
+    - Prolog
+    - ML
+    - Smalltalk
+    - Lisp
+    - Ada
+    - CHILL
+    - Modula-2
+    - Miranda
+    - PLEX
+    paradigms:
+    - functional
+    - concurrent
+official_website: https://www.erlang.org/
+official_blog_rss: https://www.erlang.org/news.xml
+documentation:
+  quality: high
+  official_sources:
+  - https://www.erlang.org/docs
+  - https://erlang.org/doc/reference_manual/users_guide.html
+  community_resources:
+  - https://learnyousomeerlang.com/
+  - https://erlangforums.com/
+references:
+  github_topics:
+  - erlang
+  - beam
+  quora_topics:
+  - Erlang
+  - Erlang-programming-language
+  stackexchange_tags:
+  - erlang
+  - beam-vm
+  wikidata_id: Q131557
+  subreddit: erlang
+  x_handle: erlang_org
+color: '#B83998'

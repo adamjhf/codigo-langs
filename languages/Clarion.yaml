@@ -1,0 +1,12 @@
+name: Clarion
+category: programming
+file_extensions:
+- clw
+paradigms:
+- object-oriented
+- structured
+- imperative
+history:
+  inception: 1986-01-01
+official_website: https://www.softvelocity.com
+color: '#db901e'

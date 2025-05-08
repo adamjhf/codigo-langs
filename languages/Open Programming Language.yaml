@@ -1,0 +1,13 @@
+name: Open Programming Language
+category: programming
+paradigms:
+- structured
+- imperative
+history:
+  inception: 1984-01-01
+  designed_by:
+  - Psion
+  influenced_by:
+    languages:
+    - BASIC
+official_website: https://opl-dev.sourceforge.net

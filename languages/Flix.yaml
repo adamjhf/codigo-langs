@@ -1,0 +1,13 @@
+name: Flix
+category: programming
+paradigms:
+- functional
+- imperative
+- logic
+typing:
+  system: static
+  structural: true
+  strength: strong
+  inference: full
+history:
+  inception: 2016-01-01

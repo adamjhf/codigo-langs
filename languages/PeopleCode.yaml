@@ -1,0 +1,8 @@
+name: PeopleCode
+category: programming
+paradigms:
+- object-oriented
+- imperative
+history:
+  developer:
+  - Oracle

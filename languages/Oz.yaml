@@ -1,0 +1,23 @@
+name: Oz
+category: programming
+file_extensions:
+- oz
+paradigms:
+- object-oriented
+- constraint
+- imperative
+- functional
+- prototype-based
+typing:
+  system: dynamic
+history:
+  inception: 1991-01-01
+  designed_by:
+  - Gert Smolka
+  influenced_by:
+    languages:
+    - Lisp
+    - Prolog
+    - Erlang
+official_website: https://www.mozart-oz.org/
+color: '#fab738'

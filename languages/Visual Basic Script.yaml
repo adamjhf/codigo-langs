@@ -1,0 +1,12 @@
+name: Visual Basic Script
+category: programming
+file_extensions:
+- vbs
+history:
+  inception: 1996-01-01
+  developer:
+  - Microsoft
+official_website: https://docs.microsoft.com/en-us/previous-versions/t0aew7h6(v=vs.85)
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/vbscript

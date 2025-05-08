@@ -1,0 +1,10 @@
+name: asm.js
+category: programming
+history:
+  influenced_by:
+    languages:
+    - JavaScript
+official_website: https://asmjs.org
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/asm.js

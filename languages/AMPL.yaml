@@ -1,0 +1,23 @@
+name: AMPL
+category: programming
+file_extensions:
+- ampl
+- mod
+paradigms:
+- imperative
+- declarative
+history:
+  inception: 1985-01-01
+  developer:
+  - Bell Labs
+  influenced_by:
+    languages:
+    - C
+    - AWK
+official_website: https://www.ampl.com
+references:
+  quora_topics:
+  - Ampl
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/ampl
+color: '#E6EFBB'

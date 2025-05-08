@@ -1,0 +1,13 @@
+name: Fantom
+category: programming
+file_extensions:
+- fan
+paradigms:
+- object-oriented
+typing:
+  system: static
+history:
+  inception: 2005-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Fantom-logo.png
+official_website: https://www.fantom.org
+color: '#14253c'

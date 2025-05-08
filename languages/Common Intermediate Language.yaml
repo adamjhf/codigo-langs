@@ -1,0 +1,18 @@
+name: Common Intermediate Language
+category: programming
+paradigms:
+- object-oriented
+domains:
+  primary:
+  - intermediate representation
+history:
+  inception: 2000-01-01
+  developer:
+  - Microsoft
+  influenced_by:
+    languages:
+    - Java
+official_website: https://docs.microsoft.com/en-us/dotnet/welcome
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/cil

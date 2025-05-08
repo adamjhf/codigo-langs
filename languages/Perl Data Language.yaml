@@ -1,0 +1,19 @@
+name: Perl Data Language
+category: programming
+paradigms:
+- imperative
+- array-oriented
+- functional
+domains:
+  primary:
+  - scientific computing
+history:
+  inception: 1996-01-01
+  developer:
+  - Karl Glazebrook
+  influenced_by:
+    languages:
+    - Perl
+    - APL
+    - Interactive Data Language
+official_website: https://pdl.perl.org/

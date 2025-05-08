@@ -1,0 +1,10 @@
+name: PL/Python
+category: programming
+paradigms:
+- imperative
+domains:
+  primary:
+  - database management
+references:
+  github_topics:
+  - plpython

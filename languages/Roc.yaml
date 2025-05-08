@@ -1,0 +1,17 @@
+name: Roc
+category: programming
+file_extensions:
+- roc
+paradigms:
+- functional
+typing:
+  system: static
+  inference: full
+history:
+  influenced_by:
+    languages:
+    - Haskell
+    - Rust
+    - Elm
+official_website: https://www.roc-lang.org/
+color: '#7c38f5'

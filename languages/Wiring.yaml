@@ -1,0 +1,10 @@
+name: Wiring
+category: programming
+paradigms:
+- object-oriented
+domains:
+  primary:
+  - microcontroller programming
+history:
+  inception: 2003-01-01
+official_website: https://wiring.org.co

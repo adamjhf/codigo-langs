@@ -1,0 +1,8 @@
+name: Verse
+category: programming
+history:
+  inception: 2023-01-01
+  developer:
+  - Epic Games
+  described_by: 'The Verse Calculus: a Core Calculus for Functional Logic Programming'
+official_website: https://dev.epicgames.com/documentation/en-us/uefn/verse-language-reference

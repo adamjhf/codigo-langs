@@ -1,0 +1,22 @@
+name: CLIPS
+category: programming
+file_extensions:
+- clp
+paradigms:
+- object-oriented
+domains:
+  primary:
+  - artificial intelligence
+history:
+  inception: 1985-01-01
+  developer:
+  - Lyndon B. Johnson Space Center
+  influenced_by:
+    languages:
+    - Lisp
+    - OPS5
+official_website: https://clipsrules.net/
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/clips
+color: '#00A300'

@@ -1,0 +1,25 @@
+name: Ceylon
+category: programming
+file_extensions:
+- ceylon
+paradigms:
+- imperative
+- object-oriented
+- functional
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 2011-01-01
+  developer:
+  - Red Hat
+  - Gavin King
+  influenced_by:
+    languages:
+    - Java
+    - Lisp
+    - Smalltalk
+    - Scala
+    - ML
+official_website: https://ceylon-lang.org/
+color: '#dfa535'

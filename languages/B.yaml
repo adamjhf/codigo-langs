@@ -1,0 +1,14 @@
+name: B
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1969-01-01
+  developer:
+  - Bell Labs
+  - Ken Thompson
+  designed_by:
+  - Ken Thompson
+  influenced_by:
+    languages:
+    - BCPL

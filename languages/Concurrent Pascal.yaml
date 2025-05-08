@@ -1,0 +1,8 @@
+name: Concurrent Pascal
+category: programming
+typing:
+  system: dynamic
+history:
+  inception: 1975-01-01
+  developer:
+  - Per Brinch Hansen

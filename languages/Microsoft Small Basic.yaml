@@ -1,0 +1,20 @@
+name: Microsoft Small Basic
+category: programming
+paradigms:
+- structured
+typing:
+  system: dynamic
+  strength: weak
+history:
+  inception: 2008-10-23
+  developer:
+  - Microsoft
+  influenced_by:
+    languages:
+    - Visual Basic
+    - Logo
+    - QBasic
+official_website: https://www.smallbasic.com/
+references:
+  quora_topics:
+  - Microsoft-Small-Basic

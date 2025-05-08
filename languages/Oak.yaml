@@ -1,0 +1,8 @@
+name: Oak
+category: programming
+paradigms:
+- object-oriented
+history:
+  inception: 1989-01-01
+  developer:
+  - James Gosling

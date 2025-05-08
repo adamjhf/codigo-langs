@@ -1,0 +1,17 @@
+name: Cuneiform
+category: programming
+file_extensions:
+- cfl
+paradigms:
+- functional
+typing:
+  system: static
+history:
+  inception: 2013-01-01
+  developer:
+  - Humboldt University of Berlin
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/G18225.png
+  influenced_by:
+    languages:
+    - Swift
+official_website: https://cuneiform-lang.org

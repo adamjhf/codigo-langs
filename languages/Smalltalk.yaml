@@ -1,0 +1,187 @@
+name: Smalltalk
+description: Smalltalk is a pioneering object-oriented, dynamically typed programming language that influenced many modern languages. It features a pure object-oriented approach where everything is an object, including primitives and classes themselves.
+category: programming
+status: active
+aliases:
+- squeak
+file_extensions:
+- st
+- cs
+compilers:
+- name: Squeak
+  type: interpreter
+  license: MIT
+  is_reference: false
+- name: Pharo
+  type: interpreter
+  license: MIT
+  is_reference: false
+- name: GNU Smalltalk
+  type: interpreter
+  license: GPL-3.0
+  is_reference: false
+- name: VisualWorks
+  type: interpreter
+  license: proprietary
+  is_reference: false
+paradigms:
+- object-oriented
+- reflective
+typing:
+  system: dynamic
+  structural: true
+  strength: strong
+  inference: full
+  type_checking: runtime
+  type_coercion: conservative
+  type_annotations: none
+execution:
+  type:
+  - interpreted
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+domains:
+  primary:
+  - education
+  - user interface
+  secondary:
+  - web development
+  - scientific computing
+  - simulation
+  emerging:
+  - IoT
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - Unix
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - platform-independent
+ecosystem:
+  maturity: moderate
+  package_registry: SmalltalkHub
+  community_size: small
+  learning_resources: medium
+  job_market_demand: low
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: true
+  generics: false
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+  key_features:
+  - first-class functions
+  - reflection
+  - meta-programming
+  - interactive development
+  - REPL
+  - modules
+concurrency:
+  model: threads
+  features:
+  - shared memory
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - error chaining
+  - custom error types
+  stack_traces: true
+  debugging:
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: Metacello
+  alternatives:
+  - Gofer
+  - Monticello
+popular_frameworks:
+  frontend:
+  - Seaside
+  - Morphic
+  backend:
+  - Seaside
+  testing:
+  - SUnit
+development_tools:
+  lsps:
+  - Squeak LSP
+  debugging:
+  - Integrated debugger
+  profiling:
+  - Integrated profiler
+  linters:
+  - Smalllint
+standard_library:
+  maturity: high
+  key_areas:
+  - data structures
+  - GUI
+  - text processing
+  - file I/O
+  - networking
+  size: medium
+  documentation_quality: high
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: high
+history:
+  inception: "1972-01-01"
+  developer:
+  - Xerox PARC
+  designed_by:
+  - Alan Kay
+  - Dan Ingalls
+  - Adele Goldberg
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Smalltalk%20Balloon.svg
+  influenced_by:
+    languages:
+    - Simula
+    - LISP
+    - Logo
+    - Simula 67
+    paradigms:
+    - object-oriented
+official_website: https://squeak.org/
+documentation:
+  quality: high
+  official_sources:
+  - https://wiki.squeak.org/
+  - https://pharo.org/documentation
+  community_resources:
+  - https://github.com/Pharo-project
+  - https://stackoverflow.com/questions/tagged/smalltalk
+references:
+  github_topics:
+  - smalltalk
+  quora_topics:
+  - Smalltalk-1
+  - Smalltalk-programming-language
+  stackexchange_tags:
+  - smalltalk
+  - pharo
+  - squeak
+  wikidata_id: Q851707
+color: '#596706'

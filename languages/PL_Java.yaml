@@ -1,0 +1,8 @@
+name: PL/Java
+category: programming
+paradigms:
+- imperative
+domains:
+  primary:
+  - database management
+official_website: https://tada.github.io/pljava/

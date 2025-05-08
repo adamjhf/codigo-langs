@@ -1,0 +1,9 @@
+name: Parser
+category: programming
+paradigms:
+- imperative
+typing:
+  system: dynamic
+history:
+  inception: 1997-01-01
+official_website: https://www.parser.ru/en/

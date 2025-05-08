@@ -1,0 +1,13 @@
+name: ActiveVFP
+category: programming
+file_extensions:
+- avfp
+paradigms:
+- imperative
+- object-oriented
+typing:
+  system: dynamic
+  strength: weak
+history:
+  inception: 2001-01-01
+official_website: https://activevfp.codeplex.com

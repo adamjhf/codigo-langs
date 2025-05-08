@@ -1,0 +1,7 @@
+name: Opal
+category: programming
+file_extensions:
+- opal
+paradigms:
+- functional
+color: '#f7ede0'

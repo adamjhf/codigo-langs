@@ -1,0 +1,23 @@
+name: Curry
+category: programming
+file_extensions:
+- curry
+paradigms:
+- functional
+- logic
+- constraint
+typing:
+  system: static
+  strength: strong
+  inference: full
+history:
+  inception: 1995-01-01
+  developer:
+  - University of Kiel
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Curry%20logo.svg
+  influenced_by:
+    languages:
+    - Haskell
+    - Prolog
+official_website: https://www.curry-language.org/
+color: '#531242'

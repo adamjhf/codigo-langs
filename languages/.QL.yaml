@@ -1,0 +1,16 @@
+name: .QL
+category: programming
+paradigms:
+- object-oriented
+- logic
+- declarative
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 2007-01-01
+  developer:
+  - Semmle
+  influenced_by:
+    languages:
+    - Datalog

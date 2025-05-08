@@ -1,0 +1,215 @@
+name: Lisp
+description: A family of programming languages with fully parenthesized prefix notation known for its powerful macro system and homoiconicity. It pioneered many features in computer science including tree data structures, dynamic typing, and garbage collection.
+category: programming
+status: active
+aliases:
+- LISP
+file_extensions:
+- lisp
+- lsp
+- cl
+- el
+- scm
+compilers:
+- name: SBCL
+  type: compiler
+  license: BSD-2-Clause
+  source_url: https://sourceforge.net/projects/sbcl/
+  is_reference: true
+- name: Clozure CL
+  type: compiler
+  license: Apache-2.0
+  source_url: https://github.com/Clozure/ccl
+- name: CLISP
+  type: interpreter
+  license: GPL-2.0
+  source_url: https://gitlab.com/gnu-clisp/clisp
+paradigms:
+- functional
+- imperative
+- meta-programming
+- symbolic
+- reflective
+- structured
+typing:
+  system: dynamic
+  structural: true
+  strength: strong
+  inference: partial
+  type_checking: runtime
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  - interpreted
+  compiles_to:
+  - bytecode
+  - machine code
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+    compilation_speed: moderate
+domains:
+  primary:
+  - artificial intelligence
+  - scripting
+  - analysis
+  secondary:
+  - scientific computing
+  - education
+  - text processing
+  - automated theorem proving
+  emerging:
+  - web development
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - platform-independent
+ecosystem:
+  maturity: high
+  package_registry: Quicklisp
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: low
+complexity:
+  learning_curve: high
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: high
+language_features:
+  immutability: optional
+  enums: none
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: Various implementations use different GC methods
+    manual_control: false
+  key_features:
+  - first-class functions
+  - closures
+  - macros
+  - REPL
+  - interactive development
+  - reflection
+  - meta-programming
+concurrency:
+  model: threads
+  features:
+  - shared memory
+  - promises/futures
+  - thread pools
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: conditions
+  features:
+  - recovery mechanisms
+  - error context
+  - cleanup actions
+  - error propagation
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: Quicklisp
+  alternatives:
+  - ASDF
+popular_frameworks:
+  frontend:
+  - Parenscript
+  - CLJS
+  backend:
+  - Hunchentoot
+  - Caveman
+  - CLACK
+  testing:
+  - FiveAM
+  - Prove
+development_tools:
+  lsps:
+  - cl-lsp
+  - Sly
+  - SLIME
+  debugging:
+  - SLDB
+  - Trace
+  profiling:
+  - sb-sprof
+  build_systems:
+  - ASDF
+  linters:
+  - sblint
+standard_library:
+  maturity: high
+  key_areas:
+  - data structures
+  - algorithms
+  - text processing
+  - file I/O
+  - networking
+  - mathematics
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: high
+history:
+  inception: 1958-01-01
+  developer:
+  - MIT
+  - ANSI
+  designed_by:
+  - John McCarthy
+  described_by: ANSI Common Lisp standard
+  standards_bodies:
+  - ANSI
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Lisp%20logo.svg
+  influenced_by:
+    languages:
+    - IPL
+    - Information Processing Language
+    paradigms:
+    - functional
+    - symbolic
+official_website: https://common-lisp.net/
+documentation:
+  quality: high
+  official_sources:
+  - https://common-lisp.net/documentation
+  - https://www.lispworks.com/documentation/HyperSpec/Front/index.htm
+  community_resources:
+  - https://lispcookbook.github.io/cl-cookbook/
+  - https://www.gigamonkeys.com/book/
+references:
+  github_topics:
+  - lisp
+  - common-lisp
+  quora_topics:
+  - Lisp-programming-language
+  stackexchange_tags:
+  - lisp
+  - common-lisp
+  wikidata_id: Q132843
+  subreddit: lisp
+color: '#3fb68b'

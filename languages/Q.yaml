@@ -1,0 +1,152 @@
+name: Q
+category: programming
+status: active
+description: A general-purpose, array processing programming language originally developed at Morgan Stanley, designed for analytical processing of big data with a focus on financial time series data.
+
+aliases:
+  - kdb+/q
+  - kdb+
+  - k/q
+
+file_extensions:
+  - q
+  - k
+  - qsd
+  - qsm
+
+paradigms:
+  - array-oriented
+  - functional
+  - imperative
+  - dataflow
+
+typing:
+  system: dynamic
+  type_checking: runtime
+  strength: strong
+  inference: full
+  type_coercion: conservative
+  type_annotations: none
+
+execution:
+  type:
+    - interpreted
+  runtime_environments:
+    - language-specific runtime
+    - native OS process
+  performance:
+    startup_time: fast
+    memory_usage: moderate
+    computation_speed: very fast
+
+compilers:
+  - name: kdb+
+    type: interpreter
+    license: proprietary
+
+domains:
+  primary:
+    - financial systems
+    - big data
+    - data processing
+    - high-performance computing
+  secondary:
+    - scientific computing
+    - data science
+    - database management
+
+platforms:
+  operating_systems:
+    - Windows
+    - macOS
+    - Linux
+    - Solaris
+  architectures:
+    - x86-64
+    - ARM64
+
+ecosystem:
+  maturity: high
+  community_size: small
+  learning_resources: small
+  job_market_demand: moderate
+
+complexity:
+  learning_curve: high
+  cognitive_load: high
+  syntax_complexity: high
+  semantic_complexity: high
+
+language_features:
+  immutability: optional
+  metaprogramming: true
+  generics: false
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_management:
+    type: garbage collection
+  key_features:
+    - first-class functions
+    - iterators/generators
+    - meta-programming
+
+concurrency:
+  model: threads
+  features:
+    - shared memory
+    - parallel collections
+  ease_of_use: moderate
+
+error_handling:
+  primary_mechanism: error codes
+  stack_traces: true
+
+standard_library:
+  maturity: high
+  key_areas:
+    - data structures
+    - file I/O
+    - database access
+    - networking
+    - date/time
+    - mathematics
+  size: medium
+  documentation_quality: moderate
+
+history:
+  inception: "1993-01-01"
+  developer:
+    - Kx Systems
+    - Morgan Stanley
+  designed_by:
+    - Arthur Whitney
+  influenced_by:
+    languages:
+      - APL
+      - K
+    paradigms:
+      - array-oriented
+      - functional
+
+official_website: https://code.kx.com/q/
+color: "#0080ff"
+
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+
+development_tools:
+  lsps:
+    - kdb-language-server
+
+references:
+  wikidata_id: Q2421869
+  github_topics:
+    - q-language
+    - kdb
+    - kdb-q
+  stackexchange_tags:
+    - q
+    - kdb
+    - kdb-q

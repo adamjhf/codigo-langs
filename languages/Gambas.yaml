@@ -1,0 +1,14 @@
+name: Gambas
+category: programming
+history:
+  inception: 1999-01-01
+  developer:
+  - Benoît Minisini
+  designed_by:
+  - Benoît Minisini
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Gambas%203%20logo.svg
+  influenced_by:
+    languages:
+    - Java
+    - Visual Basic
+official_website: https://gambas.sourceforge.net/

@@ -1,0 +1,11 @@
+name: EuLisp
+category: programming
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1990-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/EuLispLogo.png
+  influenced_by:
+    languages:
+    - Common Lisp

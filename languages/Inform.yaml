@@ -1,0 +1,23 @@
+name: Inform
+category: programming
+file_extensions:
+- Z5
+- Z8
+- inf
+- .Z#
+paradigms:
+- declarative
+- imperative
+- object-oriented
+typing:
+  inference: full
+domains:
+  primary:
+  - interactive fiction
+history:
+  inception: 1993-01-01
+  developer:
+  - Graham Nelson
+  designed_by:
+  - Graham Nelson
+official_website: https://inform7.com/

@@ -1,0 +1,224 @@
+name: Lua
+description: Lua is a lightweight, high-level scripting language designed for embedded use, extensibility, and cross-platform development. It combines simple procedural syntax with powerful data description constructs based on associative arrays and extensible semantics.
+category: programming
+status: active
+aliases:
+- lua
+file_extensions:
+- lua
+- fcgi
+- nse
+- p8
+- pd_lua
+- rbxs
+- rockspec
+- wlua
+compilers:
+- name: Lua Interpreter
+  type: interpreter
+  license: MIT
+  source_url: https://github.com/lua/lua
+  is_reference: true
+paradigms:
+- imperative
+- procedural
+- functional
+typing:
+  system: dynamic
+  structural: true
+  strength: strong
+  inference: partial
+  type_checking: runtime
+  type_coercion: moderate
+  type_annotations: none
+execution:
+  type:
+  - interpreted
+  - compiled
+  compiles_to:
+  - bytecode
+  runtime_environments:
+  - language-specific runtime
+  - embedded interpreter
+  - native OS process
+  performance:
+    startup_time: fast
+    memory_usage: low
+    computation_speed: moderate
+    compilation_speed: fast
+domains:
+  primary:
+  - game development
+  - embedded systems
+  - scripting
+  - configuration management
+  secondary:
+  - web development
+  - automation
+  - IoT
+  emerging:
+  - WebAssembly
+  - data processing
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  - Android
+  - iOS
+  - embedded
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - MIPS
+  - PowerPC
+  - platform-independent
+ecosystem:
+  maturity: high
+  package_registry: LuaRocks
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: moderate
+complexity:
+  learning_curve: low
+  cognitive_load: low
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: none
+  metaprogramming: true
+  generics: false
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: incremental mark-and-sweep
+    manual_control: false
+  key_features:
+  - first-class functions
+  - closures
+  - REPL
+  - native FFI
+  - coroutines
+  - meta-programming
+  - modules
+  - iterators/generators
+  - variadic functions
+concurrency:
+  model: coroutines
+  features:
+  - message passing
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - error propagation
+  - error context
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: LuaRocks
+  alternatives:
+  - LuaDist
+popular_frameworks:
+  frontend:
+  - Love2D
+  - LÖVE
+  - Corona SDK
+  backend:
+  - OpenResty
+  - Lapis
+  - Sailor
+  testing:
+  - Busted
+  - LuaUnit
+  - Telescope
+development_tools:
+  lsps:
+  - lua-language-server
+  - EmmyLua
+  debugging:
+  - ZeroBrane Studio
+  - Decoda
+  - MobDebug
+  profiling:
+  - LuaJIT profiler
+  - lua-profiler
+  build_systems:
+  - luarocks
+  - make
+  - cmake
+  linters:
+  - luacheck
+  - luaanalyzer
+standard_library:
+  maturity: moderate
+  key_areas:
+  - file I/O
+  - mathematics
+  - date/time
+  size: small
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 1993-01-01
+  developer:
+  - Pontifical Catholic University of Rio de Janeiro
+  designed_by:
+  - Roberto Ierusalimschy
+  - Luiz Henrique de Figueiredo
+  - Waldemar Celes
+  described_by: 'The Evolution of an Extension Language: A History of Lua'
+  standards_bodies:
+  - Lua team at PUC-Rio
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Lua-Logo.svg
+  influenced_by:
+    languages:
+    - Scheme
+    - SNOBOL
+    - C++
+    - CLU
+    - Modula
+    - Modula-2
+    - Simple Object Language
+    - DEL
+    paradigms:
+    - procedural
+    - functional
+    - object-oriented
+official_website: https://lua.org
+official_blog_rss: https://www.lua.org/news.rss
+documentation:
+  quality: high
+  official_sources:
+  - https://www.lua.org/docs.html
+  - https://www.lua.org/manual/5.4/
+  community_resources:
+  - https://www.lua.org/pil/
+  - https://www.tutorialspoint.com/lua/
+references:
+  github_topics:
+  - lua
+  - lua-programming
+  quora_topics:
+  - Lua-programming-language
+  stackexchange_tags:
+  - lua
+  wikidata_id: Q207316
+  subreddit: lua
+color: '#000080'

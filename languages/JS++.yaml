@@ -1,0 +1,23 @@
+name: JS++
+category: programming
+file_extensions:
+- jpp
+- js++
+- jspp
+paradigms:
+- object-oriented
+- functional
+- structured
+- imperative
+- generic
+typing:
+  system: gradual
+history:
+  inception: 2011-10-08
+  influenced_by:
+    languages:
+    - Java
+    - JavaScript
+    - C#
+    - C++
+    - C

@@ -1,0 +1,13 @@
+name: Golo
+category: programming
+file_extensions:
+- golo
+typing:
+  system: dynamic
+  strength: weak
+history:
+  inception: 2012-01-01
+  developer:
+  - Institut National des Sciences Appliquées de Lyon
+official_website: https://golo-lang.org
+color: '#88562A'

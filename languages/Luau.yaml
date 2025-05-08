@@ -1,0 +1,8 @@
+name: Luau
+category: programming
+file_extensions:
+- luau
+history:
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Luau%20Logo%20%28Programming%20Language%29.svg
+official_website: https://luau-lang.org/
+color: '#00A2FF'

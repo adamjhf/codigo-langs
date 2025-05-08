@@ -1,0 +1,212 @@
+name: Scheme
+description: Scheme is a minimalist dialect of Lisp known for its simplicity, elegance, and emphasis on functional programming. It features lexical scoping, first-class procedures, and proper tail recursion, making it popular in education and research.
+category: programming
+status: active
+aliases:
+- R5RS
+- R6RS
+- R7RS
+file_extensions:
+- scm
+- sch
+- sld
+- sls
+- sps
+- ss
+compilers:
+- name: Racket
+  type: hybrid
+  license: LGPL-3.0
+  source_url: https://github.com/racket/racket
+- name: Chez Scheme
+  type: compiler
+  license: Apache-2.0
+  source_url: https://github.com/cisco/ChezScheme
+- name: Guile
+  type: hybrid
+  license: LGPL-3.0
+  source_url: https://git.savannah.gnu.org/cgit/guile.git
+- name: Chicken
+  type: compiler
+  license: BSD-3-Clause
+  source_url: https://code.call-cc.org/cgi-bin/gitweb.cgi?p=chicken-core.git
+- name: Gambit
+  type: compiler
+  license: Apache-2.0
+  source_url: https://github.com/gambit/gambit
+paradigms:
+- functional
+- imperative
+typing:
+  system: dynamic
+  structural: true
+  strength: strong
+  inference: full
+  type_checking: runtime
+  type_coercion: conservative
+  type_annotations: none
+execution:
+  type:
+  - interpreted
+  - compiled
+  - interpreted with JIT compilation
+  compiles_to:
+  - bytecode
+  - machine code
+  - C
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  - embedded interpreter
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+    compilation_speed: fast
+domains:
+  primary:
+  - education
+  - artificial intelligence
+  - compiler
+  - scientific computing
+  - scripting
+  secondary:
+  - interpreter
+  - text processing
+  - data science
+  emerging:
+  - web development
+  - embedded systems
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  - embedded
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - platform-independent
+ecosystem:
+  maturity: moderate
+  package_registry: https://snow-fort.org/
+  community_size: small
+  learning_resources: medium
+  job_market_demand: low
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: none
+  metaprogramming: true
+  generics: false
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: very high
+  memory_management:
+    type: garbage collection
+    implementation: mostly generational
+    manual_control: false
+  key_features:
+  - first-class functions
+  - closures
+  - tail-call optimization
+  - macros
+  - reflection
+  - meta-programming
+concurrency:
+  model: none
+  features:
+  - concurrent data structures
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - custom error types
+  - error propagation
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: Snow
+  alternatives:
+  - Akku
+popular_frameworks:
+  backend:
+  - Gerbil
+  - Racket Web Server
+  testing:
+  - SchemeUnit
+development_tools:
+  lsps:
+  - racket-langserver
+  debugging:
+  - Racket Debugging Tools
+  - Guile Debugger
+  linters:
+  - SchemeUnit
+standard_library:
+  maturity: moderate
+  key_areas:
+  - file I/O
+  - data structures
+  - algorithms
+  - text processing
+  - mathematics
+  size: small
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 1975-01-01
+  developer:
+  - MIT
+  designed_by:
+  - Guy L. Steele Jr.
+  - Gerald Jay Sussman
+  described_by: R7RS
+  standards_bodies:
+  - Scheme Steering Committee
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Lambda%20lc.svg
+  influenced_by:
+    languages:
+    - Lisp
+    - ALGOL
+    - MDL
+    paradigms:
+    - functional
+    - procedural
+official_website: https://www.scheme.org/
+official_blog_rss: https://planet.scheme.org/atom.xml
+documentation:
+  quality: high
+  official_sources:
+  - https://schemers.org/Documents/Standards/R5RS/
+  - https://small.r7rs.org/
+  community_resources:
+  - https://community.schemewiki.org/
+references:
+  github_topics:
+  - scheme
+  - scheme-language
+  quora_topics:
+  - Scheme-programming-language-1
+  stackexchange_tags:
+  - scheme
+  wikidata_id: Q192465
+  subreddit: scheme
+color: '#1e4aec'

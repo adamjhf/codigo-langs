@@ -1,0 +1,15 @@
+name: Jsish
+category: programming
+typing:
+  system: dynamic
+history:
+  developer:
+  - Peter MacDonald
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Jsi%20Logo.png
+  influenced_by:
+    languages:
+    - Tcl
+    - SQLite
+    - WebSocket
+    - Fossil
+official_website: https://jsish.org/fossil/jsi

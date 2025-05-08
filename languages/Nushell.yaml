@@ -1,0 +1,128 @@
+name: Nushell
+description: Nushell (or Nu) is a shell and programming language that takes a modern approach by treating data as structured objects rather than text. It combines shell scripting capabilities with data processing features similar to PowerShell.
+category: programming
+status: active
+aliases:
+- nu-script
+- nushell-script
+file_extensions:
+- nu
+paradigms:
+- imperative
+- functional
+- structured
+typing:
+  system: dynamic
+  strength: strong
+  inference: partial
+  type_checking: runtime
+  type_coercion: moderate
+  type_annotations: optional
+execution:
+  type:
+  - interpreted
+  runtime_environments:
+  - native OS process
+  - Docker container
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+domains:
+  primary:
+  - shell
+  - automation
+  - text processing
+  - data processing
+  secondary:
+  - scripting
+  - DevOps
+  - configuration management
+  emerging:
+  - cloud computing
+  - data integration
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  architectures:
+  - x86-64
+  - ARM64
+ecosystem:
+  maturity: moderate
+  package_registry: https://github.com/nushell/awesome-nu
+  community_size: small
+  learning_resources: small
+  job_market_demand: low
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  metaprogramming: true
+  generics: false
+  c_interop: true
+  pattern_matching: true
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+  key_features:
+  - string interpolation
+  - modules
+error_handling:
+  primary_mechanism: result types
+  features:
+  - error propagation
+  - custom error types
+package_managers:
+  primary: cargo
+development_tools:
+  lsps:
+  - nushell-lsp
+  debugging:
+  - built-in debug command
+  linters:
+  - built-in lint functionality
+standard_library:
+  maturity: moderate
+  key_areas:
+  - file I/O
+  - text processing
+  - networking
+  - process management
+  - data structures
+  - HTTP client/server
+  - date/time
+  - mathematics
+  size: medium
+  documentation_quality: moderate
+versioning:
+  release_cycle: semantic versioning
+  backwards_compatibility: moderate
+history:
+  inception: 2019-05-10
+  developer:
+  - Nu Project Team
+  designed_by:
+  - Jonathan Turner
+  - Andrés Robalino
+official_website: https://www.nushell.sh/zh-cn/
+documentation:
+  quality: moderate
+  official_sources:
+  - https://www.nushell.sh/book/
+  - https://www.nushell.sh/commands/
+  community_resources:
+  - https://github.com/nushell/awesome-nu
+references:
+  github_topics:
+  - nushell
+  - nu-shell
+  subreddit: nushell
+color: '#4E9906'

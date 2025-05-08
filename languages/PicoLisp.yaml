@@ -1,0 +1,20 @@
+name: PicoLisp
+category: programming
+file_extensions:
+- l
+paradigms:
+- object-oriented
+- imperative
+- functional
+- reflective
+- declarative
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1988-01-01
+  developer:
+  - Alexander Burger
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/PicoLisp%20Logo.svg
+official_website: https://picolisp.com
+color: '#6067af'

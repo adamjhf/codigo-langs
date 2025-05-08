@@ -1,0 +1,15 @@
+name: Cobra
+category: programming
+paradigms:
+- object-oriented
+- functional
+typing:
+  system: static
+  strength: strong
+  inference: full
+history:
+  inception: 2006-01-01
+  influenced_by:
+    languages:
+    - Python
+official_website: https://cobra-language.com/

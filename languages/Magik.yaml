@@ -1,0 +1,11 @@
+name: Magik
+category: programming
+paradigms:
+- object-oriented
+typing:
+  system: dynamic
+history:
+  inception: 1989-01-01
+  influenced_by:
+    languages:
+    - Smalltalk

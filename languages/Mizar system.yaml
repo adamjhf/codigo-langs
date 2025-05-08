@@ -1,0 +1,17 @@
+name: Mizar system
+category: programming
+paradigms:
+- declarative
+typing:
+  strength: weak
+domains:
+  primary:
+  - automated theorem proving
+history:
+  inception: 1973-01-01
+  designed_by:
+  - Andrzej Trybulec
+  influenced_by:
+    languages:
+    - Automath
+official_website: https://mizar.uwb.edu.pl/

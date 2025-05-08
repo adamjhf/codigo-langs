@@ -1,0 +1,17 @@
+name: Joy
+category: programming
+paradigms:
+- purely functional
+- functional
+- concatenative
+- stack-oriented
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 2001-01-01
+  influenced_by:
+    languages:
+    - Scheme
+    - Forth
+    - FP

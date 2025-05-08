@@ -1,0 +1,17 @@
+name: PL/pgSQL
+category: programming
+paradigms:
+- imperative
+domains:
+  primary:
+  - database management
+history:
+  inception: 1998-10-30
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Postgresql%20elephant.svg
+  influenced_by:
+    languages:
+    - PL/SQL
+    - Ada
+references:
+  quora_topics:
+  - PL-pgSQL

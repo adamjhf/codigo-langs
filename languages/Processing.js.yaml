@@ -1,0 +1,11 @@
+name: Processing.js
+category: programming
+history:
+  inception: 2008-01-01
+  developer:
+  - John Resig
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Processing%20Logo%20Clipped.svg
+official_website: https://processingjs.org/
+references:
+  quora_topics:
+  - Processing-js

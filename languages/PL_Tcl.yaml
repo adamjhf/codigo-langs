@@ -1,0 +1,7 @@
+name: PL/Tcl
+category: programming
+paradigms:
+- imperative
+domains:
+  primary:
+  - database management

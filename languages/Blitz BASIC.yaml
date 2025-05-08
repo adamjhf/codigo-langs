@@ -1,0 +1,13 @@
+name: Blitz BASIC
+category: programming
+paradigms:
+- object-oriented
+- imperative
+typing:
+  strength: weak
+history:
+  inception: 2000-10-01
+official_website: https://www.blitzbasic.com/
+references:
+  quora_topics:
+  - Blitz-BASIC

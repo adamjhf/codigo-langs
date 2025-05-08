@@ -1,0 +1,28 @@
+name: Lasso
+category: programming
+aliases:
+- lassoscript
+file_extensions:
+- lasso
+- las
+- lasso8
+- lasso9
+paradigms:
+- object-oriented
+- structured
+- imperative
+typing:
+  system: dynamic
+  structural: false
+history:
+  inception: 1995-01-01
+  influenced_by:
+    languages:
+    - Smalltalk
+    - Scala
+    - Dylan
+official_website: https://www.lassosoft.com/
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/lasso
+color: '#999999'

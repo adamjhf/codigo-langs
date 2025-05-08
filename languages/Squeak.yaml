@@ -1,0 +1,22 @@
+name: Squeak
+category: programming
+paradigms:
+- object-oriented
+typing:
+  system: dynamic
+history:
+  inception: 1996-01-01
+  developer:
+  - Apple
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Squeak.svg
+  influenced_by:
+    languages:
+    - Lisp
+    - Logo
+    - Simula
+    - Smalltalk
+    - Self
+official_website: https://squeak.org/
+references:
+  github_topics:
+  - squeak

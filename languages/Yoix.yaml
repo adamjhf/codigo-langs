@@ -1,0 +1,11 @@
+name: Yoix
+category: programming
+paradigms:
+- imperative
+- object-oriented
+typing:
+  system: dynamic
+  strength: weak
+history:
+  inception: 2000-01-01
+official_website: https://github.com/att/yoix

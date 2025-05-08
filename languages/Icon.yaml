@@ -1,0 +1,15 @@
+name: Icon
+category: programming
+paradigms:
+- structured
+typing:
+  system: dynamic
+history:
+  inception: 1977-01-01
+  designed_by:
+  - Ralph Griswold
+  influenced_by:
+    languages:
+    - ALGOL
+    - SNOBOL
+official_website: https://www.cs.arizona.edu/icon

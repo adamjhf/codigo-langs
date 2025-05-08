@@ -1,0 +1,12 @@
+name: CS-4
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1975-01-01
+  developer:
+  - Intermetrics
+  influenced_by:
+    languages:
+    - ALGOL 68
+    - ECL

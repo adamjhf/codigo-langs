@@ -1,0 +1,168 @@
+name: BASIC
+description: Beginner's All-purpose Symbolic Instruction Code, a family of high-level programming languages designed to be easy to learn and use. Known for its simple syntax and widespread availability in early personal computers.
+category: programming
+status: legacy
+aliases:
+- Beginner's All-purpose Symbolic Instruction Code
+file_extensions:
+- bas
+compilers:
+- name: GW-BASIC
+  type: interpreter
+  license: proprietary
+- name: QBasic
+  type: interpreter
+  license: proprietary
+- name: Visual Basic
+  type: compiler
+  license: proprietary
+- name: FreeBASIC
+  type: compiler
+  license: GPL-2.0
+  source_url: https://github.com/freebasic/fbc
+- name: QB64
+  type: compiler
+  license: MIT
+  source_url: https://github.com/QB64Team/qb64
+paradigms:
+- imperative
+- procedural
+typing:
+  system: dynamic
+  structural: true
+  strength: weak
+  inference: partial
+  type_checking: runtime
+  type_coercion: aggressive
+  type_annotations: optional
+execution:
+  type:
+  - interpreted
+  - compiled
+  compiles_to:
+  - machine code
+  - bytecode
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  performance:
+    startup_time: fast
+    memory_usage: moderate
+    computation_speed: moderate
+    compilation_speed: fast
+domains:
+  primary:
+  - education
+  - desktop applications
+  - scripting
+  secondary:
+  - scientific computing
+  - text processing
+  - automation
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  - DOS
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - platform-independent
+ecosystem:
+  maturity: moderate
+  community_size: medium
+  learning_resources: large
+  job_market_demand: low
+complexity:
+  learning_curve: low
+  cognitive_load: low
+  syntax_complexity: low
+  semantic_complexity: low
+language_features:
+  immutability: none
+  enums: basic
+  metaprogramming: false
+  generics: false
+  c_interop: false
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: moderate
+  memory_management:
+    type: garbage collection
+    implementation: simple reference counting
+    manual_control: false
+  key_features:
+  - string interpolation
+  - modules
+  - variadic functions
+concurrency:
+  model: none
+  ease_of_use: low
+error_handling:
+  primary_mechanism: error codes
+  features:
+  - error propagation
+  - error reporting
+  stack_traces: false
+  debugging:
+    source_maps: false
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: none
+popular_frameworks: {}
+development_tools:
+  debugging:
+  - built-in debuggers
+standard_library:
+  maturity: moderate
+  key_areas:
+  - file I/O
+  - text processing
+  - mathematics
+  - date/time
+  - random number generation
+  - file system operations
+  size: small
+  documentation_quality: moderate
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: moderate
+history:
+  inception: 1964-01-01
+  developer:
+  - Dartmouth College
+  designed_by:
+  - John G. Kemeny
+  - Thomas E. Kurtz
+  influenced_by:
+    languages:
+    - FORTRAN
+    - ALGOL
+    - JOSS
+    paradigms:
+    - imperative
+    - procedural
+documentation:
+  quality: moderate
+  community_resources:
+  - https://www.freebasic.net/wiki/
+  - https://qb64phoenix.com/forum/
+references:
+  github_topics:
+  - basic
+  - basic-language
+  - qbasic
+  - visual-basic
+  quora_topics:
+  - Basic-Computer-Language
+  stackexchange_tags:
+  - basic
+  wikidata_id: Q766419
+color: '#ff0000'

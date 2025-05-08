@@ -1,0 +1,92 @@
+name: M
+description: A business intelligence query language for self-service data access, used in Power BI and Excel.
+category: query
+status: active
+aliases:
+- mumps
+file_extensions:
+- mumps
+- m
+paradigms:
+- declarative
+- functional
+typing:
+  system: static
+  strength: strong
+  inference: full
+  type_checking: compile-time
+  type_coercion: none
+  type_annotations: optional
+execution:
+  type:
+  - interpreted
+  - query-optimized
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+domains:
+  primary:
+  - data integration
+  - data science
+  - database management
+  secondary:
+  - desktop applications
+  - data visualization
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  architectures:
+  - platform-independent
+ecosystem:
+  maturity: high
+  community_size: large
+  learning_resources: large
+  job_market_demand: moderate
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  immutability: default
+  metaprogramming: true
+  generics: false
+  pattern_matching: false
+  key_features:
+  - first-class functions
+  - lazy evaluation
+  - string interpolation
+concurrency:
+  model: none
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - error reporting
+standard_library:
+  maturity: high
+  key_areas:
+  - data structures
+  - text processing
+  - date/time
+  - mathematics
+  - HTTP client/server
+  - JSON/XML processing
+  size: large
+  documentation_quality: high
+history:
+  inception: 2008-01-01
+  developer:
+  - Microsoft
+  designed_by:
+  - Microsoft
+  influenced_by:
+    languages:
+    - ML
+official_website: https://learn.microsoft.com/en-us/powerquery-m/
+documentation:
+  quality: high
+  official_sources:
+  - https://learn.microsoft.com/en-us/powerquery-m/power-query-m-language-specification
+  - https://learn.microsoft.com/en-us/powerquery-m/power-query-m-function-reference
+color: '#00a4ef'

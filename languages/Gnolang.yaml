@@ -1,0 +1,13 @@
+name: Gnolang
+category: programming
+history:
+  developer:
+  - Manfred Touron
+  - Jae Kwon
+  designed_by:
+  - Manfred Touron
+  - Jae Kwon
+  influenced_by:
+    languages:
+    - Go
+official_website: https://gno.land/gnolang

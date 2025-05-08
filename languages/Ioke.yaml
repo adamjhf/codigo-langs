@@ -1,0 +1,13 @@
+name: Ioke
+category: programming
+file_extensions:
+- ik
+paradigms:
+- prototype-based
+history:
+  inception: 2008-11-06
+  developer:
+  - Ola Bini
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Ioke.svg
+official_website: https://ioke.org/
+color: '#078193'

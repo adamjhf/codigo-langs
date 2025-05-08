@@ -1,0 +1,12 @@
+name: Snap4Arduino
+category: programming
+history:
+  inception: 2013-01-01
+  influenced_by:
+    languages:
+    - Scheme
+    - Logo
+    - Smalltalk
+    - Scratch
+    - Snap!
+official_website: https://snap4arduino.rocks/

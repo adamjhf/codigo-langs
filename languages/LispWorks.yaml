@@ -1,0 +1,8 @@
+name: LispWorks
+category: programming
+typing:
+  system: dynamic
+official_website: https://www.lispworks.com
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/lispworks

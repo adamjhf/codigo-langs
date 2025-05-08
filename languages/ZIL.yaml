@@ -1,0 +1,9 @@
+name: ZIL
+category: programming
+file_extensions:
+- zil
+- mud
+history:
+  developer:
+  - Infocom
+color: '#dc75e5'

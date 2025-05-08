@@ -1,0 +1,146 @@
+name: VBScript
+description: A lightweight, interpreted scripting language developed by Microsoft that is a subset of Visual Basic, primarily used for client-side web scripting and Windows system administration.
+
+aliases:
+  - Visual Basic Scripting Edition
+
+file_extensions:
+  - vbs
+  - vbe
+
+category: programming
+
+status: legacy
+
+compilers:
+  - name: Windows Script Host
+    type: interpreter
+    license: proprietary
+    is_reference: true
+
+paradigms:
+  - imperative
+  - procedural
+  - event-driven
+  - structured
+  - object-oriented
+
+typing:
+  system: dynamic
+  type_checking: runtime
+  structural: true
+  strength: weak
+  inference: full
+  type_coercion: aggressive
+  type_annotations: none
+
+execution:
+  type:
+    - interpreted
+  runtime_environments:
+    - native OS process
+    - browser
+  performance:
+    startup_time: fast
+    memory_usage: low
+    computation_speed: moderate
+
+domains:
+  primary:
+    - automation
+    - scripting
+    - web development
+  secondary:
+    - desktop applications
+    - system administration
+    - build automation
+
+platforms:
+  operating_systems:
+    - Windows
+  architectures:
+    - x86
+    - x86-64
+
+ecosystem:
+  maturity: moderate
+  community_size: small
+  learning_resources: small
+  job_market_demand: low
+
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: moderate
+
+language_features:
+  immutability: none
+  metaprogramming: false
+  generics: false
+  c_interop: false
+  pattern_matching: false
+  null_safety: false
+  memory_management:
+    type: garbage collection
+  key_features:
+    - string interpolation
+    - reflection
+    - modules
+
+concurrency:
+  model: none
+
+error_handling:
+  primary_mechanism: exceptions
+  features:
+    - error propagation
+    - error reporting
+  stack_traces: true
+  debugging:
+    breakpoints: true
+    step_debugging: true
+
+standard_library:
+  maturity: moderate
+  key_areas:
+    - file I/O
+    - text processing
+    - date/time
+    - networking
+    - file system operations
+  size: small
+  documentation_quality: moderate
+
+versioning:
+  release_cycle: enterprise
+  backwards_compatibility: high
+
+history:
+  inception: "1996-01-01"
+  developer:
+    - Microsoft
+  designed_by:
+    - Microsoft
+  influenced_by:
+    languages:
+      - Visual Basic
+      - BASIC
+    paradigms:
+      - imperative
+      - procedural
+      - structured
+
+official_website: https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/t0aew7h6(v=vs.84)
+
+documentation:
+  quality: moderate
+  official_sources:
+    - https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/scripting-articles/t0aew7h6(v=vs.84)
+
+references:
+  stackexchange_tags:
+    - vbscript
+  wikidata_id: Q608736
+
+color: "#B5CE2F"

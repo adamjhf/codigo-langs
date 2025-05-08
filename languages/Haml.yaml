@@ -1,0 +1,12 @@
+name: Haml
+category: programming
+file_extensions:
+- haml
+- haml.deface
+history:
+  developer:
+  - Hampton Lintorn-Catlin
+  - Nathan Weizenbaum
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Haml%201-5%20logo.png
+official_website: https://haml.info
+color: '#ece2a9'

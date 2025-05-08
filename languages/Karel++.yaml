@@ -1,0 +1,10 @@
+name: Karel++
+category: programming
+history:
+  described_by: Karel++
+  influenced_by:
+    languages:
+    - Java
+    - C++
+    - Karel
+official_website: https://csis.pace.edu/~bergin/karel.html

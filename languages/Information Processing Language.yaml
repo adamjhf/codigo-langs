@@ -1,0 +1,17 @@
+name: Information Processing Language
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1956-01-01
+  developer:
+  - Herbert Simon
+  - Allen Newell
+  - Cliff Shaw
+  designed_by:
+  - Herbert Simon
+  - Allen Newell
+  - Cliff Shaw
+references:
+  quora_topics:
+  - Information-Processing-Language

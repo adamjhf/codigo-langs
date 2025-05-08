@@ -1,0 +1,14 @@
+name: Hop
+category: programming
+paradigms:
+- functional
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 2006-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Hop%20logo.svg
+  influenced_by:
+    languages:
+    - Scheme
+official_website: https://hop.inria.fr/

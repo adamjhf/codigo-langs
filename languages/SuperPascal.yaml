@@ -1,0 +1,12 @@
+name: SuperPascal
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1993-01-01
+  influenced_by:
+    languages:
+    - Pascal
+    - occam
+    - Joyce
+official_website: https://brinch-hansen.net

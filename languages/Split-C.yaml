@@ -1,0 +1,7 @@
+name: Split-C
+category: programming
+paradigms:
+- imperative
+typing:
+  strength: weak
+official_website: https://www.eecs.berkeley.edu/Research/Projects/CS/parallel/castle/split-c/

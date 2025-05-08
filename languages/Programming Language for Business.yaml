@@ -1,0 +1,9 @@
+name: Programming Language for Business
+category: programming
+paradigms:
+- imperative
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1972-01-01

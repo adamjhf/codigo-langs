@@ -1,0 +1,20 @@
+name: Alice
+category: programming
+paradigms:
+- functional
+- imperative
+- constraint
+typing:
+  system: static
+  strength: strong
+  inference: full
+history:
+  inception: 1998-01-01
+  developer:
+  - Saarland University
+  - Carnegie Mellon University
+  influenced_by:
+    languages:
+    - ML
+    - Oz
+official_website: https://www.alice.org/

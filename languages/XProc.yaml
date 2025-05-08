@@ -1,0 +1,12 @@
+name: XProc
+category: programming
+file_extensions:
+- xpl
+- xproc
+paradigms:
+- declarative
+references:
+  github_topics:
+  - xproc
+  quora_topics:
+  - XProc

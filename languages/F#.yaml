@@ -1,0 +1,236 @@
+name: F#
+description: F# is a functional-first, strongly typed programming language that enables developers to write succinct, type-safe code. It runs on .NET platforms and seamlessly interoperates with C# while offering powerful features like pattern matching, algebraic data types, and immutability.
+category: programming
+status: active
+aliases:
+- fsharp
+file_extensions:
+- fs
+- fsi
+- fsx
+compilers:
+- name: F# Compiler
+  type: compiler
+  license: MIT
+  source_url: https://github.com/dotnet/fsharp
+  is_reference: true
+paradigms:
+- functional
+- object-oriented
+- imperative
+- concurrent
+- meta-programming
+- generic
+- reflective
+typing:
+  system: static
+  structural: true
+  strength: strong
+  inference: full
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  compiles_to:
+  - bytecode
+  - WebAssembly
+  runtime_environments:
+  - CLR
+  - native OS process
+  - browser
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: fast
+    compilation_speed: fast
+domains:
+  primary:
+  - data science
+  - financial systems
+  - scientific computing
+  - server-side applications
+  - web development
+  secondary:
+  - artificial intelligence
+  - cloud computing
+  - compiler
+  - desktop applications
+  emerging:
+  - WebAssembly
+  - quantum programming
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - Android
+  - iOS
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - WebAssembly
+  - platform-independent
+  cloud_function_environments:
+  - AWS Lambda
+  - Google Cloud Functions
+  - Azure Functions
+ecosystem:
+  maturity: high
+  package_registry: NuGet
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: moderate
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  immutability: default
+  enums: algebraic
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: .NET GC
+    manual_control: false
+  key_features:
+  - pattern matching
+  - algebraic data types
+  - type inference
+  - first-class functions
+  - closures
+  - traits/interfaces
+  - async/await
+concurrency:
+  model: threads
+  features:
+  - async/await
+  - promises/futures
+  - channels
+  - message passing
+  - shared memory
+  - task parallelism
+  - data parallelism
+  - concurrent data structures
+  ease_of_use: high
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - custom error types
+  - error chaining
+  - error propagation
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: NuGet
+  alternatives:
+  - Paket
+popular_frameworks:
+  frontend:
+  - Fable
+  - Feliz
+  - Elmish
+  backend:
+  - Giraffe
+  - Saturn
+  - Suave
+  - SAFE Stack
+  testing:
+  - Expecto
+  - FsUnit
+  - Unquote
+  - FsCheck
+development_tools:
+  lsps:
+  - FsAutoComplete
+  - Ionide
+  debugging:
+  - Visual Studio Debugger
+  - JetBrains Rider Debugger
+  - VS Code Debugger
+  profiling:
+  - dotTrace
+  - Visual Studio Profiler
+  build_systems:
+  - FAKE
+  - MSBuild
+  linters:
+  - FSharpLint
+standard_library:
+  maturity: high
+  key_areas:
+  - data structures
+  - algorithms
+  - text processing
+  - file I/O
+  - networking
+  - concurrency
+  - date/time
+  - regular expressions
+  - serialization
+  - testing
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: semantic versioning
+  backwards_compatibility: high
+history:
+  inception: 2005-01-01
+  developer:
+  - Microsoft Research
+  - Microsoft
+  - F# Software Foundation
+  designed_by:
+  - Don Syme
+  - Microsoft Research
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/F%20Sharp%20logo.svg
+  influenced_by:
+    languages:
+    - OCaml
+    - C#
+    - Haskell
+    - Python
+    - Scala
+    - Erlang
+    - ML
+    paradigms:
+    - functional
+    - object-oriented
+    - imperative
+    - concurrent
+official_website: https://fsharp.org/
+documentation:
+  quality: high
+  official_sources:
+  - https://docs.microsoft.com/en-us/dotnet/fsharp/
+  - https://fsharp.org/docs/
+  community_resources:
+  - https://fsharpforfunandprofit.com/
+  - https://fsharpforbeginners.com/
+references:
+  github_topics:
+  - fsharp
+  - f-sharp
+  quora_topics:
+  - F-programming-language
+  stackexchange_tags:
+  - f#
+  - fsharp
+  wikidata_id: Q1034000
+  subreddit: fsharp
+color: '#b845fc'

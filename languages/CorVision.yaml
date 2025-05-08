@@ -1,0 +1,9 @@
+name: CorVision
+category: programming
+history:
+  inception: 1986-01-01
+  developer:
+  - Cortex
+  influenced_by:
+    languages:
+    - Inform

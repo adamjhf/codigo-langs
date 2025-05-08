@@ -1,0 +1,14 @@
+name: QBasic
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1991-01-01
+  developer:
+  - Microsoft
+  influenced_by:
+    languages:
+    - QuickBASIC
+references:
+  quora_topics:
+  - QBasic

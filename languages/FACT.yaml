@@ -1,0 +1,11 @@
+name: FACT
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1959-01-01
+  designed_by:
+  - Computer Sciences Corporation
+  influenced_by:
+    languages:
+    - Basic English

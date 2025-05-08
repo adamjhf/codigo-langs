@@ -1,0 +1,30 @@
+name: REXX
+category: programming
+aliases:
+- arexx
+file_extensions:
+- rexx
+- pprx
+- rex
+paradigms:
+- structured
+- imperative
+typing:
+  system: dynamic
+history:
+  inception: 1979-01-01
+  developer:
+  - IBM
+  - Mike Cowlishaw
+  designed_by:
+  - Mike Cowlishaw
+  influenced_by:
+    languages:
+    - ALGOL
+    - PL/I
+    - CMS EXEC
+    - EXEC 2
+references:
+  quora_topics:
+  - REXX
+color: '#d90e09'

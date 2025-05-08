@@ -1,0 +1,9 @@
+name: Simple Yet Powerful Scripting Language
+category: programming
+history:
+  inception: 2005-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Syp.jpg
+  influenced_by:
+    languages:
+    - REBOL
+official_website: https://dev.freezee.org/sypscript

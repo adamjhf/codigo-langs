@@ -1,0 +1,90 @@
+name: Game Maker Language
+description: A scripting language designed for game development, primarily used in the GameMaker Studio engine. It combines elements of JavaScript and C to provide an accessible way to create 2D games.
+aliases:
+  - GML
+file_extensions:
+  - gml
+category: programming
+status: active
+paradigms:
+  - imperative
+  - procedural
+  - event-driven
+  - object-oriented
+typing:
+  system: dynamic
+  type_checking: runtime
+  strength: weak
+  inference: none
+  type_coercion: aggressive
+  type_annotations: none
+execution:
+  type:
+    - interpreted
+  runtime_environments:
+    - language-specific runtime
+  performance:
+    startup_time: fast
+    memory_usage: moderate
+    computation_speed: moderate
+domains:
+  primary:
+    - game development
+    - 2D computer graphics
+  secondary:
+    - desktop applications
+    - mobile development
+platforms:
+  operating_systems:
+    - Windows
+    - macOS
+    - Linux
+    - Android
+    - iOS
+ecosystem:
+  maturity: high
+  community_size: medium
+  learning_resources: large
+  job_market_demand: low
+complexity:
+  learning_curve: low
+  cognitive_load: low
+  syntax_complexity: low
+  semantic_complexity: low
+language_features:
+  immutability: none
+  generics: false
+  c_interop: false
+  pattern_matching: false
+  null_safety: false
+  memory_management:
+    type: garbage collection
+  key_features:
+    - string interpolation
+    - modules
+concurrency:
+  model: none
+error_handling:
+  primary_mechanism: exceptions
+  stack_traces: true
+standard_library:
+  maturity: high
+  key_areas:
+    - data structures
+    - file I/O
+    - mathematics
+    - graphics
+  size: medium
+  documentation_quality: high
+history:
+  inception: "1999-01-01"
+  developer:
+    - YoYo Games
+  designed_by:
+    - Mark Overmars
+  influenced_by:
+    languages:
+      - JavaScript
+      - C
+official_website: https://www.yoyogames.com/gamemaker
+color: "#71b417"

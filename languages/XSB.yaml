@@ -1,0 +1,14 @@
+name: XSB
+category: programming
+file_extensions:
+- P
+paradigms:
+- logic
+history:
+  influenced_by:
+    languages:
+    - Prolog
+official_website: https://xsb.sourceforge.net/
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/xsb

@@ -1,0 +1,90 @@
+name: Assembly
+category: assembly
+description: Assembly language is a low-level programming language that provides a direct mapping to machine code instructions. It uses mnemonics to represent operations and allows direct manipulation of hardware resources.
+status: active
+paradigms:
+  - imperative
+  - procedural
+typing:
+  system: untyped
+  strength: weak
+  inference: none
+  type_coercion: none
+  type_annotations: none
+execution:
+  type:
+    - compiled
+  compiles_to:
+    - machine code
+  runtime_environments:
+    - native OS process
+    - native binary
+  performance:
+    startup_time: very fast
+    memory_usage: very low
+    computation_speed: very fast
+domains:
+  primary:
+    - systems programming
+    - embedded systems
+    - operating systems
+    - real-time computing
+  secondary:
+    - microcontroller programming
+    - high-performance computing
+platforms:
+  operating_systems:
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
+    - Solaris
+    - embedded
+    - bare metal
+    - DOS
+  architectures:
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - RISC-V
+    - MIPS
+    - PowerPC
+    - SPARC
+    - SPARC64
+    - IA-64
+    - Alpha
+    - AVR
+ecosystem:
+  maturity: high
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: moderate
+complexity:
+  learning_curve: high
+  cognitive_load: high
+  syntax_complexity: high
+  semantic_complexity: high
+language_features:
+  memory_safety:
+    type: manual
+    level: very low
+  memory_management:
+    type: manual
+  key_features:
+    - native FFI
+concurrency:
+  model: none
+error_handling:
+  primary_mechanism: error codes
+standard_library:
+  maturity: low
+  size: very small
+history:
+  inception: "1949-01-01"
+  designed_by:
+    - Kathleen Booth
+    - Maurice Wilkes
+    - David Wheeler
+    - Stanley Gill

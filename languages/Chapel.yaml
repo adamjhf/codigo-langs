@@ -1,0 +1,32 @@
+name: Chapel
+category: programming
+aliases:
+- chpl
+file_extensions:
+- chpl
+paradigms:
+- array-oriented
+- object-oriented
+typing:
+  system: static
+  inference: full
+history:
+  inception: 2009-01-01
+  developer:
+  - Cray
+  - Brad Chamberlain
+  designed_by:
+  - David Callahan
+  influenced_by:
+    languages:
+    - Java
+    - C#
+    - C
+    - Ada
+    - High Performance Fortran
+    - ZPL
+official_website: https://chapel-lang.org
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/chapel
+color: '#8dc63f'

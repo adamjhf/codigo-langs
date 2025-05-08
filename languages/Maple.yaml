@@ -1,0 +1,15 @@
+name: Maple
+category: programming
+paradigms:
+- object-oriented
+- imperative
+- functional
+domains:
+  primary:
+  - scientific computing
+history:
+  inception: 1982-01-01
+  developer:
+  - Waterloo Maple
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Maple%202015%20logo.svg
+official_website: https://www.maplesoft.com/products/maple/

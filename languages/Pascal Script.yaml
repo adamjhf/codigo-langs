@@ -1,0 +1,30 @@
+name: Pascal Script
+category: programming
+paradigms:
+- object-oriented
+- imperative
+typing:
+  strength: strong
+domains:
+  primary:
+  - automation
+  - web development
+  - configuration management
+  - scripting
+  - computer configuration
+history:
+  inception: 2000-01-01
+  developer:
+  - RemObjects Software
+  influenced_by:
+    languages:
+    - JavaScript
+    - Perl
+    - HyperTalk
+    - Pascal
+    - AppleScript
+    - ALGOL
+    - Object Pascal
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/pascalscript

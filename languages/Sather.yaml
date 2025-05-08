@@ -1,0 +1,15 @@
+name: Sather
+category: programming
+paradigms:
+- functional
+- object-oriented
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1990-01-01
+  developer:
+  - GNU Project
+  designed_by:
+  - Steve Omohundro
+official_website: https://www.gnu.org/software/sather/

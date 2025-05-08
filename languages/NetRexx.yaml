@@ -1,0 +1,19 @@
+name: NetRexx
+category: programming
+paradigms:
+- imperative
+- structured
+- object-oriented
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1996-01-01
+  developer:
+  - IBM
+  designed_by:
+  - Mike Cowlishaw
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/NETREXX.gif
+  influenced_by:
+    languages:
+    - REXX

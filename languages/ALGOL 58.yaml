@@ -1,0 +1,27 @@
+name: ALGOL 58
+category: programming
+paradigms:
+- imperative
+- structured
+typing:
+  system: static
+  strength: strong
+history:
+  developer:
+  - Alan Perlis
+  - Friedrich L. Bauer
+  - Heinz Rutishauser
+  - John Backus
+  - Klaus Samelson
+  - Charles Katz
+  designed_by:
+  - Alan Perlis
+  - Friedrich L. Bauer
+  - Heinz Rutishauser
+  - John Backus
+  - Klaus Samelson
+  - Charles Katz
+  influenced_by:
+    languages:
+    - Plankalkül
+    - Fortran

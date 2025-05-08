@@ -1,0 +1,10 @@
+name: GolfScript
+category: programming
+history:
+  inception: 2007-01-01
+  described_by: Esolang
+official_website: https://golfscript.com
+references:
+  stackexchange_tags:
+  - https://codegolf.stackexchange.com/tags/golfscript
+  - https://stackoverflow.com/tags/golfscript

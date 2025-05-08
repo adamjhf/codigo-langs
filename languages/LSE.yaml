@@ -1,0 +1,9 @@
+name: LSE
+category: programming
+paradigms:
+- structured
+- imperative
+history:
+  inception: 1960-01-01
+  developer:
+  - Supélec

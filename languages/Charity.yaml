@@ -1,0 +1,10 @@
+name: Charity
+category: programming
+file_extensions:
+- ch
+paradigms:
+- purely functional
+- functional
+history:
+  inception: 1992-01-01
+official_website: https://pll.cpsc.ucalgary.ca/charity1/www/home.html

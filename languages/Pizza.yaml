@@ -1,0 +1,11 @@
+name: Pizza
+category: programming
+paradigms:
+- generic
+history:
+  inception: 1996-01-01
+  influenced_by:
+    languages:
+    - Martin Odersky
+    - Philip Wadler
+official_website: https://pizzacompiler.sourceforge.net

@@ -1,0 +1,11 @@
+name: TXL
+category: programming
+file_extensions:
+- txl
+paradigms:
+- functional
+history:
+  developer:
+  - James Cordy
+official_website: https://www.txl.ca/
+color: '#0178b8'

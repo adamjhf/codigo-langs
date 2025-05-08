@@ -1,0 +1,160 @@
+name: CSS
+description: Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in HTML or XML. It enables separation of content and presentation, allowing for flexible and consistent styling across multiple web pages.
+
+aliases:
+  - Cascading Style Sheets
+
+file_extensions:
+  - css
+
+category: stylesheet
+
+status: active
+
+compilers:
+  - name: Browsers
+    type: interpreter
+    license: proprietary
+    is_reference: false
+
+paradigms:
+  - declarative
+
+typing:
+  system: untyped
+  type_checking: runtime
+  type_annotations: none
+
+execution:
+  type:
+    - interpreted
+  runtime_environments:
+    - browser
+    - embedded interpreter
+
+domains:
+  primary:
+    - web development
+    - user interface
+  secondary:
+    - digital image processing
+    - animation
+  emerging:
+    - 3D computer graphics
+
+platforms:
+  operating_systems:
+    - Windows
+    - macOS
+    - Linux
+    - Android
+    - iOS
+  architectures:
+    - platform-independent
+
+ecosystem:
+  maturity: very high
+  community_size: very large
+  learning_resources: very large
+  job_market_demand: high
+
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+
+language_features:
+  immutability: default
+  metaprogramming: false
+  generics: false
+  c_interop: false
+  pattern_matching: false
+  null_safety: false
+  key_features:
+    - semantic markup
+
+error_handling:
+  primary_mechanism: assertions
+  features:
+    - fallback content
+    - error reporting
+    - validation
+    - graceful degradation
+  stack_traces: false
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+
+popular_frameworks:
+  frontend:
+    - Bootstrap
+    - Tailwind CSS
+    - Bulma
+    - Foundation
+    - Materialize CSS
+    - Semantic UI
+
+development_tools:
+  lsps:
+    - css-languageserver
+  debugging:
+    - Chrome DevTools
+    - Firefox Developer Tools
+  linters:
+    - stylelint
+    - CSSLint
+  build_systems:
+    - Sass
+    - LESS
+    - PostCSS
+
+standard_library:
+  maturity: high
+  key_areas:
+    - text processing
+    - graphics
+  size: medium
+  documentation_quality: high
+
+versioning:
+  release_cycle: living standard
+  backwards_compatibility: high
+
+history:
+  inception: "1996-12-17"
+  developer:
+    - World Wide Web Consortium (W3C)
+  designed_by:
+    - Håkon Wium Lie
+    - Bert Bos
+  standards_bodies:
+    - World Wide Web Consortium (W3C)
+  influenced_by:
+    languages:
+      - HTML
+    paradigms:
+      - declarative
+
+official_website: https://www.w3.org/Style/CSS/
+
+documentation:
+  quality: high
+  official_sources:
+    - https://www.w3.org/TR/CSS/
+    - https://developer.mozilla.org/en-US/docs/Web/CSS
+  community_resources:
+    - https://css-tricks.com/
+    - https://www.smashingmagazine.com/category/css/
+
+references:
+  github_topics:
+    - css
+    - stylesheet
+  stackexchange_tags:
+    - css
+  wikidata_id: Q46441
+  subreddit: css
+
+color: "#264de4"

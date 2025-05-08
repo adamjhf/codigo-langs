@@ -1,0 +1,13 @@
+name: Grammatical Framework
+category: programming
+aliases:
+- gf
+file_extensions:
+- gf
+history:
+  inception: 1998-01-01
+  developer:
+  - Aarne Ranta
+  - Krasimir Angelov
+official_website: https://www.grammaticalframework.org/
+color: '#ff0000'

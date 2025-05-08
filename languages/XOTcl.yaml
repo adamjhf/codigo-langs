@@ -1,0 +1,12 @@
+name: XOTcl
+category: programming
+paradigms:
+- imperative
+- functional
+- event-driven
+- object-oriented
+typing:
+  system: dynamic
+history:
+  inception: 2000-01-01
+official_website: https://media.wu-wien.ac.at/

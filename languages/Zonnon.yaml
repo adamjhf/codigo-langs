@@ -1,0 +1,8 @@
+name: Zonnon
+category: programming
+paradigms:
+- imperative
+typing:
+  system: dynamic
+history:
+  inception: 2000-01-01

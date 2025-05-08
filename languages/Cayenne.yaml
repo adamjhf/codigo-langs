@@ -1,0 +1,6 @@
+name: Cayenne
+category: programming
+paradigms:
+- functional
+typing:
+  system: dependent

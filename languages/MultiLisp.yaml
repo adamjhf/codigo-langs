@@ -1,0 +1,5 @@
+name: MultiLisp
+category: programming
+typing:
+  system: dynamic
+  strength: strong

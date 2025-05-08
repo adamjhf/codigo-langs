@@ -1,0 +1,10 @@
+name: Python for S60
+category: programming
+paradigms:
+- object-oriented
+history:
+  developer:
+  - Python Software Foundation
+  designed_by:
+  - Guido van Rossum
+official_website: https://garage.maemo.org/projects/pys60/

@@ -1,0 +1,13 @@
+name: Join Java
+category: programming
+paradigms:
+- imperative
+- reflective
+history:
+  inception: 2000-01-01
+  developer:
+  - Stewart Von Itzstein
+  influenced_by:
+    languages:
+    - Java
+official_website: https://joinjava.unisa.edu.au/

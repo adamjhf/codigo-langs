@@ -1,0 +1,11 @@
+name: Unlambda
+category: programming
+paradigms:
+- functional
+- esoteric
+history:
+  inception: 1999-06-28
+  developer:
+  - David Madore
+  described_by: Esolang
+official_website: https://www.madore.org/~david/programs/unlambda/

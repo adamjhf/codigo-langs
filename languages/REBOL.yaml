@@ -1,0 +1,27 @@
+name: REBOL
+category: programming
+file_extensions:
+- reb
+paradigms:
+- prototype-based
+- functional
+- imperative
+- language-oriented
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1997-01-01
+  designed_by:
+  - Carl Sassenrath
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Rebol%20logo.png
+  influenced_by:
+    languages:
+    - Lisp
+    - Logo
+    - Forth
+    - Self
+official_website: https://www.rebol.com/
+references:
+  quora_topics:
+  - REBOL

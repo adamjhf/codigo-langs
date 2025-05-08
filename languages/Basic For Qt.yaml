@@ -1,0 +1,10 @@
+name: Basic For Qt
+category: programming
+paradigms:
+- object-oriented
+- imperative
+history:
+  influenced_by:
+    languages:
+    - Visual Basic
+official_website: https://www.kbasic.org/

@@ -1,0 +1,12 @@
+name: Itk
+category: programming
+typing:
+  system: dynamic
+history:
+  inception: 1993-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Tcl.svg
+  influenced_by:
+    languages:
+    - Tcl
+    - C++
+official_website: https://incrtcl.sourceforge.net/itk/

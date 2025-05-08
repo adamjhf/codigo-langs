@@ -1,0 +1,13 @@
+name: Nyquist
+category: programming
+file_extensions:
+- lsp
+- sal
+history:
+  inception: 2009-03-04
+  developer:
+  - Roger B. Dannenberg
+  influenced_by:
+    languages:
+    - Lisp
+official_website: https://www.cs.cmu.edu/afs/cs.cmu.edu/project/music/web/music.software.html

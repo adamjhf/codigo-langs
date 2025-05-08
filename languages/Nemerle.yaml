@@ -1,0 +1,23 @@
+name: Nemerle
+category: programming
+file_extensions:
+- n
+paradigms:
+- imperative
+- object-oriented
+- functional
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: full
+history:
+  inception: 2003-01-01
+  developer:
+  - University of Wrocław
+  - JetBrains
+  influenced_by:
+    languages:
+    - Standard ML
+official_website: https://nemerle.org
+color: '#3d3c6e'

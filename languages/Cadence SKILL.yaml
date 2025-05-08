@@ -1,0 +1,10 @@
+name: Cadence SKILL
+category: programming
+paradigms:
+- functional
+typing:
+  system: dynamic
+history:
+  inception: 1990-01-01
+  developer:
+  - Cadence Design Systems

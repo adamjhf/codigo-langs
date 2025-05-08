@@ -1,0 +1,13 @@
+name: SETL
+category: programming
+paradigms:
+- object-oriented
+- structured
+- imperative
+typing:
+  system: dynamic
+history:
+  inception: 1969-01-01
+  developer:
+  - Courant Institute of Mathematical Sciences, NYU
+official_website: https://setl.org

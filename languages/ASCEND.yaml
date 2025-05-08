@@ -1,0 +1,8 @@
+name: ASCEND
+category: programming
+paradigms:
+- declarative
+domains:
+  primary:
+  - scientific computing
+official_website: https://www.ascend4.org/

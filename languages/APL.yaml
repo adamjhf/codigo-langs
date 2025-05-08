@@ -1,0 +1,136 @@
+name: APL
+category: programming
+description: A programming language developed in the 1960s, known for its concise syntax and powerful array-oriented operations. APL uses unique non-ASCII symbols for its operators.
+aliases:
+  - A Programming Language
+file_extensions:
+  - apl
+  - dyalog
+  - aplf
+  - aplo
+  - apln
+status: active
+paradigms:
+  - array-oriented
+  - imperative
+  - functional
+typing:
+  system: dynamic
+  type_checking: runtime
+  structural: true
+  strength: strong
+  inference: full
+  type_coercion: moderate
+  type_annotations: none
+execution:
+  type:
+    - interpreted
+    - compiled
+  compiles_to:
+    - bytecode
+  runtime_environments:
+    - language-specific runtime
+    - native OS process
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+domains:
+  primary:
+    - data processing
+    - mathematics
+    - statistics
+    - scientific computing
+    - financial systems
+  secondary:
+    - data visualization
+    - education
+    - simulation
+  emerging:
+    - data science
+    - artificial intelligence
+platforms:
+  operating_systems:
+    - Windows
+    - macOS
+    - Linux
+    - Unix
+  architectures:
+    - x86-64
+    - platform-independent
+ecosystem:
+  maturity: moderate
+  community_size: small
+  learning_resources: small
+  job_market_demand: low
+complexity:
+  learning_curve: high
+  cognitive_load: high
+  syntax_complexity: very high
+  semantic_complexity: high
+language_features:
+  immutability: optional
+  metaprogramming: true
+  generics: false
+  c_interop: false
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+  key_features:
+    - first-class functions
+concurrency:
+  model: none
+  ease_of_use: low
+error_handling:
+  primary_mechanism: exceptions
+  stack_traces: true
+compilers:
+  - name: Dyalog APL
+    type: interpreter
+    license: proprietary
+    is_reference: true
+  - name: GNU APL
+    type: interpreter
+    license: GPL-3.0
+    source_url: https://www.gnu.org/software/apl/
+  - name: NARS2000
+    type: interpreter
+    license: GPL-3.0
+  - name: APL\360
+    type: interpreter
+    license: proprietary
+standard_library:
+  maturity: moderate
+  key_areas:
+    - data structures
+    - mathematics
+    - text processing
+    - file I/O
+  size: medium
+  documentation_quality: moderate
+history:
+  inception: "1966-01-01"
+  designed_by:
+    - Kenneth E. Iverson
+  influenced_by:
+    languages:
+      - mathematical notation
+  developer:
+    - IBM
+    - Dyalog Ltd.
+official_website: https://www.dyalog.com/
+color: "#5A8164"
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: high
+references:
+  wikidata_id: Q206698
+  subreddit: "apl"
+  github_topics:
+    - apl
+  stackexchange_tags:
+    - apl

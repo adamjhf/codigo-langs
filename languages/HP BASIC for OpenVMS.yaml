@@ -1,0 +1,7 @@
+name: HP BASIC for OpenVMS
+category: programming
+paradigms:
+- imperative
+history:
+  developer:
+  - Digital Equipment Corporation

@@ -1,0 +1,9 @@
+name: Hierarchical Music Specification Language
+category: programming
+history:
+  developer:
+  - David Rosenboom
+  - Larry Polansky
+  influenced_by:
+    languages:
+    - Forth

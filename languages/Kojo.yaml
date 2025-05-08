@@ -1,0 +1,14 @@
+name: Kojo
+category: programming
+paradigms:
+- object-oriented
+- functional
+typing:
+  strength: strong
+history:
+  inception: 2010-01-01
+  influenced_by:
+    languages:
+    - Logo
+    - Processing
+official_website: https://www.kogics.net/kojo

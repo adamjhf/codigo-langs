@@ -1,0 +1,7 @@
+name: Zenith Parsing Engine
+category: programming
+paradigms:
+- imperative
+typing:
+  system: dynamic
+  strength: weak

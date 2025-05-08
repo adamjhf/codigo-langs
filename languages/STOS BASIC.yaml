@@ -1,0 +1,12 @@
+name: STOS BASIC
+category: programming
+file_extensions:
+- mbk
+- mbs
+history:
+  inception: 1988-01-01
+  developer:
+  - François Lionet
+  influenced_by:
+    languages:
+    - BASIC

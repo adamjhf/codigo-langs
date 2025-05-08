@@ -1,0 +1,14 @@
+name: Amiga E
+category: programming
+paradigms:
+- object-oriented
+history:
+  inception: 1993-01-01
+  developer:
+  - Wouter van Oortmerssen
+  influenced_by:
+    languages:
+    - Modula-2
+references:
+  quora_topics:
+  - Amiga-E

@@ -1,0 +1,8 @@
+name: Ease
+category: programming
+paradigms:
+- parallel
+typing:
+  strength: strong
+history:
+  inception: 1991-01-01

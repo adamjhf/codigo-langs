@@ -1,0 +1,15 @@
+name: Charm
+category: programming
+paradigms:
+- structured
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1996-01-01
+  influenced_by:
+    languages:
+    - C
+    - Pascal
+    - RTL/2
+official_website: https://charm.qu-bit.co.uk

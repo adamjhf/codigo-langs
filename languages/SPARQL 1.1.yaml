@@ -1,0 +1,9 @@
+name: SPARQL 1.1
+category: programming
+domains:
+  primary:
+  - database management
+  - natural-language
+history:
+  inception: 2013-03-21
+official_website: https://www.w3.org/TR/sparql11-overview/

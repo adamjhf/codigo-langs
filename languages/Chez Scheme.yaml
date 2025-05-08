@@ -1,0 +1,11 @@
+name: Chez Scheme
+category: programming
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1985-01-01
+  developer:
+  - Cisco
+  - Cadence Research Systems
+official_website: https://cisco.github.io/ChezScheme/

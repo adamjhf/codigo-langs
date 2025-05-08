@@ -1,0 +1,16 @@
+name: Standard ML of New Jersey
+category: programming
+paradigms:
+- imperative
+typing:
+  strength: strong
+  inference: full
+history:
+  inception: 2002-10-16
+  influenced_by:
+    languages:
+    - Standard ML
+official_website: https://www.smlnj.org/
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/smlnj

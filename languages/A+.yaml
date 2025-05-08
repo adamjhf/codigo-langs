@@ -1,0 +1,14 @@
+name: A+
+category: programming
+paradigms:
+- array-oriented
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1988-01-01
+  developer:
+  - Morgan Stanley
+  designed_by:
+  - Arthur Whitney
+official_website: https://www.aplusdev.org/

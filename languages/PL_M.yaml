@@ -1,0 +1,14 @@
+name: PL/M
+category: programming
+paradigms:
+- structured
+- imperative
+history:
+  inception: 1973-01-01
+  developer:
+  - Gary Kildall
+  influenced_by:
+    languages:
+    - ALGOL
+    - PL/I
+    - XPL

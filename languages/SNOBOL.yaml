@@ -1,0 +1,15 @@
+name: SNOBOL
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1962-01-01
+  developer:
+  - Bell Labs
+  designed_by:
+  - David J. Farber
+  influenced_by:
+    languages:
+    - COMIT
+    - FORTRAN II
+official_website: https://www.snobol4.org

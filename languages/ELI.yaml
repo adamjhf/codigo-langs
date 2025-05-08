@@ -1,0 +1,7 @@
+name: ELI
+category: programming
+paradigms:
+- array-oriented
+typing:
+  system: dynamic
+official_website: https://fastarray.appspot.com

@@ -1,0 +1,15 @@
+name: Modula
+category: programming
+paradigms:
+- imperative
+- modular
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1975-01-01
+  developer:
+  - Niklaus Wirth
+  influenced_by:
+    languages:
+    - Pascal

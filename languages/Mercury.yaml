@@ -1,0 +1,28 @@
+name: Mercury
+category: programming
+file_extensions:
+- m
+- moo
+paradigms:
+- functional
+- logic
+- purely functional
+- object-oriented
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1995-04-08
+  developer:
+  - University of Melbourne
+  influenced_by:
+    languages:
+    - Haskell
+    - Prolog
+    - Hope
+official_website: https://www.mercurylang.org
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/questions/tagged/mercury
+  subreddit: mercury
+color: '#ff2b2b'

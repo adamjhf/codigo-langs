@@ -1,0 +1,1005 @@
+type: object
+additionalProperties: false
+description: Schema for describing programming language characteristics and capabilities
+
+definitions:
+  rating_scale:
+    type: string
+    enum:
+      - very low
+      - low
+      - moderate
+      - high
+      - very high
+  speed_scale:
+    type: string
+    enum:
+      - very fast
+      - fast
+      - moderate
+      - slow
+      - very slow
+  size_scale:
+    type: string
+    enum:
+      - very large
+      - large
+      - medium
+      - small
+      - very small
+
+required:
+  - name
+  - category
+
+properties:
+  name:
+    type: string
+    description: Official and primary English name of the language
+
+  description:
+    type: string
+    description: Key summary about the language, in up to 3 sentences
+
+  aliases:
+    type: array
+    description: Aliases or alternative names used for the language
+    items:
+      type: string
+
+  file_extensions:
+    type: array
+    description: File extensions typically used for the language (exclude leading period)
+    items:
+      type: string
+
+  category:
+    type: string
+    description: The category or type of the language based on its primary use or classification
+    enum:
+      - programming
+      - markup
+      - query
+      - assembly
+      - stylesheet
+      - configuration
+      - DSL
+      - other
+
+  status:
+    type: string
+    description: Current development status of the language
+    enum:
+      - active
+      - maintenance
+      - legacy
+      - experimental
+      - deprecated
+
+
+  compilers:
+    type: array
+    description: Information about available compilers or interpreters
+    items:
+      type: object
+      required:
+        - name
+      properties:
+        name:
+          type: string
+          description: Name of the compiler/interpreter
+        type:
+          type: string
+          description: Whether this is a compiler or interpreter
+          enum:
+            - compiler
+            - interpreter
+            - hybrid
+        license:
+          type: string
+          description: License under which the compiler/interpreter is released
+          enum:
+            - MIT
+            - Apache-2.0
+            - GPL-1.0
+            - GPL-2.0
+            - GPL-3.0
+            - LGPL-2.1
+            - LGPL-3.0
+            - BSD-2-Clause
+            - BSD-3-Clause
+            - MPL-2.0
+            - proprietary
+            - custom
+            - public domain
+        source_url:
+          type: string
+          format: uri
+          pattern: ^https://
+          description: URL to the source code repository of the compiler/interpreter
+        is_reference:
+          type: boolean
+          description: Whether this is the reference implementation
+
+  paradigms:
+    type: array
+    description: Primary programming paradigms supported by the language
+    items:
+      type: string
+      enum:
+        - imperative
+        - procedural
+        - declarative       # High-level specification (CSS, SQL)
+        - functional        # General functional programming
+        - purely functional # Strict functional purity (Haskell)
+        - object-oriented   # Includes class-based and prototype-based
+        - prototype-based   # JavaScript’s object system
+        - event-driven      # JavaScript, GUI frameworks
+        - logic             # Prolog
+        - concurrent        # Rust, Go
+        - generic           # C++, Rust templates
+        - reflective        # Python, JavaScript
+        - array-oriented    # APL, NumPy-style
+        - stack-oriented    # Forth
+        - dataflow          # LabVIEW (partially visual)
+        - meta-programming  # Lisp, Rust macros
+        - aspect-oriented   # AspectJ
+        - agent-oriented    # Multi-agent systems
+        - rule-based        # Expert systems, CLIPS
+        - markup            # HTML
+        - constraint        # Constraint programming (Prolog variants)
+        - modular           # Modula-2, Ada
+        - reactive          # Elm, RxJS
+        - process-oriented  # Occam
+        - concatenative     # Factor
+        - parallel          # CUDA, OpenMP
+        - total functional  # Total functional programming
+        - literate          # Literate Haskell
+        - language-oriented # Domain-specific language design
+        - data-driven       # Data-driven design
+        - natural-language  # Inform 7
+        - symbolic          # Lisp, Prolog
+        - query             # SQL, SPARQL
+        - visual            # Scratch, LabVIEW
+        - template-based    # C++ templates, PHP
+        - structured
+        - esoteric          # Brainfuck          
+        - distributed
+
+  typing:
+    type: object
+    description: type system characteristics
+    properties:
+      system:
+        type: string
+        description: core type system approach
+        enum:
+          - static
+          - dynamic
+          - gradual
+          - dependent
+          - linear
+          - duck
+          - untyped
+      type_checking:
+        type: string
+        description: when type checking occurs
+        enum:
+          - compile-time
+          - runtime
+          - hybrid
+      structural:
+        type: boolean
+        description: whether typing is structural (duck typing) or nominative (named types)
+      strength:
+        type: string
+        description: level of type checking enforcement (rejection of invalid operations)
+        enum:
+          - strong  
+          - weak    
+          - mixed   
+      inference:
+        type: string
+        description: whether types can be automatically inferred
+        enum:
+          - none    
+          - partial 
+          - full    
+      type_coercion:
+        type: string
+        description: how aggressively the language converts between types
+        enum:
+          - none        
+          - conservative 
+          - moderate    
+          - aggressive  
+      type_annotations:
+        type: string
+        description: whether type annotations are required, optional, or not available
+        enum:
+          - none     
+          - optional 
+          - required 
+
+  execution:
+    type: object
+    description: How code is executed and its performance characteristics
+    properties:
+      type:
+        type: array
+        description: Method of code execution
+        items:
+          type: string
+          enum:
+            - compiled
+            - interpreted
+            - interpreted with JIT compilation
+            - hybrid
+            - transpiled
+            - parsed
+            - query-optimized
+      compiles_to:
+        type: array
+        description: Target formats when code is compiled
+        items:
+          type: string
+          enum:
+            - machine code
+            - bytecode
+            - WebAssembly
+            - JavaScript
+            - LLVM IR
+            - C
+            - assembly
+            - GPU code
+            - query plan
+            - other intermediate representation
+      runtime_environments:
+        type: array
+        description: Environments where the code can execute
+        items:
+          type: string
+          enum:
+            - language-specific runtime
+            - JVM
+            - BEAM VM
+            - Ruby VM
+            - Docker container
+            - native OS process
+            - browser
+            - microcontroller
+            - custom VM
+            - native binary
+            - cloud function environment
+            - WebAssembly
+            - embedded interpreter
+            - serverless
+            - CLR
+      performance:
+        type: object
+        description: Performance characteristics
+        properties:
+          startup_time:
+            $ref: "#/definitions/speed_scale"
+            description: Time from execution start to ready state
+          memory_usage:
+            $ref: "#/definitions/rating_scale"
+            description: Typical memory footprint relative to other languages
+          computation_speed:
+            $ref: "#/definitions/speed_scale"
+            description: Raw computation performance
+          compilation_speed:
+            $ref: "#/definitions/speed_scale"
+            description: Time taken to compile/process code
+
+  domains:
+    type: object
+    description: Areas where the language is commonly used
+    properties:
+      primary:
+        type: array
+        description: Main use cases and strongest applications
+        items:
+          type: string
+          enum:
+            - web development
+            - server-side applications
+            - desktop applications
+            - mobile development
+            - systems programming
+            - game development
+            - scientific computing
+            - data science
+            - artificial intelligence
+            - database management
+            - network programming
+            - browser extensions
+            - compiler
+            - interpreter
+            - operating systems
+            - real-time computing
+            - cloud computing
+            - blockchain
+            - IoT
+            - DevOps
+            - edge computing
+            - WebAssembly
+            - distributed system
+            - software build
+            - build automation
+            - user interface
+            - microcontroller programming
+            - 3D computer graphics
+            - 2D computer graphics
+            - spreadsheet
+            - computer configuration
+            - operational semantics
+            - education
+            - typesetting
+            - conformance testing
+            - statistics
+            - numerical analysis
+            - bioinformatics
+            - data visualization
+            - email filtering
+            - shell
+            - computer-aided design
+            - computer numerical control
+            - digital image processing
+            - visual programming
+            - computer font
+            - publishing
+            - interactive fiction
+            - assembly
+            - analysis
+            - automated theorem proving
+            - natural-language
+            - intermediate representation
+            - chemistry
+            - geographic information system
+            - physics
+            - MUD
+            - embedded systems
+            - configuration management
+            - computer-aided manufacturing
+            - annotation
+            - knowledge-based system
+            - low code development
+            - robotics
+            - hypermedia
+            - multi-agent system
+            - formal verification
+            - biology
+            - music
+            - scripting
+            - video processing
+            - audio processing
+            - automation
+            - workflow management
+            - quantum programming
+            - text processing
+            - infrastructure as code
+            - build management
+            - data integration
+            - image processing
+            - animation
+            - financial systems
+            - simulation
+            - virtual reality
+            - augmented reality
+            - machine learning frameworks
+            - e-commerce
+            - cryptocurrency
+            - business applications
+            - data processing
+            - safety-critical systems
+            - aerospace
+            - telecommunications
+            - system administration
+            - high-performance computing
+            - mathematics
+            - microservices
+            - testing
+            - big data
+            - templating
+            - machine learning
+      secondary:
+        type: array
+        description: Additional common but not primary use cases
+        items:
+          $ref: "#/properties/domains/properties/primary/items"
+      emerging:
+        type: array
+        description: New or growing areas of application
+        items:
+          $ref: "#/properties/domains/properties/primary/items"
+
+  platforms:
+    type: object
+    description: Supported execution environments and platforms
+    properties:
+      operating_systems:
+        type: array
+        description: Operating systems where the language can run
+        items:
+          type: string
+          enum:
+            - Windows
+            - macOS
+            - Linux
+            - BSD
+            - Unix
+            - Solaris
+            - Android
+            - iOS
+            - embedded
+            - bare metal
+            - DOS
+      architectures:
+        type: array
+        description: CPU architectures supported
+        items:
+          type: string
+          enum:
+            - x86
+            - x86-64
+            - ARM
+            - ARM64
+            - RISC-V
+            - MIPS
+            - PowerPC
+            - SPARC
+            - SPARC64
+            - IA-64
+            - Alpha
+            - AVR
+            - GPU
+            - WebAssembly
+            - platform-independent
+      cloud_function_environments:
+        type: array
+        description: Cloud platforms where the language can be deployed as a cloud function, if applicable
+        items:
+          type: string
+          enum:
+            - AWS Lambda
+            - Google Cloud Functions
+            - Azure Functions
+            - Cloudflare Workers
+            - Vercel Functions
+            - Deno Deploy
+            - DigitalOcean Functions
+            - IBM Cloud Functions
+            - Alibaba Function Compute
+            - Oracle Cloud Functions
+            - Netlify Functions
+            - Heroku
+            - Firebase Functions
+            - Fastly Compute@Edge
+
+  ecosystem:
+    type: object
+    description: Community and support infrastructure
+    properties:
+      maturity:
+        $ref: "#/definitions/rating_scale"
+        description: Overall ecosystem development and stability level
+      package_registry:
+        type: string
+        description: Main package/library repository URL or name
+      community_size:
+        $ref: "#/definitions/size_scale"
+        description: Number of active developers and contributors
+      learning_resources:
+        $ref: "#/definitions/size_scale"
+        description: Quantity and quality of available learning materials
+      job_market_demand:
+        $ref: "#/definitions/rating_scale"
+        description: Level of employment opportunities
+
+  complexity:
+    type: object
+    description: Learning and usage difficulty metrics
+    properties:
+      learning_curve:
+        $ref: "#/definitions/rating_scale"
+        description: Effort required to learn basics to intermediate level
+      cognitive_load:
+        $ref: "#/definitions/rating_scale"
+        description: Mental effort required during ongoing development
+      syntax_complexity:
+        $ref: "#/definitions/rating_scale"
+        description: Difficulty due to language syntax
+      semantic_complexity:
+        $ref: "#/definitions/rating_scale"
+        description: Difficulty due to language semantics or concepts
+
+  language_features:
+    type: object
+    description: Core language capabilities and characteristics
+    properties:
+      immutability:
+        type: string
+        description: How the language handles immutable data
+        enum:
+          - none
+          - optional
+          - enforced
+          - default
+          - partial
+      enums:
+        type: string
+        description: Level of enumeration type support
+        enum:
+          - none
+          - basic
+          - algebraic
+          - bitfield
+          - extensible
+      metaprogramming:
+        type: boolean
+        description: Whether the language supports code that can modify/generate code
+      generics:
+        type: boolean
+        description: Whether the language supports generic programming
+      c_interop:
+        type: boolean
+        description: Whether the language has native C language interoperability
+      pattern_matching:
+        type: boolean
+        description: Whether the language supports structural pattern matching
+      null_safety:
+        type: boolean
+        description: Whether the language has built-in null reference protection
+      memory_safety:
+        type: object
+        description: Memory safety characteristics
+        properties:
+          type:
+            type: string
+            description: Primary memory safety approach
+            enum:
+              - manual
+              - managed
+              - hybrid
+              - unsafe
+          level:
+            $ref: "#/definitions/rating_scale"
+            description: Degree of memory safety guarantees
+      memory_management:
+        type: object
+        description: Memory allocation and deallocation approach
+        required:
+          - type
+        properties:
+          type:
+            type: string
+            description: Primary memory management strategy
+            enum:
+              - manual
+              - garbage collection
+              - reference counting
+              - hybrid
+              - region-based
+              - RAII
+              - arena
+              - stack-only
+          implementation:
+            type: string
+            description: Specific implementation details of memory management
+          manual_control:
+            type: boolean
+            description: Whether manual memory management control available
+      key_features:
+        type: array
+        description: Distinctive language capabilities
+        items:
+          type: string
+          enum:
+            - first-class functions
+            - closures
+            - pattern matching
+            - algebraic data types
+            - type inference
+            - operator overloading
+            - multiple inheritance
+            - mixins
+            - traits/interfaces
+            - zero-cost abstractions
+            - hot reload
+            - REPL
+            - interactive development
+            - native FFI
+            - macros
+            - async/await
+            - channels
+            - ownership system
+            - type classes
+            - extension methods
+            - string interpolation
+            - reflection
+            - meta-programming
+            - decorators/annotations
+            - destructuring
+            - range types
+            - unified function call syntax
+            - variadic functions
+            - named arguments
+            - prototypal inheritance
+            - modules
+            - iterators/generators
+            - proxies
+            - symbols
+            - generics
+            - semantic markup
+            - accessibility attributes
+            - lambdas
+            - coroutines
+            - tail-call optimization
+            - contracts
+            - templates
+            - pure functions
+            - monads
+            - currying
+            - lazy evaluation
+
+  concurrency:
+    type: object
+    description: Parallel execution capabilities
+    properties:
+      model:
+        type: string
+        description: Primary approach to handling concurrent execution
+        enum:
+          - none
+          - threads
+          - event loop
+          - actors
+          - CSP
+          - STM
+          - goroutines
+          - fibers
+          - coroutines
+          - fork-join
+          - dataflow
+          - parallel tasks
+      features:
+        type: array
+        description: Specific concurrency mechanisms supported
+        items:
+          type: string
+          enum:
+            - async/await
+            - promises/futures
+            - channels
+            - thread pools
+            - work stealing
+            - green threads
+            - software transactional memory
+            - message passing
+            - shared memory
+            - lock-free data structures
+            - parallel collections
+            - supervisors
+            - distributed computing
+            - task parallelism
+            - data parallelism
+            - concurrent data structures
+            - atomic operations
+            - actors
+      ease_of_use:
+        $ref: "#/definitions/rating_scale"
+        description: How easily concurrent programs can be written
+
+  error_handling:
+    type: object
+    description: Error and exception management
+    properties:
+      primary_mechanism:
+        type: string
+        description: Main approach to handling errors
+        enum:
+          - exceptions
+          - result types
+          - error codes
+          - conditions
+          - optional types
+          - monadic error handling
+          - pattern matching
+          - signals
+          - assertions
+          - other
+      features:
+        type: array
+        description: Specific error handling capabilities
+        items:
+          type: string
+          enum:
+            - stack traces
+            - error chaining
+            - custom error types
+            - recovery mechanisms
+            - panic/catch
+            - error context
+            - error categories
+            - error propagation
+            - multiple error types
+            - error formatting
+            - cleanup actions
+            - resource management
+            - error logging
+            - error reporting
+            - error translation
+            - graceful degradation
+            - validation
+            - fallback content
+      stack_traces:
+        type: boolean
+        description: Whether the language supports execution stack traces
+      debugging:
+        type: object
+        description: Debugging support features
+        properties:
+          source_maps:
+            type: boolean
+            description: Whether source mapping is supported
+          breakpoints:
+            type: boolean
+            description: Whether breakpoint debugging is supported
+          step_debugging:
+            type: boolean
+            description: Whether step-by-step debugging is supported
+
+  package_managers:
+    type: object
+    description: Tools for dependency management
+    properties:
+      primary:
+        type: string
+        description: Main package manager for the language
+      alternatives:
+        type: array
+        description: Other available package managers
+        items:
+          type: string
+
+  popular_frameworks:
+    type: object
+    description: Widely used development frameworks
+    properties:
+      frontend:
+        type: array
+        description: UI/client-side frameworks
+        items:
+          type: string
+      backend:
+        type: array
+        description: Server-side frameworks
+        items:
+          type: string
+      testing:
+        type: array
+        description: Testing frameworks
+        items:
+          type: string
+      mobile:
+        type: array
+        description: Mobile development frameworks
+        items:
+          type: string
+
+  development_tools:
+    type: object
+    description: Development support tools
+    properties:
+      lsps:
+        type: array
+        description: Language Server Protocol implementations
+        items:
+          type: string
+      debugging:
+        type: array
+        description: Debugging tools
+        items:
+          type: string
+      profiling:
+        type: array
+        description: Performance analysis tools
+        items:
+          type: string
+      build_systems:
+        type: array
+        description: Build automation tools distinct from package managers
+        items:
+          type: string
+      linters:
+        type: array
+        description: Code quality tools
+        items:
+          type: string
+
+  standard_library:
+    type: object
+    description: Built-in language capabilities
+    properties:
+      maturity:
+        $ref: "#/definitions/rating_scale"
+        description: Completeness and stability of standard library
+      key_areas:
+        type: array
+        description: Core functionality areas covered by standard library
+        items:
+          type: string
+          enum:
+            - file I/O
+            - networking
+            - concurrency
+            - data structures
+            - algorithms
+            - text processing
+            - cryptography
+            - database access
+            - HTTP client/server
+            - JSON/XML processing
+            - regular expressions
+            - date/time
+            - mathematics
+            - compression
+            - serialization
+            - testing
+            - logging
+            - CLI tools
+            - process management
+            - security
+            - accessibility
+            - multimedia
+            - web components
+            - graphics
+            - GUI
+            - file system operations
+            - internationalization
+            - random number generation
+      size:
+        $ref: "#/definitions/size_scale"
+        description: Relative size or extent of the standard library
+      documentation_quality:
+        $ref: "#/definitions/rating_scale"
+        description: Quality of official documentation for the standard library
+
+  versioning:
+    type: object
+    description: Versioning and release information
+    properties:
+      release_cycle:
+        type: string
+        description: How releases are managed
+        enum:
+          - fixed schedule
+          - feature-driven
+          - long-term support
+          - rolling release
+          - time-based
+          - semantic versioning
+          - calendar versioning
+          - rapid release
+          - enterprise
+          - living standard
+      backwards_compatibility:
+        $ref: "#/definitions/rating_scale"
+        description: Level of compatibility with previous versions
+
+  history:
+    type: object
+    description: Language origins and evolution
+    properties:
+      inception:
+        type: string
+        format: date
+        description: Date when the language was initially created
+      developer:
+        type: array
+        description: Organizations or teams that developed the language
+        items:
+          type: string
+      designed_by:
+        type: array
+        description: Individuals who designed the language
+        items:
+          type: string
+      described_by:
+        type: string
+        description: Official standard or specification for the language, if applicable
+        nullable: true
+      standards_bodies:
+        type: array
+        description: Organizations or bodies that standardized the language, if applicable
+        items:
+          type: string
+      logo:
+        type: string
+        format: uri
+        pattern: ^https://
+        description: URL for the language logo, if available
+      influenced_by:
+        type: object
+        description: Details of other languages and paradigms that influenced this language
+        properties:
+          languages:
+            type: array
+            items:
+              type: string
+            description: List of programming languages that influenced the development of this language
+          paradigms:
+            $ref: "#/properties/paradigms"
+            description: Programming paradigms that influenced the design of this language
+
+  official_website:
+    type: string
+    format: uri
+    pattern: ^https://
+    description: URL of the official website or homepage for the programming language, if available
+
+  official_blog_rss:
+    type: string
+    format: uri
+    pattern: ^https://
+    description: URL of the official blog/devlog for the language, primarily where news of changes to the language is announced. Must be in either RSS or Atom format
+
+  documentation:
+    type: object
+    description: Information about the language's documentation resources
+    properties:
+      quality:
+        $ref: "#/definitions/rating_scale"
+        description: Quality rating of the official documentation based on clarity, completeness, and accessibility
+      official_sources:
+        type: array
+        items:
+          type: string
+          format: uri
+          pattern: ^https://
+        description: URLs of official documentation sources for the language
+      community_resources:
+        type: array
+        items:
+          type: string
+          format: uri
+          pattern: ^https://
+        description: URLs of community-contributed resources or guides for the language
+
+  references:
+    type: object
+    description: External references for the language
+    properties:
+      github_topics:
+        type: array
+        description: GitHub topics for the language
+        items:
+          type: string
+      quora_topics:
+        type: array
+        description: Quora topics for the language
+        items:
+          type: string
+      stackexchange_tags:
+        type: array
+        description: Stack Exchange tags for the language
+        items:
+          type: string
+      wikidata_id:
+        type: string
+        description: Wikidata ID for the language
+      subreddit:
+        type: string
+        description: Subreddit for the language
+      discord:
+        type: string
+        description: Discord server invite code or URL for the language community
+      x_handle:
+        type: string
+        description: Official X handle for the language
+
+  color:
+    type: string
+    pattern: ^#[A-Fa-f0-9]{6}$
+    description: 'Official color of the language, in hexadecimal format #RRGGBB'

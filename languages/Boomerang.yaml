@@ -1,0 +1,10 @@
+name: Boomerang
+category: programming
+history:
+  inception: 2008-01-01
+  developer:
+  - Benjamin C. Pierce
+  influenced_by:
+    languages:
+    - OCaml
+official_website: https://www.seas.upenn.edu/~harmony/

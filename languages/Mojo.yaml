@@ -1,0 +1,180 @@
+name: Mojo
+description: Mojo is a programming language that combines Python's usability with systems programming performance. It provides the best of both worlds with Python syntax and C++/Rust performance characteristics.
+category: programming
+status: active
+file_extensions:
+  - mojo
+  - 🔥
+aliases:
+  - Mojo🔥
+
+compilers:
+  - name: Modular Mojo Compiler
+    type: compiler
+    license: proprietary
+    is_reference: true
+    source_url: https://github.com/modularml/mojo
+
+paradigms:
+  - imperative
+  - procedural
+  - object-oriented
+  - functional
+  - concurrent
+  - generic
+  - meta-programming
+
+typing:
+  system: static
+  type_checking: compile-time
+  structural: false
+  strength: strong
+  inference: partial
+  type_coercion: conservative
+  type_annotations: optional
+
+execution:
+  type:
+    - compiled
+    - interpreted with JIT compilation
+  compiles_to:
+    - LLVM IR
+    - machine code
+  runtime_environments:
+    - language-specific runtime
+    - native OS process
+  performance:
+    startup_time: fast
+    memory_usage: low
+    computation_speed: very fast
+    compilation_speed: fast
+
+domains:
+  primary:
+    - artificial intelligence
+    - scientific computing
+    - data science
+    - high-performance computing
+    - systems programming
+  secondary:
+    - cloud computing
+    - server-side applications
+    - desktop applications
+  emerging:
+    - machine learning
+    - robotics
+    - embedded systems
+
+platforms:
+  operating_systems:
+    - Linux
+    - macOS
+  architectures:
+    - x86-64
+    - ARM64
+
+ecosystem:
+  maturity: low
+  package_registry: modular.com
+  community_size: small
+  learning_resources: small
+  job_market_demand: low
+
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: false
+  null_safety: true
+  memory_safety:
+    type: hybrid
+    level: high
+  memory_management:
+    type: hybrid
+    implementation: MLIR-based ownership model
+    manual_control: true
+  key_features:
+    - zero-cost abstractions
+    - first-class functions
+    - modules
+    - generics
+    - native FFI
+    - ownership system
+
+concurrency:
+  model: parallel tasks
+  features:
+    - parallel collections
+    - task parallelism
+    - data parallelism
+    - atomic operations
+  ease_of_use: moderate
+
+error_handling:
+  primary_mechanism: result types
+  features:
+    - error propagation
+    - custom error types
+    - stack traces
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+
+package_managers:
+  primary: modular
+
+popular_frameworks:
+  backend:
+    - Modular ML
+  testing:
+    - Mojo built-in testing
+
+development_tools:
+  lsps:
+    - Mojo Language Server
+  debugging:
+    - Modular Mojo Debugger
+  build_systems:
+    - Mojo Build
+
+standard_library:
+  maturity: moderate
+  key_areas:
+    - data structures
+    - algorithms
+    - concurrency
+    - text processing
+    - mathematics
+  size: medium
+  documentation_quality: high
+
+versioning:
+  release_cycle: rapid release
+  backwards_compatibility: high
+
+history:
+  inception: "2023-05-02"
+  developer:
+    - Modular Inc.
+  designed_by:
+    - Chris Lattner
+    - Tim Davis
+
+official_website: https://www.modular.com/mojo
+official_blog_rss: https://www.modular.com/blog/rss.xml
+color: "#FF7000"
+
+references:
+  github_topics:
+    - mojo-lang
+  subreddit: mojolang

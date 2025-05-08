@@ -1,0 +1,7 @@
+name: FoxPro
+category: programming
+paradigms:
+- imperative
+- object-oriented
+history:
+  inception: 1991-01-01

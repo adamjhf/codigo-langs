@@ -1,0 +1,33 @@
+name: Ballerina
+category: programming
+file_extensions:
+- bal
+typing:
+  system: static
+  structural: true
+  strength: strong
+  inference: full
+history:
+  inception: 2017-01-01
+  developer:
+  - WSO2
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Official%20Ballerina%20Programming%20Language%20Logo.png
+  influenced_by:
+    languages:
+    - Java
+    - JavaScript
+    - C#
+    - C++
+    - C
+    - Haskell
+    - Go
+    - Dart
+    - Rust
+    - TypeScript
+    - Kotlin
+    - Swift
+official_website: https://ballerina.io/
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/ballerina
+color: '#FF5000'

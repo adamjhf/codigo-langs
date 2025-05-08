@@ -1,0 +1,210 @@
+name: OCaml
+description: OCaml is a multi-paradigm programming language that emphasizes functional, imperative, and object-oriented styles. It provides static type-checking, type inference, and pattern matching with a focus on safety and expressivity.
+category: programming
+status: active
+aliases:
+- Objective Caml
+file_extensions:
+- ml
+- eliom
+- eliomi
+- ml4
+- mli
+- mll
+- mly
+compilers:
+- name: OCaml
+  type: compiler
+  license: LGPL-2.1
+  source_url: https://github.com/ocaml/ocaml
+  is_reference: true
+paradigms:
+- functional
+- imperative
+- object-oriented
+- modular
+typing:
+  system: static
+  structural: true
+  strength: strong
+  inference: full
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  - interpreted
+  compiles_to:
+  - bytecode
+  - machine code
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  performance:
+    startup_time: fast
+    memory_usage: moderate
+    computation_speed: fast
+    compilation_speed: fast
+domains:
+  primary:
+  - compiler
+  - systems programming
+  - formal verification
+  - financial systems
+  secondary:
+  - scientific computing
+  - web development
+  - server-side applications
+  - text processing
+  emerging:
+  - blockchain
+  - quantum programming
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+ecosystem:
+  maturity: high
+  package_registry: opam
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: moderate
+complexity:
+  learning_curve: high
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: high
+language_features:
+  immutability: default
+  enums: algebraic
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: incremental mark and sweep with generational collection
+    manual_control: false
+  key_features:
+  - first-class functions
+  - closures
+  - pattern matching
+  - algebraic data types
+  - type inference
+  - modules
+  - tail-call optimization
+concurrency:
+  model: threads
+  features:
+  - message passing
+  - async/await
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - custom error types
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: opam
+  alternatives:
+  - dune
+  - esy
+popular_frameworks:
+  frontend:
+  - ReasonReact
+  - js_of_ocaml
+  - BuckleScript
+  backend:
+  - Dream
+  - Lwt
+  - Async
+  - Cohttp
+  testing:
+  - OUnit
+  - Alcotest
+  - QCheck
+development_tools:
+  lsps:
+  - ocaml-lsp
+  debugging:
+  - ocamldebug
+  profiling:
+  - landmarks
+  build_systems:
+  - dune
+  linters:
+  - ocamlformat
+  - merlin
+standard_library:
+  maturity: high
+  key_areas:
+  - data structures
+  - file I/O
+  - text processing
+  - networking
+  - mathematics
+  size: medium
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 1996-01-01
+  developer:
+  - INRIA
+  - Institut National de Recherche en Informatique et en Automatique
+  designed_by:
+  - Xavier Leroy
+  - Jérôme Vouillon
+  - Damien Doligez
+  - Didier Rémy
+  - Ascánder Suárez
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/OCaml%20Logo.svg
+  influenced_by:
+    languages:
+    - ML
+    - Caml
+    - Standard ML
+    paradigms:
+    - functional
+    - imperative
+    - object-oriented
+official_website: https://ocaml.org/
+documentation:
+  quality: high
+  official_sources:
+  - https://ocaml.org/docs
+  - https://ocaml.org/manual/
+  community_resources:
+  - https://discuss.ocaml.org/
+  - https://github.com/ocaml/ocaml.org
+references:
+  github_topics:
+  - ocaml
+  quora_topics:
+  - OCaml-programming-language
+  stackexchange_tags:
+  - ocaml
+  - https://stackoverflow.com/tags/ocaml
+  - https://proofassistants.stackexchange.com/tags/ocaml
+  wikidata_id: Q171279
+  subreddit: ocaml
+color: '#ef7a08'

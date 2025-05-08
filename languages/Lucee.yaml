@@ -1,0 +1,13 @@
+name: Lucee
+category: programming
+typing:
+  system: dynamic
+history:
+  inception: 2015-01-29
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Lucee-logo-bw.png
+  influenced_by:
+    languages:
+    - ColdFusion Markup Language
+references:
+  quora_topics:
+  - Lucee

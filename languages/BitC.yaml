@@ -1,0 +1,11 @@
+name: BitC
+category: programming
+paradigms:
+- imperative
+history:
+  developer:
+  - Johns Hopkins University
+  influenced_by:
+    languages:
+    - C
+official_website: https://www.bitc-lang.org/

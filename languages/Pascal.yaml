@@ -1,0 +1,175 @@
+name: Pascal
+description: Pascal is a procedural programming language designed in the late 1960s by Niklaus Wirth as a small, efficient language intended to encourage good programming practices. It is known for its clarity, strong typing, and readability.
+category: programming
+status: active
+aliases:
+- delphi
+- objectpascal
+file_extensions:
+- pas
+- dfm
+- dpr
+- inc
+- lpr
+- pascal
+- pp
+compilers:
+- name: Free Pascal
+  type: compiler
+  license: GPL-2.0
+  source_url: https://gitlab.com/freepascal.org/fpc/source
+  is_reference: false
+- name: GNU Pascal
+  type: compiler
+  license: GPL-3.0
+  is_reference: false
+- name: Turbo Pascal
+  type: compiler
+  license: proprietary
+  is_reference: false
+paradigms:
+- imperative
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: none
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: required
+execution:
+  type:
+  - compiled
+  compiles_to:
+  - machine code
+  - bytecode
+  runtime_environments:
+  - native OS process
+  performance:
+    startup_time: very fast
+    memory_usage: low
+    computation_speed: fast
+    compilation_speed: fast
+domains:
+  primary:
+  - education
+  - desktop applications
+  - systems programming
+  secondary:
+  - scientific computing
+  - business applications
+  emerging:
+  - embedded systems
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - DOS
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+ecosystem:
+  maturity: high
+  community_size: medium
+  learning_resources: large
+  job_market_demand: low
+complexity:
+  learning_curve: low
+  cognitive_load: low
+  syntax_complexity: low
+  semantic_complexity: low
+language_features:
+  immutability: none
+  enums: basic
+  metaprogramming: false
+  generics: false
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: manual
+    level: moderate
+  memory_management:
+    type: manual
+    implementation: stack and heap allocation
+    manual_control: true
+  key_features:
+  - modules
+  - range types
+  - named arguments
+concurrency:
+  model: none
+  ease_of_use: low
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - cleanup actions
+  stack_traces: true
+  debugging:
+    source_maps: false
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: fppkg
+  alternatives:
+  - OPM
+popular_frameworks:
+  frontend:
+  - Lazarus
+  backend:
+  - FreePascal
+development_tools:
+  lsps:
+  - Pascal Language Server
+  debugging:
+  - GDB
+  - Lazarus IDE Debugger
+  build_systems:
+  - FPC Build System
+  - MSBuild
+standard_library:
+  maturity: high
+  key_areas:
+  - file I/O
+  - text processing
+  - mathematics
+  - date/time
+  - data structures
+  size: medium
+  documentation_quality: high
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: high
+history:
+  inception: 1970-01-01
+  developer:
+  - Niklaus Wirth
+  designed_by:
+  - Niklaus Wirth
+  influenced_by:
+    languages:
+    - ALGOL
+    - ALGOL W
+    - Simula
+    - ALGOL 60
+    paradigms:
+    - structured
+    - procedural
+official_website: https://www.freepascal.org/
+documentation:
+  quality: high
+  official_sources:
+  - https://www.freepascal.org/docs.html
+  - https://wiki.freepascal.org/
+  community_resources:
+  - https://wiki.lazarus.freepascal.org/
+references:
+  github_topics:
+  - pascal
+  quora_topics:
+  - Pascal-Programming-Language
+  wikidata_id: Q81571
+  subreddit: pascal
+color: '#E3F171'

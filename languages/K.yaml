@@ -1,0 +1,19 @@
+name: K
+category: programming
+paradigms:
+- functional
+- array-oriented
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1993-01-01
+  designed_by:
+  - Arthur Whitney
+  influenced_by:
+    languages:
+    - APL
+official_website: https://kx.com
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/k

@@ -1,0 +1,10 @@
+name: Script.NET
+category: programming
+paradigms:
+- imperative
+typing:
+  system: dynamic
+history:
+  developer:
+  - Microsoft
+official_website: https://www.protsyk.com/scriptdotnet

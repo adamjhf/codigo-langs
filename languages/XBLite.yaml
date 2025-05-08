@@ -1,0 +1,7 @@
+name: XBLite
+category: programming
+paradigms:
+- imperative
+typing:
+  system: dynamic
+official_website: https://www.xblite.com

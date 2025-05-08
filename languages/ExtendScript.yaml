@@ -1,0 +1,12 @@
+name: ExtendScript
+category: programming
+file_extensions:
+- js
+- jsx
+- jsxbin
+history:
+  developer:
+  - Adobe
+references:
+  quora_topics:
+  - ExtendScript

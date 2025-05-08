@@ -1,0 +1,7 @@
+name: SPARQL-Generate
+category: programming
+file_extensions:
+- rqg
+history:
+  described_by: A SPARQL Extension for Generating RDF from Heterogeneous Formats
+official_website: https://ci.mines-stetienne.fr/sparql-generate/

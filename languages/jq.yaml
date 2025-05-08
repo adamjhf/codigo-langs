@@ -1,0 +1,12 @@
+name: jq
+category: programming
+file_extensions:
+- jq
+paradigms:
+- functional
+history:
+  inception: 2012-08-21
+  developer:
+  - Stephen Dolan
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Jq%20logo.svg
+color: '#c7254e'

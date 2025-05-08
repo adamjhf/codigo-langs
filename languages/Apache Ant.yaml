@@ -1,0 +1,17 @@
+name: Apache Ant
+category: programming
+domains:
+  primary:
+  - build automation
+  - build management
+history:
+  inception: 2000-07-19
+  developer:
+  - Apache Software Foundation
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Apache-Ant-logo.svg
+official_website: https://ant.apache.org/
+references:
+  quora_topics:
+  - Apache-Ant
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/ant

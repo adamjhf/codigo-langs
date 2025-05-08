@@ -1,0 +1,16 @@
+name: SequenceL
+category: programming
+paradigms:
+- functional
+- declarative
+- array-oriented
+- purely functional
+typing:
+  system: static
+  inference: full
+domains:
+  primary:
+  - scientific computing
+history:
+  inception: 1989-01-01
+official_website: https://texasmulticore.com

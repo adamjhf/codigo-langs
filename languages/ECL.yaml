@@ -1,0 +1,14 @@
+name: ECL
+category: programming
+file_extensions:
+- ecl
+- eclxml
+paradigms:
+- declarative
+history:
+  inception: 2000-01-01
+  developer:
+  - HPCC Systems
+  - ChoicePoint
+official_website: https://hpccsystems.com/
+color: '#8a1267'

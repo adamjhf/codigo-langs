@@ -1,0 +1,12 @@
+name: COMAL
+category: programming
+paradigms:
+- imperative
+- structured
+typing:
+  strength: strong
+history:
+  inception: 1975-01-01
+  influenced_by:
+    languages:
+    - BASIC

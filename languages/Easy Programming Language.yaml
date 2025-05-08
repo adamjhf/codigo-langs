@@ -1,0 +1,9 @@
+name: Easy Programming Language
+category: programming
+paradigms:
+- functional
+- imperative
+- object-oriented
+history:
+  inception: 2004-01-01
+official_website: https://www.dywt.com.cn/

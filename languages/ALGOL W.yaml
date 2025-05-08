@@ -1,0 +1,16 @@
+name: ALGOL W
+category: programming
+paradigms:
+- structured
+- imperative
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1966-01-01
+  developer:
+  - Tony Hoare
+  - Niklaus Wirth
+  influenced_by:
+    languages:
+    - ALGOL 60

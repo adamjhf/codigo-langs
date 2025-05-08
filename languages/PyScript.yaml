@@ -1,0 +1,12 @@
+name: PyScript
+category: programming
+history:
+  developer:
+  - Anaconda, Inc.
+  influenced_by:
+    languages:
+    - Python
+official_website: https://pyscript.net/
+references:
+  github_topics:
+  - pyscript

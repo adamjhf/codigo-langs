@@ -1,0 +1,61 @@
+name: X++
+description: A business-oriented programming language used primarily for developing extensions in Microsoft Dynamics 365, particularly for financial and supply chain management applications.
+category: programming
+file_extensions:
+  - xpp
+  - axapta
+status: active
+paradigms:
+  - object-oriented
+  - imperative
+typing:
+  system: static
+  type_checking: compile-time
+  strength: strong
+  inference: partial
+  type_annotations: optional
+execution:
+  type:
+    - compiled
+  runtime_environments:
+    - language-specific runtime
+    - CLR
+domains:
+  primary:
+    - business applications
+    - database management
+  secondary:
+    - data processing
+    - financial systems
+ecosystem:
+  maturity: moderate
+  community_size: small
+  learning_resources: small
+  job_market_demand: moderate
+platforms:
+  operating_systems:
+    - Windows
+complexity:
+  learning_curve: moderate
+  syntax_complexity: moderate
+concurrency:
+  model: threads
+error_handling:
+  primary_mechanism: exceptions
+language_features:
+  generics: true
+  c_interop: true
+  key_features:
+    - modules
+    - string interpolation
+history:
+  inception: "1998-01-01" 
+  developer:
+    - Damgaard
+    - Microsoft
+official_website: "https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/dev-tools/programming-language"
+references:
+  stackexchange_tags:
+    - x++
+    - dynamics-365
+  wikidata_id: Q8042801

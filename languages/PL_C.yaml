@@ -1,0 +1,18 @@
+name: PL/C
+category: programming
+paradigms:
+- structured
+- imperative
+typing:
+  strength: strong
+domains:
+  primary:
+  - analysis
+  - annotation
+history:
+  inception: 1973-01-01
+  developer:
+  - Cornell University
+  influenced_by:
+    languages:
+    - PL/I

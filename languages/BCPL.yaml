@@ -1,0 +1,15 @@
+name: BCPL
+category: programming
+paradigms:
+- imperative
+- structured
+history:
+  inception: 1967-01-01
+  designed_by:
+  - Martin Richards
+  influenced_by:
+    languages:
+    - CPL
+references:
+  quora_topics:
+  - BCPL-1

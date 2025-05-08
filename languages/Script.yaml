@@ -1,0 +1,13 @@
+name: Script
+category: programming
+paradigms:
+- concatenative
+- stack-oriented
+history:
+  described_by: heise online
+  influenced_by:
+    languages:
+    - Forth
+references:
+  stackexchange_tags:
+  - https://bitcoin.stackexchange.com/tags/script

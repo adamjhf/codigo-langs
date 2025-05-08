@@ -1,0 +1,15 @@
+name: RTL/2
+category: programming
+paradigms:
+- structured
+- imperative
+typing:
+  system: static
+  structural: true
+  strength: strong
+history:
+  inception: 1972-01-01
+  developer:
+  - John Barnes
+  designed_by:
+  - Imperial Chemical Industries

@@ -1,0 +1,10 @@
+name: MIT/GNU Scheme
+category: programming
+typing:
+  system: dynamic
+  strength: strong
+history:
+  developer:
+  - Massachusetts Institute of Technology
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/MIT%20GNU%20Scheme%20Logo.svg
+official_website: https://www.gnu.org/software/mit-scheme/

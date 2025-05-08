@@ -1,0 +1,244 @@
+name: Groovy
+description: Groovy is a dynamic language that runs on the JVM, combining features of Python, Ruby, and Java. It offers seamless Java integration, optional static typing, and powerful metaprogramming capabilities.
+aliases:
+  - Apache Groovy
+file_extensions:
+  - groovy
+  - gvy
+  - gy
+  - gsh
+category: programming
+status: active
+
+compilers:
+  - name: Groovy Compiler
+    type: hybrid
+    license: Apache-2.0
+    source_url: https://github.com/apache/groovy
+    is_reference: true
+
+paradigms:
+  - object-oriented
+  - functional
+  - imperative
+  - procedural
+
+typing:
+  system: dynamic
+  type_checking: runtime
+  structural: true
+  strength: strong
+  inference: partial
+  type_coercion: conservative
+  type_annotations: optional
+
+execution:
+  type:
+    - interpreted
+    - compiled
+    - interpreted with JIT compilation
+  compiles_to:
+    - bytecode
+  runtime_environments:
+    - JVM
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+    compilation_speed: fast
+
+domains:
+  primary:
+    - server-side applications
+    - scripting
+    - build management
+    - testing
+    - DevOps
+  secondary:
+    - web development
+    - data processing
+    - automation
+  emerging:
+    - cloud computing
+    - microservices
+
+platforms:
+  operating_systems:
+    - Windows
+    - macOS
+    - Linux
+    - Unix
+    - Solaris
+  architectures:
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - platform-independent
+  cloud_function_environments:
+    - AWS Lambda
+    - Google Cloud Functions
+    - Azure Functions
+
+ecosystem:
+  maturity: high
+  package_registry: Maven Central
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: moderate
+
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: JVM garbage collector
+    manual_control: false
+  key_features:
+    - closures
+    - operator overloading
+    - traits/interfaces
+    - REPL
+    - interactive development
+    - native FFI
+    - string interpolation
+    - meta-programming
+    - reflection
+    - extension methods
+    - named arguments
+    - modules
+
+concurrency:
+  model: threads
+  features:
+    - thread pools
+    - shared memory
+    - promises/futures
+  ease_of_use: moderate
+
+error_handling:
+  primary_mechanism: exceptions
+  features:
+    - stack traces
+    - error chaining
+    - custom error types
+    - error context
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+
+package_managers:
+  primary: Gradle
+  alternatives:
+    - Maven
+    - Ivy
+
+popular_frameworks:
+  frontend:
+    - Grails
+    - Griffon
+  backend:
+    - Grails
+    - Micronaut
+    - Ratpack
+    - Spring Boot with Groovy
+  testing:
+    - Spock
+    - JUnit with Groovy
+    - Geb
+  mobile:
+    - Android with Groovy
+
+development_tools:
+  lsps:
+    - Groovy Language Server
+  debugging:
+    - IntelliJ IDEA Debugger
+    - Eclipse Debugger
+  profiling:
+    - YourKit Java Profiler
+    - JProfiler
+  build_systems:
+    - Gradle
+    - Maven
+  linters:
+    - CodeNarc
+
+standard_library:
+  maturity: high
+  key_areas:
+    - file I/O
+    - networking
+    - concurrency
+    - data structures
+    - text processing
+    - JSON/XML processing
+    - date/time
+    - regular expressions
+    - serialization
+  size: medium
+  documentation_quality: high
+
+versioning:
+  release_cycle: semantic versioning
+  backwards_compatibility: high
+
+history:
+  inception: "2003-01-01"
+  developer:
+    - Apache Software Foundation
+  designed_by:
+    - James Strachan
+    - Guillaume Laforge
+    - Jochen Theodorou
+    - Paul King
+  standards_bodies:
+    - Apache Software Foundation
+  logo: https://groovy-lang.org/img/groovy-logo.png
+  influenced_by:
+    languages:
+      - Java
+      - Python
+      - Ruby
+      - Smalltalk
+    paradigms:
+      - object-oriented
+      - functional
+
+official_website: https://groovy-lang.org/
+
+documentation:
+  quality: high
+  official_sources:
+    - https://groovy-lang.org/documentation.html
+    - https://docs.groovy-lang.org/latest/html/documentation/
+  community_resources:
+    - https://www.baeldung.com/groovy
+    - https://www.tutorialspoint.com/groovy/index.htm
+
+references:
+  github_topics:
+    - groovy
+    - apache-groovy
+  stackexchange_tags:
+    - groovy
+  wikidata_id: Q761926
+  subreddit: groovy
+
+color: "#4298b8"

@@ -1,0 +1,7 @@
+name: PQL
+category: programming
+paradigms:
+- declarative
+history:
+  inception: 2014-01-01
+official_website: https://processquerying.com/pql/

@@ -1,0 +1,36 @@
+name: Haxe
+category: programming
+file_extensions:
+- hx
+- hxsl
+paradigms:
+- generic
+- object-oriented
+- functional
+typing:
+  system: static
+  structural: false
+  inference: full
+domains:
+  primary:
+  - web development
+  - game development
+history:
+  inception: 2005-01-01
+  developer:
+  - Nicolas Cannasse
+  - Simon Krajewski
+  - Cauê Waneck
+  influenced_by:
+    languages:
+    - Java
+    - JavaScript
+    - C++
+    - OCaml
+    - ActionScript
+    - MTASC
+official_website: https://haxe.org
+references:
+  quora_topics:
+  - Haxe
+color: '#df7900'

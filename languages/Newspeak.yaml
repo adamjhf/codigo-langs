@@ -1,0 +1,14 @@
+name: Newspeak
+category: programming
+paradigms:
+- object-oriented
+- functional
+typing:
+  system: dynamic
+history:
+  inception: 2006-01-01
+  developer:
+  - Gilad Bracha
+  designed_by:
+  - Gilad Bracha
+official_website: https://newspeaklanguage.org

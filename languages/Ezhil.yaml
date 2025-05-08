@@ -1,0 +1,14 @@
+name: Ezhil
+category: programming
+paradigms:
+- structured
+- imperative
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 2007-01-01
+  developer:
+  - freelancer
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Ezhil%20-%20A%20Tamil%20Programming%20Language%20Logo.png
+official_website: https://ezhillang.org

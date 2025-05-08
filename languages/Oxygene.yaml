@@ -1,0 +1,12 @@
+name: Oxygene
+category: programming
+file_extensions:
+- oxygene
+paradigms:
+- object-oriented
+history:
+  inception: 2005-01-01
+  developer:
+  - RemObjects Software
+official_website: https://elementscompiler.com/elements/oxygene/
+color: '#cdd0e3'

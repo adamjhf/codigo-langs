@@ -1,0 +1,14 @@
+name: Vimscript
+category: programming
+file_extensions:
+- vim
+paradigms:
+- object-oriented
+- functional
+- imperative
+domains:
+  primary:
+  - computer configuration
+references:
+  stackexchange_tags:
+  - https://vi.stackexchange.com/tags/vimscript

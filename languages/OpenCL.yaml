@@ -1,0 +1,24 @@
+name: OpenCL
+category: programming
+file_extensions:
+- cl
+- opencl
+paradigms:
+- object-oriented
+- structured
+- imperative
+- generic
+typing:
+  system: static
+  structural: false
+  strength: weak
+history:
+  inception: 2009-08-28
+  developer:
+  - Khronos Group
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/OpenCL%20logo.svg
+official_website: https://www.khronos.org/opencl
+references:
+  quora_topics:
+  - OpenCL
+color: '#ed2e2d'

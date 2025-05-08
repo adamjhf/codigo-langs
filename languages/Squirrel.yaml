@@ -1,0 +1,22 @@
+name: Squirrel
+category: programming
+file_extensions:
+- nut
+paradigms:
+- imperative
+- object-oriented
+typing:
+  system: dynamic
+history:
+  inception: 2003-09-06
+  influenced_by:
+    languages:
+    - JavaScript
+    - C++
+    - Python
+    - Lua
+official_website: https://squirrel-lang.org/
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/squirrel
+color: '#800000'

@@ -1,0 +1,10 @@
+name: Hope
+category: programming
+paradigms:
+- functional
+typing:
+  system: static
+history:
+  inception: 1970-01-01
+  developer:
+  - University of Edinburgh

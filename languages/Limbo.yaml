@@ -1,0 +1,17 @@
+name: Limbo
+category: programming
+file_extensions:
+- b
+- m
+paradigms:
+- modular
+typing:
+  strength: strong
+history:
+  inception: 1995-01-01
+  developer:
+  - Bell Labs
+  influenced_by:
+    languages:
+    - C
+official_website: https://www.vitanuova.com/inferno/limbo.html

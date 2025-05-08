@@ -1,0 +1,7 @@
+name: FriCAS
+category: programming
+file_extensions:
+- as
+- input
+- spad
+official_website: https://fricas.sourceforge.net/

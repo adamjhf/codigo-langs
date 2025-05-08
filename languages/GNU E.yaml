@@ -1,0 +1,11 @@
+name: GNU E
+category: programming
+paradigms:
+- object-oriented
+typing:
+  strength: strong
+history:
+  inception: 1991-01-01
+  influenced_by:
+    languages:
+    - C++

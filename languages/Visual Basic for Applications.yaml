@@ -1,0 +1,16 @@
+name: Visual Basic for Applications
+category: programming
+history:
+  inception: 1993-01-01
+  developer:
+  - Microsoft
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft%20Visual%20Basic%20for%20Applications%20logo.svg
+  influenced_by:
+    languages:
+    - Visual Basic
+official_website: https://learn.microsoft.com/de-de/office/vba
+references:
+  quora_topics:
+  - Visual-Basic-for-Applications-VBA
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/vba

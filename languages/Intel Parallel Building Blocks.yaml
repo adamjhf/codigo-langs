@@ -1,0 +1,13 @@
+name: Intel Parallel Building Blocks
+category: programming
+paradigms:
+- imperative
+typing:
+  strength: weak
+history:
+  inception: 2010-01-01
+  developer:
+  - Intel
+  designed_by:
+  - Intel
+official_website: https://software.intel.com/en-us/articles/intel-parallel-building-blocks

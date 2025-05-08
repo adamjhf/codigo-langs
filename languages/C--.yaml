@@ -1,0 +1,21 @@
+name: C--
+category: programming
+file_extensions:
+- c--
+paradigms:
+- imperative
+typing:
+  system: static
+  strength: weak
+history:
+  inception: 1997-01-01
+  developer:
+  - Simon Peyton Jones
+  - Norman Ramsey
+  designed_by:
+  - Simon Peyton Jones
+  - Norman Ramsey
+  influenced_by:
+    languages:
+    - C
+official_website: https://www.cs.tufts.edu/~nr/c--

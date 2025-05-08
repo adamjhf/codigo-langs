@@ -1,0 +1,8 @@
+name: Cat
+category: programming
+history:
+  inception: 2006-01-01
+  influenced_by:
+    languages:
+    - Joy
+official_website: https://www.cat-language.com/

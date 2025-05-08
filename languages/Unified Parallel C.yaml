@@ -1,0 +1,10 @@
+name: Unified Parallel C
+category: programming
+file_extensions:
+- upc
+typing:
+  strength: weak
+history:
+  inception: 1999-01-01
+official_website: https://upc.lbl.gov/
+color: '#4e3617'

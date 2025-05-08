@@ -1,0 +1,26 @@
+name: Object Pascal
+category: programming
+file_extensions:
+- p
+- pp
+- pas
+paradigms:
+- structured
+- imperative
+- object-oriented
+- generic
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1986-01-01
+  developer:
+  - Niklaus Wirth
+  - Larry Tesler
+  influenced_by:
+    languages:
+    - Pascal
+    - Smalltalk
+references:
+  github_topics:
+  - object-pascal

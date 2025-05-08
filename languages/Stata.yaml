@@ -1,0 +1,23 @@
+name: Stata
+category: programming
+file_extensions:
+- do
+- ado
+- doh
+- ihlp
+- mata
+- matah
+- sthlp
+domains:
+  primary:
+  - statistics
+history:
+  inception: 1985-01-01
+  developer:
+  - StataCorp
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Stata%202015%20logo.gif
+official_website: https://www.stata.com/
+references:
+  quora_topics:
+  - Stata
+color: '#1a5f91'

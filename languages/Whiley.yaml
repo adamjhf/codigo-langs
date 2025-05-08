@@ -1,0 +1,21 @@
+name: Whiley
+category: programming
+file_extensions:
+- whiley
+paradigms:
+- functional
+- imperative
+typing:
+  structural: true
+  strength: strong
+history:
+  inception: 2010-06-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Whiley%20Logo.png
+  influenced_by:
+    languages:
+    - Java
+    - C
+    - Python
+    - Rust
+official_website: https://whiley.org
+color: '#d5c397'

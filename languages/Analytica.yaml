@@ -1,0 +1,10 @@
+name: Analytica
+category: programming
+paradigms:
+- array-oriented
+domains:
+  primary:
+  - scientific computing
+history:
+  inception: 1992-01-16
+official_website: https://www.lumina.com

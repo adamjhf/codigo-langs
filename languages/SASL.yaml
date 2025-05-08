@@ -1,0 +1,8 @@
+name: SASL
+category: programming
+paradigms:
+- functional
+history:
+  inception: 1972-01-01
+  designed_by:
+  - David Turner

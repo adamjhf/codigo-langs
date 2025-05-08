@@ -1,0 +1,228 @@
+name: R
+description: R is a programming language and free software environment for statistical computing and graphics. It is widely used for data analysis, statistical modeling, and visualization, with a comprehensive ecosystem of packages.
+category: programming
+status: active
+aliases:
+- Rscript
+- splus
+file_extensions:
+- r
+- rd
+- rsx
+compilers:
+- name: R
+  type: interpreter
+  license: GPL-2.0
+  source_url: https://github.com/wch/r-source
+  is_reference: true
+paradigms:
+- functional
+- imperative
+- object-oriented
+- reflective
+- array-oriented
+typing:
+  system: dynamic
+  structural: true
+  strength: weak
+  inference: partial
+  type_checking: runtime
+  type_coercion: aggressive
+  type_annotations: none
+execution:
+  type:
+  - interpreted
+  - interpreted with JIT compilation
+  compiles_to:
+  - bytecode
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  performance:
+    startup_time: moderate
+    memory_usage: high
+    computation_speed: moderate
+    compilation_speed: moderate
+domains:
+  primary:
+  - data science
+  - statistics
+  - scientific computing
+  - data visualization
+  - numerical analysis
+  - bioinformatics
+  - analysis
+  secondary:
+  - machine learning
+  - education
+  - text processing
+  emerging:
+  - web development
+  - artificial intelligence
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - platform-independent
+ecosystem:
+  maturity: very high
+  package_registry: CRAN
+  community_size: large
+  learning_resources: very large
+  job_market_demand: high
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: reference counting with mark-and-sweep
+    manual_control: false
+  key_features:
+  - first-class functions
+  - closures
+  - type inference
+  - operator overloading
+  - reflection
+  - meta-programming
+  - named arguments
+  - modules
+concurrency:
+  model: none
+  features:
+  - parallel collections
+  ease_of_use: low
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - error chaining
+  - custom error types
+  stack_traces: true
+  debugging:
+    source_maps: false
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: CRAN
+  alternatives:
+  - Bioconductor
+  - renv
+  - packrat
+popular_frameworks:
+  frontend:
+  - Shiny
+  - htmlwidgets
+  - flexdashboard
+  backend:
+  - plumber
+  - Rserve
+  testing:
+  - testthat
+  - tinytest
+  - RUnit
+development_tools:
+  lsps:
+  - r-languageserver
+  debugging:
+  - debug
+  - browser
+  - trace
+  - debugonce
+  profiling:
+  - profvis
+  - Rprof
+  - microbenchmark
+  build_systems:
+  - devtools
+  - usethis
+  linters:
+  - lintr
+  - styler
+standard_library:
+  maturity: very high
+  key_areas:
+  - data structures
+  - algorithms
+  - mathematics
+  - date/time
+  - text processing
+  - file I/O
+  - graphics
+  - regular expressions
+  - random number generation
+  - serialization
+  size: large
+  documentation_quality: very high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 1993-08-01
+  developer:
+  - R Core Team
+  - R Foundation for Statistical Computing
+  designed_by:
+  - Ross Ihaka
+  - Robert Gentleman
+  described_by: R Language Definition
+  standards_bodies:
+  - R Foundation for Statistical Computing
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/R%20logo.svg
+  influenced_by:
+    languages:
+    - S
+    - Scheme
+    - LISP
+    paradigms:
+    - functional
+    - object-oriented
+official_website: https://www.r-project.org
+official_blog_rss: https://blog.r-project.org/index.xml
+documentation:
+  quality: very high
+  official_sources:
+  - https://cran.r-project.org/manuals.html
+  - https://www.rdocumentation.org/
+  community_resources:
+  - https://stackoverflow.com/questions/tagged/r
+  - https://www.statmethods.net/
+  - https://www.tidyverse.org/
+references:
+  github_topics:
+  - r
+  - rstats
+  - r-language
+  quora_topics:
+  - GNU-R
+  - Lenguaje-R
+  - R-programming-language
+  - R语言
+  stackexchange_tags:
+  - r
+  - rstudio
+  - tidyverse
+  wikidata_id: Q206904
+  subreddit: Rlanguage
+  x_handle: rstats_tweets
+color: '#198CE7'

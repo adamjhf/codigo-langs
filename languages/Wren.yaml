@@ -1,0 +1,10 @@
+name: Wren
+category: programming
+aliases:
+- wrenlang
+file_extensions:
+- wren
+paradigms:
+- object-oriented
+official_website: https://wren.io
+color: '#383838'

@@ -1,0 +1,10 @@
+name: TADS
+category: programming
+paradigms:
+- prototype-based
+typing:
+  strength: strong
+  inference: full
+history:
+  inception: 1988-01-01
+official_website: https://www.tads.org/

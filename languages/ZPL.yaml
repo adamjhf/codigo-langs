@@ -1,0 +1,10 @@
+name: ZPL
+category: programming
+paradigms:
+- array-oriented
+history:
+  inception: 1993-01-01
+  influenced_by:
+    languages:
+    - C
+official_website: https://www.cs.washington.edu/research/zpl/home/

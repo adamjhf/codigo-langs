@@ -1,0 +1,8 @@
+name: Stackless Python
+category: programming
+domains:
+  primary:
+  - interpreter
+history:
+  described_by: The varying openness of digital open science tools
+official_website: https://github.com/stackless-dev/stackless/wiki

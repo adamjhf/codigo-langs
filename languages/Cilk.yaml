@@ -1,0 +1,19 @@
+name: Cilk
+category: programming
+paradigms:
+- imperative
+- structured
+typing:
+  system: static
+  strength: weak
+history:
+  inception: 1994-01-01
+  developer:
+  - Charles E. Leiserson
+  influenced_by:
+    languages:
+    - C
+official_website: https://www.cilkplus.org/
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/cilk

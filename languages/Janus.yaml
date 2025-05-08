@@ -1,0 +1,11 @@
+name: Janus
+category: programming
+paradigms:
+- imperative
+- logic
+history:
+  inception: 1982-01-01
+  designed_by:
+  - Christopher Lutz
+  - Tetsuo Yokoyama
+official_website: https://tetsuo.jp/ref/janus.html

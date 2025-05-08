@@ -1,0 +1,16 @@
+name: G-code
+category: programming
+file_extensions:
+- g
+- cnc
+- gco
+- gcode
+paradigms:
+- imperative
+domains:
+  primary:
+  - computer numerical control
+  - computer-aided manufacturing
+history:
+  inception: 1950-01-01
+color: '#D08CF2'

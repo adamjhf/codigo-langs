@@ -1,0 +1,13 @@
+name: TOM
+category: programming
+file_extensions:
+- t
+paradigms:
+- object-oriented
+history:
+  inception: 2001-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Tom%20%28pattern%20matching%20language%29%20logo.png
+  influenced_by:
+    languages:
+    - Objective-C
+official_website: https://tom.loria.fr/

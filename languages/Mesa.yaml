@@ -1,0 +1,14 @@
+name: Mesa
+category: programming
+paradigms:
+- imperative
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1976-01-01
+  developer:
+  - PARC
+  influenced_by:
+    languages:
+    - ALGOL

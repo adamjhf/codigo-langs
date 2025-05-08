@@ -1,0 +1,25 @@
+name: Curl
+category: programming
+paradigms:
+- functional
+- reflective
+- object-oriented
+- declarative
+typing:
+  strength: strong
+history:
+  inception: 1998-01-01
+  developer:
+  - SCSK Corporation
+  - Steve Ward
+  designed_by:
+  - Massachusetts Institute of Technology
+  - Steve Ward
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Curl%20Logo.jpg
+  influenced_by:
+    languages:
+    - JavaScript
+    - TeX
+    - HTML
+    - Lisp
+official_website: https://www.curl.com/

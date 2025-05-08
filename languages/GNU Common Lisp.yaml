@@ -1,0 +1,10 @@
+name: GNU Common Lisp
+category: programming
+domains:
+  primary:
+  - compiler
+  - interpreter
+history:
+  developer:
+  - GNU Project
+official_website: https://www.gnu.org/software/gcl/

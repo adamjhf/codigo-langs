@@ -1,0 +1,16 @@
+name: dBase
+category: programming
+file_extensions:
+- dbf
+paradigms:
+- imperative
+history:
+  inception: 1979-01-01
+  developer:
+  - Ashton-Tate
+  - Wayne Ratliff
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/DBaseLogo%20BlackWithRed%20glass%20300.png
+official_website: https://www.dbase.com/
+references:
+  quora_topics:
+  - dBase

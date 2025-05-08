@@ -1,0 +1,10 @@
+name: JScript .NET
+category: programming
+file_extensions:
+- js
+typing:
+  system: dynamic
+  strength: weak
+history:
+  developer:
+  - Microsoft

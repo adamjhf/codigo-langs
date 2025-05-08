@@ -1,0 +1,13 @@
+name: MATH-MATIC
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1957-01-01
+  developer:
+  - Grace Hopper
+  designed_by:
+  - Remington Rand
+  influenced_by:
+    languages:
+    - FLOW-MATIC

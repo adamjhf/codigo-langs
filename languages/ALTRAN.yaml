@@ -1,0 +1,12 @@
+name: ALTRAN
+category: programming
+history:
+  inception: 1965-01-01
+  developer:
+  - Bell Telephone Laboratories
+  designed_by:
+  - Douglas McIlroy
+  influenced_by:
+    languages:
+    - Fortran
+    - PL/I

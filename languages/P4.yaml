@@ -1,0 +1,10 @@
+name: P4
+category: programming
+file_extensions:
+- p4
+paradigms:
+- imperative
+history:
+  inception: 2013-01-01
+official_website: https://p4.org
+color: '#7055b5'

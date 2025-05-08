@@ -1,0 +1,12 @@
+name: RPG
+category: programming
+paradigms:
+- imperative
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1959-01-01
+  developer:
+  - IBM
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/IBM%20RPG%20logo.png

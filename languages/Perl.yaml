@@ -1,0 +1,231 @@
+name: Perl
+description: A high-level, general-purpose, interpreted, dynamic programming language known for its text processing capabilities and regular expression support. Perl combines features from C, shell scripting, and other languages.
+category: programming
+status: active
+aliases:
+- cperl
+file_extensions:
+- pl
+- al
+- cgi
+- fcgi
+- perl
+- ph
+- plx
+- pm
+- psgi
+- t
+compilers:
+- name: perl
+  type: interpreter
+  license: GPL-1.0
+  source_url: https://github.com/Perl/perl5
+  is_reference: true
+paradigms:
+- imperative
+typing:
+  system: dynamic
+  structural: true
+  strength: weak
+  inference: partial
+  type_checking: runtime
+  type_coercion: moderate
+  type_annotations: none
+execution:
+  type:
+  - interpreted
+  - compiled
+  compiles_to:
+  - bytecode
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  - embedded interpreter
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+    compilation_speed: fast
+domains:
+  primary:
+  - text processing
+  - system administration
+  - web development
+  - scripting
+  - automation
+  - data integration
+  secondary:
+  - server-side applications
+  - bioinformatics
+  - network programming
+  - DevOps
+  - database management
+  emerging:
+  - infrastructure as code
+  - build management
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  - Solaris
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - RISC-V
+  - PowerPC
+  - SPARC
+  - platform-independent
+ecosystem:
+  maturity: high
+  package_registry: CPAN
+  community_size: large
+  learning_resources: large
+  job_market_demand: moderate
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: high
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: none
+  metaprogramming: true
+  generics: false
+  c_interop: true
+  pattern_matching: true
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: moderate
+  memory_management:
+    type: reference counting
+    implementation: Perl interpreter's memory management
+    manual_control: false
+  key_features:
+  - pattern matching
+  - closures
+  - first-class functions
+  - reflection
+  - meta-programming
+  - modules
+  - destructuring
+  - variadic functions
+  - string interpolation
+concurrency:
+  model: threads
+  features:
+  - thread pools
+  - shared memory
+  ease_of_use: low
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - error propagation
+  - custom error types
+  - stack traces
+  - cleanup actions
+  stack_traces: true
+  debugging:
+    source_maps: false
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: cpan
+  alternatives:
+  - cpanm
+  - carton
+popular_frameworks:
+  frontend:
+  - Mason
+  backend:
+  - Mojolicious
+  - Catalyst
+  - Dancer
+  testing:
+  - Test::More
+  - Test::Simple
+  - Test::Harness
+development_tools:
+  lsps:
+  - Perl::LanguageServer
+  debugging:
+  - Perl Debugger
+  - Devel::ptkdb
+  profiling:
+  - Devel::NYTProf
+  build_systems:
+  - ExtUtils::MakeMaker
+  - Module::Build
+  linters:
+  - Perl::Critic
+standard_library:
+  maturity: high
+  key_areas:
+  - file I/O
+  - networking
+  - data structures
+  - text processing
+  - regular expressions
+  - date/time
+  - process management
+  - file system operations
+  - serialization
+  - testing
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 1987-01-01
+  developer:
+  - Perl Foundation
+  - Larry Wall
+  - The Perl Foundation
+  designed_by:
+  - Larry Wall
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Perl5Raptor.png
+  influenced_by:
+    languages:
+    - C
+    - sed
+    - awk
+    - shell scripting
+    - Lisp
+    - C++
+    - Unix shell
+    - BASIC
+    - AWK
+    paradigms:
+    - imperative
+    - procedural
+    - functional
+official_website: https://www.perl.org/
+official_blog_rss: https://www.perl.com/article/index.xml
+documentation:
+  quality: high
+  official_sources:
+  - https://perldoc.perl.org/
+  - https://learn.perl.org/
+  community_resources:
+  - https://metacpan.org/
+  - https://www.perlmonks.org/
+references:
+  github_topics:
+  - perl
+  quora_topics:
+  - Perl-programming-language-1
+  stackexchange_tags:
+  - perl
+  - https://ja.stackoverflow.com/tags/perl
+  - https://stackoverflow.com/tags/perl
+  - https://superuser.com/tags/perl
+  wikidata_id: Q42478
+  subreddit: perl
+  x_handle: PerlFoundation
+color: '#0298c3'

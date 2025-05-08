@@ -1,0 +1,16 @@
+name: Modelica
+category: programming
+file_extensions:
+- mo
+paradigms:
+- object-oriented
+- declarative
+history:
+  inception: 1997-01-01
+official_website: https://www.modelica.org/
+references:
+  github_topics:
+  - modelica
+  quora_topics:
+  - Modelica
+color: '#de1d31'

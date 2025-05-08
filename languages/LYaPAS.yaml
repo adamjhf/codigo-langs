@@ -1,0 +1,11 @@
+name: LYaPAS
+category: programming
+paradigms:
+- array-oriented
+- modular
+- functional
+- structured
+typing:
+  system: dynamic
+history:
+  inception: 1964-01-01

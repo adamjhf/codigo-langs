@@ -1,0 +1,9 @@
+name: G-Portugol
+category: programming
+paradigms:
+- imperative
+history:
+  influenced_by:
+    languages:
+    - Portugol
+official_website: https://gpt.berlios.de/

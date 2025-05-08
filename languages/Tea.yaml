@@ -1,0 +1,15 @@
+name: Tea
+category: programming
+file_extensions:
+- tea
+paradigms:
+- functional
+- object-oriented
+history:
+  inception: 1997-01-01
+  influenced_by:
+    languages:
+    - Java
+    - Tcl
+    - Scheme
+official_website: https://www.pdmfc.com/tea

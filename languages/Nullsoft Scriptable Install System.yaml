@@ -1,0 +1,11 @@
+name: Nullsoft Scriptable Install System
+category: programming
+history:
+  inception: 2000-07-31
+  developer:
+  - Nullsoft
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Nullsoft%20Scriptable%20Install%20System%20icon.png
+official_website: https://nsis-dev.github.io/
+references:
+  quora_topics:
+  - NSIS

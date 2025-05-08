@@ -1,0 +1,14 @@
+name: Monkey X
+category: programming
+paradigms:
+- object-oriented
+history:
+  inception: 2011-01-01
+  influenced_by:
+    languages:
+    - Java
+    - JavaScript
+    - C#
+    - C
+    - Blitz BASIC
+official_website: https://monkeycoder.co.nz/

@@ -1,0 +1,91 @@
+name: Algol
+description: ALGOL (Algorithmic Language) was a pioneering family of imperative programming languages designed for algorithms, science, and education. It introduced block structure, lexical scoping, and rigorous formal specification.
+aliases:
+  - ALGOL
+  - ALGOL 60
+  - ALGOL 68
+file_extensions:
+  - alg
+  - algol
+category: programming
+status: legacy
+
+paradigms:
+  - imperative
+  - procedural
+  - structured
+
+typing:
+  system: static
+  type_checking: compile-time
+  structural: false
+  strength: strong
+  inference: none
+  type_coercion: none
+  type_annotations: required
+
+execution:
+  type:
+    - compiled
+  compiles_to:
+    - machine code
+  runtime_environments:
+    - native OS process
+
+domains:
+  primary:
+    - scientific computing
+    - education
+  secondary:
+    - mathematics
+    - numerical analysis
+
+language_features:
+  metaprogramming: false
+  generics: false
+  c_interop: false
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: manual
+    level: low
+  memory_management:
+    type: manual
+  key_features:
+    - modules
+
+concurrency:
+  model: none
+
+error_handling:
+  primary_mechanism: error codes
+
+history:
+  inception: "1958-01-01"
+  designed_by:
+    - John Backus
+    - Friedrich L. Bauer
+    - Peter Naur
+    - Alan Perlis
+    - Heinz Rutishauser
+    - Klaus Samelson
+    - Bernard Vauquois
+    - Joseph Henry Wegstein
+    - Adriaan van Wijngaarden
+    - Michael Woodger
+  influenced_by:
+    languages:
+      - Fortran
+    paradigms:
+      - imperative
+      - procedural
+      - structured
+
+versioning:
+  backwards_compatibility: low
+
+complexity:
+  learning_curve: high
+  cognitive_load: high
+  syntax_complexity: moderate
+  semantic_complexity: high

@@ -1,0 +1,23 @@
+name: Modula-3
+category: programming
+file_extensions:
+- i3
+- ig
+- m3
+- mg
+paradigms:
+- object-oriented
+- imperative
+history:
+  inception: 1989-01-01
+  developer:
+  - Digital Equipment Corporation
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/M3Logo.gif
+  influenced_by:
+    languages:
+    - Modula-2
+official_website: https://www.modula3.org
+references:
+  quora_topics:
+  - Modula-3
+color: '#223388'

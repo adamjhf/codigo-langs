@@ -1,0 +1,7 @@
+name: Open Roberta
+category: programming
+paradigms:
+- event-driven
+typing:
+  system: dynamic
+official_website: https://www.open-roberta.org

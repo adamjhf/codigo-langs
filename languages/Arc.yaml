@@ -1,0 +1,15 @@
+name: Arc
+category: programming
+file_extensions:
+- arc
+paradigms:
+- imperative
+- functional
+typing:
+  system: dynamic
+history:
+  inception: 2008-01-01
+  developer:
+  - Paul Graham
+official_website: https://arclanguage.org
+color: '#aa2afe'

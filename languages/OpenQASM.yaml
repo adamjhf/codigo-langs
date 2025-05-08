@@ -1,0 +1,9 @@
+name: OpenQASM
+category: programming
+file_extensions:
+- qasm
+history:
+  developer:
+  - IBM Research
+official_website: https://openqasm.com/
+color: '#AA70FF'

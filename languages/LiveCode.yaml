@@ -1,0 +1,17 @@
+name: LiveCode
+category: programming
+paradigms:
+- object-oriented
+history:
+  inception: 2001-07-11
+  developer:
+  - LiveCode
+  influenced_by:
+    languages:
+    - HyperTalk
+official_website: https://livecode.com/
+references:
+  quora_topics:
+  - Livecode-1
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/livecode

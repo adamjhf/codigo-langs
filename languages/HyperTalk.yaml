@@ -1,0 +1,15 @@
+name: HyperTalk
+category: programming
+paradigms:
+- event-driven
+- imperative
+typing:
+  strength: weak
+history:
+  inception: 1987-01-01
+  developer:
+  - Apple
+  influenced_by:
+    languages:
+    - natural language
+    - Pascal

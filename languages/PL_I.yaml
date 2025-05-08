@@ -1,0 +1,22 @@
+name: PL/I
+category: programming
+paradigms:
+- imperative
+- structured
+typing:
+  strength: strong
+domains:
+  primary:
+  - analysis
+history:
+  inception: 1964-01-01
+  developer:
+  - IBM
+  designed_by:
+  - IBM
+  influenced_by:
+    languages:
+    - Fortran
+    - COBOL
+    - ALGOL
+official_website: https://www.ibm.com/products/pli-compiler-zos

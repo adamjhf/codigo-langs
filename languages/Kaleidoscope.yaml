@@ -1,0 +1,8 @@
+name: Kaleidoscope
+category: programming
+paradigms:
+- constraint
+- imperative
+- object-oriented
+history:
+  inception: 1994-01-01

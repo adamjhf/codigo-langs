@@ -1,0 +1,14 @@
+name: Pharo
+category: programming
+paradigms:
+- object-oriented
+- reflective
+typing:
+  system: dynamic
+history:
+  inception: 2008-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Pharo%20Logo%20v3.0.svg
+  influenced_by:
+    languages:
+    - Smalltalk
+official_website: https://pharo.org/

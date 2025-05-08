@@ -1,0 +1,24 @@
+name: AutoHotkey
+category: programming
+aliases:
+- ahk
+file_extensions:
+- ahk
+- ahkl
+domains:
+  primary:
+  - scripting
+history:
+  developer:
+  - AutoHotkey Foundation LLC
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/AutoHotkey%20logo.png
+official_website: https://www.autohotkey.com/
+references:
+  github_topics:
+  - autohotkey
+  quora_topics:
+  - AutoHotkey
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/autohotkey
+  subreddit: AutoHotkey
+color: '#6594b9'

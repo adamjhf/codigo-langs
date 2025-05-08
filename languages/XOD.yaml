@@ -1,0 +1,9 @@
+name: XOD
+category: programming
+paradigms:
+- declarative
+- dataflow
+- reactive
+history:
+  inception: 2016-01-01
+official_website: https://xod.io/

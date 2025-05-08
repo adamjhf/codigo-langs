@@ -1,0 +1,9 @@
+name: Frenetic
+category: programming
+typing:
+  system: dynamic
+history:
+  influenced_by:
+    languages:
+    - OCaml
+official_website: https://www.frenetic-lang.org

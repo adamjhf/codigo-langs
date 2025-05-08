@@ -1,0 +1,11 @@
+name: Converge
+category: programming
+paradigms:
+- object-oriented
+history:
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Converge-logo.png
+  influenced_by:
+    languages:
+    - Python
+    - Icon
+official_website: https://www.convergepl.org/

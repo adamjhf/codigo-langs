@@ -1,0 +1,16 @@
+name: JOVIAL
+category: programming
+paradigms:
+- imperative
+- structured
+typing:
+  system: static
+  structural: true
+  strength: strong
+history:
+  inception: 1960-01-01
+  designed_by:
+  - System Development Corporation
+  influenced_by:
+    languages:
+    - ALGOL 58

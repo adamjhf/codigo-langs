@@ -1,0 +1,155 @@
+name: PureBasic
+description: A compiled BASIC-like language with advanced features such as pointers and procedures. It offers fast execution, simplicity, and cross-platform capabilities.
+category: programming
+status: active
+file_extensions:
+- pb
+- pbi
+compilers:
+- name: PureBasic Compiler
+  type: compiler
+  license: proprietary
+  is_reference: true
+paradigms:
+- imperative
+- structured
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: partial
+  type_checking: compile-time
+  type_coercion: moderate
+  type_annotations: required
+execution:
+  type:
+  - compiled
+  compiles_to:
+  - machine code
+  runtime_environments:
+  - native OS process
+  performance:
+    startup_time: very fast
+    memory_usage: low
+    computation_speed: fast
+    compilation_speed: fast
+domains:
+  primary:
+  - desktop applications
+  - systems programming
+  - game development
+  secondary:
+  - web development
+  - network programming
+  - automation
+  emerging:
+  - IoT
+  - embedded systems
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+ecosystem:
+  maturity: moderate
+  package_registry: PureBasic Code Archive Network (PCAN)
+  community_size: small
+  learning_resources: small
+  job_market_demand: low
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: false
+  generics: false
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: manual
+    level: moderate
+  memory_management:
+    type: manual
+    manual_control: true
+  key_features:
+  - modules
+  - variadic functions
+  - named arguments
+concurrency:
+  model: threads
+  features:
+  - thread pools
+  - shared memory
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: error codes
+  features:
+  - custom error types
+  - error propagation
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: PCAN
+popular_frameworks:
+  frontend:
+  - PureGUI
+development_tools:
+  debugging:
+  - PureBasic IDE Debugger
+  build_systems:
+  - PureBasic IDE
+standard_library:
+  maturity: high
+  key_areas:
+  - file I/O
+  - networking
+  - concurrency
+  - data structures
+  - text processing
+  - date/time
+  - mathematics
+  - GUI
+  - file system operations
+  size: medium
+  documentation_quality: moderate
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: high
+history:
+  inception: 1998-01-01
+  developer:
+  - Fantaisie Software
+  designed_by:
+  - Frédéric Laboureur
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/PureBasic%20IDE%205.10.png
+  influenced_by:
+    languages:
+    - BASIC
+    - BlitzBasic
+    - C
+    paradigms:
+    - procedural
+    - imperative
+official_website: https://www.purebasic.com/
+documentation:
+  quality: moderate
+  official_sources:
+  - https://www.purebasic.com/documentation/
+  community_resources:
+  - https://www.purebasic.fr/english/
+references:
+  quora_topics:
+  - PureBasic
+color: '#5a6986'

@@ -1,0 +1,11 @@
+name: SCM
+category: programming
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1990-01-01
+  developer:
+  - Aubrey Jaffer
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/SCM%2064.png
+official_website: https://people.csail.mit.edu/jaffer/SCM

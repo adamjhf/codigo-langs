@@ -1,0 +1,13 @@
+name: Extempore
+category: programming
+paradigms:
+- functional
+typing:
+  system: dynamic
+history:
+  influenced_by:
+    languages:
+    - Lisp
+    - Scheme
+    - Impromptu
+official_website: https://github.com/digego/extempore

@@ -1,0 +1,27 @@
+name: Objective-J
+category: programming
+aliases:
+- obj-j
+- objectivej
+- objj
+file_extensions:
+- j
+- sj
+paradigms:
+- object-oriented
+- functional
+- imperative
+- reflective
+typing:
+  system: dynamic
+  strength: weak
+history:
+  inception: 2008-01-01
+  influenced_by:
+    languages:
+    - Objective-C
+official_website: https://www.cappuccino-project.org/
+references:
+  quora_topics:
+  - Objective-J
+color: '#ff0c5a'

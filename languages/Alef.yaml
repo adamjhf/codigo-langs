@@ -1,0 +1,13 @@
+name: Alef
+category: programming
+paradigms:
+- structured
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1992-01-01
+  influenced_by:
+    languages:
+    - C
+    - Newsqueak

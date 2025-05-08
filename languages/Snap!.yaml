@@ -1,0 +1,24 @@
+name: Snap!
+category: programming
+file_extensions:
+- xml
+- ypr
+- ysp
+paradigms:
+- object-oriented
+- event-driven
+typing:
+  system: dynamic
+history:
+  inception: 2011-01-01
+  designed_by:
+  - Brian Harvey
+  - Jens Mönig
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Snap%21.svg
+  influenced_by:
+    languages:
+    - Scheme
+    - Logo
+    - Smalltalk
+    - Scratch
+official_website: https://snap.berkeley.edu

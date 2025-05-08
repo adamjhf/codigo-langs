@@ -1,0 +1,8 @@
+name: CBASIC
+category: programming
+history:
+  developer:
+  - Gordon Eubanks
+  influenced_by:
+    languages:
+    - BASIC

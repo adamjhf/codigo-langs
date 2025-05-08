@@ -1,0 +1,8 @@
+name: F
+category: programming
+paradigms:
+- modular
+- imperative
+- array-oriented
+typing:
+  system: static

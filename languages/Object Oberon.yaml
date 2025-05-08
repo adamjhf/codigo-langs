@@ -1,0 +1,9 @@
+name: Object Oberon
+category: programming
+paradigms:
+- object-oriented
+history:
+  inception: 1990-01-01
+  influenced_by:
+    languages:
+    - Oberon

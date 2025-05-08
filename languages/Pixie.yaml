@@ -1,0 +1,11 @@
+name: Pixie
+category: programming
+paradigms:
+- functional
+history:
+  inception: 2015-01-01
+  influenced_by:
+    languages:
+    - Clojure
+    - Lisp
+official_website: https://github.com/pixie-lang/pixie

@@ -1,0 +1,11 @@
+name: Hare
+category: programming
+file_extensions:
+- ha
+typing:
+  system: static
+history:
+  developer:
+  - Drew DeVault
+official_website: https://harelang.org
+color: '#9d7424'

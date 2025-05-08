@@ -1,0 +1,9 @@
+name: Axum
+category: programming
+paradigms:
+- object-oriented
+history:
+  inception: 2009-01-01
+  developer:
+  - Microsoft
+official_website: https://msdn.microsoft.com/en-us/devlabs/dd795202.aspx

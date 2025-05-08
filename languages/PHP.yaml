@@ -1,0 +1,252 @@
+name: PHP
+description: PHP is a widely-used open source general-purpose scripting language that is especially suited for web development and can be embedded into HTML. It runs primarily on the server side to create dynamic web pages.
+category: programming
+status: active
+aliases:
+- inc
+file_extensions:
+- php
+- aw
+- ctp
+- fcgi
+- inc
+- php3
+- php4
+- php5
+- phps
+- phpt
+compilers:
+- name: Zend Engine
+  type: interpreter
+  is_reference: true
+- name: HHVM
+  type: hybrid
+  license: BSD-3-Clause
+  source_url: https://github.com/facebook/hhvm
+paradigms:
+- imperative
+typing:
+  system: gradual
+  structural: true
+  strength: weak
+  inference: partial
+  type_checking: runtime
+  type_coercion: aggressive
+  type_annotations: optional
+execution:
+  type:
+  - interpreted
+  - interpreted with JIT compilation
+  compiles_to:
+  - bytecode
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+    compilation_speed: fast
+domains:
+  primary:
+  - web development
+  - server-side applications
+  secondary:
+  - scripting
+  - data integration
+  - automation
+  emerging:
+  - cloud computing
+  - DevOps
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  cloud_function_environments:
+  - AWS Lambda
+  - Google Cloud Functions
+  - Azure Functions
+  - Vercel Functions
+ecosystem:
+  maturity: high
+  package_registry: Packagist
+  community_size: very large
+  learning_resources: very large
+  job_market_demand: high
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: true
+  generics: false
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: reference counting with cycle collection
+    manual_control: false
+  key_features:
+  - first-class functions
+  - closures
+  - reflection
+  - string interpolation
+  - modules
+  - variadic functions
+  - named arguments
+  - destructuring
+concurrency:
+  model: threads
+  features:
+  - thread pools
+  - shared memory
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - error chaining
+  - custom error types
+  - error propagation
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: Composer
+  alternatives:
+  - PEAR
+popular_frameworks:
+  backend:
+  - Laravel
+  - Symfony
+  - CodeIgniter
+  - CakePHP
+  - Zend Framework
+  - Yii
+  - Slim
+  - Laminas
+  testing:
+  - PHPUnit
+  - Codeception
+  - Behat
+  - Pest
+development_tools:
+  lsps:
+  - PHP Language Server
+  - Intelephense
+  debugging:
+  - Xdebug
+  - PHPDebugBar
+  profiling:
+  - Xdebug
+  - Blackfire
+  build_systems:
+  - Phing
+  - Robo
+  linters:
+  - PHP_CodeSniffer
+  - PHPStan
+  - Psalm
+standard_library:
+  maturity: high
+  key_areas:
+  - file I/O
+  - networking
+  - data structures
+  - text processing
+  - cryptography
+  - database access
+  - HTTP client/server
+  - JSON/XML processing
+  - regular expressions
+  - date/time
+  - mathematics
+  - compression
+  - serialization
+  - process management
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: moderate
+history:
+  inception: 1995-06-08
+  developer:
+  - The PHP Group
+  - Zeev Suraski
+  - Rasmus Lerdorf
+  - Zend Technologies
+  - Andi Gutmans
+  - PHP Group
+  designed_by:
+  - Rasmus Lerdorf
+  - Zeev Suraski
+  - Andi Gutmans
+  described_by: PHP Manual
+  standards_bodies:
+  - The PHP Group
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Webysther%2020160423%20-%20Elephpant.svg
+  influenced_by:
+    languages:
+    - C
+    - Perl
+    - Java
+    - C++
+    - JavaScript
+    - Tcl
+    - HTML
+    paradigms:
+    - imperative
+    - procedural
+    - object-oriented
+official_website: https://www.php.net
+official_blog_rss: https://www.php.net/feed.atom
+documentation:
+  quality: high
+  official_sources:
+  - https://www.php.net/docs.php
+  - https://www.php.net/manual/en/
+  community_resources:
+  - https://phptherightway.com/
+  - https://laracasts.com/
+references:
+  github_topics:
+  - php
+  quora_topics:
+  - PHP-programming-language-1
+  stackexchange_tags:
+  - php
+  - https://ja.stackoverflow.com/tags/php/
+  - https://stackoverflow.com/tags/php
+  - https://stackoverflow.com/tags/php-5.2
+  - https://stackoverflow.com/tags/php-5.3
+  - https://stackoverflow.com/tags/php-5.4
+  - https://stackoverflow.com/tags/php-5.5
+  - https://stackoverflow.com/tags/php-5.6
+  - https://stackoverflow.com/tags/php-7
+  - https://stackoverflow.com/tags/php-7.1
+  - https://stackoverflow.com/tags/php-7.2
+  - https://stackoverflow.com/tags/php4
+  - https://superuser.com/tags/php
+  - https://unix.stackexchange.com/tags/php
+  - https://webmasters.stackexchange.com/tags/php
+  wikidata_id: Q59
+  subreddit: PHP
+color: '#4F5D95'

@@ -1,0 +1,17 @@
+name: EdgeQL
+category: programming
+aliases:
+- esdl
+file_extensions:
+- edgeql
+- esdl
+paradigms:
+- declarative
+history:
+  influenced_by:
+    languages:
+    - SQL
+references:
+  github_topics:
+  - edgeql
+color: '#31A7FF'

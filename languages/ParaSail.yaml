@@ -1,0 +1,18 @@
+name: ParaSail
+category: programming
+paradigms:
+- imperative
+- object-oriented
+- structured
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 2009-01-01
+  influenced_by:
+    languages:
+    - Pascal
+    - Ada
+    - ML
+    - Modula
+official_website: https://www.parasail-lang.org

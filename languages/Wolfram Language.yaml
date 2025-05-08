@@ -1,0 +1,44 @@
+name: Wolfram Language
+category: programming
+file_extensions:
+- nb
+- m
+- cdf
+- wls
+- wl
+paradigms:
+- object-oriented
+- imperative
+- array-oriented
+- functional
+- declarative
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1988-01-01
+  developer:
+  - Stephen Wolfram
+  - Wolfram Research
+  designed_by:
+  - Stephen Wolfram
+  influenced_by:
+    languages:
+    - Symbolic Manipulation Program
+    - C++
+    - C
+    - Pascal
+    - Fortran
+    - Lisp
+    - Prolog
+    - Simula
+    - Smalltalk
+    - APL
+official_website: https://www.wolfram.com/language/
+references:
+  quora_topics:
+  - Wolfram-Programming-Language
+  stackexchange_tags:
+  - https://mathematica.stackexchange.com/tags/core-language
+  - https://stackoverflow.com/tags/wolfram-language
+  subreddit: Wolfram

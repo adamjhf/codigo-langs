@@ -1,0 +1,9 @@
+name: Source
+category: programming
+paradigms:
+- functional
+- imperative
+typing:
+  system: dynamic
+history:
+  inception: 2017-01-01

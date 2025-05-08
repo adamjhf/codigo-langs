@@ -1,0 +1,16 @@
+name: MUMPS
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1966-01-01
+  designed_by:
+  - Neil Pappalardo
+  influenced_by:
+    languages:
+    - Fortran
+    - JOSS
+    - TELCOMP
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/mumps

@@ -1,0 +1,9 @@
+name: Yorick
+category: programming
+paradigms:
+- array-oriented
+history:
+  inception: 1996-01-01
+  designed_by:
+  - David H. Munro
+official_website: https://yorick.github.com

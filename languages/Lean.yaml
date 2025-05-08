@@ -1,0 +1,162 @@
+name: Lean
+description: Lean is a functional programming language and interactive theorem prover based on dependent type theory. It aims to bridge the gap between automated and interactive theorem proving, with applications in mathematical formalization and verified programming.
+category: programming
+status: active
+aliases:
+- Lean Theorem Prover
+file_extensions:
+- lean
+- hlean
+compilers:
+- name: Lean
+  type: compiler
+  license: Apache-2.0
+  source_url: https://github.com/leanprover/lean4
+  is_reference: true
+paradigms:
+- functional
+- purely functional
+- meta-programming
+typing:
+  system: dependent
+  structural: true
+  strength: strong
+  inference: partial
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  compiles_to:
+  - machine code
+  - C
+  runtime_environments:
+  - native OS process
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+    compilation_speed: moderate
+domains:
+  primary:
+  - automated theorem proving
+  - formal verification
+  - education
+  secondary:
+  - mathematics
+  - compiler
+  emerging:
+  - data science
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  architectures:
+  - x86-64
+  - ARM64
+ecosystem:
+  maturity: moderate
+  package_registry: Lake
+  community_size: small
+  learning_resources: medium
+  job_market_demand: low
+complexity:
+  learning_curve: high
+  cognitive_load: high
+  syntax_complexity: moderate
+  semantic_complexity: very high
+language_features:
+  immutability: default
+  enums: algebraic
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: managed
+    level: very high
+  memory_management:
+    type: garbage collection
+  key_features:
+  - first-class functions
+  - pattern matching
+  - algebraic data types
+  - type inference
+  - meta-programming
+concurrency:
+  model: none
+  ease_of_use: low
+error_handling:
+  primary_mechanism: result types
+  features:
+  - custom error types
+  - error propagation
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: Lake
+  alternatives:
+  - Elan
+development_tools:
+  lsps:
+  - lean-language-server
+  debugging:
+  - VS Code Lean extension
+  build_systems:
+  - Lake
+standard_library:
+  maturity: moderate
+  key_areas:
+  - mathematics
+  - data structures
+  - algorithms
+  size: medium
+  documentation_quality: high
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: moderate
+history:
+  inception: 2013-01-01
+  developer:
+  - Microsoft Research
+  - Carnegie Mellon University
+  - Leonardo de Moura
+  designed_by:
+  - Leonardo de Moura
+  - Sebastian Ullrich
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Lean%20logo2.svg
+  influenced_by:
+    languages:
+    - Coq
+    - Agda
+    - ML
+    - Haskell
+    - Idris
+    - Isabelle
+    paradigms:
+    - functional
+    - purely functional
+    - meta-programming
+official_website: https://leanprover.github.io/
+documentation:
+  quality: high
+  official_sources:
+  - https://leanprover.github.io/documentation/
+  community_resources:
+  - https://leanprover-community.github.io/
+references:
+  github_topics:
+  - lean
+  - lean-theorem-prover
+  - lean4
+  stackexchange_tags:
+  - lean
+  wikidata_id: Q29539064
+  subreddit: leanprover
+color: '#2b4c7e'

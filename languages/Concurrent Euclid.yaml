@@ -1,0 +1,20 @@
+name: Concurrent Euclid
+category: programming
+paradigms:
+- functional
+- structured
+- imperative
+typing:
+  strength: strong
+history:
+  inception: 1980-01-01
+  developer:
+  - James Cordy
+  - Ric Holt
+  designed_by:
+  - James Cordy
+  - Ric Holt
+  influenced_by:
+    languages:
+    - communicating sequential processes
+    - Euclid

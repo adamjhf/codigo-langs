@@ -1,0 +1,11 @@
+name: MLAB
+category: programming
+typing:
+  system: dynamic
+  strength: weak
+history:
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Graph%201%20--%20MLAB.png
+official_website: https://www.civilized.com/mlabdesc.html
+references:
+  quora_topics:
+  - mLab-1

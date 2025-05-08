@@ -1,0 +1,17 @@
+name: Opa
+category: programming
+file_extensions:
+- opa
+paradigms:
+- imperative
+- functional
+typing:
+  system: static
+  strength: strong
+  inference: full
+history:
+  inception: 2011-01-01
+  influenced_by:
+    languages:
+    - OCaml
+official_website: https://opalang.org/

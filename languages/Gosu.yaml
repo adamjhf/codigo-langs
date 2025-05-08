@@ -1,0 +1,21 @@
+name: Gosu
+category: programming
+file_extensions:
+- gs
+- gst
+- gsx
+- vark
+paradigms:
+- object-oriented
+typing:
+  system: static
+history:
+  inception: 2002-01-01
+  designed_by:
+  - Guidewire Software
+  influenced_by:
+    languages:
+    - Java
+    - C#
+official_website: https://gosu-lang.org/
+color: '#82937f'

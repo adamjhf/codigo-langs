@@ -1,0 +1,19 @@
+name: E
+category: programming
+file_extensions:
+- e
+paradigms:
+- object-oriented
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1997-01-01
+  designed_by:
+  - Mark S. Miller
+  influenced_by:
+    languages:
+    - Java
+    - Joule
+official_website: https://erights.org/
+color: '#ccce35'

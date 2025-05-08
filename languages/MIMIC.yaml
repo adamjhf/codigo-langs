@@ -1,0 +1,9 @@
+name: MIMIC
+category: programming
+paradigms:
+- object-oriented
+history:
+  inception: 1964-01-01
+  influenced_by:
+    languages:
+    - MIDAS

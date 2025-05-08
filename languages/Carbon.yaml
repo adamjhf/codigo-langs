@@ -1,0 +1,22 @@
+name: Carbon
+category: programming
+file_extensions:
+- carbon
+typing:
+  system: static
+  structural: false
+  inference: full
+history:
+  inception: 2020-04-27
+  developer:
+  - Google
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Carbon%20logo.png
+  influenced_by:
+    languages:
+    - C++
+    - Go
+    - Rust
+official_website: https://github.com/carbon-language/carbon-lang/blob/trunk/README.md
+references:
+  subreddit: CarbonLang
+color: '#222222'

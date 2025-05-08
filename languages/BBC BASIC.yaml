@@ -1,0 +1,14 @@
+name: BBC BASIC
+category: programming
+history:
+  inception: 1981-01-01
+  developer:
+  - Sophie Wilson
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/BBC%20micro%20assembly%20listing.jpg
+  influenced_by:
+    languages:
+    - BASIC
+official_website: https://www.bbcbasic.org
+references:
+  quora_topics:
+  - BBC-Basic

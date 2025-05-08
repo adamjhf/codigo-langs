@@ -1,0 +1,14 @@
+name: T
+category: programming
+paradigms:
+- object-oriented
+- functional
+- imperative
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1982-01-01
+  developer:
+  - Stephen Slade
+official_website: https://mumble.net/~jar/tproject

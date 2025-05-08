@@ -1,0 +1,10 @@
+name: GNU Prolog
+category: programming
+paradigms:
+- logic
+history:
+  inception: 1996-01-01
+  developer:
+  - GNU Project
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Heckert%20GNU%20white.svg
+official_website: https://www.gprolog.org/

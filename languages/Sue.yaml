@@ -1,0 +1,9 @@
+name: Sue
+category: programming
+history:
+  inception: 1971-01-01
+  developer:
+  - Ric Holt
+  influenced_by:
+    languages:
+    - XPL

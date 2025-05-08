@@ -1,0 +1,160 @@
+name: XSLT
+description: XSLT (Extensible Stylesheet Language Transformations) is a language for transforming XML documents into other formats such as HTML, plain text, or other XML documents. It is a declarative, XML-based language that processes XML data using template rules.
+category: programming
+status: active
+aliases:
+- xsl
+file_extensions:
+- xslt
+- xsl
+compilers:
+- name: Saxon
+  type: interpreter
+  license: MPL-2.0
+  is_reference: true
+- name: libxslt
+  type: interpreter
+  license: MIT
+  source_url: https://gitlab.gnome.org/GNOME/libxslt
+- name: Xalan
+  type: interpreter
+  license: Apache-2.0
+paradigms:
+- declarative
+- functional
+- template-based
+- rule-based
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: partial
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - interpreted
+  compiles_to:
+  - other intermediate representation
+  runtime_environments:
+  - native OS process
+  - browser
+  - language-specific runtime
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+domains:
+  primary:
+  - text processing
+  - data integration
+  - web development
+  secondary:
+  - publishing
+  - hypermedia
+  emerging:
+  - data visualization
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  architectures:
+  - platform-independent
+ecosystem:
+  maturity: high
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: moderate
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: moderate
+language_features:
+  immutability: enforced
+  enums: none
+  metaprogramming: true
+  generics: false
+  c_interop: false
+  pattern_matching: true
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: very high
+  memory_management:
+    type: garbage collection
+  key_features:
+  - pattern matching
+  - modules
+  - string interpolation
+  - destructuring
+concurrency:
+  model: none
+  ease_of_use: low
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - error propagation
+  - error reporting
+  stack_traces: true
+  debugging:
+    source_maps: false
+    breakpoints: true
+    step_debugging: true
+standard_library:
+  maturity: high
+  key_areas:
+  - text processing
+  - serialization
+  - regular expressions
+  - mathematics
+  - date/time
+  size: medium
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 1999-01-01
+  developer:
+  - World Wide Web Consortium (W3C)
+  designed_by:
+  - James Clark
+  - Michael Kay
+  described_by: W3C XSLT Specification
+  standards_bodies:
+  - World Wide Web Consortium (W3C)
+  influenced_by:
+    languages:
+    - XML
+    - XPath
+    - DSSSL
+    paradigms:
+    - functional
+    - declarative
+official_website: https://www.w3.org/TR/xslt
+documentation:
+  quality: high
+  official_sources:
+  - https://www.w3.org/TR/xslt/
+  - https://www.w3.org/TR/xslt20/
+  - https://www.w3.org/TR/xslt30/
+  community_resources:
+  - https://www.w3schools.com/xml/xsl_intro.asp
+  - https://developer.mozilla.org/en-US/docs/Web/XSLT
+references:
+  github_topics:
+  - xslt
+  - xsl
+  quora_topics:
+  - XSLT
+  stackexchange_tags:
+  - xslt
+  - xsl
+  wikidata_id: Q13340
+  subreddit: xslt
+color: '#EB8CEB'

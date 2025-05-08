@@ -1,0 +1,209 @@
+name: Prolog
+description: Prolog is a logic programming language associated with artificial intelligence and computational linguistics. It is based on formal logic and uses a declarative approach where programs are expressed as facts and rules.
+category: programming
+status: active
+aliases:
+- Logic Programming
+file_extensions:
+- pl
+- plt
+- pro
+- prolog
+- yap
+compilers:
+- name: SWI-Prolog
+  type: interpreter
+  license: BSD-2-Clause
+  source_url: https://github.com/SWI-Prolog/swipl-devel
+  is_reference: true
+- name: GNU Prolog
+  type: compiler
+  license: GPL-2.0
+  source_url: https://gprolog.org/
+- name: SICStus Prolog
+  type: interpreter
+  license: proprietary
+- name: YAP Prolog
+  type: interpreter
+  license: LGPL-2.1
+  source_url: https://github.com/vscosta/yap
+paradigms:
+- logic
+- declarative
+- rule-based
+- constraint
+- modular
+typing:
+  system: dynamic
+  structural: true
+  strength: strong
+  inference: partial
+  type_checking: runtime
+  type_coercion: conservative
+  type_annotations: none
+execution:
+  type:
+  - interpreted
+  - compiled
+  compiles_to:
+  - bytecode
+  - machine code
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+    compilation_speed: fast
+domains:
+  primary:
+  - artificial intelligence
+  - knowledge-based system
+  - natural-language
+  - automated theorem proving
+  - education
+  secondary:
+  - database management
+  emerging:
+  - cloud computing
+  - distributed system
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - platform-independent
+ecosystem:
+  maturity: moderate
+  package_registry: https://www.swi-prolog.org/pack/list
+  community_size: small
+  learning_resources: medium
+  job_market_demand: low
+complexity:
+  learning_curve: high
+  cognitive_load: high
+  syntax_complexity: moderate
+  semantic_complexity: high
+language_features:
+  immutability: default
+  enums: none
+  metaprogramming: true
+  generics: false
+  c_interop: true
+  pattern_matching: true
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: Mark-and-sweep garbage collection
+    manual_control: false
+  key_features:
+  - pattern matching
+  - meta-programming
+  - modules
+  - tail-call optimization
+  - first-class functions
+concurrency:
+  model: threads
+  features:
+  - shared memory
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - error chaining
+  - custom error types
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: SWI-Prolog package manager
+  alternatives:
+  - Manual installation
+popular_frameworks:
+  backend:
+  - Logtalk
+  - Pengines
+  testing:
+  - PlUnit
+development_tools:
+  lsps:
+  - prolog-lsp
+  debugging:
+  - SWI-Prolog debugger
+  - GNU Prolog debugger
+  profiling:
+  - SWI-Prolog profiler
+  build_systems:
+  - make
+  linters:
+  - Prolog lint
+standard_library:
+  maturity: moderate
+  key_areas:
+  - data structures
+  - file I/O
+  - networking
+  - text processing
+  - regular expressions
+  - date/time
+  - mathematics
+  - database access
+  size: medium
+  documentation_quality: moderate
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: high
+history:
+  inception: 1972-01-01
+  developer:
+  - University of Marseille
+  - University of Edinburgh
+  designed_by:
+  - Alain Colmerauer
+  - Robert Kowalski
+  - Philippe Roussel
+  described_by: High-performance logic programming with the Aquarius Prolog compiler
+  standards_bodies:
+  - ISO
+  influenced_by:
+    languages:
+    - Planner
+    - LISP
+    paradigms:
+    - logic
+    - declarative
+official_website: https://www.swi-prolog.org/
+documentation:
+  quality: moderate
+  official_sources:
+  - https://www.swi-prolog.org/pldoc/doc_for?object=manual
+  - https://www.swi-prolog.org/pldoc/man?section=contents
+  community_resources:
+  - https://github.com/Anniepoo/prolog-examples
+  - https://www.metalevel.at/prolog
+references:
+  github_topics:
+  - prolog
+  - logic-programming
+  quora_topics:
+  - Prolog
+  stackexchange_tags:
+  - prolog
+  - swi-prolog
+  wikidata_id: Q163468
+  subreddit: prolog
+color: '#74283c'

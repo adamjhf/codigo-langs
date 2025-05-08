@@ -1,0 +1,19 @@
+name: Qore
+category: programming
+paradigms:
+- imperative
+- object-oriented
+typing:
+  system: dynamic
+history:
+  developer:
+  - David Nichols
+  designed_by:
+  - David Nichols
+  influenced_by:
+    languages:
+    - Java
+    - C++
+    - Perl
+    - D
+official_website: https://www.qore.org

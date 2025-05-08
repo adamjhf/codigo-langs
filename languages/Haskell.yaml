@@ -1,0 +1,262 @@
+name: Haskell
+description: A purely functional programming language with strong static typing and non-strict evaluation. It emphasizes mathematical elegance, immutability, and type safety.
+category: programming
+status: active
+aliases:
+- GHC Haskell
+file_extensions:
+- hs
+- hs-boot
+- hsc
+compilers:
+- name: GHC
+  type: compiler
+  license: BSD-3-Clause
+  source_url: https://gitlab.haskell.org/ghc/ghc
+  is_reference: true
+- name: GHCJS
+  type: compiler
+  license: BSD-3-Clause
+  source_url: https://github.com/ghcjs/ghcjs
+- name: Hugs
+  type: interpreter
+  license: BSD-3-Clause
+- name: Eta
+  type: compiler
+  license: BSD-3-Clause
+  source_url: https://github.com/typelead/eta
+paradigms:
+- purely functional
+- declarative
+- generic
+- concurrent
+- meta-programming
+- functional
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: full
+  type_checking: compile-time
+  type_coercion: none
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  compiles_to:
+  - machine code
+  - bytecode
+  - C
+  - JavaScript
+  - LLVM IR
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  - browser
+  - WebAssembly
+  performance:
+    startup_time: moderate
+    memory_usage: high
+    computation_speed: moderate
+    compilation_speed: moderate
+domains:
+  primary:
+  - compiler
+  - financial systems
+  - formal verification
+  - automated theorem proving
+  secondary:
+  - web development
+  - server-side applications
+  - scientific computing
+  - data science
+  - distributed system
+  emerging:
+  - blockchain
+  - WebAssembly
+  - machine learning frameworks
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  architectures:
+  - x86-64
+  - ARM64
+  - ARM
+  - WebAssembly
+  - platform-independent
+  cloud_function_environments:
+  - AWS Lambda
+ecosystem:
+  maturity: high
+  package_registry: Hackage
+  community_size: medium
+  learning_resources: large
+  job_market_demand: moderate
+complexity:
+  learning_curve: high
+  cognitive_load: high
+  syntax_complexity: moderate
+  semantic_complexity: high
+language_features:
+  immutability: enforced
+  enums: algebraic
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: managed
+    level: very high
+  memory_management:
+    type: garbage collection
+    implementation: generational
+    manual_control: false
+  key_features:
+  - algebraic data types
+  - type classes
+  - pattern matching
+  - lazy evaluation
+  - type inference
+  - monads
+  - pure functions
+  - currying
+  - first-class functions
+  - tail-call optimization
+concurrency:
+  model: threads
+  features:
+  - software transactional memory
+  - green threads
+  - parallel collections
+  - concurrent data structures
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: monadic error handling
+  features:
+  - custom error types
+  - error propagation
+  - multiple error types
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: Cabal
+  alternatives:
+  - Stack
+  - Nix
+popular_frameworks:
+  frontend:
+  - Reflex
+  - Miso
+  - IHP
+  backend:
+  - Yesod
+  - Servant
+  - Scotty
+  - Snap
+  testing:
+  - QuickCheck
+  - HSpec
+  - Tasty
+  - HUnit
+development_tools:
+  lsps:
+  - Haskell Language Server
+  debugging:
+  - GHCi
+  - ghc-debug
+  profiling:
+  - ghc-prof
+  - ThreadScope
+  build_systems:
+  - Cabal
+  - Stack
+  - Make
+  - Shake
+  linters:
+  - HLint
+  - Stan
+standard_library:
+  maturity: high
+  key_areas:
+  - data structures
+  - algorithms
+  - text processing
+  - concurrency
+  - file I/O
+  - networking
+  - JSON/XML processing
+  - date/time
+  - mathematics
+  - cryptography
+  - regular expressions
+  - testing
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: moderate
+history:
+  inception: 1990-01-01
+  developer:
+  - Haskell Committee
+  designed_by:
+  - Simon Peyton Jones
+  - Philip Wadler
+  - Lennart Augustsson
+  - John Hughes
+  - Warren Burton
+  - Erik Meijer
+  - Paul Hudak
+  - Thomas Johnsson
+  - John Launchbury
+  - Kevin Hammond
+  - Alastair Reid
+  described_by: Haskell Report
+  standards_bodies:
+  - Haskell Committee
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Haskell-Logo.svg
+  influenced_by:
+    languages:
+    - Miranda
+    - ML
+    - FP
+    - Hope
+    - Lisp
+    - Clean
+    - Lazy ML
+    - Orwell
+    paradigms:
+    - purely functional
+    - declarative
+official_website: https://www.haskell.org
+official_blog_rss: https://blog.haskell.org/atom.xml
+documentation:
+  quality: high
+  official_sources:
+  - https://www.haskell.org/documentation/
+  - https://www.haskell.org/ghc/
+  community_resources:
+  - https://haskellbook.com/
+  - https://learnyouahaskell.com/
+  - https://wiki.haskell.org/
+references:
+  github_topics:
+  - haskell
+  - ghc
+  - haskell-library
+  quora_topics:
+  - Haskell-programming-language
+  stackexchange_tags:
+  - haskell
+  wikidata_id: Q206904
+  subreddit: haskell
+  x_handle: HaskellOrg
+color: '#5e5086'

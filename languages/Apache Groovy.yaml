@@ -1,0 +1,39 @@
+name: Apache Groovy
+category: programming
+file_extensions:
+- gy
+- groovy
+- gsh
+- gvy
+paradigms:
+- functional
+- imperative
+- object-oriented
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 2003-01-01
+  developer:
+  - Apache Software Foundation
+  - Java Community Process
+  designed_by:
+  - James Strachan
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Groovy-logo.svg
+  influenced_by:
+    languages:
+    - Python
+    - Perl
+    - Ruby
+    - Smalltalk
+    - Java
+official_website: https://groovy.apache.org/
+references:
+  github_topics:
+  - groovy
+  quora_topics:
+  - Groovy-1
+  - Groovy-programming-language
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/groovy
+  subreddit: groovy

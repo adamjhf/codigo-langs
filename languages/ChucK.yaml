@@ -1,0 +1,15 @@
+name: ChucK
+category: programming
+file_extensions:
+- ck
+paradigms:
+- object-oriented
+typing:
+  strength: strong
+history:
+  inception: 2002-01-01
+  designed_by:
+  - Ge Wang
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/ChucK%20logo2.jpg
+official_website: https://chuck.cs.princeton.edu
+color: '#3f8000'

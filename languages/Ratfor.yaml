@@ -1,0 +1,11 @@
+name: Ratfor
+category: programming
+history:
+  inception: 1976-01-01
+  developer:
+  - Brian Kernighan
+  influenced_by:
+    languages:
+    - C
+    - Fortran
+official_website: https://sepwww.stanford.edu/doku.php?id=sep:software:ratfor

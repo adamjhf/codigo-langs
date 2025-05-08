@@ -1,0 +1,15 @@
+name: FXML
+category: programming
+file_extensions:
+- fxml
+paradigms:
+- declarative
+history:
+  inception: 2011-10-01
+  developer:
+  - Oracle
+  designed_by:
+  - Oracle
+references:
+  quora_topics:
+  - FXML

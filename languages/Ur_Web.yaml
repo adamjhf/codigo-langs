@@ -1,0 +1,17 @@
+name: Ur/Web
+category: programming
+file_extensions:
+- ur
+- urs
+- urp
+history:
+  inception: 2014-12-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/UrWeb%20logo.png
+  influenced_by:
+    languages:
+    - Haskell
+    - ML
+official_website: https://impredicative.com/ur
+references:
+  quora_topics:
+  - Ur-programming-language

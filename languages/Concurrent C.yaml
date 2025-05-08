@@ -1,0 +1,12 @@
+name: Concurrent C
+category: programming
+paradigms:
+- imperative
+typing:
+  strength: weak
+history:
+  inception: 1984-01-01
+  influenced_by:
+    languages:
+    - C
+    - Ada

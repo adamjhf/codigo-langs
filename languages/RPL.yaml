@@ -1,0 +1,11 @@
+name: RPL
+category: programming
+paradigms:
+- object-oriented
+- structured
+- stack-oriented
+history:
+  inception: 1984-01-01
+  influenced_by:
+    languages:
+    - Forth

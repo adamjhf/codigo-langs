@@ -1,0 +1,11 @@
+name: NEWP
+category: programming
+paradigms:
+- imperative
+- structured
+typing:
+  system: static
+  strength: strong
+history:
+  developer:
+  - Burroughs Corporation

@@ -1,0 +1,18 @@
+name: Google Apps Script
+category: programming
+domains:
+  primary:
+  - web development
+history:
+  developer:
+  - Google
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Google%20Apps%20Script.svg
+  influenced_by:
+    languages:
+    - JavaScript
+official_website: https://script.google.com/
+references:
+  quora_topics:
+  - Google-Apps-Script
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/google-apps-script

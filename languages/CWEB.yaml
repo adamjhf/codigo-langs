@@ -1,0 +1,16 @@
+name: CWEB
+category: programming
+file_extensions:
+- w
+paradigms:
+- literate
+typing:
+  structural: false
+history:
+  developer:
+  - Donald Knuth
+  designed_by:
+  - Donald Knuth
+  influenced_by:
+    languages:
+    - WEB

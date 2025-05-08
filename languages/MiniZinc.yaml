@@ -1,0 +1,8 @@
+name: MiniZinc
+category: programming
+file_extensions:
+- mzn
+paradigms:
+- constraint
+official_website: https://www.minizinc.org/
+color: '#06a9e6'

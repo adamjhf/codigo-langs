@@ -1,0 +1,21 @@
+name: Incr Tcl
+category: programming
+paradigms:
+- object-oriented
+- functional
+- imperative
+- event-driven
+typing:
+  system: dynamic
+history:
+  inception: 1993-01-01
+  developer:
+  - Michael McLennan
+  designed_by:
+  - Michael McLennan
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Tcl.svg
+  influenced_by:
+    languages:
+    - C++
+    - Tcl
+official_website: https://incrtcl.sourceforge.net/itcl/

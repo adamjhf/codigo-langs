@@ -1,0 +1,11 @@
+name: Pan
+category: programming
+file_extensions:
+- pan
+paradigms:
+- declarative
+typing:
+  system: dynamic
+  strength: strong
+official_website: https://www.quattor.org/
+color: '#cc0000'

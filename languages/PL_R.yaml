@@ -1,0 +1,7 @@
+name: PL/R
+category: programming
+paradigms:
+- imperative
+domains:
+  primary:
+  - database management

@@ -1,0 +1,10 @@
+name: ZhPy
+category: programming
+history:
+  inception: 2007-01-01
+  developer:
+  - https://www.wikidata.org/.well-known/genid/ffec112d5defb17ca66291d3049dcb16
+  influenced_by:
+    languages:
+    - ChinesePython
+official_website: https://code.google.com/p/zhpy

@@ -1,0 +1,12 @@
+name: Toit
+category: programming
+file_extensions:
+- toit
+domains:
+  primary:
+  - IoT
+history:
+  designed_by:
+  - Lars Bak
+official_website: https://toit.io
+color: '#c2c9fb'

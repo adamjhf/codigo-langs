@@ -1,0 +1,14 @@
+name: OpenEdge Advanced Business Language
+category: programming
+paradigms:
+- object-oriented
+domains:
+  primary:
+  - database management
+history:
+  developer:
+  - Progress Software
+official_website: https://www.progress.com/openedge
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/openedge

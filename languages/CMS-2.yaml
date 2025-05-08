@@ -1,0 +1,11 @@
+name: CMS-2
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1968-01-01
+  developer:
+  - Computer Sciences Corporation
+  designed_by:
+  - RAND Corporation
+  - Intermetrics

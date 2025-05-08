@@ -1,0 +1,10 @@
+name: Constraint Handling Rules
+category: programming
+paradigms:
+- declarative
+- logic
+history:
+  inception: 1991-01-01
+  influenced_by:
+    languages:
+    - Prolog

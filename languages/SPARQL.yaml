@@ -1,0 +1,23 @@
+name: SPARQL
+category: programming
+file_extensions:
+- sparql
+- rq
+paradigms:
+- declarative
+history:
+  developer:
+  - Eric G. Prud'hommeaux
+  - Carlos Buil Aranda
+references:
+  github_topics:
+  - sparql
+  - sparql-editor
+  - sparql-endpoints
+  - sparql-query
+  quora_topics:
+  - SPARQL
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/sparql
+  - https://opendata.stackexchange.com/tags/sparql
+color: '#0C4597'

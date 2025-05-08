@@ -1,0 +1,11 @@
+name: GNU Awk
+category: programming
+history:
+  inception: 1986-01-01
+  developer:
+  - GNU Project
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Official%20gnu.svg
+  influenced_by:
+    languages:
+    - C
+official_website: https://www.gnu.org/software/gawk/

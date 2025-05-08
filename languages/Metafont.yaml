@@ -1,0 +1,14 @@
+name: Metafont
+category: programming
+paradigms:
+- declarative
+domains:
+  primary:
+  - computer font
+history:
+  developer:
+  - Donald Knuth
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/METAFONT%20logo.svg
+references:
+  quora_topics:
+  - Metafont

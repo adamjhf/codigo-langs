@@ -1,0 +1,11 @@
+name: Kaitai Struct
+category: programming
+aliases:
+- ksy
+file_extensions:
+- ksy
+official_website: https://kaitai.io/
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/kaitai-struct
+color: '#773b37'

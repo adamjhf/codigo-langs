@@ -1,0 +1,26 @@
+name: Seed7
+category: programming
+file_extensions:
+- s7i
+- sd7
+paradigms:
+- reflective
+- imperative
+- object-oriented
+- generic
+- structured
+typing:
+  system: static
+  structural: false
+  strength: strong
+history:
+  inception: 2005-01-01
+  influenced_by:
+    languages:
+    - Java
+    - C
+    - Pascal
+    - Ada
+    - Modula-2
+    - ALGOL 68
+official_website: https://seed7.sourceforge.net/

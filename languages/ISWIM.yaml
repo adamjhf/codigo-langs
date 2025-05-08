@@ -1,0 +1,9 @@
+name: ISWIM
+category: programming
+paradigms:
+- functional
+- imperative
+history:
+  inception: 1966-01-01
+  designed_by:
+  - Peter Landin

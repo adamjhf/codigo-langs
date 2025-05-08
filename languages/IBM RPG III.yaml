@@ -1,0 +1,9 @@
+name: IBM RPG III
+category: programming
+history:
+  inception: 1978-01-01
+  developer:
+  - IBM
+  influenced_by:
+    languages:
+    - RPG

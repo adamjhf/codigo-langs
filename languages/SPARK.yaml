@@ -1,0 +1,17 @@
+name: SPARK
+category: programming
+paradigms:
+- imperative
+typing:
+  system: static
+  structural: false
+  strength: strong
+history:
+  inception: 1988-01-01
+  developer:
+  - University of Southampton
+  - Altran
+official_website: https://www.adacore.com/sparkpro/
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/spark-ada

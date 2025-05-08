@@ -1,0 +1,14 @@
+name: Alma-0
+category: programming
+paradigms:
+- logic
+- imperative
+- constraint
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1997-01-01
+  developer:
+  - Centrum Wiskunde & Informatica
+official_website: https://www.cwi.nl/alma

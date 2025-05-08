@@ -1,0 +1,9 @@
+name: Integer BASIC
+category: programming
+history:
+  inception: 1977-01-01
+  developer:
+  - Steve Wozniak
+  influenced_by:
+    languages:
+    - HP Time-Shared BASIC

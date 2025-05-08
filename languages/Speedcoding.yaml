@@ -1,0 +1,17 @@
+name: Speedcoding
+category: programming
+paradigms:
+- generic
+- object-oriented
+- structured
+- imperative
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1953-01-01
+  developer:
+  - IBM
+  - John Backus
+  designed_by:
+  - John Backus

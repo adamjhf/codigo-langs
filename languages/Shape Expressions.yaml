@@ -1,0 +1,24 @@
+name: Shape Expressions
+category: programming
+file_extensions:
+- shex
+history:
+  inception: 2013-01-01
+  designed_by:
+  - Eric G. Prud'hommeaux
+  - Iovka Boneva
+  - José Emilio Labra Gayo
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/ShexLogo.png
+  influenced_by:
+    languages:
+    - SPARQL
+    - RELAX NG
+official_website: https://shex.io/
+references:
+  github_topics:
+  - shape-expressions
+  - shex
+  quora_topics:
+  - Shape-Expressions
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/shex

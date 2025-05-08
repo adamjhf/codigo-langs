@@ -1,0 +1,11 @@
+name: ChavaScript
+category: programming
+history:
+  developer:
+  - Aviv Carmi
+  - Yakir Yehuda
+  described_by: The Jerusalem Post
+official_website: https://chavascript.github.io/chavascript/
+references:
+  github_topics:
+  - chavascript

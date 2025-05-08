@@ -1,0 +1,12 @@
+name: Ateji PX
+category: programming
+paradigms:
+- object-oriented
+history:
+  influenced_by:
+    languages:
+    - Java
+official_website: https://www.ateji.com/
+references:
+  quora_topics:
+  - Ateji-PX

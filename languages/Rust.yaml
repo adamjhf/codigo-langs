@@ -1,0 +1,297 @@
+name: Rust
+description: Systems programming language focused on safety, speed, and concurrency without a garbage collector. It uses an ownership model to guarantee memory-safety and thread-safety at compile time.
+category: programming
+status: active
+aliases:
+- rs
+file_extensions:
+- rs
+- rs.in
+compilers:
+- name: rustc
+  type: compiler
+  license: MIT
+  source_url: https://github.com/rust-lang/rust
+  is_reference: true
+- name: Rust for WebAssembly
+  type: compiler
+  license: MIT
+  source_url: https://github.com/rust-lang/rust
+paradigms:
+- imperative
+- functional
+- concurrent
+- generic
+- structured
+- object-oriented
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: full
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  compiles_to:
+  - machine code
+  - LLVM IR
+  - WebAssembly
+  runtime_environments:
+  - native OS process
+  - WebAssembly
+  performance:
+    startup_time: fast
+    memory_usage: low
+    computation_speed: very fast
+    compilation_speed: moderate
+domains:
+  primary:
+  - systems programming
+  - web development
+  - game development
+  - network programming
+  - embedded systems
+  secondary:
+  - blockchain
+  - WebAssembly
+  - distributed system
+  - IoT
+  - desktop applications
+  emerging:
+  - scientific computing
+  - machine learning frameworks
+  - robotics
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Android
+  - iOS
+  - embedded
+  - bare metal
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - RISC-V
+  - MIPS
+  - PowerPC
+  - WebAssembly
+  cloud_function_environments:
+  - AWS Lambda
+  - Google Cloud Functions
+  - Azure Functions
+  - Fastly Compute@Edge
+  - Cloudflare Workers
+ecosystem:
+  maturity: high
+  package_registry: crates.io
+  community_size: large
+  learning_resources: large
+  job_market_demand: high
+complexity:
+  learning_curve: high
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: high
+language_features:
+  immutability: default
+  enums: algebraic
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: hybrid
+    level: very high
+  memory_management:
+    type: RAII
+    implementation: Ownership system with borrowing rules
+    manual_control: true
+  key_features:
+  - ownership system
+  - zero-cost abstractions
+  - pattern matching
+  - traits/interfaces
+  - algebraic data types
+  - type inference
+  - macros
+  - destructuring
+  - generics
+  - async/await
+  - iterators/generators
+  - modules
+  - first-class functions
+  - closures
+  - native FFI
+concurrency:
+  model: threads
+  features:
+  - async/await
+  - channels
+  - thread pools
+  - atomic operations
+  - lock-free data structures
+  - concurrent data structures
+  - work stealing
+  - message passing
+  - shared memory
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: result types
+  features:
+  - error chaining
+  - custom error types
+  - stack traces
+  - error propagation
+  - multiple error types
+  - error formatting
+  - cleanup actions
+  - resource management
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: Cargo
+  alternatives:
+  - rustup
+popular_frameworks:
+  frontend:
+  - Yew
+  - Seed
+  - Iced
+  - Dioxus
+  backend:
+  - Actix
+  - Rocket
+  - Axum
+  - Tokio
+  - Hyper
+  - warp
+  testing:
+  - built-in test framework
+  - proptest
+  - tokio-test
+  - mockall
+  - criterion
+  mobile:
+  - Tauri
+development_tools:
+  lsps:
+  - rust-analyzer
+  - RLS
+  debugging:
+  - GDB
+  - LLDB
+  - VS Code Debugger
+  profiling:
+  - perf
+  - Valgrind
+  - Cachegrind
+  - flamegraph
+  - criterion
+  build_systems:
+  - Cargo
+  - Bazel
+  - Make
+  linters:
+  - Clippy
+  - rustfmt
+standard_library:
+  maturity: high
+  key_areas:
+  - file I/O
+  - networking
+  - concurrency
+  - data structures
+  - algorithms
+  - text processing
+  - cryptography
+  - JSON/XML processing
+  - regular expressions
+  - date/time
+  - mathematics
+  - compression
+  - serialization
+  - testing
+  - logging
+  - process management
+  - random number generation
+  size: medium
+  documentation_quality: very high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 2006-01-01
+  developer:
+  - Mozilla
+  - Rust Foundation
+  - Graydon Hoare
+  designed_by:
+  - Graydon Hoare
+  - Dave Herman
+  - Brendan Eich
+  - Mozilla Research
+  standards_bodies:
+  - Rust Foundation
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Rust%20programming%20language%20black%20logo.svg
+  influenced_by:
+    languages:
+    - C++
+    - Cyclone
+    - Erlang
+    - Haskell
+    - OCaml
+    - C#
+    - ML
+    - Scheme
+    - Swift
+    - Ruby
+    - Newsqueak
+    - Limbo
+    - Standard ML
+    - Alef
+    paradigms:
+    - functional
+    - imperative
+    - concurrent
+    - generic
+official_website: https://www.rust-lang.org/
+official_blog_rss: https://blog.rust-lang.org/feed.xml
+documentation:
+  quality: very high
+  official_sources:
+  - https://doc.rust-lang.org/book/
+  - https://doc.rust-lang.org/std/
+  - https://doc.rust-lang.org/rust-by-example/
+  - https://doc.rust-lang.org/cargo/
+  community_resources:
+  - https://rust-lang.github.io/rustlings/
+  - https://github.com/rust-unofficial/awesome-rust
+  - https://cheats.rs/
+references:
+  github_topics:
+  - rust
+  - rust-lang
+  quora_topics:
+  - Rust-Programming-Language
+  stackexchange_tags:
+  - rust
+  - rust-cargo
+  - rustfmt
+  - rust-clippy
+  - https://stackoverflow.com/tags/rust
+  wikidata_id: Q575650
+  subreddit: rust
+  x_handle: rustlang
+color: '#dea584'

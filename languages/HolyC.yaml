@@ -1,0 +1,16 @@
+name: HolyC
+category: programming
+file_extensions:
+- hc
+history:
+  designed_by:
+  - Terry A. Davis
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/HolyC%20Logo.svg
+  influenced_by:
+    languages:
+    - C++
+    - C
+references:
+  github_topics:
+  - holyc
+color: '#ffefaf'

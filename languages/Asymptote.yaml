@@ -1,0 +1,16 @@
+name: Asymptote
+category: programming
+file_extensions:
+- asy
+paradigms:
+- imperative
+typing:
+  strength: strong
+history:
+  inception: 2004-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/AsymptoteLogo.svg
+  influenced_by:
+    languages:
+    - MetaPost
+official_website: https://asymptote.sourceforge.io/
+color: '#ff0000'

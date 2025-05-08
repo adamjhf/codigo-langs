@@ -1,0 +1,17 @@
+name: Kinetic Rule Language
+category: programming
+paradigms:
+- event-driven
+- rule-based
+typing:
+  system: dynamic
+  strength: weak
+history:
+  inception: 2007-01-01
+  developer:
+  - Kynetx
+  influenced_by:
+    languages:
+    - JavaScript
+    - Perl
+official_website: https://developer.kynetx.com/display/docs/Home

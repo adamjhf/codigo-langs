@@ -1,0 +1,9 @@
+name: Gödel
+category: programming
+paradigms:
+- logic
+- declarative
+typing:
+  strength: strong
+history:
+  inception: 1992-01-01

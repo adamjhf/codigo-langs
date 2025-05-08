@@ -1,0 +1,10 @@
+name: Ciao
+category: programming
+paradigms:
+- object-oriented
+- logic
+history:
+  influenced_by:
+    languages:
+    - Prolog
+official_website: https://www.ciao-lang.org

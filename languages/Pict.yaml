@@ -1,0 +1,6 @@
+name: Pict
+category: programming
+paradigms:
+- functional
+typing:
+  system: static

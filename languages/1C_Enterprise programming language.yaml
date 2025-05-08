@@ -1,0 +1,13 @@
+name: 1C:Enterprise programming language
+category: programming
+paradigms:
+- object-oriented
+- event-driven
+history:
+  inception: 1996-01-01
+  developer:
+  - 1C Company
+  designed_by:
+  - 1C Company
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/1c%28copy%29.png
+official_website: https://1c-dn.com

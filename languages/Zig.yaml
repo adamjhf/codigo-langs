@@ -1,0 +1,199 @@
+name: Zig
+description: A general-purpose programming language and toolchain for maintaining robust, optimal, and reusable software. Focuses on debug-ability, performance, and clarity.
+category: programming
+status: active
+file_extensions:
+- zig
+- zig.zon
+compilers:
+- name: Zig Compiler
+  type: compiler
+  license: MIT
+  source_url: https://github.com/ziglang/zig
+  is_reference: true
+paradigms:
+- imperative
+typing:
+  system: static
+  structural: true
+  strength: strong
+  inference: full
+  type_checking: compile-time
+  type_coercion: none
+  type_annotations: required
+execution:
+  type:
+  - compiled
+  compiles_to:
+  - machine code
+  - WebAssembly
+  - C
+  - LLVM IR
+  runtime_environments:
+  - native OS process
+  - native binary
+  - WebAssembly
+  performance:
+    startup_time: very fast
+    memory_usage: low
+    computation_speed: very fast
+    compilation_speed: fast
+domains:
+  primary:
+  - systems programming
+  - game development
+  - embedded systems
+  - operating systems
+  - WebAssembly
+  secondary:
+  - web development
+  - compiler
+  - desktop applications
+  emerging:
+  - distributed system
+  - robotics
+  - IoT
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - bare metal
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - RISC-V
+  - WebAssembly
+ecosystem:
+  maturity: moderate
+  package_registry: https://astrolabe.pm/
+  community_size: small
+  learning_resources: medium
+  job_market_demand: low
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: algebraic
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: manual
+    level: high
+  memory_management:
+    type: manual
+    implementation: RAII
+    manual_control: true
+  key_features:
+  - algebraic data types
+  - zero-cost abstractions
+  - REPL
+  - native FFI
+  - generics
+  - modules
+concurrency:
+  model: threads
+  features:
+  - async/await
+  - promises/futures
+  - thread pools
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: result types
+  features:
+  - stack traces
+  - custom error types
+  - error propagation
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: zigmod
+  alternatives:
+  - gyro
+  - zpm
+popular_frameworks:
+  frontend:
+  - Mach Engine
+  backend:
+  - zap
+  testing:
+  - built-in test framework
+development_tools:
+  lsps:
+  - zls
+  debugging:
+  - gdb
+  - lldb
+  profiling:
+  - built-in profiler
+  build_systems:
+  - zig build
+  linters:
+  - zig fmt
+standard_library:
+  maturity: moderate
+  key_areas:
+  - file I/O
+  - networking
+  - concurrency
+  - data structures
+  - algorithms
+  - text processing
+  - cryptography
+  - testing
+  - process management
+  size: medium
+  documentation_quality: high
+versioning:
+  release_cycle: semantic versioning
+  backwards_compatibility: moderate
+history:
+  inception: 2015-01-01
+  developer:
+  - Zig Software Foundation
+  - Andrew Kelley
+  designed_by:
+  - Andrew Kelley
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Zig%20logo%202020.svg
+  influenced_by:
+    languages:
+    - C
+    - Rust
+    - Go
+    - Swift
+    - JavaScript
+    - C++
+    paradigms:
+    - imperative
+    - procedural
+    - structured
+official_website: https://ziglang.org/
+official_blog_rss: https://ziglang.org/devlog/index.xml
+documentation:
+  quality: high
+  official_sources:
+  - https://ziglang.org/documentation/master/
+  - https://ziglearn.org/
+  community_resources:
+  - https://github.com/zigasm/awesome-zig
+  - https://ziglings.org/
+references:
+  github_topics:
+  - zig
+  - ziglang
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/zig
+  subreddit: Zig
+color: '#ec915c'

@@ -1,0 +1,19 @@
+name: Logtalk
+category: programming
+file_extensions:
+- lgt
+- logtalk
+paradigms:
+- object-oriented
+- prototype-based
+- logic
+history:
+  inception: 1998-01-01
+  influenced_by:
+    languages:
+    - Prolog
+official_website: https://logtalk.org/
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/logtalk
+color: '#295b9a'

@@ -1,0 +1,20 @@
+name: Turbo Pascal
+category: programming
+file_extensions:
+- CMD
+- COM
+- EXE
+paradigms:
+- object-oriented
+history:
+  inception: 1983-11-20
+  developer:
+  - Borland
+  - Anders Hejlsberg
+  designed_by:
+  - Anders Hejlsberg
+  influenced_by:
+    languages:
+    - Pascal
+    - Simula
+    - Modula-2

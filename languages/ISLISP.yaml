@@ -1,0 +1,12 @@
+name: ISLISP
+category: programming
+paradigms:
+- imperative
+- functional
+- reflective
+- object-oriented
+history:
+  inception: 1997-01-01
+  influenced_by:
+    languages:
+    - Common Lisp

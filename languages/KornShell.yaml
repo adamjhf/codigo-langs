@@ -1,0 +1,15 @@
+name: KornShell
+category: programming
+domains:
+  primary:
+  - shell
+history:
+  inception: 1983-01-01
+  developer:
+  - David Korn
+official_website: https://kornshell.com
+references:
+  quora_topics:
+  - Korn-Shell-1
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/ksh

@@ -1,0 +1,12 @@
+name: Newsqueak
+category: programming
+history:
+  inception: 1980-01-01
+  developer:
+  - Bell Labs
+  designed_by:
+  - Rob Pike
+  influenced_by:
+    languages:
+    - C
+    - Communicating sequential processes

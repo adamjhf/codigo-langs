@@ -1,0 +1,156 @@
+name: Nix
+description: A purely functional package management and system configuration language, primarily designed for the NixOS operating system. It enables reproducible, declarative and reliable systems.
+category: programming
+status: active
+aliases:
+- nixos
+file_extensions:
+- nix
+compilers:
+- name: Nix
+  type: interpreter
+  license: LGPL-2.1
+  source_url: https://github.com/NixOS/nix
+  is_reference: true
+paradigms:
+- declarative
+- functional
+- purely functional
+typing:
+  system: dynamic
+  strength: strong
+  type_checking: runtime
+execution:
+  type:
+  - interpreted
+  runtime_environments:
+  - native OS process
+  - language-specific runtime
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+domains:
+  primary:
+  - configuration management
+  - build management
+  - infrastructure as code
+  - DevOps
+  secondary:
+  - systems programming
+  - scripting
+  - build automation
+  emerging:
+  - cloud computing
+  - software build
+platforms:
+  operating_systems:
+  - Linux
+  - macOS
+  - Windows
+  - BSD
+  architectures:
+  - x86-64
+  - ARM64
+  - platform-independent
+ecosystem:
+  maturity: moderate
+  package_registry: Nixpkgs
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: low
+complexity:
+  learning_curve: high
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: high
+language_features:
+  immutability: enforced
+  metaprogramming: true
+  generics: false
+  c_interop: false
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+  key_features:
+  - lazy evaluation
+  - pure functions
+  - modules
+  - first-class functions
+  - pattern matching
+  - algebraic data types
+concurrency:
+  model: none
+  ease_of_use: low
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - error propagation
+  stack_traces: true
+package_managers:
+  primary: nix
+  alternatives:
+  - nix-env
+  - home-manager
+popular_frameworks:
+  testing:
+  - nixos-test
+development_tools:
+  lsps:
+  - rnix-lsp
+  - nil
+  debugging:
+  - nix-repl
+  build_systems:
+  - nix-build
+  linters:
+  - statix
+  - deadnix
+standard_library:
+  maturity: moderate
+  key_areas:
+  - file I/O
+  - data structures
+  - text processing
+  - serialization
+  - file system operations
+  size: medium
+  documentation_quality: moderate
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 2003-01-01
+  developer:
+  - NixOS Foundation
+  - Eelco Dolstra
+  designed_by:
+  - Eelco Dolstra
+  influenced_by:
+    languages:
+    - Haskell
+    - OCaml
+    paradigms:
+    - functional
+    - declarative
+    - purely functional
+official_website: https://nixos.org/
+official_blog_rss: https://nixos.org/blog/announcements-rss.xml
+documentation:
+  quality: moderate
+  official_sources:
+  - https://nixos.org/manual/nix/stable/
+  community_resources:
+  - https://nix.dev/
+references:
+  github_topics:
+  - nix
+  - nixos
+  - nixpkgs
+  subreddit: NixOS
+color: '#7e7eff'

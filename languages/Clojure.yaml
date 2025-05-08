@@ -1,0 +1,233 @@
+name: Clojure
+description: A dynamic, functional Lisp dialect that runs on the JVM, CLR, and JavaScript engines. Clojure emphasizes immutability and provides robust concurrency primitives.
+category: programming
+status: active
+aliases:
+- clj
+- cljs
+file_extensions:
+- clj
+- bb
+- boot
+- cl2
+- cljc
+- cljs
+- cljs.hl
+- cljscm
+- cljx
+- hic
+compilers:
+- name: Clojure Compiler
+  type: hybrid
+  source_url: https://github.com/clojure/clojure
+  is_reference: true
+- name: ClojureScript Compiler
+  type: compiler
+  source_url: https://github.com/clojure/clojurescript
+paradigms:
+- functional
+- concurrent
+- declarative
+- meta-programming
+- symbolic
+- modular
+- agent-oriented
+- logic
+typing:
+  system: dynamic
+  structural: true
+  strength: strong
+  inference: partial
+  type_checking: runtime
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  - interpreted with JIT compilation
+  compiles_to:
+  - bytecode
+  - JavaScript
+  runtime_environments:
+  - JVM
+  - browser
+  - native OS process
+  - WebAssembly
+  performance:
+    startup_time: slow
+    memory_usage: high
+    computation_speed: moderate
+    compilation_speed: moderate
+domains:
+  primary:
+  - web development
+  - data science
+  - server-side applications
+  - text processing
+  - data integration
+  secondary:
+  - scripting
+  - distributed system
+  - financial systems
+  emerging:
+  - machine learning frameworks
+  - cloud computing
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - Unix
+  - BSD
+  - Android
+  architectures:
+  - x86-64
+  - ARM64
+  - platform-independent
+  cloud_function_environments:
+  - AWS Lambda
+  - Google Cloud Functions
+ecosystem:
+  maturity: high
+  package_registry: https://clojars.org
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: moderate
+complexity:
+  learning_curve: high
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: high
+language_features:
+  immutability: default
+  enums: none
+  metaprogramming: true
+  generics: false
+  c_interop: true
+  pattern_matching: true
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: JVM garbage collector
+    manual_control: false
+  key_features:
+  - first-class functions
+  - closures
+  - macros
+  - destructuring
+  - REPL
+  - interactive development
+  - native FFI
+  - meta-programming
+concurrency:
+  model: STM
+  features:
+  - software transactional memory
+  - promises/futures
+  ease_of_use: high
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - error chaining
+  - custom error types
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: Leiningen
+  alternatives:
+  - deps.edn (tools.deps)
+  - Boot
+  - Maven
+popular_frameworks:
+  frontend:
+  - Reagent
+  - re-frame
+  - Fulcro
+  backend:
+  - Ring
+  - Compojure
+  - Pedestal
+  - Aleph
+  testing:
+  - clojure.test
+  - Expectations
+  - Midje
+development_tools:
+  lsps:
+  - clojure-lsp
+  debugging:
+  - CIDER
+  - Cursive
+  profiling:
+  - clj-async-profiler
+  - YourKit
+  build_systems:
+  - Leiningen
+  - Boot
+  - tools.deps
+  linters:
+  - clj-kondo
+  - eastwood
+standard_library:
+  maturity: high
+  key_areas:
+  - data structures
+  - concurrency
+  - text processing
+  - file I/O
+  - networking
+  - date/time
+  - JSON/XML processing
+  - regular expressions
+  size: medium
+  documentation_quality: high
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: high
+history:
+  inception: 2007-01-01
+  developer:
+  - Rich Hickey
+  designed_by:
+  - Rich Hickey
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Clojure%20logo.svg
+  influenced_by:
+    languages:
+    - Lisp
+    - Scheme
+    - ML
+    - Haskell
+    - Erlang
+    - Common Lisp
+    paradigms:
+    - functional
+    - declarative
+    - concurrent
+official_website: https://clojure.org/
+documentation:
+  quality: high
+  official_sources:
+  - https://clojure.org/reference/documentation
+  - https://clojuredocs.org
+  community_resources:
+  - https://www.braveclojure.com/
+  - https://guide.clojure.style/
+references:
+  github_topics:
+  - clojure
+  - clojurescript
+  quora_topics:
+  - Clojure-programming-language
+  stackexchange_tags:
+  - clojure
+  - clojurescript
+  wikidata_id: Q42254
+  subreddit: Clojure
+color: '#db5855'

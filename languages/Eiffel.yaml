@@ -1,0 +1,170 @@
+name: Eiffel
+description: A pure object-oriented programming language designed for software engineering with an emphasis on correctness through Design by Contract methodology.
+category: programming
+file_extensions:
+  - e
+aliases:
+  - Eiffel Language
+status: active
+paradigms:
+  - object-oriented
+  - concurrent
+  - distributed
+  - generic
+typing:
+  system: static
+  type_checking: compile-time
+  structural: false
+  strength: strong
+  inference: partial
+  type_coercion: conservative
+  type_annotations: required
+execution:
+  type:
+    - compiled
+  compiles_to:
+    - machine code
+    - C
+  runtime_environments:
+    - native OS process
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+    compilation_speed: moderate
+domains:
+  primary:
+    - desktop applications
+    - business applications
+    - safety-critical systems
+    - education
+  secondary:
+    - scientific computing
+    - financial systems
+    - telecommunications
+    - automation
+platforms:
+  operating_systems:
+    - Windows
+    - macOS
+    - Linux
+    - Unix
+  architectures:
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+ecosystem:
+  maturity: moderate
+  package_registry: EiffelStudio libraries
+  community_size: small
+  learning_resources: medium
+  job_market_demand: low
+complexity:
+  learning_curve: high
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: high
+language_features:
+  immutability: optional
+  generics: true
+  c_interop: true
+  pattern_matching: false
+  null_safety: true
+  memory_management:
+    type: garbage collection
+    implementation: Mark-and-sweep
+  memory_safety:
+    type: managed
+    level: high
+  key_features:
+    - multiple inheritance
+    - traits/interfaces
+    - contracts
+    - modules
+    - generics
+    - named arguments
+concurrency:
+  model: threads
+  features:
+    - shared memory
+    - parallel collections
+    - concurrent data structures
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+    - stack traces
+    - custom error types
+    - recovery mechanisms
+    - error propagation
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: EiffelStudio
+development_tools:
+  lsps:
+    - Eiffel Language Server
+  debugging:
+    - EiffelStudio Debugger
+  profiling:
+    - EiffelStudio Profiler
+  build_systems:
+    - ECF (Eiffel Configuration File)
+  linters:
+    - EiffelStudio Code Analyzer
+standard_library:
+  maturity: high
+  key_areas:
+    - data structures
+    - file I/O
+    - concurrency
+    - networking
+    - date/time
+    - text processing
+    - mathematics
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 1986-01-01
+  developer:
+    - Eiffel Software
+  designed_by:
+    - Bertrand Meyer
+  described_by: ECMA-367
+  standards_bodies:
+    - ECMA International
+  influenced_by:
+    languages:
+      - Simula
+      - Ada
+      - CLU
+    paradigms:
+      - object-oriented
+official_website: https://www.eiffel.org/
+documentation:
+  quality: high
+  official_sources:
+    - https://www.eiffel.org/doc
+compilers:
+  - name: EiffelStudio
+    type: compiler
+    license: GPL-2.0
+    is_reference: true
+  - name: SmartEiffel
+    type: compiler
+    license: GPL-2.0
+references:
+  github_topics:
+    - eiffel
+    - eiffel-language
+  wikidata_id: Q223742
+  stackexchange_tags:
+    - eiffel
+color: "#4D6977"

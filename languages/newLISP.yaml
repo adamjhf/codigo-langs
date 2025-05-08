@@ -1,0 +1,14 @@
+name: newLISP
+category: programming
+paradigms:
+- object-oriented
+- prototype-based
+- functional
+typing:
+  system: dynamic
+history:
+  inception: 1991-01-01
+official_website: https://www.newlisp.org/
+references:
+  quora_topics:
+  - newLISP

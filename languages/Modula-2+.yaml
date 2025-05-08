@@ -1,0 +1,11 @@
+name: Modula-2+
+category: programming
+paradigms:
+- imperative
+- modular
+typing:
+  strength: strong
+history:
+  inception: 1984-01-01
+  developer:
+  - DEC Systems Research Center

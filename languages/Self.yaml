@@ -1,0 +1,26 @@
+name: Self
+category: programming
+file_extensions:
+- self
+paradigms:
+- object-oriented
+- prototype-based
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1987-01-01
+  developer:
+  - Sun Microsystems
+  - Stanford University
+  - David Ungar
+  - Randall Smith
+  designed_by:
+  - David Ungar
+  - Randall Smith
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Self-logo.svg
+  influenced_by:
+    languages:
+    - Smalltalk
+official_website: https://selflanguage.org/
+color: '#0579aa'

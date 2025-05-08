@@ -1,0 +1,80 @@
+name: Mustache
+description: Mustache is a logic-less template syntax with implementations in many languages. It uses tags enclosed in curly braces to provide simple interpolation, sections, and partials without requiring code in the templates.
+category: DSL
+status: active
+file_extensions:
+- mustache
+paradigms:
+- template-based
+- declarative
+typing:
+  system: untyped
+  type_checking: runtime
+  type_annotations: none
+execution:
+  type:
+  - interpreted
+  compiles_to:
+  - other intermediate representation
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  - browser
+domains:
+  primary:
+  - web development
+  - text processing
+  secondary:
+  - server-side applications
+  - templating
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - Unix
+  - Android
+  - iOS
+  architectures:
+  - platform-independent
+ecosystem:
+  maturity: high
+  community_size: medium
+  learning_resources: large
+  job_market_demand: moderate
+complexity:
+  learning_curve: low
+  cognitive_load: low
+  syntax_complexity: low
+  semantic_complexity: low
+language_features:
+  key_features:
+  - string interpolation
+error_handling:
+  primary_mechanism: exceptions
+standard_library:
+  key_areas:
+  - text processing
+  size: small
+  documentation_quality: high
+history:
+  inception: 2009-01-01
+  designed_by:
+  - Chris Wanstrath
+  influenced_by:
+    languages:
+    - ERB
+    - Handlebars
+official_website: https://mustache.github.io/
+documentation:
+  quality: high
+  official_sources:
+  - https://mustache.github.io/mustache.5.html
+  community_resources:
+  - https://github.com/mustache/mustache
+references:
+  github_topics:
+  - mustache
+  - mustache-template
+  wikidata_id: Q2718880
+color: '#724b3b'

@@ -1,0 +1,11 @@
+name: S3
+category: programming
+paradigms:
+- structured
+- imperative
+history:
+  developer:
+  - International Computers Limited
+  influenced_by:
+    languages:
+    - ALGOL 68

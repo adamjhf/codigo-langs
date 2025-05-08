@@ -1,0 +1,12 @@
+name: Profile Scripting Language
+category: programming
+paradigms:
+- object-oriented
+- imperative
+history:
+  inception: 1998-01-01
+  designed_by:
+  - Frank Sanchez
+  influenced_by:
+    languages:
+    - MUMPS

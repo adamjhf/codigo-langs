@@ -1,0 +1,14 @@
+name: Polyphonic C#
+category: programming
+typing:
+  system: dynamic
+  structural: false
+history:
+  inception: 2002-01-01
+  developer:
+  - Microsoft Research
+  designed_by:
+  - Luca Cardelli
+  - Nick Benton
+  - https://www.wikidata.org/.well-known/genid/c40a19b1f7537bb5e48c49973b461b91
+official_website: https://research.microsoft.com/~nick/polyphony/

@@ -1,0 +1,14 @@
+name: Whitespace
+category: programming
+paradigms:
+- esoteric
+history:
+  inception: 2003-04-01
+  described_by: Esolang
+  influenced_by:
+    languages:
+    - Brainfuck
+official_website: https://compsoc.dur.ac.uk/whitespace/
+references:
+  quora_topics:
+  - Whitespace

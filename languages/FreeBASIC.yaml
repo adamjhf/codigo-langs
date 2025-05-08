@@ -1,0 +1,27 @@
+name: FreeBASIC
+category: programming
+aliases:
+- fb
+file_extensions:
+- bi
+- bas
+paradigms:
+- object-oriented
+- imperative
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 2004-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Fblogo.gif
+  influenced_by:
+    languages:
+    - C
+    - QBasic
+official_website: https://www.freebasic.net/
+references:
+  quora_topics:
+  - FreeBasic
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/freebasic
+color: '#141AC9'

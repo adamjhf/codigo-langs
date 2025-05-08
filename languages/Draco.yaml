@@ -1,0 +1,12 @@
+name: Draco
+category: programming
+paradigms:
+- imperative
+- structured
+typing:
+  system: static
+  strength: strong
+history:
+  influenced_by:
+    languages:
+    - Pascal

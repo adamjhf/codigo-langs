@@ -1,0 +1,12 @@
+name: Umple
+category: programming
+paradigms:
+- object-oriented
+typing:
+  system: static
+history:
+  inception: 2008-01-01
+  designed_by:
+  - University of Ottawa
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Umple%20Logo.png
+official_website: https://www.umple.org

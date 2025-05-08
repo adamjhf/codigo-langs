@@ -1,0 +1,23 @@
+name: Validate YAML Schema
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  validate-yaml:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Convert schema to JSON
+        run: |
+          sudo snap install yq
+          yq -o=json schema.yaml > schema.json
+
+      - uses: GrantBirki/json-yaml-validate@v3
+        with:
+          json_schema: 'schema.json'
+          base_dir: 'languages'
+          yaml_as_json: true

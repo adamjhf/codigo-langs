@@ -1,0 +1,12 @@
+name: Epigram
+category: programming
+paradigms:
+- functional
+typing:
+  system: dependent
+  strength: strong
+history:
+  inception: 2004-01-01
+  designed_by:
+  - Conor McBride
+official_website: https://e-pig.org

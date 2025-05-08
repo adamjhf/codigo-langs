@@ -1,0 +1,207 @@
+name: TypeScript
+description: A strict syntactical superset of JavaScript that adds static typing, designed to develop large applications and transpiles to JavaScript.
+category: programming
+status: active
+aliases:
+- ts
+file_extensions:
+- ts
+- cts
+- mts
+compilers:
+- name: TypeScript Compiler (tsc)
+  type: compiler
+  license: Apache-2.0
+  source_url: https://github.com/microsoft/TypeScript
+  is_reference: true
+paradigms:
+- imperative
+- object-oriented
+- functional
+- prototype-based
+- generic
+- event-driven
+typing:
+  system: gradual
+  structural: true
+  strength: strong
+  inference: partial
+  type_checking: compile-time
+  type_coercion: moderate
+  type_annotations: optional
+execution:
+  type:
+  - transpiled
+  compiles_to:
+  - JavaScript
+  runtime_environments:
+  - browser
+  - native OS process
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+    compilation_speed: moderate
+domains:
+  primary:
+  - web development
+  - server-side applications
+  - desktop applications
+  secondary:
+  - mobile development
+  - game development
+  emerging:
+  - WebAssembly
+  - edge computing
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  architectures:
+  - platform-independent
+  cloud_function_environments:
+  - AWS Lambda
+  - Google Cloud Functions
+  - Azure Functions
+  - Vercel Functions
+  - Netlify Functions
+ecosystem:
+  maturity: very high
+  package_registry: npm
+  community_size: very large
+  learning_resources: very large
+  job_market_demand: very high
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: true
+  generics: true
+  c_interop: false
+  pattern_matching: false
+  null_safety: true
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+  key_features:
+  - string interpolation
+  - destructuring
+  - modules
+  - iterators/generators
+  - lambdas
+  - decorators/annotations
+  - type inference
+  - generics
+  - async/await
+concurrency:
+  model: event loop
+  features:
+  - async/await
+  - promises/futures
+  ease_of_use: high
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - error chaining
+  - custom error types
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: npm
+  alternatives:
+  - yarn
+  - pnpm
+popular_frameworks:
+  frontend:
+  - React
+  - Angular
+  - Vue.js
+  - Svelte
+  backend:
+  - Express.js
+  - NestJS
+  - Fastify
+  - Deno
+  testing:
+  - Jest
+  - Mocha
+  - Jasmine
+  - Cypress
+development_tools:
+  lsps:
+  - TypeScript Language Server
+  debugging:
+  - Chrome DevTools
+  - VS Code Debugger
+  profiling:
+  - Chrome Performance Tools
+  - Node.js profiler
+  build_systems:
+  - tsc
+  - webpack
+  - esbuild
+  - Vite
+  linters:
+  - ESLint
+  - TSLint (deprecated)
+standard_library:
+  maturity: high
+  key_areas:
+  - data structures
+  - algorithms
+  - regular expressions
+  - date/time
+  - text processing
+  size: medium
+  documentation_quality: very high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 2012-10-01
+  developer:
+  - Microsoft
+  designed_by:
+  - Anders Hejlsberg
+  - Microsoft
+  described_by: TypeScript Language Specification
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Typescript%20logo%202020.svg
+  influenced_by:
+    languages:
+    - JavaScript
+    - C#
+    - Java
+    - Scala
+    - Haskell
+    - CoffeeScript
+official_website: https://www.typescriptlang.org/
+official_blog_rss: https://devblogs.microsoft.com/typescript/feed/
+documentation:
+  quality: very high
+  official_sources:
+  - https://www.typescriptlang.org/docs/
+  - https://github.com/microsoft/TypeScript/tree/main/doc
+  community_resources:
+  - https://typescript-handbook.com/
+  - https://basarat.gitbook.io/typescript/
+references:
+  github_topics:
+  - typescript
+  stackexchange_tags:
+  - typescript
+  wikidata_id: Q19199
+  subreddit: typescript
+color: '#3178c6'

@@ -1,0 +1,9 @@
+name: GRASS
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1974-01-01
+  influenced_by:
+    languages:
+    - BASIC

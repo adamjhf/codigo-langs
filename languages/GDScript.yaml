@@ -1,0 +1,149 @@
+name: GDScript
+description: A high-level, dynamically typed programming language designed specifically for the Godot game engine, focused on ease of use for game development.
+category: programming
+status: active
+aliases:
+- Godot Script
+file_extensions:
+- gd
+compilers:
+- name: Godot Engine
+  type: interpreter
+  license: MIT
+  source_url: https://github.com/godotengine/godot
+  is_reference: true
+paradigms:
+- object-oriented
+- imperative
+typing:
+  system: dynamic
+  structural: true
+  strength: strong
+  inference: none
+  type_checking: runtime
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - interpreted
+  runtime_environments:
+  - language-specific runtime
+  performance:
+    startup_time: fast
+    memory_usage: moderate
+    computation_speed: moderate
+domains:
+  primary:
+  - game development
+  secondary:
+  - 2D computer graphics
+  - 3D computer graphics
+  - user interface
+  - animation
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - Android
+  - iOS
+  architectures:
+  - x86-64
+  - ARM
+  - ARM64
+  - WebAssembly
+ecosystem:
+  maturity: moderate
+  package_registry: Godot Asset Library
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: low
+complexity:
+  learning_curve: low
+  cognitive_load: low
+  syntax_complexity: low
+  semantic_complexity: low
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: true
+  generics: false
+  c_interop: false
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+  key_features:
+  - string interpolation
+  - coroutines
+  - first-class functions
+  - lambdas
+concurrency:
+  model: coroutines
+  features:
+  - async/await
+  ease_of_use: high
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - error propagation
+  stack_traces: true
+  debugging:
+    breakpoints: true
+    step_debugging: true
+development_tools:
+  lsps:
+  - Godot's built-in language server
+  - godot-lsp
+  debugging:
+  - Godot's built-in debugger
+  linters:
+  - Godot's built-in code analyzer
+standard_library:
+  maturity: high
+  key_areas:
+  - data structures
+  - mathematics
+  - file I/O
+  - networking
+  - date/time
+  - random number generation
+  - text processing
+  - algorithms
+  size: medium
+  documentation_quality: high
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: moderate
+history:
+  inception: 2014-01-01
+  developer:
+  - Godot Engine community
+  designed_by:
+  - Juan Linietsky
+  - Ariel Manzur
+  influenced_by:
+    languages:
+    - Python
+    - Lua
+    - C#
+official_website: https://godotengine.org/
+documentation:
+  quality: high
+  official_sources:
+  - https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/index.html
+  community_resources:
+  - https://www.gdquest.com/tutorial/godot/
+references:
+  github_topics:
+  - gdscript
+  - godot
+  stackexchange_tags:
+  - godot
+  - gdscript
+  subreddit: godot
+color: '#355570'

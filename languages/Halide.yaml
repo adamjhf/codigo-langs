@@ -1,0 +1,18 @@
+name: Halide
+category: programming
+paradigms:
+- functional
+- parallel
+typing:
+  system: static
+domains:
+  primary:
+  - digital image processing
+history:
+  inception: 2012-01-01
+  developer:
+  - Massachusetts Institute of Technology
+official_website: https://halide-lang.org/
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/halide

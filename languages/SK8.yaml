@@ -1,0 +1,9 @@
+name: SK8
+category: programming
+paradigms:
+- object-oriented
+typing:
+  system: dynamic
+history:
+  developer:
+  - Apple

@@ -1,0 +1,10 @@
+name: Snek
+category: programming
+paradigms:
+- imperative
+typing:
+  system: dynamic
+history:
+  developer:
+  - Keith Packard
+official_website: https://keithp.com/snek/

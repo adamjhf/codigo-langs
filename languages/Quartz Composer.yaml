@@ -1,0 +1,12 @@
+name: Quartz Composer
+category: programming
+domains:
+  primary:
+  - visual programming
+history:
+  developer:
+  - Apple
+official_website: https://developer.apple.com/graphicsimaging/quartz/quartzcomposer.html
+references:
+  quora_topics:
+  - Quartz-Composer

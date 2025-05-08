@@ -1,0 +1,16 @@
+name: LOLCODE
+category: programming
+file_extensions:
+- lol
+paradigms:
+- imperative
+- structured
+history:
+  inception: 2007-01-01
+  described_by: Esolang
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/LOLCode%20logo.png
+  influenced_by:
+    languages:
+    - lolcat
+official_website: https://www.lolcode.org
+color: '#cc9900'

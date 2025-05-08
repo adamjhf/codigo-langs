@@ -1,0 +1,14 @@
+name: Mary
+category: programming
+paradigms:
+- imperative
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1971-01-01
+  developer:
+  - SINTEF
+  influenced_by:
+    languages:
+    - ALGOL 68

@@ -1,0 +1,123 @@
+name: Solidity
+description: Smart contract programming language for Ethereum blockchain, designed for implementing contracts on various blockchain platforms.
+category: programming
+status: active
+file_extensions:
+- sol
+compilers:
+- name: solc
+  type: compiler
+  license: GPL-3.0
+  source_url: https://github.com/ethereum/solidity
+  is_reference: true
+paradigms:
+- object-oriented
+- imperative
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: partial
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: required
+execution:
+  type:
+  - compiled
+  compiles_to:
+  - bytecode
+domains:
+  primary:
+  - blockchain
+  - cryptocurrency
+  secondary:
+  - financial systems
+  - distributed system
+  - web development
+ecosystem:
+  maturity: high
+  package_registry: npm
+  community_size: large
+  learning_resources: large
+  job_market_demand: high
+complexity:
+  learning_curve: high
+  cognitive_load: high
+  syntax_complexity: moderate
+  semantic_complexity: high
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: false
+  generics: false
+  c_interop: false
+  pattern_matching: false
+  null_safety: false
+  memory_management:
+    type: manual
+    manual_control: true
+  key_features:
+  - modules
+concurrency:
+  model: none
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - error chaining
+  - custom error types
+package_managers:
+  primary: npm
+popular_frameworks:
+  backend:
+  - Truffle
+  - Hardhat
+  - Foundry
+development_tools:
+  lsps:
+  - solidity-ls
+  debugging:
+  - Remix
+  - Truffle Debugger
+  linters:
+  - Solhint
+  - Ethlint
+standard_library:
+  maturity: moderate
+  key_areas:
+  - data structures
+  - cryptography
+  - mathematics
+  size: small
+  documentation_quality: high
+versioning:
+  release_cycle: semantic versioning
+  backwards_compatibility: moderate
+history:
+  inception: 2014-01-01
+  developer:
+  - Ethereum Foundation
+  designed_by:
+  - Gavin Wood
+  - Christian Reitwiessner
+  - Alex Beregszaszi
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Solidity%20logo.svg
+  influenced_by:
+    languages:
+    - JavaScript
+    - C++
+    - Python
+official_website: https://soliditylang.org/
+documentation:
+  quality: high
+  official_sources:
+  - https://docs.soliditylang.org/
+references:
+  github_topics:
+  - solidity
+  - ethereum
+  - smart-contracts
+  stackexchange_tags:
+  - solidity
+  - ethereum
+  subreddit: ethdev
+color: '#AA6746'

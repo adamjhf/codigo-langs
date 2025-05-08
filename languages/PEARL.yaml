@@ -1,0 +1,9 @@
+name: PEARL
+category: programming
+paradigms:
+- imperative
+domains:
+  primary:
+  - real-time computing
+history:
+  inception: 1977-01-01

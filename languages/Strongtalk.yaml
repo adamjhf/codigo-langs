@@ -1,0 +1,12 @@
+name: Strongtalk
+category: programming
+paradigms:
+- object-oriented
+typing:
+  system: static
+history:
+  inception: 2002-07-01
+  influenced_by:
+    languages:
+    - Smalltalk
+official_website: https://www.strongtalk.org

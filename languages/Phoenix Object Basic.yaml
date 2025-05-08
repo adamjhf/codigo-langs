@@ -1,0 +1,14 @@
+name: Phoenix Object Basic
+category: programming
+file_extensions:
+- ebo
+- epj
+- ero
+- eto
+paradigms:
+- object-oriented
+- imperative
+history:
+  influenced_by:
+    languages:
+    - Visual Basic

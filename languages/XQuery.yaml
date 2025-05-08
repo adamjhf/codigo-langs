@@ -1,0 +1,28 @@
+name: XQuery
+category: programming
+file_extensions:
+- xquery
+- xq
+- xql
+- xqm
+- xqy
+paradigms:
+- functional
+- declarative
+- modular
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 2007-01-01
+  designed_by:
+  - World Wide Web Consortium
+official_website: https://www.w3.org/XML/Query/
+references:
+  github_topics:
+  - xquery
+  quora_topics:
+  - XQuery
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/xquery
+color: '#5232e7'

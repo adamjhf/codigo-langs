@@ -1,0 +1,12 @@
+name: Pixilang
+category: programming
+file_extensions:
+- txt
+- pixi
+- pixicode
+history:
+  inception: 2006-01-01
+official_website: https://www.warmplace.ru/soft/pixilang/index_ru.php
+references:
+  github_topics:
+  - pixilang

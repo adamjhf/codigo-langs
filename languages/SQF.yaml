@@ -1,0 +1,9 @@
+name: SQF
+category: programming
+file_extensions:
+- sqf
+- hqf
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/sqf
+color: '#3F3F3F'

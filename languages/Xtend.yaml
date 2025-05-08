@@ -1,0 +1,17 @@
+name: Xtend
+category: programming
+file_extensions:
+- xtend
+paradigms:
+- object-oriented
+- functional
+- imperative
+typing:
+  system: static
+  strength: strong
+  inference: full
+history:
+  inception: 2011-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Xtend-logo-c.png
+official_website: https://www.xtend-lang.org
+color: '#24255d'

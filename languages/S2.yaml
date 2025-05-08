@@ -1,0 +1,10 @@
+name: S2
+category: programming
+paradigms:
+- object-oriented
+history:
+  inception: 1999-01-01
+  developer:
+  - Martin Atkins
+  - Brad Fitzpatrick
+official_website: https://www.livejournal.com/doc/s2

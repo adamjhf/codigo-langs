@@ -1,0 +1,16 @@
+name: Befunge
+category: programming
+file_extensions:
+- befunge
+- bf
+paradigms:
+- esoteric
+history:
+  inception: 1993-01-01
+  described_by: Esolang
+  influenced_by:
+    languages:
+    - Brainfuck
+    - Forth
+    - 'FALSE'
+official_website: https://catseye.tc/node/Befunge-93.html

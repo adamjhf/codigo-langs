@@ -1,0 +1,12 @@
+name: Linden Scripting Language
+category: programming
+history:
+  developer:
+  - Linden Lab
+  influenced_by:
+    languages:
+    - C
+official_website: https://wiki.secondlife.com/wiki/LSL_Portal
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/linden-scripting-language

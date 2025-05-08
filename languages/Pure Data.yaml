@@ -1,0 +1,15 @@
+name: Pure Data
+category: programming
+file_extensions:
+- pd
+paradigms:
+- dataflow
+domains:
+  primary:
+  - visual programming
+history:
+  inception: 1996-01-01
+  developer:
+  - Miller Puckette
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Pure%20Data%20logo.svg
+official_website: https://puredata.info

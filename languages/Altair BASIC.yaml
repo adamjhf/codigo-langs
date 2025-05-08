@@ -1,0 +1,10 @@
+name: Altair BASIC
+category: programming
+history:
+  inception: 1975-01-01
+  developer:
+  - Bill Gates
+  - Paul Allen
+  influenced_by:
+    languages:
+    - BASIC

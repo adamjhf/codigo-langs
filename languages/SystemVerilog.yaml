@@ -1,0 +1,24 @@
+name: SystemVerilog
+category: programming
+file_extensions:
+- sv
+- svh
+- vh
+paradigms:
+- object-oriented
+- structured
+typing:
+  system: static
+  strength: weak
+history:
+  inception: 2002-01-01
+  designed_by:
+  - Institute of Electrical and Electronics Engineers
+  influenced_by:
+    languages:
+    - VHDL
+    - Verilog
+references:
+  quora_topics:
+  - SystemVerilog
+color: '#DAE1C2'

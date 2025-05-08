@@ -1,0 +1,13 @@
+name: FL
+category: programming
+paradigms:
+- functional
+typing:
+  system: dynamic
+history:
+  inception: 1989-01-01
+  designed_by:
+  - John Backus
+  influenced_by:
+    languages:
+    - FP

@@ -1,0 +1,8 @@
+name: Ferite
+category: programming
+history:
+  inception: 2000-01-01
+  influenced_by:
+    languages:
+    - PHP
+official_website: https://github.com/darkrock/ferite

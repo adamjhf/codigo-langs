@@ -1,0 +1,14 @@
+name: CHILL
+category: programming
+paradigms:
+- imperative
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1980-01-01
+  designed_by:
+  - ITU Telecommunication Standardization Sector
+  influenced_by:
+    languages:
+    - COBOL

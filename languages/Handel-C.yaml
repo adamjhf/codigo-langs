@@ -1,0 +1,15 @@
+name: Handel-C
+category: programming
+paradigms:
+- imperative
+typing:
+  structural: false
+  inference: full
+history:
+  inception: 2005-01-01
+  developer:
+  - Mentor Graphics
+  influenced_by:
+    languages:
+    - C
+official_website: https://www.mentor.com/products/fpga/handel-c/

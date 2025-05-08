@@ -1,0 +1,15 @@
+name: make
+category: programming
+domains:
+  primary:
+  - software build
+  - build automation
+history:
+  inception: 1976-04-01
+  developer:
+  - Stuart Feldman
+  designed_by:
+  - Stuart Feldman
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/makefile

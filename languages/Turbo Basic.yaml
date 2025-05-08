@@ -1,0 +1,12 @@
+name: Turbo Basic
+category: programming
+history:
+  inception: 1987-01-01
+  developer:
+  - Borland
+  influenced_by:
+    languages:
+    - QuickBASIC
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/turbobasic

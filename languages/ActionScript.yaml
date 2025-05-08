@@ -1,0 +1,178 @@
+name: ActionScript
+description: A dialect of ECMAScript that was designed for creating animations and interactive content for the Flash platform. It was widely used for developing Flash games, rich internet applications, and interactive websites.
+category: programming
+status: legacy
+aliases:
+- actionscript 3
+- actionscript3
+- as3
+file_extensions:
+- as
+compilers:
+- name: Adobe Flex SDK
+  type: compiler
+  license: Apache-2.0
+  is_reference: true
+- name: Adobe Flash Professional
+  type: compiler
+  license: proprietary
+paradigms:
+- object-oriented
+- prototype-based
+- imperative
+- event-driven
+- functional
+typing:
+  system: static
+  structural: true
+  strength: strong
+  inference: partial
+  type_checking: compile-time
+  type_coercion: moderate
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  compiles_to:
+  - bytecode
+  runtime_environments:
+  - language-specific runtime
+  - browser
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+domains:
+  primary:
+  - web development
+  - game development
+  - animation
+  - interactive fiction
+  - user interface
+  secondary:
+  - desktop applications
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - Android
+  - iOS
+  architectures:
+  - platform-independent
+ecosystem:
+  maturity: high
+  package_registry: Adobe Flash Player
+  community_size: small
+  learning_resources: medium
+  job_market_demand: very low
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: true
+  generics: true
+  c_interop: false
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+  key_features:
+  - closures
+  - string interpolation
+  - reflection
+  - operator overloading
+  - traits/interfaces
+  - modules
+  - decorators/annotations
+concurrency:
+  model: event loop
+  features:
+  - async/await
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - custom error types
+  - error chaining
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: Flash Player
+popular_frameworks:
+  frontend:
+  - Flex
+  - PureMVC
+  - Robotlegs
+  - Away3D
+  testing:
+  - FlexUnit
+  - AsUnit
+development_tools:
+  lsps:
+  - ActionScript LSP
+  debugging:
+  - Flash Builder
+  - Flash Professional
+  linters:
+  - ASLint
+standard_library:
+  maturity: high
+  key_areas:
+  - file I/O
+  - networking
+  - data structures
+  - text processing
+  - JSON/XML processing
+  - date/time
+  - mathematics
+  - multimedia
+  - graphics
+  size: medium
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: high
+history:
+  inception: 1998-01-01
+  developer:
+  - Macromedia
+  - Adobe Systems
+  designed_by:
+  - Gary Grossman
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Farm-Fresh%20page%20white%20actionscript.png
+  influenced_by:
+    languages:
+    - JavaScript
+    - ECMAScript
+    - Java
+    paradigms:
+    - object-oriented
+    - procedural
+official_website: https://www.adobe.com/devnet/actionscript.html
+documentation:
+  quality: high
+  official_sources:
+  - https://help.adobe.com/archive/en_US/as3/dev/as3_devguide.pdf
+references:
+  github_topics:
+  - actionscript
+  quora_topics:
+  - ActionScript
+  stackexchange_tags:
+  - actionscript
+  - actionscript-3
+  wikidata_id: Q360133
+  subreddit: actionscript
+color: '#882B0F'

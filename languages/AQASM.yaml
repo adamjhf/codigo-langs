@@ -1,0 +1,9 @@
+name: AQASM
+category: programming
+file_extensions:
+- circ
+- aqasm
+history:
+  inception: 2017-01-01
+  developer:
+  - Atos SE

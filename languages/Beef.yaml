@@ -1,0 +1,15 @@
+name: Beef
+category: programming
+file_extensions:
+- bf
+paradigms:
+- object-oriented
+typing:
+  system: static
+history:
+  influenced_by:
+    languages:
+    - C#
+    - C++
+official_website: https://www.beeflang.org
+color: '#a52f4e'

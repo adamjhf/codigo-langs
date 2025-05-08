@@ -1,0 +1,11 @@
+name: FreeFem++
+category: programming
+domains:
+  primary:
+  - scientific computing
+history:
+  developer:
+  - Pierre and Marie Curie University
+  - Frédéric Hecht
+  - Pierre Jolivet
+official_website: https://www.freefem.org

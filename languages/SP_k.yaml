@@ -1,0 +1,16 @@
+name: SP/k
+category: programming
+paradigms:
+- structured
+- imperative
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1974-01-01
+  developer:
+  - James Cordy
+  - Ric Holt
+  designed_by:
+  - James Cordy
+  - Ric Holt

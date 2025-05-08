@@ -1,0 +1,11 @@
+name: WebGPU Shading Language
+category: programming
+history:
+  developer:
+  - World Wide Web Consortium
+official_website: https://www.w3.org/TR/WGSL/
+references:
+  github_topics:
+  - wgsl
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/wgsl

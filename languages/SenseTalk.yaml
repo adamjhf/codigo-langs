@@ -1,0 +1,12 @@
+name: SenseTalk
+category: programming
+paradigms:
+- object-oriented
+typing:
+  system: duck
+domains:
+  primary:
+  - hypermedia
+history:
+  inception: 1992-01-01
+official_website: https://sensetalk.com/

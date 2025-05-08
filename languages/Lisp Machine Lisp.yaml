@@ -1,0 +1,9 @@
+name: Lisp Machine Lisp
+category: programming
+paradigms:
+- object-oriented
+history:
+  inception: 1976-01-01
+  influenced_by:
+    languages:
+    - Maclisp

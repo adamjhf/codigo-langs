@@ -1,0 +1,9 @@
+name: Rapira
+category: programming
+paradigms:
+- structured
+- imperative
+typing:
+  system: dynamic
+history:
+  inception: 1987-01-01

@@ -1,0 +1,11 @@
+name: Pyret
+category: programming
+file_extensions:
+- arr
+history:
+  inception: 2014-01-01
+  influenced_by:
+    languages:
+    - Python
+official_website: https://www.pyret.org/
+color: '#ee1e10'

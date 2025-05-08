@@ -1,0 +1,16 @@
+name: Silq
+category: programming
+paradigms:
+- imperative
+domains:
+  primary:
+  - quantum programming
+history:
+  inception: 2020-01-01
+  developer:
+  - ETH Zurich
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Silq%20Programming%20Language%20Logo.svg
+  influenced_by:
+    languages:
+    - D
+official_website: https://silq.ethz.ch/

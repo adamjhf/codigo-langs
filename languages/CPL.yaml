@@ -1,0 +1,13 @@
+name: CPL
+category: programming
+paradigms:
+- structured
+- imperative
+- functional
+history:
+  inception: 1963-01-01
+  designed_by:
+  - Christopher Strachey
+  influenced_by:
+    languages:
+    - ALGOL 60

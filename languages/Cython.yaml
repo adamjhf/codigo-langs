@@ -1,0 +1,205 @@
+name: Cython
+description: Cython is a programming language that combines Python with C-like performance features. It allows Python code to be compiled to C for major performance improvements and direct interaction with C libraries.
+category: programming
+status: active
+aliases:
+- pyrex
+file_extensions:
+- pyx
+- pxd
+- pxi
+compilers:
+- name: Cython
+  type: hybrid
+  license: Apache-2.0
+  source_url: https://github.com/cython/cython
+  is_reference: true
+paradigms:
+- imperative
+- object-oriented
+- functional
+- structured
+typing:
+  system: static
+  structural: false
+  strength: strong
+  inference: partial
+  type_checking: compile-time
+  type_coercion: moderate
+  type_annotations: optional
+execution:
+  type:
+  - transpiled
+  - compiled
+  compiles_to:
+  - C
+  - machine code
+  runtime_environments:
+  - native OS process
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: fast
+    compilation_speed: moderate
+domains:
+  primary:
+  - scientific computing
+  - data science
+  - numerical analysis
+  - systems programming
+  secondary:
+  - web development
+  - server-side applications
+  - machine learning frameworks
+  - bioinformatics
+  emerging:
+  - IoT
+  - distributed system
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  - Android
+  - iOS
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - PowerPC
+  - platform-independent
+ecosystem:
+  maturity: high
+  package_registry: PyPI
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: moderate
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: basic
+  metaprogramming: true
+  generics: false
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: hybrid
+    level: moderate
+  memory_management:
+    type: hybrid
+    implementation: Uses Python's reference counting with optional manual management
+    manual_control: true
+  key_features:
+  - native FFI
+  - zero-cost abstractions
+  - type inference
+  - extension methods
+  - decorators/annotations
+concurrency:
+  model: threads
+  features:
+  - shared memory
+  - parallel collections
+  - concurrent data structures
+  - atomic operations
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - error propagation
+  - custom error types
+  - cleanup actions
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: pip
+  alternatives:
+  - conda
+  - poetry
+popular_frameworks:
+  backend:
+  - Django
+  - Flask
+  - FastAPI
+  testing:
+  - pytest
+  - unittest
+  - nose
+development_tools:
+  lsps:
+  - Cython Language Server
+  - pyright
+  debugging:
+  - pdb
+  - gdb
+  profiling:
+  - cProfile
+  - line_profiler
+  build_systems:
+  - setuptools
+  - distutils
+  - Cmake
+  linters:
+  - cython-lint
+  - pylint
+standard_library:
+  maturity: high
+  key_areas:
+  - file I/O
+  - data structures
+  - text processing
+  - mathematics
+  - algorithms
+  size: medium
+  documentation_quality: high
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: high
+history:
+  inception: 2007-07-28
+  developer:
+  - Cython Community
+  designed_by:
+  - Greg Ewing
+  - Robert Bradshaw
+  - Stefan Behnel
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Cython%20logo.svg
+  influenced_by:
+    languages:
+    - Python
+    - C
+    - Pyrex
+    paradigms:
+    - imperative
+    - object-oriented
+official_website: https://cython.org
+documentation:
+  quality: high
+  official_sources:
+  - https://docs.cython.org/
+  community_resources:
+  - https://github.com/cython/cython/wiki
+references:
+  github_topics:
+  - cython
+  - python-c-extension
+  quora_topics:
+  - Cython
+  stackexchange_tags:
+  - cython
+  wikidata_id: Q5200866
+  subreddit: Cython
+  x_handle: CythonNews
+color: '#fedf5b'

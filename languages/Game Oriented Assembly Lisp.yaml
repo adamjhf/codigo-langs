@@ -1,0 +1,13 @@
+name: Game Oriented Assembly Lisp
+category: programming
+paradigms:
+- object-oriented
+- imperative
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 2001-01-01
+  developer:
+  - Jak and Daxter
+  - Andy Gavin

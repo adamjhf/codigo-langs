@@ -1,0 +1,25 @@
+name: delete
+category: programming
+file_extensions:
+- pp
+- pas
+- dpr
+- dpk
+paradigms:
+- object-oriented
+typing:
+  strength: strong
+history:
+  inception: 1995-01-01
+  developer:
+  - Anders Hejlsberg
+  designed_by:
+  - Anders Hejlsberg
+  influenced_by:
+    languages:
+    - C++
+    - Object Pascal
+official_website: https://www.embarcadero.com/jp/products/delphi
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/delphi

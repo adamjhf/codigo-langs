@@ -1,0 +1,14 @@
+name: AMOS
+category: programming
+paradigms:
+- imperative
+typing:
+  system: static
+history:
+  inception: 1990-01-01
+  developer:
+  - François Lionet
+  influenced_by:
+    languages:
+    - STOS BASIC
+official_website: https://amigaboing.net/amos30/

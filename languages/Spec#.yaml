@@ -1,0 +1,10 @@
+name: Spec#
+category: programming
+typing:
+  system: dynamic
+  structural: false
+history:
+  inception: 2004-01-01
+  developer:
+  - Microsoft Research
+official_website: https://research.microsoft.com/specsharp/

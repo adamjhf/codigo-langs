@@ -1,0 +1,8 @@
+name: Guix Workflow Language
+category: programming
+domains:
+  primary:
+  - workflow management
+history:
+  inception: 2017-01-01
+official_website: https://guixwl.org/

@@ -1,0 +1,8 @@
+name: '*Lisp'
+category: programming
+typing:
+  system: dynamic
+history:
+  inception: 1985-01-01
+  developer:
+  - Steve Omohundro

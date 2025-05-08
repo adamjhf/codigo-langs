@@ -1,0 +1,23 @@
+name: Red
+category: programming
+aliases:
+- red/system
+file_extensions:
+- red
+- reds
+paradigms:
+- imperative
+- functional
+history:
+  inception: 2011-01-01
+  developer:
+  - Nenad Rakocevic
+  designed_by:
+  - Nenad Rakocevic
+  influenced_by:
+    languages:
+    - Lua
+    - Scala
+    - REBOL
+official_website: https://www.red-lang.org/
+color: '#f50000'

@@ -1,0 +1,117 @@
+name: Pawn
+description: Pawn is a scripting language designed for embedded applications, inspired by C with simplified syntax and features. It is commonly used for game server scripting, particularly for SA-MP (San Andreas Multiplayer).
+category: programming
+status: maintenance
+file_extensions:
+- pwn
+- inc
+- sma
+compilers:
+- name: Pawn compiler
+  type: compiler
+  is_reference: true
+- name: SA-MP Pawn compiler
+  type: compiler
+paradigms:
+- imperative
+- procedural
+typing:
+  system: static
+  strength: weak
+  inference: none
+  type_checking: compile-time
+  type_coercion: conservative
+  type_annotations: optional
+execution:
+  type:
+  - compiled
+  compiles_to:
+  - bytecode
+  runtime_environments:
+  - embedded interpreter
+  - custom VM
+  performance:
+    startup_time: fast
+    memory_usage: low
+    computation_speed: moderate
+domains:
+  primary:
+  - scripting
+  - game development
+  - embedded systems
+  secondary:
+  - automation
+  - education
+platforms:
+  operating_systems:
+  - Windows
+  - Linux
+  - macOS
+  - embedded
+  architectures:
+  - platform-independent
+ecosystem:
+  maturity: moderate
+  community_size: small
+  learning_resources: small
+  job_market_demand: low
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  enums: basic
+  metaprogramming: true
+  generics: false
+  c_interop: false
+  pattern_matching: false
+  null_safety: false
+  memory_management:
+    type: garbage collection
+  key_features:
+  - modules
+  - string interpolation
+concurrency:
+  model: none
+error_handling:
+  primary_mechanism: error codes
+  stack_traces: false
+  debugging:
+    breakpoints: true
+    step_debugging: true
+standard_library:
+  maturity: moderate
+  key_areas:
+  - text processing
+  - data structures
+  - file I/O
+  size: small
+  documentation_quality: moderate
+history:
+  inception: "1999-01-01"
+  developer:
+  - CompuPhase
+  designed_by:
+  - Thiadmer Riemersma
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Pawn%20logo.png
+  influenced_by:
+    languages:
+    - C
+    paradigms:
+    - imperative
+    - procedural
+official_website: https://www.compuphase.com/pawn/pawn.htm
+documentation:
+  quality: moderate
+  official_sources:
+  - https://www.compuphase.com/pawn/pawn.htm
+references:
+  github_topics:
+  - pawn
+  - pawn-lang
+  - pawno
+  stackexchange_tags:
+  - pawn
+  wikidata_id: Q7156305
+color: '#dbb284'

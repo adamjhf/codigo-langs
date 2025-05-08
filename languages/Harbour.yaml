@@ -1,0 +1,20 @@
+name: Harbour
+category: programming
+file_extensions:
+- hb
+paradigms:
+- reflective
+- object-oriented
+- declarative
+- imperative
+- functional
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 1999-01-01
+  influenced_by:
+    languages:
+    - dBase
+official_website: https://harbour.github.io/
+color: '#0e60e3'

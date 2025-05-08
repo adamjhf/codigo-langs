@@ -1,0 +1,15 @@
+name: Cyclone
+category: programming
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 2002-01-01
+  developer:
+  - AT&T
+  designed_by:
+  - AT&T Labs
+  influenced_by:
+    languages:
+    - C
+official_website: https://cyclone.thelanguage.org

@@ -1,0 +1,10 @@
+name: colorForth
+category: programming
+paradigms:
+- imperative
+history:
+  developer:
+  - Charles H. Moore
+  designed_by:
+  - Charles H. Moore
+official_website: https://www.colorforth.com

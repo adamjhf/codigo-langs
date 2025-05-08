@@ -1,0 +1,182 @@
+name: Forth
+description: Forth is a stack-based programming language and interactive environment developed in the late 1960s. It emphasizes simplicity, extensibility, and direct hardware control with a small memory footprint.
+category: programming
+status: active
+aliases:
+- FORTH
+file_extensions:
+- fth
+- 4th
+- f
+- for
+- forth
+- fr
+- frt
+- fs
+compilers:
+- name: GForth
+  type: interpreter
+  license: GPL-3.0
+  is_reference: false
+- name: SwiftForth
+  type: compiler
+  license: proprietary
+  is_reference: false
+- name: VFX Forth
+  type: compiler
+  license: proprietary
+  is_reference: false
+paradigms:
+- stack-oriented
+- imperative
+- structured
+- reflective
+- concatenative
+typing:
+  system: dynamic
+  strength: weak
+  inference: none
+  type_checking: runtime
+  type_coercion: moderate
+  type_annotations: none
+execution:
+  type:
+  - interpreted
+  - compiled
+  compiles_to:
+  - machine code
+  - bytecode
+  runtime_environments:
+  - native OS process
+  - embedded interpreter
+  - microcontroller
+  performance:
+    startup_time: fast
+    memory_usage: very low
+    computation_speed: moderate
+    compilation_speed: fast
+domains:
+  primary:
+  - embedded systems
+  - systems programming
+  - microcontroller programming
+  - computer-aided design
+  secondary:
+  - education
+  - scientific computing
+  - automation
+  emerging:
+  - WebAssembly
+  - IoT
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - embedded
+  - bare metal
+  architectures:
+  - x86
+  - x86-64
+  - ARM
+  - ARM64
+  - RISC-V
+  - MIPS
+  - PowerPC
+  - AVR
+ecosystem:
+  maturity: moderate
+  package_registry: https://theforth.net/packages
+  community_size: small
+  learning_resources: medium
+  job_market_demand: low
+complexity:
+  learning_curve: high
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: high
+language_features:
+  metaprogramming: true
+  generics: false
+  c_interop: true
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: manual
+    level: low
+  memory_management:
+    type: manual
+    manual_control: true
+  key_features:
+  - interactive development
+  - REPL
+concurrency:
+  model: none
+  ease_of_use: low
+error_handling:
+  primary_mechanism: assertions
+  features:
+  - custom error types
+  - error reporting
+  stack_traces: false
+  debugging:
+    source_maps: false
+    breakpoints: true
+    step_debugging: true
+popular_frameworks:
+  backend:
+  - GForth
+  - SwiftForth
+  - VFX Forth
+development_tools:
+  lsps:
+  - forth-lsp
+  debugging:
+  - SwiftForth Debugger
+  - GForth debugging tools
+  build_systems:
+  - native Forth compilers
+standard_library:
+  maturity: moderate
+  key_areas:
+  - file I/O
+  - text processing
+  - mathematics
+  size: small
+  documentation_quality: moderate
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: high
+history:
+  inception: 1970-01-01
+  developer:
+  - Charles H. Moore
+  designed_by:
+  - Charles H. Moore
+  described_by: https://www.wikidata.org/.well-known/genid/f248e5cf3a5c68161c91f08fa3fd1032
+  standards_bodies:
+  - ANSI
+  influenced_by:
+    languages:
+    - ALGOL
+    - LISP
+    - APL
+    - Burroughs large systems
+official_website: https://forth-standard.org/
+documentation:
+  quality: moderate
+  official_sources:
+  - https://forth-standard.org/
+  - https://gforth.org/
+  community_resources:
+  - https://www.forth.com/starting-forth/
+  - https://www.complang.tuwien.ac.at/forth/gforth/Docs-html/
+references:
+  github_topics:
+  - forth
+  - forth-language
+  stackexchange_tags:
+  - forth
+  wikidata_id: Q160798
+color: '#341708'

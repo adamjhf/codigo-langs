@@ -1,0 +1,8 @@
+name: Azure Bicep
+category: programming
+domains:
+  primary:
+  - infrastructure as code
+history:
+  developer:
+  - Microsoft

@@ -1,0 +1,18 @@
+name: NekoVM
+category: programming
+file_extensions:
+- n
+- neko
+paradigms:
+- object-oriented
+- prototype-based
+- structured
+typing:
+  system: dynamic
+history:
+  inception: 2005-01-01
+  developer:
+  - Motion Twin
+  - Shiro Games
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/NekoVM%20logo.svg
+official_website: https://nekovm.org

@@ -1,0 +1,12 @@
+name: Joyce
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1980-01-01
+  developer:
+  - Per Brinch Hansen
+  influenced_by:
+    languages:
+    - Pascal
+    - Communicating sequential processes

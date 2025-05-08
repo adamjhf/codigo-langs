@@ -1,0 +1,16 @@
+name: Common Workflow Language
+category: programming
+aliases:
+- cwl
+file_extensions:
+- cwl
+domains:
+  primary:
+  - scientific computing
+  - bioinformatics
+history:
+  inception: 2014-07-10
+  described_by: 'Methods included: Standardizing computational reuse and portability with the Common Workflow Language'
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/CWL-Logo-4k.png
+official_website: https://www.commonwl.org
+color: '#B5314C'

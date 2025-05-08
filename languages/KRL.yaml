@@ -1,0 +1,13 @@
+name: KRL
+category: programming
+file_extensions:
+- krl
+paradigms:
+- logic
+- declarative
+history:
+  inception: 1971-01-01
+  influenced_by:
+    languages:
+    - KM
+color: '#28430A'

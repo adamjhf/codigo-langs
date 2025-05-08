@@ -1,0 +1,13 @@
+name: DIGITAL Command Language
+category: programming
+aliases:
+- dcl
+file_extensions:
+- com
+paradigms:
+- imperative
+history:
+  developer:
+  - Digital Equipment Corporation
+  designed_by:
+  - Digital Equipment Corporation

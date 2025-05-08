@@ -1,0 +1,19 @@
+name: XML User Interface Language
+category: programming
+file_extensions:
+- xul
+domains:
+  primary:
+  - user interface
+history:
+  inception: 1999-01-01
+  developer:
+  - Mozilla Foundation
+  influenced_by:
+    languages:
+    - XML
+    - HTML
+official_website: https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL
+references:
+  quora_topics:
+  - XUL

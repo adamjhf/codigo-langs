@@ -1,0 +1,100 @@
+name: Stylus
+description: Stylus is a dynamic stylesheet language that compiles to CSS. It offers a concise, expressive syntax with advanced features like variables, nesting, mixins, and functions with minimal punctuation requirements.
+category: stylesheet
+status: active
+aliases:
+- .styl
+file_extensions:
+- styl
+compilers:
+- name: Stylus
+  type: interpreter
+  license: MIT
+  source_url: https://github.com/stylus/stylus
+  is_reference: true
+paradigms:
+- declarative
+typing:
+  system: dynamic
+  strength: weak
+  inference: partial
+  type_checking: runtime
+execution:
+  type:
+  - transpiled
+  runtime_environments:
+  - native OS process
+  - browser
+domains:
+  primary:
+  - web development
+  - user interface
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  architectures:
+  - platform-independent
+ecosystem:
+  maturity: moderate
+  package_registry: npm
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: low
+complexity:
+  learning_curve: moderate
+  cognitive_load: low
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  key_features:
+  - mixins
+  - string interpolation
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - error reporting
+  - validation
+package_managers:
+  primary: npm
+popular_frameworks:
+  frontend:
+  - Kouto Swiss
+  - Jeet
+  - Rupture
+development_tools:
+  lsps:
+  - language-stylus
+  linters:
+  - stylint
+standard_library:
+  maturity: moderate
+  size: medium
+  documentation_quality: moderate
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: high
+history:
+  inception: 2011-01-01
+  developer:
+  - TJ Holowaychuk
+  designed_by:
+  - TJ Holowaychuk
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Stylus-logo.svg
+  influenced_by:
+    languages:
+    - Sass
+    - LESS
+    - CSS
+    paradigms:
+    - declarative
+official_website: https://stylus-lang.com/
+documentation:
+  quality: moderate
+  official_sources:
+  - https://stylus-lang.com/docs/
+  community_resources:
+  - https://github.com/stylus/stylus/
+color: '#ff6347'

@@ -1,0 +1,14 @@
+name: Power Fx
+category: programming
+paradigms:
+- functional
+- imperative
+- declarative
+typing:
+  strength: strong
+domains:
+  primary:
+  - spreadsheet
+  - low code development
+history:
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Power%20Fx%20logo.png

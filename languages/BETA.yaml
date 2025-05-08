@@ -1,0 +1,11 @@
+name: BETA
+category: programming
+paradigms:
+- object-oriented
+typing:
+  system: static
+history:
+  inception: 1992-01-01
+  developer:
+  - Kristen Nygaard
+official_website: https://daimi.au.dk/~beta

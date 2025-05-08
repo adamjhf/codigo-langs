@@ -1,0 +1,10 @@
+name: JSFuck
+category: programming
+file_extensions:
+- js
+history:
+  described_by: Esolang
+official_website: https://www.jsfuck.com/
+references:
+  github_topics:
+  - jsfuck

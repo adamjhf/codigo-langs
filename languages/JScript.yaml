@@ -1,0 +1,21 @@
+name: JScript
+category: programming
+paradigms:
+- object-oriented
+- prototype-based
+typing:
+  system: dynamic
+  strength: weak
+history:
+  inception: 1996-01-01
+  developer:
+  - Microsoft
+  influenced_by:
+    languages:
+    - JavaScript
+official_website: https://docs.microsoft.com/en-us/previous-versions/hbxc2t98(v=vs.85)
+references:
+  quora_topics:
+  - Microsoft-JScript
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/jscript

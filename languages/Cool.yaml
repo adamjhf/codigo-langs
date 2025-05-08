@@ -1,0 +1,11 @@
+name: Cool
+category: programming
+file_extensions:
+- cl
+paradigms:
+- object-oriented
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1996-01-01

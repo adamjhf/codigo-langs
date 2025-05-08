@@ -1,0 +1,20 @@
+name: CLU
+category: programming
+paradigms:
+- object-oriented
+- imperative
+typing:
+  strength: strong
+history:
+  inception: 1975-01-01
+  developer:
+  - Massachusetts Institute of Technology
+  - Barbara Liskov
+  designed_by:
+  - Barbara Liskov
+  influenced_by:
+    languages:
+    - Lisp
+    - Simula
+    - ALGOL 60
+official_website: https://www.pmg.lcs.mit.edu/CLU.html

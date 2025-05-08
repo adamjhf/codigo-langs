@@ -1,0 +1,17 @@
+name: Object REXX
+category: programming
+file_extensions:
+- rex
+- rxs
+paradigms:
+- object-oriented
+history:
+  inception: 1988-01-01
+  developer:
+  - IBM
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Rexx3%20orig%20size%20transparent.gif
+  influenced_by:
+    languages:
+    - Smalltalk
+    - REXX
+official_website: https://www.oorexx.org

@@ -1,0 +1,16 @@
+name: Little b
+category: programming
+paradigms:
+- object-oriented
+- functional
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 2004-01-01
+  developer:
+  - Harvard Medical School
+  influenced_by:
+    languages:
+    - Lisp
+official_website: https://www.littleb.org/

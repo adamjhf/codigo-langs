@@ -1,0 +1,32 @@
+name: Vala
+category: programming
+file_extensions:
+- vala
+- vapi
+paradigms:
+- object-oriented
+- structured
+- imperative
+typing:
+  system: static
+  structural: true
+  strength: strong
+  inference: full
+history:
+  inception: 2006-01-01
+  developer:
+  - Jürg Billeter
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Vala%20Logo%20New.svg
+  influenced_by:
+    languages:
+    - Java
+    - C#
+    - C++
+    - C
+    - D
+    - Boo
+official_website: https://vala.dev
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/vala
+color: '#a56de2'

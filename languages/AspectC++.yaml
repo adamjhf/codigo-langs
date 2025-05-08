@@ -1,0 +1,8 @@
+name: AspectC++
+category: programming
+paradigms:
+- aspect-oriented
+domains:
+  primary:
+  - compiler
+official_website: https://aspectc.org/

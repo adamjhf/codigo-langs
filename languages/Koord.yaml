@@ -1,0 +1,7 @@
+name: Koord
+category: programming
+domains:
+  primary:
+  - robotics
+history:
+  described_by: 'Koord: a language for programming and verifying distributed robotics application'

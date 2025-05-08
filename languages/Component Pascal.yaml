@@ -1,0 +1,20 @@
+name: Component Pascal
+category: programming
+file_extensions:
+- cp
+- cps
+paradigms:
+- object-oriented
+- structured
+- imperative
+- modular
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1997-01-01
+  influenced_by:
+    languages:
+    - Oberon-2
+official_website: https://www.oberon.ch/
+color: '#B0CE4E'

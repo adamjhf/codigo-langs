@@ -1,0 +1,9 @@
+name: Stan
+category: programming
+file_extensions:
+- stan
+domains:
+  primary:
+  - statistics
+official_website: https://mc-stan.org/
+color: '#b2011d'

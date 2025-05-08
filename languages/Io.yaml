@@ -1,0 +1,29 @@
+name: Io
+category: programming
+file_extensions:
+- io
+paradigms:
+- object-oriented
+- prototype-based
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 2002-01-01
+  developer:
+  - Steve Dekorte
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Io-logo.svg
+  influenced_by:
+    languages:
+    - Python
+    - Lisp
+    - Lua
+    - Smalltalk
+    - NewtonScript
+    - Self
+    - actor model middle history
+official_website: https://iolanguage.org/
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/iolanguage
+color: '#a9188d'

@@ -1,0 +1,15 @@
+name: Emerald
+category: programming
+paradigms:
+- object-oriented
+typing:
+  system: static
+  strength: strong
+history:
+  inception: 1980-01-01
+  influenced_by:
+    languages:
+    - Pascal
+    - Simula
+    - Smalltalk
+official_website: https://www.emeraldprogramminglanguage.org

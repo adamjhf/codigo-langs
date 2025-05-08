@@ -1,0 +1,23 @@
+name: QuickBASIC
+category: programming
+aliases:
+- qb
+- qbasic
+- qb64
+- classic qbasic
+- classic quickbasic
+file_extensions:
+- bas
+history:
+  inception: 1985-01-01
+  developer:
+  - Microsoft
+  influenced_by:
+    languages:
+    - BASIC
+references:
+  quora_topics:
+  - QuickBASIC
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/quickbasic
+color: '#008080'

@@ -1,0 +1,33 @@
+name: PostScript
+category: programming
+aliases:
+- postscr
+file_extensions:
+- ps
+- eps
+- epsi
+- pfa
+paradigms:
+- imperative
+- stack-oriented
+- concatenative
+typing:
+  system: dynamic
+  strength: weak
+history:
+  inception: 1982-01-01
+  developer:
+  - Adobe
+  designed_by:
+  - John Warnock
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Adobe%20PostScript%203%20logo.svg
+  influenced_by:
+    languages:
+    - Lisp
+    - Forth
+    - Interpress
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/postscript
+  - https://tex.stackexchange.com/tags/postscript
+color: '#da291c'

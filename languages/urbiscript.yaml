@@ -1,0 +1,15 @@
+name: urbiscript
+category: programming
+paradigms:
+- object-oriented
+typing:
+  system: dynamic
+history:
+  designed_by:
+  - Jean-Christophe Baillie
+  influenced_by:
+    languages:
+    - C++
+    - Io
+    - Self
+official_website: https://github.com/urbiforge/urbi

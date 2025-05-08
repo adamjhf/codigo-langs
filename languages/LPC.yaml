@@ -1,0 +1,23 @@
+name: LPC
+category: programming
+paradigms:
+- object-oriented
+- prototype-based
+- functional
+- imperative
+typing:
+  system: static
+  strength: weak
+history:
+  inception: 1989-01-01
+  developer:
+  - Lars Pensjö
+  designed_by:
+  - Lars Pensjö
+  influenced_by:
+    languages:
+    - C
+official_website: https://lpmuds.net
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/lpc

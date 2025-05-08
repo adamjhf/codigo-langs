@@ -1,0 +1,15 @@
+name: UCBLogo
+category: programming
+typing:
+  system: dynamic
+history:
+  developer:
+  - George Mills
+  - Michael Katz
+  designed_by:
+  - Brian Harvey
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Ubclogo%20spiral.png
+  influenced_by:
+    languages:
+    - Lisp
+official_website: https://www.cs.berkeley.edu/~bh/logo.html

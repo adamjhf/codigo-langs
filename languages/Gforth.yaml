@@ -1,0 +1,11 @@
+name: Gforth
+category: programming
+domains:
+  primary:
+  - interpreter
+history:
+  inception: 1992-01-01
+  developer:
+  - GNU Project
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Gforth%20Logo.png
+official_website: https://www.gnu.org/software/gforth/

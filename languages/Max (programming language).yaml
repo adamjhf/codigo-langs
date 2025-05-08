@@ -1,0 +1,12 @@
+name: Max (programming language)
+category: programming
+paradigms:
+- declarative
+domains:
+  primary:
+  - music
+history:
+  developer:
+  - Cycling '74
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Max6.PNG
+official_website: https://cycling74.com/products/max

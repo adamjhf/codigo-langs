@@ -1,0 +1,29 @@
+name: ATS
+category: programming
+aliases:
+- ats2
+file_extensions:
+- dats
+- hats
+- sats
+paradigms:
+- functional
+- declarative
+typing:
+  system: linear
+domains:
+  primary:
+  - formal verification
+history:
+  inception: 2006-01-01
+  developer:
+  - Boston University
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/The%20ATS%20Logo.svg
+  influenced_by:
+    languages:
+    - C++
+    - OCaml
+    - ML
+    - Dependent ML
+official_website: https://www.ats-lang.org/
+color: '#1ac620'

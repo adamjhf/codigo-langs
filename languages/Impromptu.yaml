@@ -1,0 +1,14 @@
+name: Impromptu
+category: programming
+paradigms:
+- functional
+typing:
+  system: dynamic
+history:
+  inception: 2005-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Splash%20smaller.jpg
+  influenced_by:
+    languages:
+    - Lisp
+    - Scheme
+official_website: https://impromptu.moso.com.au

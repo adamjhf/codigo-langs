@@ -1,0 +1,15 @@
+name: Bourne shell
+category: programming
+domains:
+  primary:
+  - shell
+history:
+  inception: 1979-01-01
+  developer:
+  - Stephen R. Bourne
+  influenced_by:
+    languages:
+    - ALGOL 68
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/sh

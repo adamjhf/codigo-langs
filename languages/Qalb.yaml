@@ -1,0 +1,12 @@
+name: Qalb
+category: programming
+paradigms:
+- functional
+history:
+  inception: 2012-01-01
+  developer:
+  - Eyebeam Art and Technology Center
+  influenced_by:
+    languages:
+    - Scheme
+official_website: https://qlb-repl.herokuapp.com/

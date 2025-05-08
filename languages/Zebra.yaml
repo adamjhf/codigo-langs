@@ -1,0 +1,10 @@
+name: Zebra
+category: programming
+history:
+  inception: 1989-01-01
+  influenced_by:
+    languages:
+    - BASIC
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/zpl

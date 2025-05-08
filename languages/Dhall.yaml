@@ -1,0 +1,9 @@
+name: Dhall
+category: programming
+file_extensions:
+- dhall
+official_website: https://dhall-lang.org/
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/dhall
+color: '#dfafff'

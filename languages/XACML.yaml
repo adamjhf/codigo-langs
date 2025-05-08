@@ -1,0 +1,13 @@
+name: XACML
+category: programming
+paradigms:
+- declarative
+history:
+  developer:
+  - OASIS
+  designed_by:
+  - Simon Blackwell
+official_website: https://www.oasis-open.org/committees/tc_home.php?wg_abbrev=xacml
+references:
+  quora_topics:
+  - XACML

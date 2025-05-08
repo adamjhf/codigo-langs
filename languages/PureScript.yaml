@@ -1,0 +1,19 @@
+name: PureScript
+category: programming
+file_extensions:
+- purs
+paradigms:
+- functional
+- purely functional
+typing:
+  system: static
+  strength: strong
+  inference: full
+history:
+  inception: 2013-01-01
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/PureScript%20Logo.png
+  influenced_by:
+    languages:
+    - Haskell
+official_website: https://www.purescript.org/
+color: '#1D222D'

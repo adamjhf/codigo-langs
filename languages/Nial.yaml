@@ -1,0 +1,12 @@
+name: Nial
+category: programming
+paradigms:
+- array-oriented
+typing:
+  system: dynamic
+history:
+  inception: 1981-01-01
+  influenced_by:
+    languages:
+    - Lisp
+    - APL

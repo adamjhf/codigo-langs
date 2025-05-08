@@ -1,0 +1,10 @@
+name: Unicon
+category: programming
+paradigms:
+- object-oriented
+- imperative
+history:
+  influenced_by:
+    languages:
+    - Icon
+official_website: https://unicon.sourceforge.net/

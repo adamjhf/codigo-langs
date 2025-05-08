@@ -1,0 +1,102 @@
+name: TeX
+description: A typesetting system designed by Donald Knuth for creating high-quality documents with mathematical content. TeX is renowned for its precision in formatting and is the foundation for LaTeX.
+category: markup
+status: active
+aliases:
+- latex
+file_extensions:
+- tex
+- aux
+- bbx
+- cbx
+- cls
+- dtx
+- ins
+- lbx
+- ltx
+- mkii
+- mkiv
+- mkvi
+- sty
+- toc
+paradigms:
+- declarative
+- markup
+typing:
+  system: untyped
+  strength: weak
+  inference: none
+  type_checking: runtime
+execution:
+  type:
+  - interpreted
+  runtime_environments:
+  - language-specific runtime
+domains:
+  primary:
+  - typesetting
+  - scientific computing
+  secondary:
+  - education
+  - mathematics
+  - publishing
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - Unix
+  architectures:
+  - platform-independent
+ecosystem:
+  maturity: very high
+  package_registry: CTAN
+  community_size: large
+  learning_resources: very large
+complexity:
+  learning_curve: high
+  cognitive_load: moderate
+  syntax_complexity: moderate
+  semantic_complexity: high
+language_features:
+  metaprogramming: true
+  key_features:
+  - macros
+error_handling:
+  primary_mechanism: error codes
+  features:
+  - error reporting
+standard_library:
+  maturity: very high
+  key_areas:
+  - text processing
+  - mathematics
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: fixed schedule
+  backwards_compatibility: very high
+history:
+  inception: 1978-01-01
+  developer:
+  - Donald Knuth
+  designed_by:
+  - Donald Knuth
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/TeX%20logo.svg
+  influenced_by:
+    languages:
+    - METAFONT
+official_website: https://www.tug.org/
+documentation:
+  quality: very high
+  official_sources:
+  - https://www.tug.org/texlive/doc.html
+  - https://ctan.org/pkg/texbook
+references:
+  github_topics:
+  - tex
+  quora_topics:
+  - TeX-Programming-Language
+  wikidata_id: Q5301
+  subreddit: tex
+color: '#3D6117'

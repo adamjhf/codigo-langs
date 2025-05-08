@@ -1,0 +1,24 @@
+name: Idris
+category: programming
+file_extensions:
+- idr
+- lidr
+paradigms:
+- functional
+- total functional
+- purely functional
+typing:
+  system: linear
+history:
+  inception: 2007-01-01
+  influenced_by:
+    languages:
+    - Agda
+    - Haskell
+    - Clean
+    - Coq
+    - Epigram
+official_website: https://www.idris-lang.org
+references:
+  subreddit: Idris
+color: '#b30000'

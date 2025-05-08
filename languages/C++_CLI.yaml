@@ -1,0 +1,8 @@
+name: C++/CLI
+category: programming
+paradigms:
+- structured
+official_website: https://docs.microsoft.com/en-us/cpp/dotnet/dotnet-programming-with-cpp-cli-visual-cpp
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/c%2b%2b-cli

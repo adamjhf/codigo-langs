@@ -1,0 +1,15 @@
+name: Visual FoxPro
+category: programming
+paradigms:
+- object-oriented
+- imperative
+history:
+  inception: 1984-01-01
+  developer:
+  - Microsoft
+official_website: https://msdn.microsoft.com/vfoxpro
+references:
+  quora_topics:
+  - Visual-FoxPro
+  stackexchange_tags:
+  - https://www.saddamtaqi.com/p/blog-page.html

@@ -1,0 +1,10 @@
+name: Pliant
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1999-01-01
+  influenced_by:
+    languages:
+    - Lisp
+official_website: https://www.fullpliant.org/

@@ -1,0 +1,13 @@
+name: Sense
+category: programming
+paradigms:
+- object-oriented
+typing:
+  system: dynamic
+history:
+  developer:
+  - The Open University
+  influenced_by:
+    languages:
+    - Scratch
+official_website: https://sense.open.ac.uk

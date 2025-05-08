@@ -1,0 +1,12 @@
+name: Pnuts
+category: programming
+paradigms:
+- object-oriented
+typing:
+  system: dynamic
+history:
+  inception: 1997-01-01
+  influenced_by:
+    languages:
+    - Java
+official_website: https://java.net/projects/pnuts

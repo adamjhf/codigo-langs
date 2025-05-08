@@ -1,0 +1,11 @@
+name: Orwell
+category: programming
+paradigms:
+- functional
+history:
+  inception: 1984-01-01
+  designed_by:
+  - Philip Wadler
+  influenced_by:
+    languages:
+    - Miranda

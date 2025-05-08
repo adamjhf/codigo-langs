@@ -1,0 +1,20 @@
+name: Falcon
+category: programming
+paradigms:
+- object-oriented
+- imperative
+typing:
+  system: dynamic
+history:
+  inception: 2003-01-01
+  influenced_by:
+    languages:
+    - PHP
+    - Perl
+    - Smalltalk
+official_website: https://www.falconpl.org
+references:
+  github_topics:
+  - falcon
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/falcon

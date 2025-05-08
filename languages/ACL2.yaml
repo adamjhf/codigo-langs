@@ -1,0 +1,14 @@
+name: ACL2
+category: programming
+paradigms:
+- functional
+typing:
+  system: dynamic
+history:
+  inception: 1990-01-01
+  developer:
+  - Matt Kaufmann
+  designed_by:
+  - Robert S. Boyer
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/ACL2%20Logo%202014%20transparent.png
+official_website: https://www.cs.utexas.edu/users/moore/acl2/

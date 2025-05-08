@@ -1,0 +1,14 @@
+name: AgentSheets
+category: programming
+paradigms:
+- object-oriented
+history:
+  inception: 1991-01-01
+  designed_by:
+  - Alexander Repenning
+  influenced_by:
+    languages:
+    - Lisp
+    - Logo
+    - Smalltalk
+official_website: https://www.agentsheets.com

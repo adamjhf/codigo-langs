@@ -1,0 +1,20 @@
+name: AspectJ
+category: programming
+file_extensions:
+- aj
+paradigms:
+- aspect-oriented
+history:
+  inception: 2001-01-01
+  developer:
+  - Eclipse Foundation
+  influenced_by:
+    languages:
+    - Common Lisp
+official_website: https://www.eclipse.org/aspectj/
+references:
+  quora_topics:
+  - AspectJ
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/aspectj
+color: '#a957b0'

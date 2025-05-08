@@ -1,0 +1,10 @@
+name: SQLPL
+category: programming
+file_extensions:
+- sql
+- db2
+history:
+  influenced_by:
+    languages:
+    - SQL
+color: '#e38c00'

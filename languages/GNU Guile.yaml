@@ -1,0 +1,11 @@
+name: GNU Guile
+category: programming
+domains:
+  primary:
+  - interpreter
+history:
+  inception: 1993-01-01
+  developer:
+  - GNU Project
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/GNU-Guile-logo.svg
+official_website: https://www.gnu.org/software/guile/

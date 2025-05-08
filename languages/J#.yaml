@@ -1,0 +1,11 @@
+name: J#
+category: programming
+paradigms:
+- object-oriented
+- structured
+- imperative
+history:
+  inception: 2002-01-01
+  developer:
+  - Microsoft
+official_website: https://msdn2.microsoft.com/en-us/vjsharp/default.aspx

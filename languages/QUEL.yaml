@@ -1,0 +1,8 @@
+name: QUEL
+category: programming
+history:
+  designed_by:
+  - Michael Stonebraker
+  influenced_by:
+    languages:
+    - Alpha

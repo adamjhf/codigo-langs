@@ -1,0 +1,7 @@
+name: BlitzMax
+category: programming
+aliases:
+- bmax
+file_extensions:
+- bmx
+color: '#cd6400'

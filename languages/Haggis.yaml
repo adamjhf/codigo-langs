@@ -1,0 +1,9 @@
+name: Haggis
+category: programming
+paradigms:
+- object-oriented
+- functional
+- imperative
+typing:
+  structural: true
+  inference: full

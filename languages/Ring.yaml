@@ -1,0 +1,29 @@
+name: Ring
+category: programming
+file_extensions:
+- ring
+paradigms:
+- imperative
+- object-oriented
+- functional
+- declarative
+typing:
+  system: dynamic
+history:
+  inception: 2016-01-01
+  developer:
+  - Mahmoud Samir Fayed
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Thering.jpg
+  influenced_by:
+    languages:
+    - C#
+    - C
+    - Python
+    - BASIC
+    - Ruby
+    - Lua
+    - xBase
+    - QML
+    - SuperNova
+official_website: https://ring-lang.net
+color: '#2D54CB'

@@ -1,0 +1,16 @@
+name: Etoys
+category: programming
+paradigms:
+- object-oriented
+- prototype-based
+typing:
+  system: dynamic
+history:
+  inception: 1996-01-01
+  developer:
+  - Apple
+  designed_by:
+  - Alan Kay
+references:
+  quora_topics:
+  - eToys

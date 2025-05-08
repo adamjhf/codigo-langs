@@ -1,0 +1,11 @@
+name: NCL
+category: programming
+file_extensions:
+- ncl
+history:
+  inception: 1987-01-01
+  influenced_by:
+    languages:
+    - C
+official_website: https://www.natsystem.fr/
+color: '#28431f'

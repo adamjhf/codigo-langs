@@ -1,0 +1,13 @@
+name: StarLogo
+category: programming
+paradigms:
+- agent-oriented
+- imperative
+typing:
+  system: dynamic
+  strength: strong
+history:
+  inception: 2001-01-01
+  developer:
+  - MIT Media Lab
+official_website: https://education.mit.edu/portfolio_page/starlogo-tng/

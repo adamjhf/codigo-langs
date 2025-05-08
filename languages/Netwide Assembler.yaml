@@ -1,0 +1,14 @@
+name: Netwide Assembler
+category: programming
+domains:
+  primary:
+  - assembly
+history:
+  inception: 1996-01-01
+  developer:
+  - Hans Peter Anvin
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Netwide%20Assembler.svg
+official_website: https://www.nasm.us
+references:
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/nasm

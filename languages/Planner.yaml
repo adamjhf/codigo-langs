@@ -1,0 +1,9 @@
+name: Planner
+category: programming
+paradigms:
+- imperative
+- logic
+history:
+  inception: 1969-01-01
+  designed_by:
+  - Carl Hewitt

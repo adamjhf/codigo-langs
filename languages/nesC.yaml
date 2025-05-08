@@ -1,0 +1,16 @@
+name: nesC
+category: programming
+file_extensions:
+- nc
+domains:
+  primary:
+  - distributed system
+history:
+  influenced_by:
+    languages:
+    - C
+official_website: https://nescc.sourceforge.net
+references:
+  quora_topics:
+  - nesC
+color: '#94B0C7'

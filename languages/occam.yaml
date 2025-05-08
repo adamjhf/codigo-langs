@@ -1,0 +1,13 @@
+name: occam
+category: programming
+paradigms:
+- imperative
+history:
+  inception: 1983-01-01
+  developer:
+  - Inmos
+  designed_by:
+  - David May
+  influenced_by:
+    languages:
+    - communicating sequential processes

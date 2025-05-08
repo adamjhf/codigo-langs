@@ -1,0 +1,9 @@
+name: JOSS
+category: programming
+history:
+  inception: 1963-01-01
+  developer:
+  - Cliff Shaw
+  influenced_by:
+    languages:
+    - ALGOL 58

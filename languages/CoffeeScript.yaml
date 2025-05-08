@@ -1,0 +1,193 @@
+name: CoffeeScript
+description: CoffeeScript is a programming language that transcompiles to JavaScript, adding syntactic sugar inspired by Ruby, Python, and Haskell to enhance JavaScript's brevity and readability. It features significant whitespace, Ruby-style string interpolation, and implicit return of the last statement.
+category: programming
+status: maintenance
+aliases:
+- coffee
+- coffee-script
+file_extensions:
+- coffee
+- _coffee
+- cake
+- cjsx
+- iced
+compilers:
+- name: CoffeeScript Compiler
+  type: compiler
+  license: MIT
+  source_url: https://github.com/jashkenas/coffeescript
+  is_reference: true
+paradigms:
+- functional
+- object-oriented
+- imperative
+- prototype-based
+typing:
+  system: dynamic
+  structural: true
+  strength: weak
+  inference: full
+  type_checking: runtime
+  type_coercion: aggressive
+  type_annotations: none
+execution:
+  type:
+  - transpiled
+  compiles_to:
+  - JavaScript
+  runtime_environments:
+  - browser
+  - native OS process
+  - language-specific runtime
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+    compilation_speed: fast
+domains:
+  primary:
+  - web development
+  - scripting
+  secondary:
+  - server-side applications
+  - automation
+  - text processing
+  emerging:
+  - data visualization
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - Unix
+  - Android
+  - iOS
+  architectures:
+  - platform-independent
+  cloud_function_environments:
+  - AWS Lambda
+  - Google Cloud Functions
+  - Azure Functions
+  - Vercel Functions
+ecosystem:
+  maturity: moderate
+  package_registry: npm
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: low
+complexity:
+  learning_curve: moderate
+  cognitive_load: moderate
+  syntax_complexity: low
+  semantic_complexity: moderate
+language_features:
+  immutability: optional
+  enums: none
+  metaprogramming: true
+  generics: false
+  c_interop: false
+  pattern_matching: false
+  null_safety: false
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: JavaScript engine garbage collector
+    manual_control: false
+  key_features:
+  - first-class functions
+  - closures
+  - string interpolation
+  - destructuring
+  - lambdas
+  - iterators/generators
+  - modules
+concurrency:
+  model: event loop
+  features:
+  - promises/futures
+  - async/await
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - error chaining
+  - custom error types
+  - error propagation
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: npm
+  alternatives:
+  - yarn
+  - pnpm
+popular_frameworks:
+  frontend:
+  - Backbone.js
+  - Chaplin.js
+  backend:
+  - Express.js
+  testing:
+  - Jasmine
+  - Mocha
+development_tools:
+  lsps:
+  - CoffeeScript Language Server
+  debugging:
+  - Chrome DevTools
+  - Node.js debugger
+  profiling:
+  - Chrome DevTools
+  build_systems:
+  - Grunt
+  - Gulp
+  - Webpack
+  linters:
+  - coffeelint
+standard_library:
+  maturity: moderate
+  key_areas:
+  - data structures
+  - text processing
+  - regular expressions
+  size: small
+  documentation_quality: moderate
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: high
+history:
+  inception: 2009-12-13
+  developer:
+  - Jeremy Ashkenas
+  designed_by:
+  - Jeremy Ashkenas
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/CoffeeScript-logo.svg
+  influenced_by:
+    languages:
+    - JavaScript
+    - Ruby
+    - Python
+    - Haskell
+    - Erlang
+official_website: https://coffeescript.org/
+documentation:
+  quality: high
+  official_sources:
+  - https://coffeescript.org/
+  community_resources:
+  - https://github.com/jashkenas/coffeescript/wiki
+references:
+  github_topics:
+  - coffeescript
+  quora_topics:
+  - CoffeeScript
+  stackexchange_tags:
+  - coffeescript
+  wikidata_id: Q2897774
+  subreddit: coffeescript
+color: '#244776'

@@ -1,0 +1,255 @@
+name: Raku
+description: A high-level, multi-paradigm programming language designed for flexibility and expressiveness. It features rich built-in support for object-oriented, functional, and procedural programming with strong metaprogramming capabilities.
+category: programming
+status: active
+aliases:
+- perl6
+- perl-6
+file_extensions:
+- 6pl
+- 6pm
+- nqp
+- p6
+- p6l
+- p6m
+- pl
+- pl6
+- pm
+- pm6
+- raku
+- rakumod
+- t
+compilers:
+- name: Rakudo
+  type: hybrid
+  source_url: https://github.com/rakudo/rakudo
+  is_reference: true
+- name: MoarVM
+  type: hybrid
+  source_url: https://github.com/MoarVM/MoarVM
+paradigms:
+- imperative
+- object-oriented
+- functional
+- concurrent
+- meta-programming
+typing:
+  system: gradual
+  structural: true
+  strength: strong
+  inference: partial
+  type_checking: runtime
+  type_coercion: moderate
+  type_annotations: optional
+execution:
+  type:
+  - interpreted with JIT compilation
+  - compiled
+  compiles_to:
+  - bytecode
+  runtime_environments:
+  - language-specific runtime
+  - native OS process
+  performance:
+    startup_time: slow
+    memory_usage: high
+    computation_speed: moderate
+    compilation_speed: slow
+domains:
+  primary:
+  - text processing
+  - scripting
+  - automation
+  - web development
+  secondary:
+  - data processing
+  - system administration
+  - build management
+  emerging:
+  - data science
+  - DevOps
+platforms:
+  operating_systems:
+  - Windows
+  - macOS
+  - Linux
+  - BSD
+  - Unix
+  architectures:
+  - x86-64
+  - ARM64
+  - platform-independent
+ecosystem:
+  maturity: moderate
+  package_registry: https://modules.raku.org/
+  community_size: small
+  learning_resources: medium
+  job_market_demand: low
+complexity:
+  learning_curve: high
+  cognitive_load: high
+  syntax_complexity: high
+  semantic_complexity: high
+language_features:
+  immutability: optional
+  enums: extensible
+  metaprogramming: true
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+    implementation: MoarVM GC
+    manual_control: false
+  key_features:
+  - first-class functions
+  - closures
+  - pattern matching
+  - algebraic data types
+  - type inference
+  - operator overloading
+  - mixins
+  - traits/interfaces
+  - REPL
+  - native FFI
+  - macros
+  - async/await
+  - reflection
+  - meta-programming
+  - destructuring
+  - range types
+  - variadic functions
+  - named arguments
+  - modules
+  - iterators/generators
+  - generics
+  - lambdas
+  - coroutines
+concurrency:
+  model: threads
+  features:
+  - async/await
+  - promises/futures
+  - channels
+  - message passing
+  - shared memory
+  ease_of_use: moderate
+error_handling:
+  primary_mechanism: exceptions
+  features:
+  - stack traces
+  - error chaining
+  - custom error types
+  - recovery mechanisms
+  - panic/catch
+  - error context
+  - error propagation
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+package_managers:
+  primary: zef
+  alternatives:
+  - App::Mi6
+popular_frameworks:
+  frontend:
+  - Cro::WebApp
+  backend:
+  - Cro
+  - Red
+  testing:
+  - Test
+  - Test::META
+development_tools:
+  lsps:
+  - Comma IDE
+  debugging:
+  - Debugger::UI::CommandLine
+  profiling:
+  - Telemetry
+  build_systems:
+  - App::Mi6
+  linters:
+  - Raku::Lint
+standard_library:
+  maturity: high
+  key_areas:
+  - file I/O
+  - networking
+  - concurrency
+  - data structures
+  - algorithms
+  - text processing
+  - regular expressions
+  - date/time
+  - mathematics
+  - serialization
+  - testing
+  - logging
+  - process management
+  - random number generation
+  size: large
+  documentation_quality: high
+versioning:
+  release_cycle: semantic versioning
+  backwards_compatibility: moderate
+history:
+  inception: 2015-12-25
+  developer:
+  - The Perl Foundation
+  - Raku Community
+  designed_by:
+  - Larry Wall
+  - The Perl 6 design team
+  - Audrey Tang
+  - Damian Conway
+  described_by: The Raku language specification
+  standards_bodies:
+  - The Perl Foundation
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Camelia.svg
+  influenced_by:
+    languages:
+    - Perl
+    - Haskell
+    - Ruby
+    - Python
+    - Lisp
+    - CLU
+    - Smalltalk
+    - Ada
+    - APL
+    - Common Lisp
+    - Self
+    - META II
+    paradigms:
+    - object-oriented
+    - functional
+    - procedural
+    - declarative
+    - concurrent
+official_website: https://raku.org/
+official_blog_rss: https://planet.raku.org/atom.xml
+documentation:
+  quality: high
+  official_sources:
+  - https://docs.raku.org/
+  - https://raku.guide/
+  community_resources:
+  - https://raku-musings.com/
+  - https://raku-advent.blog/
+references:
+  github_topics:
+  - raku
+  - perl6
+  stackexchange_tags:
+  - raku
+  - perl6
+  wikidata_id: Q13592750
+  subreddit: rakulang
+color: '#0000fb'

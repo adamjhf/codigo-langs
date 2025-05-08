@@ -1,0 +1,20 @@
+name: Datalog
+category: programming
+paradigms:
+- logic
+- declarative
+typing:
+  strength: weak
+domains:
+  primary:
+  - artificial intelligence
+  - database management
+  - data integration
+  - analysis
+history:
+  inception: 1986-01-01
+references:
+  quora_topics:
+  - Datalog
+  stackexchange_tags:
+  - https://stackoverflow.com/tags/datalog

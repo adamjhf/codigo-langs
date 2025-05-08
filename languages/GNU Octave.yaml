@@ -1,0 +1,21 @@
+name: GNU Octave
+category: programming
+paradigms:
+- array-oriented
+domains:
+  primary:
+  - scientific computing
+  - numerical analysis
+  - statistics
+history:
+  inception: 1988-01-01
+  developer:
+  - John W. Eaton
+  logo: https://commons.wikimedia.org/wiki/Special:FilePath/Gnu-octave-logo.svg
+  influenced_by:
+    languages:
+    - MATLAB
+official_website: https://octave.org
+references:
+  quora_topics:
+  - GNU-Octave
