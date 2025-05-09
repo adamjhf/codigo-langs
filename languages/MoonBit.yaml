@@ -1,0 +1,137 @@
+name: MoonBit
+description: MoonBit is a modern, statically-typed programming language designed for safety, performance, and developer productivity. It combines functional and imperative paradigms with a clean syntax and powerful type system.
+category: programming
+status: active
+
+file_extensions:
+  - mbt
+
+paradigms:
+  - functional
+  - imperative
+  - object-oriented
+  - concurrent
+
+typing:
+  system: static
+  type_checking: compile-time
+  structural: true
+  strength: strong
+  inference: full
+  type_coercion: conservative
+  type_annotations: optional
+
+execution:
+  type:
+    - compiled
+  compiles_to:
+    - WebAssembly
+    - machine code
+  runtime_environments:
+    - native OS process
+    - browser
+    - WebAssembly
+  performance:
+    startup_time: fast
+    memory_usage: low
+    computation_speed: fast
+    compilation_speed: fast
+
+domains:
+  primary:
+    - web development
+    - systems programming
+    - server-side applications
+  secondary:
+    - game development
+    - desktop applications
+  emerging:
+    - WebAssembly
+    - cloud computing
+
+platforms:
+  operating_systems:
+    - Windows
+    - macOS
+    - Linux
+  architectures:
+    - x86-64
+    - ARM64
+    - WebAssembly
+
+ecosystem:
+  maturity: moderate
+  community_size: small
+  learning_resources: small
+  job_market_demand: low
+
+complexity:
+  learning_curve: moderate
+  cognitive_load: low
+  syntax_complexity: low
+  semantic_complexity: moderate
+
+language_features:
+  immutability: optional
+  generics: true
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+  key_features:
+    - pattern matching
+    - algebraic data types
+    - type inference
+    - traits/interfaces
+    - async/await
+    - modules
+    - generics
+
+concurrency:
+  model: event loop
+  features:
+    - async/await
+    - promises/futures
+  ease_of_use: high
+
+error_handling:
+  primary_mechanism: result types
+  features:
+    - error propagation
+    - custom error types
+  stack_traces: true
+  debugging:
+    source_maps: true
+    breakpoints: true
+    step_debugging: true
+
+standard_library:
+  maturity: moderate
+  key_areas:
+    - data structures
+    - algorithms
+    - text processing
+    - file I/O
+    - networking
+    - concurrency
+  size: medium
+  documentation_quality: high
+
+versioning:
+  release_cycle: semantic versioning
+  backwards_compatibility: high
+
+history:
+  inception: "2022-01-01"
+  developer:
+    - MoonBit Team
+  designed_by:
+    - MoonBit Team
+
+official_website: https://www.moonbitlang.com/
+official_blog_rss: https://www.moonbitlang.com/blog/atom.xml
+
+color: "#6F4E37"
