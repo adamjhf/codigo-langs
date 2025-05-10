@@ -3,28 +3,28 @@ description: Sass (Syntactically Awesome Style Sheets) is a preprocessor scripti
 category: stylesheet
 status: active
 aliases:
-- SCSS
-- Sassy CSS
+  - SCSS
+  - Sassy CSS
 file_extensions:
-- sass
-- scss
+  - sass
+  - scss
 compilers:
-- name: dart-sass
-  type: compiler
-  license: MIT
-  source_url: https://github.com/sass/dart-sass
-  is_reference: true
-- name: node-sass
-  type: compiler
-  license: MIT
-  source_url: https://github.com/sass/node-sass
-- name: LibSass
-  type: compiler
-  license: MIT
-  source_url: https://github.com/sass/libsass
+  - name: dart-sass
+    type: compiler
+    license: MIT
+    source_url: https://github.com/sass/dart-sass
+    is_reference: true
+  - name: node-sass
+    type: compiler
+    license: MIT
+    source_url: https://github.com/sass/node-sass
+  - name: LibSass
+    type: compiler
+    license: MIT
+    source_url: https://github.com/sass/libsass
 paradigms:
-- declarative
-- structured
+  - declarative
+  - structured
 typing:
   system: dynamic
   structural: true
@@ -35,10 +35,10 @@ typing:
   type_annotations: none
 execution:
   type:
-  - transpiled
+    - transpiled
   runtime_environments:
-  - browser
-  - native OS process
+    - browser
+    - native OS process
   performance:
     startup_time: fast
     memory_usage: low
@@ -46,18 +46,18 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - web development
-  - user interface
+    - web development
+    - user interface
   secondary:
-  - configuration management
+    - configuration management
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - Unix
   architectures:
-  - platform-independent
+    - platform-independent
 ecosystem:
   maturity: high
   package_registry: npm
@@ -81,17 +81,17 @@ language_features:
     type: managed
     level: high
   key_features:
-  - mixins
-  - string interpolation
-  - modules
+    - mixins
+    - string interpolation
+    - modules
 concurrency:
   model: none
   ease_of_use: low
 error_handling:
   primary_mechanism: exceptions
   features:
-  - error reporting
-  - error formatting
+    - error reporting
+    - error formatting
   stack_traces: true
   debugging:
     source_maps: true
@@ -100,63 +100,62 @@ error_handling:
 package_managers:
   primary: npm
   alternatives:
-  - yarn
-  - pnpm
+    - yarn
+    - pnpm
 popular_frameworks:
   frontend:
-  - Bootstrap
-  - Foundation
-  - Bulma
+    - Bootstrap
+    - Foundation
+    - Bulma
 development_tools:
   lsps:
-  - vscode-css-languageservice
+    - vscode-css-languageservice
   debugging:
-  - browser dev tools
+    - browser dev tools
   linters:
-  - stylelint
-  - sass-lint
+    - stylelint
+    - sass-lint
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - text processing
+    - data structures
+    - text processing
   size: medium
-  documentation_quality: high
 versioning:
   release_cycle: semantic versioning
   backwards_compatibility: high
 history:
   inception: 2006-11-28
   developer:
-  - Sass team
+    - Sass team
   designed_by:
-  - Hampton Catlin
-  - Natalie Weizenbaum
-  - Chris Eppstein
+    - Hampton Catlin
+    - Natalie Weizenbaum
+    - Chris Eppstein
   influenced_by:
     languages:
-    - CSS
-    - Ruby
-    - Haml
+      - CSS
+      - Ruby
+      - Haml
     paradigms:
-    - declarative
+      - declarative
 official_website: https://sass-lang.com/
 documentation:
   quality: high
   official_sources:
-  - https://sass-lang.com/documentation
-  - https://sass-lang.com/guide
+    - https://sass-lang.com/documentation
+    - https://sass-lang.com/guide
   community_resources:
-  - https://css-tricks.com/guides/sass/
+    - https://css-tricks.com/guides/sass/
 references:
   github_topics:
-  - sass
-  - scss
+    - sass
+    - scss
   quora_topics:
-  - Sass-stylesheet-language-1
+    - Sass-stylesheet-language-1
   stackexchange_tags:
-  - sass
-  - scss
+    - sass
+    - scss
   wikidata_id: Q756658
   subreddit: Sass
 color: '#a53b70'

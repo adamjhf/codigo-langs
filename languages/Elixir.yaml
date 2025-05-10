@@ -3,22 +3,22 @@ description: A dynamic, functional language designed for building scalable and m
 category: programming
 status: active
 aliases:
-- ex
+  - ex
 file_extensions:
-- ex
-- exs
+  - ex
+  - exs
 compilers:
-- name: Elixir Compiler
-  type: compiler
-  license: Apache-2.0
-  source_url: https://github.com/elixir-lang/elixir
-  is_reference: true
+  - name: Elixir Compiler
+    type: compiler
+    license: Apache-2.0
+    source_url: https://github.com/elixir-lang/elixir
+    is_reference: true
 paradigms:
-- functional
-- concurrent
-- distributed
-- meta-programming
-- process-oriented
+  - functional
+  - concurrent
+  - distributed
+  - meta-programming
+  - process-oriented
 typing:
   system: dynamic
   structural: true
@@ -29,12 +29,12 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
-  - interpreted
+    - compiled
+    - interpreted
   compiles_to:
-  - bytecode
+    - bytecode
   runtime_environments:
-  - BEAM VM
+    - BEAM VM
   performance:
     startup_time: moderate
     memory_usage: moderate
@@ -42,35 +42,35 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - web development
-  - distributed system
-  - real-time computing
+    - web development
+    - distributed system
+    - real-time computing
   secondary:
-  - data science
-  - DevOps
-  - scripting
-  - text processing
+    - data science
+    - DevOps
+    - scripting
+    - text processing
   emerging:
-  - blockchain
-  - IoT
-  - machine learning frameworks
+    - blockchain
+    - IoT
+    - machine learning frameworks
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
   cloud_function_environments:
-  - AWS Lambda
-  - Google Cloud Functions
-  - Azure Functions
-  - Heroku
+    - AWS Lambda
+    - Google Cloud Functions
+    - Azure Functions
+    - Heroku
 ecosystem:
   maturity: high
   package_registry: Hex.pm
@@ -98,30 +98,30 @@ language_features:
     implementation: BEAM VM garbage collector
     manual_control: false
   key_features:
-  - first-class functions
-  - pattern matching
-  - macros
-  - destructuring
-  - string interpolation
-  - modules
-  - hot reload
-  - REPL
+    - first-class functions
+    - pattern matching
+    - macros
+    - destructuring
+    - string interpolation
+    - modules
+    - hot reload
+    - REPL
 concurrency:
   model: actors
   features:
-  - message passing
-  - supervisors
-  - distributed computing
-  - concurrent data structures
+    - message passing
+    - supervisors
+    - distributed computing
+    - concurrent data structures
   ease_of_use: high
 error_handling:
   primary_mechanism: pattern matching
   features:
-  - stack traces
-  - error chaining
-  - custom error types
-  - error propagation
-  - graceful degradation
+    - stack traces
+    - error chaining
+    - custom error types
+    - error propagation
+    - graceful degradation
   stack_traces: true
   debugging:
     source_maps: true
@@ -130,85 +130,84 @@ error_handling:
 package_managers:
   primary: Mix
   alternatives:
-  - Rebar3
+    - Rebar3
 popular_frameworks:
   frontend:
-  - Phoenix LiveView
+    - Phoenix LiveView
   backend:
-  - Phoenix
-  - Nerves
-  - Ecto
+    - Phoenix
+    - Nerves
+    - Ecto
   testing:
-  - ExUnit
-  - Mox
-  - PropCheck
+    - ExUnit
+    - Mox
+    - PropCheck
   mobile:
-  - Scenic
+    - Scenic
 development_tools:
   lsps:
-  - ElixirLS
+    - ElixirLS
   debugging:
-  - IEx
-  - Debugger
-  - Observer
+    - IEx
+    - Debugger
+    - Observer
   profiling:
-  - ExProf
-  - fprof
+    - ExProf
+    - fprof
   build_systems:
-  - Mix
+    - Mix
   linters:
-  - Credo
-  - Dialyxir
+    - Credo
+    - Dialyxir
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - concurrency
-  - text processing
-  - file I/O
-  - networking
-  - HTTP client/server
-  - cryptography
-  - testing
-  - logging
-  - date/time
-  - regular expressions
+    - data structures
+    - concurrency
+    - text processing
+    - file I/O
+    - networking
+    - HTTP client/server
+    - cryptography
+    - testing
+    - logging
+    - date/time
+    - regular expressions
   size: medium
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
 history:
   inception: 2011-01-09
   developer:
-  - Plataformatec
-  - José Valim
+    - Plataformatec
+    - José Valim
   designed_by:
-  - José Valim
+    - José Valim
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Official%20Elixir%20logo.png
   influenced_by:
     languages:
-    - Erlang
-    - Ruby
-    - Clojure
+      - Erlang
+      - Ruby
+      - Clojure
     paradigms:
-    - functional
-    - concurrent
+      - functional
+      - concurrent
 official_website: https://elixir-lang.org/
 official_blog_rss: https://elixir-lang.org/atom.xml
 documentation:
   quality: high
   official_sources:
-  - https://elixir-lang.org/docs.html
-  - https://hexdocs.pm/elixir/
+    - https://elixir-lang.org/docs.html
+    - https://hexdocs.pm/elixir/
   community_resources:
-  - https://elixirschool.com/
-  - https://elixirforum.com/
+    - https://elixirschool.com/
+    - https://elixirforum.com/
 references:
   github_topics:
-  - elixir
+    - elixir
   stackexchange_tags:
-  - elixir
+    - elixir
   wikidata_id: Q3359855
   subreddit: elixir
 color: '#6e4a7e'

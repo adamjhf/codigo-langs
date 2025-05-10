@@ -3,17 +3,17 @@ description: V is a statically typed compiled programming language designed for 
 category: programming
 status: active
 aliases:
-- vlang
+  - vlang
 file_extensions:
-- v
+  - v
 compilers:
-- name: V compiler
-  type: compiler
-  license: MIT
-  source_url: https://github.com/vlang/v
-  is_reference: true
+  - name: V compiler
+    type: compiler
+    license: MIT
+    source_url: https://github.com/vlang/v
+    is_reference: true
 paradigms:
-- imperative
+  - imperative
 typing:
   system: static
   structural: false
@@ -24,15 +24,15 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - C
-  - machine code
-  - JavaScript
-  - WebAssembly
+    - C
+    - machine code
+    - JavaScript
+    - WebAssembly
   runtime_environments:
-  - native OS process
-  - browser
+    - native OS process
+    - browser
   performance:
     startup_time: very fast
     memory_usage: low
@@ -40,29 +40,29 @@ execution:
     compilation_speed: very fast
 domains:
   primary:
-  - systems programming
-  - web development
-  - desktop applications
+    - systems programming
+    - web development
+    - desktop applications
   secondary:
-  - game development
-  - embedded systems
-  - DevOps
+    - game development
+    - embedded systems
+    - DevOps
   emerging:
-  - WebAssembly
-  - mobile development
+    - WebAssembly
+    - mobile development
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Android
-  - iOS
+    - Windows
+    - macOS
+    - Linux
+    - Android
+    - iOS
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
-  - WebAssembly
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - WebAssembly
 ecosystem:
   maturity: moderate
   package_registry: vpm
@@ -90,28 +90,28 @@ language_features:
     implementation: Auto-free/reference counting for heap allocations
     manual_control: true
   key_features:
-  - zero-cost abstractions
-  - hot reload
-  - REPL
-  - native FFI
-  - async/await
-  - channels
-  - iterators/generators
-  - modules
-  - destructuring
-  - string interpolation
+    - zero-cost abstractions
+    - hot reload
+    - REPL
+    - native FFI
+    - async/await
+    - channels
+    - iterators/generators
+    - modules
+    - destructuring
+    - string interpolation
 concurrency:
   model: goroutines
   features:
-  - async/await
-  - channels
-  - green threads
+    - async/await
+    - channels
+    - green threads
   ease_of_use: high
 error_handling:
   primary_mechanism: result types
   features:
-  - custom error types
-  - error propagation
+    - custom error types
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -120,79 +120,78 @@ error_handling:
 package_managers:
   primary: vpm
   alternatives:
-  - vpkg
+    - vpkg
 popular_frameworks:
   frontend:
-  - vweb
-  - ui
+    - vweb
+    - ui
   backend:
-  - vweb
+    - vweb
   testing:
-  - vtest
+    - vtest
 development_tools:
   lsps:
-  - vls
+    - vls
   debugging:
-  - vdebug
+    - vdebug
   build_systems:
-  - v build system
+    - v build system
   linters:
-  - vfmt
+    - vfmt
 standard_library:
   maturity: moderate
   key_areas:
-  - file I/O
-  - networking
-  - concurrency
-  - data structures
-  - algorithms
-  - text processing
-  - JSON/XML processing
-  - regular expressions
-  - date/time
-  - mathematics
-  - testing
-  - logging
+    - file I/O
+    - networking
+    - concurrency
+    - data structures
+    - algorithms
+    - text processing
+    - JSON/XML processing
+    - regular expressions
+    - date/time
+    - mathematics
+    - testing
+    - logging
   size: medium
-  documentation_quality: moderate
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: high
 history:
   inception: 2019-06-22
   developer:
-  - V Language Team
+    - V Language Team
   designed_by:
-  - Alexander Medvednikov
+    - Alexander Medvednikov
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/V%20Logo%20SVG.svg
   influenced_by:
     languages:
-    - Go
-    - Rust
-    - Swift
-    - Python
-    - C
-    - Oberon
-    - Kotlin
+      - Go
+      - Rust
+      - Swift
+      - Python
+      - C
+      - Oberon
+      - Kotlin
     paradigms:
-    - imperative
-    - procedural
-    - object-oriented
-    - functional
-    - concurrent
+      - imperative
+      - procedural
+      - object-oriented
+      - functional
+      - concurrent
 official_website: https://vlang.io/
 documentation:
   quality: moderate
   official_sources:
-  - https://docs.vlang.io/
-  - https://github.com/vlang/v/blob/master/doc/docs.md
+    - https://docs.vlang.io/
+    - https://github.com/vlang/v/blob/master/doc/docs.md
   community_resources:
-  - https://github.com/vlang/awesome-v
+    - https://github.com/vlang/awesome-v
 references:
   github_topics:
-  - vlang
-  - v-lang
+    - vlang
+    - v-lang
   stackexchange_tags:
-  - vlang
+    - vlang
   subreddit: vlang
 color: '#4f87c4'

@@ -3,64 +3,64 @@ description: A high-level, interpreted programming language that enables interac
 category: programming
 status: active
 aliases:
-- js
-- node
+  - js
+  - node
 file_extensions:
-- js
-- _js
-- bones
-- cjs
-- es
-- es6
-- frag
-- gs
-- jake
-- javascript
-- jsb
-- jscad
-- jsfl
-- jslib
-- jsm
-- jspre
-- jss
-- jsx
-- mjs
-- njs
-- pac
-- sjs
-- ssjs
-- xsjs
-- xsjslib
+  - js
+  - _js
+  - bones
+  - cjs
+  - es
+  - es6
+  - frag
+  - gs
+  - jake
+  - javascript
+  - jsb
+  - jscad
+  - jsfl
+  - jslib
+  - jsm
+  - jspre
+  - jss
+  - jsx
+  - mjs
+  - njs
+  - pac
+  - sjs
+  - ssjs
+  - xsjs
+  - xsjslib
 compilers:
-- name: V8
-  type: interpreter
-  license: BSD-3-Clause
-  source_url: https://github.com/v8/v8
-  is_reference: false
-- name: SpiderMonkey
-  type: interpreter
-  license: MPL-2.0
-  source_url: https://github.com/mozilla/gecko-dev
-  is_reference: false
-- name: JavaScriptCore
-  type: interpreter
-  license: LGPL-2.1
-  source_url: https://github.com/WebKit/WebKit
-  is_reference: false
-- name: Chakra
-  type: interpreter
-  license: MIT
-  source_url: https://github.com/chakra-core/ChakraCore
-  is_reference: false
+  - name: V8
+    type: interpreter
+    license: BSD-3-Clause
+    source_url: https://github.com/v8/v8
+    is_reference: false
+  - name: SpiderMonkey
+    type: interpreter
+    license: MPL-2.0
+    source_url: https://github.com/mozilla/gecko-dev
+    is_reference: false
+  - name: JavaScriptCore
+    type: interpreter
+    license: LGPL-2.1
+    source_url: https://github.com/WebKit/WebKit
+    is_reference: false
+  - name: Chakra
+    type: interpreter
+    license: MIT
+    source_url: https://github.com/chakra-core/ChakraCore
+    is_reference: false
 paradigms:
-- prototype-based
-- event-driven
-- imperative
-- functional
-- object-oriented
-- reflective
-- meta-programming
-- generic
+  - prototype-based
+  - event-driven
+  - imperative
+  - functional
+  - object-oriented
+  - reflective
+  - meta-programming
+  - generic
 typing:
   system: dynamic
   structural: true
@@ -71,17 +71,17 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - interpreted
-  - interpreted with JIT compilation
-  - compiled
+    - interpreted
+    - interpreted with JIT compilation
+    - compiled
   compiles_to:
-  - bytecode
-  - machine code
+    - bytecode
+    - machine code
   runtime_environments:
-  - browser
-  - native OS process
-  - cloud function environment
-  - serverless
+    - browser
+    - native OS process
+    - cloud function environment
+    - serverless
   performance:
     startup_time: fast
     memory_usage: moderate
@@ -89,43 +89,43 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - web development
-  - server-side applications
-  - browser extensions
-  - desktop applications
-  - mobile development
+    - web development
+    - server-side applications
+    - browser extensions
+    - desktop applications
+    - mobile development
   secondary:
-  - IoT
-  - DevOps
-  - cloud computing
-  - data visualization
-  - game development
+    - IoT
+    - DevOps
+    - cloud computing
+    - data visualization
+    - game development
   emerging:
-  - WebAssembly
-  - machine learning frameworks
-  - blockchain
-  - edge computing
+    - WebAssembly
+    - machine learning frameworks
+    - blockchain
+    - edge computing
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Android
-  - iOS
+    - Windows
+    - macOS
+    - Linux
+    - Android
+    - iOS
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
-  - platform-independent
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - platform-independent
   cloud_function_environments:
-  - AWS Lambda
-  - Google Cloud Functions
-  - Azure Functions
-  - Cloudflare Workers
-  - Vercel Functions
-  - Netlify Functions
-  - Firebase Functions
+    - AWS Lambda
+    - Google Cloud Functions
+    - Azure Functions
+    - Cloudflare Workers
+    - Vercel Functions
+    - Netlify Functions
+    - Firebase Functions
 ecosystem:
   maturity: very high
   package_registry: https://www.npmjs.com/
@@ -153,33 +153,33 @@ language_features:
     implementation: Mark-and-sweep with generational collection
     manual_control: false
   key_features:
-  - first-class functions
-  - closures
-  - prototypal inheritance
-  - iterators/generators
-  - destructuring
-  - async/await
-  - proxies
-  - string interpolation
-  - reflection
-  - modules
+    - first-class functions
+    - closures
+    - prototypal inheritance
+    - iterators/generators
+    - destructuring
+    - async/await
+    - proxies
+    - string interpolation
+    - reflection
+    - modules
 concurrency:
   model: event loop
   features:
-  - async/await
-  - promises/futures
-  - shared memory
-  - atomic operations
+    - async/await
+    - promises/futures
+    - shared memory
+    - atomic operations
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error chaining
-  - custom error types
-  - error propagation
-  - cleanup actions
-  - error logging
+    - stack traces
+    - error chaining
+    - custom error types
+    - error propagation
+    - cleanup actions
+    - error logging
   stack_traces: true
   debugging:
     source_maps: true
@@ -188,117 +188,116 @@ error_handling:
 package_managers:
   primary: npm
   alternatives:
-  - yarn
-  - pnpm
+    - yarn
+    - pnpm
 popular_frameworks:
   frontend:
-  - React
-  - Vue.js
-  - Angular
-  - Svelte
+    - React
+    - Vue.js
+    - Angular
+    - Svelte
   backend:
-  - Express
-  - Next.js
-  - NestJS
-  - Fastify
+    - Express
+    - Next.js
+    - NestJS
+    - Fastify
   testing:
-  - Jest
-  - Mocha
-  - Cypress
-  - Playwright
+    - Jest
+    - Mocha
+    - Cypress
+    - Playwright
   mobile:
-  - React Native
-  - Ionic
-  - Capacitor
+    - React Native
+    - Ionic
+    - Capacitor
 development_tools:
   lsps:
-  - TypeScript Language Server
-  - ESLint
+    - TypeScript Language Server
+    - ESLint
   debugging:
-  - Chrome DevTools
-  - VS Code Debugger
-  - Firefox Developer Tools
+    - Chrome DevTools
+    - VS Code Debugger
+    - Firefox Developer Tools
   profiling:
-  - Chrome Performance Tab
-  - Node.js --inspect
-  - Lighthouse
+    - Chrome Performance Tab
+    - Node.js --inspect
+    - Lighthouse
   build_systems:
-  - webpack
-  - Vite
-  - Rollup
-  - Parcel
+    - webpack
+    - Vite
+    - Rollup
+    - Parcel
   linters:
-  - ESLint
-  - StandardJS
-  - JSHint
+    - ESLint
+    - StandardJS
+    - JSHint
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - text processing
-  - JSON/XML processing
-  - regular expressions
-  - date/time
-  - networking
-  - concurrency
-  - serialization
+    - data structures
+    - text processing
+    - JSON/XML processing
+    - regular expressions
+    - date/time
+    - networking
+    - concurrency
+    - serialization
   size: medium
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
 history:
   inception: 1995-05-01
   developer:
-  - Netscape Communications Corporation
-  - Ecma International
+    - Netscape Communications Corporation
+    - Ecma International
   designed_by:
-  - Brendan Eich
+    - Brendan Eich
   described_by: ECMA-262
   standards_bodies:
-  - Ecma International
-  - TC39
+    - Ecma International
+    - TC39
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Unofficial%20JavaScript%20logo%202.svg
   influenced_by:
     languages:
-    - Java
-    - Scheme
-    - Self
-    - Perl
-    - Python
-    - C
-    - HyperTalk
-    - Lua
-    - AWK
-    - LiveScript
+      - Java
+      - Scheme
+      - Self
+      - Perl
+      - Python
+      - C
+      - HyperTalk
+      - Lua
+      - AWK
+      - LiveScript
     paradigms:
-    - prototype-based
-    - object-oriented
-    - functional
-    - imperative
+      - prototype-based
+      - object-oriented
+      - functional
+      - imperative
 official_website: https://www.ecma-international.org/publications-and-standards/standards/ecma-262/
 documentation:
   quality: very high
   official_sources:
-  - https://developer.mozilla.org/en-US/docs/Web/JavaScript
-  - https://tc39.es/ecma262/
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript
+    - https://tc39.es/ecma262/
   community_resources:
-  - https://javascript.info/
-  - https://web.dev/learn/js
+    - https://javascript.info/
+    - https://web.dev/learn/js
 references:
   github_topics:
-  - javascript
-  - js
-  - ecmascript
+    - javascript
+    - js
+    - ecmascript
   quora_topics:
-  - JavaScript
-  - JavaScript-programming-language
-  - Javascript-Scripting-Language-1
+    - JavaScript
+    - JavaScript-programming-language
+    - Javascript-Scripting-Language-1
   stackexchange_tags:
-  - javascript
-  - ecmascript-6
-  - node.js
-  - https://stackoverflow.com/tags/javascript
+    - javascript
+    - ecmascript-6
+    - node.js
+    - https://stackoverflow.com/tags/javascript
   wikidata_id: Q2005
   subreddit: javascript
   x_handle: ECMAScript

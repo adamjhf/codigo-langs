@@ -3,25 +3,25 @@ description: Racket is a general-purpose, multi-paradigm programming language de
 category: programming
 status: active
 aliases:
-- PLT Scheme
+  - PLT Scheme
 file_extensions:
-- rkt
-- rktd
-- rktl
-- scrbl
+  - rkt
+  - rktd
+  - rktl
+  - scrbl
 compilers:
-- name: Racket
-  type: hybrid
-  license: LGPL-3.0
-  source_url: https://github.com/racket/racket
-  is_reference: true
+  - name: Racket
+    type: hybrid
+    license: LGPL-3.0
+    source_url: https://github.com/racket/racket
+    is_reference: true
 paradigms:
-- functional
-- imperative
-- object-oriented
-- meta-programming
-- language-oriented
-- reflective
+  - functional
+  - imperative
+  - object-oriented
+  - meta-programming
+  - language-oriented
+  - reflective
 typing:
   system: dynamic
   strength: strong
@@ -31,13 +31,13 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
-  - interpreted with JIT compilation
+    - compiled
+    - interpreted with JIT compilation
   compiles_to:
-  - bytecode
+    - bytecode
   runtime_environments:
-  - language-specific runtime
-  - native OS process
+    - language-specific runtime
+    - native OS process
   performance:
     startup_time: moderate
     memory_usage: moderate
@@ -45,28 +45,28 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - education
-  - web development
+    - education
+    - web development
   secondary:
-  - scientific computing
-  - data science
-  - scripting
-  - text processing
-  - compiler
+    - scientific computing
+    - data science
+    - scripting
+    - text processing
+    - compiler
   emerging:
-  - distributed system
+    - distributed system
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
+    - Windows
+    - macOS
+    - Linux
+    - BSD
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
-  - platform-independent
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - platform-independent
 ecosystem:
   maturity: high
   package_registry: https://pkgs.racket-lang.org/
@@ -92,29 +92,29 @@ language_features:
     type: garbage collection
     implementation: generational garbage collector
   key_features:
-  - first-class functions
-  - closures
-  - macros
-  - pattern matching
-  - modules
-  - reflection
-  - meta-programming
-  - REPL
-  - interactive development
-  - native FFI
+    - first-class functions
+    - closures
+    - macros
+    - pattern matching
+    - modules
+    - reflection
+    - meta-programming
+    - REPL
+    - interactive development
+    - native FFI
 concurrency:
   model: threads
   features:
-  - promises/futures
-  - channels
+    - promises/futures
+    - channels
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - custom error types
-  - error chaining
-  - cleanup actions
+    - stack traces
+    - custom error types
+    - error chaining
+    - cleanup actions
   stack_traces: true
   debugging:
     source_maps: true
@@ -123,75 +123,74 @@ error_handling:
 package_managers:
   primary: raco
   alternatives:
-  - planet
+    - planet
 popular_frameworks:
   frontend:
-  - Racket/gui
-  - Pict
-  - Slideshow
+    - Racket/gui
+    - Pict
+    - Slideshow
   backend:
-  - Web Server
-  - Rackjure
+    - Web Server
+    - Rackjure
   testing:
-  - RackUnit
+    - RackUnit
 development_tools:
   lsps:
-  - Racket Language Server
+    - Racket Language Server
   debugging:
-  - DrRacket
+    - DrRacket
   profiling:
-  - Racket Profile
+    - Racket Profile
   build_systems:
-  - raco
+    - raco
   linters:
-  - raco setup
+    - raco setup
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - file I/O
-  - networking
-  - text processing
-  - regular expressions
-  - date/time
-  - mathematics
-  - JSON/XML processing
-  - HTTP client/server
-  - GUI
+    - data structures
+    - file I/O
+    - networking
+    - text processing
+    - regular expressions
+    - date/time
+    - mathematics
+    - JSON/XML processing
+    - HTTP client/server
+    - GUI
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
 history:
   inception: 1995-01-01
   developer:
-  - PLT Inc.
-  - Northeastern University
-  - Matthias Felleisen
+    - PLT Inc.
+    - Northeastern University
+    - Matthias Felleisen
   designed_by:
-  - Matthew Flatt
-  - Matthias Felleisen
-  - Robby Findler
-  - Shriram Krishnamurthi
+    - Matthew Flatt
+    - Matthias Felleisen
+    - Robby Findler
+    - Shriram Krishnamurthi
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Racket-logo.svg
   influenced_by:
     languages:
-    - Scheme
-    - Lisp
+      - Scheme
+      - Lisp
 official_website: https://racket-lang.org/
 official_blog_rss: https://blog.racket-lang.org/feeds/all.atom.xml
 documentation:
   quality: very high
   official_sources:
-  - https://docs.racket-lang.org/
+    - https://docs.racket-lang.org/
 references:
   github_topics:
-  - racket
-  - racket-lang
+    - racket
+    - racket-lang
   stackexchange_tags:
-  - racket
-  - https://stackoverflow.com/tags/racket
+    - racket
+    - https://stackoverflow.com/tags/racket
   wikidata_id: Q2889
   subreddit: Racket
 color: '#3c5caa'

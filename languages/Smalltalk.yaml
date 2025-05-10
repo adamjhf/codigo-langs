@@ -3,30 +3,30 @@ description: Smalltalk is a pioneering object-oriented, dynamically typed progra
 category: programming
 status: active
 aliases:
-- squeak
+  - squeak
 file_extensions:
-- st
-- cs
+  - st
+  - cs
 compilers:
-- name: Squeak
-  type: interpreter
-  license: MIT
-  is_reference: false
-- name: Pharo
-  type: interpreter
-  license: MIT
-  is_reference: false
-- name: GNU Smalltalk
-  type: interpreter
-  license: GPL-3.0
-  is_reference: false
-- name: VisualWorks
-  type: interpreter
-  license: proprietary
-  is_reference: false
+  - name: Squeak
+    type: interpreter
+    license: MIT
+    is_reference: false
+  - name: Pharo
+    type: interpreter
+    license: MIT
+    is_reference: false
+  - name: GNU Smalltalk
+    type: interpreter
+    license: GPL-3.0
+    is_reference: false
+  - name: VisualWorks
+    type: interpreter
+    license: proprietary
+    is_reference: false
 paradigms:
-- object-oriented
-- reflective
+  - object-oriented
+  - reflective
 typing:
   system: dynamic
   structural: true
@@ -37,35 +37,35 @@ typing:
   type_annotations: none
 execution:
   type:
-  - interpreted
+    - interpreted
   runtime_environments:
-  - language-specific runtime
-  - native OS process
+    - language-specific runtime
+    - native OS process
   performance:
     startup_time: moderate
     memory_usage: moderate
     computation_speed: moderate
 domains:
   primary:
-  - education
-  - user interface
+    - education
+    - user interface
   secondary:
-  - web development
-  - scientific computing
-  - simulation
+    - web development
+    - scientific computing
+    - simulation
   emerging:
-  - IoT
+    - IoT
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - Unix
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - platform-independent
+    - x86
+    - x86-64
+    - ARM
+    - platform-independent
 ecosystem:
   maturity: moderate
   package_registry: SmalltalkHub
@@ -91,23 +91,23 @@ language_features:
   memory_management:
     type: garbage collection
   key_features:
-  - first-class functions
-  - reflection
-  - meta-programming
-  - interactive development
-  - REPL
-  - modules
+    - first-class functions
+    - reflection
+    - meta-programming
+    - interactive development
+    - REPL
+    - modules
 concurrency:
   model: threads
   features:
-  - shared memory
+    - shared memory
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error chaining
-  - custom error types
+    - stack traces
+    - error chaining
+    - custom error types
   stack_traces: true
   debugging:
     breakpoints: true
@@ -115,73 +115,72 @@ error_handling:
 package_managers:
   primary: Metacello
   alternatives:
-  - Gofer
-  - Monticello
+    - Gofer
+    - Monticello
 popular_frameworks:
   frontend:
-  - Seaside
-  - Morphic
+    - Seaside
+    - Morphic
   backend:
-  - Seaside
+    - Seaside
   testing:
-  - SUnit
+    - SUnit
 development_tools:
   lsps:
-  - Squeak LSP
+    - Squeak LSP
   debugging:
-  - Integrated debugger
+    - Integrated debugger
   profiling:
-  - Integrated profiler
+    - Integrated profiler
   linters:
-  - Smalllint
+    - Smalllint
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - GUI
-  - text processing
-  - file I/O
-  - networking
+    - data structures
+    - GUI
+    - text processing
+    - file I/O
+    - networking
   size: medium
-  documentation_quality: high
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: high
 history:
   inception: "1972-01-01"
   developer:
-  - Xerox PARC
+    - Xerox PARC
   designed_by:
-  - Alan Kay
-  - Dan Ingalls
-  - Adele Goldberg
+    - Alan Kay
+    - Dan Ingalls
+    - Adele Goldberg
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Smalltalk%20Balloon.svg
   influenced_by:
     languages:
-    - Simula
-    - LISP
-    - Logo
-    - Simula 67
+      - Simula
+      - LISP
+      - Logo
+      - Simula 67
     paradigms:
-    - object-oriented
+      - object-oriented
 official_website: https://squeak.org/
 documentation:
   quality: high
   official_sources:
-  - https://wiki.squeak.org/
-  - https://pharo.org/documentation
+    - https://wiki.squeak.org/
+    - https://pharo.org/documentation
   community_resources:
-  - https://github.com/Pharo-project
-  - https://stackoverflow.com/questions/tagged/smalltalk
+    - https://github.com/Pharo-project
+    - https://stackoverflow.com/questions/tagged/smalltalk
 references:
   github_topics:
-  - smalltalk
+    - smalltalk
   quora_topics:
-  - Smalltalk-1
-  - Smalltalk-programming-language
+    - Smalltalk-1
+    - Smalltalk-programming-language
   stackexchange_tags:
-  - smalltalk
-  - pharo
-  - squeak
+    - smalltalk
+    - pharo
+    - squeak
   wikidata_id: Q851707
 color: '#596706'

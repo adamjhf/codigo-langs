@@ -3,30 +3,30 @@ description: Beginner's All-purpose Symbolic Instruction Code, a family of high-
 category: programming
 status: legacy
 aliases:
-- Beginner's All-purpose Symbolic Instruction Code
+  - Beginner's All-purpose Symbolic Instruction Code
 file_extensions:
-- bas
+  - bas
 compilers:
-- name: GW-BASIC
-  type: interpreter
-  license: proprietary
-- name: QBasic
-  type: interpreter
-  license: proprietary
-- name: Visual Basic
-  type: compiler
-  license: proprietary
-- name: FreeBASIC
-  type: compiler
-  license: GPL-2.0
-  source_url: https://github.com/freebasic/fbc
-- name: QB64
-  type: compiler
-  license: MIT
-  source_url: https://github.com/QB64Team/qb64
+  - name: GW-BASIC
+    type: interpreter
+    license: proprietary
+  - name: QBasic
+    type: interpreter
+    license: proprietary
+  - name: Visual Basic
+    type: compiler
+    license: proprietary
+  - name: FreeBASIC
+    type: compiler
+    license: GPL-2.0
+    source_url: https://github.com/freebasic/fbc
+  - name: QB64
+    type: compiler
+    license: MIT
+    source_url: https://github.com/QB64Team/qb64
 paradigms:
-- imperative
-- procedural
+  - imperative
+  - procedural
 typing:
   system: dynamic
   structural: true
@@ -37,14 +37,14 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - interpreted
-  - compiled
+    - interpreted
+    - compiled
   compiles_to:
-  - machine code
-  - bytecode
+    - machine code
+    - bytecode
   runtime_environments:
-  - language-specific runtime
-  - native OS process
+    - language-specific runtime
+    - native OS process
   performance:
     startup_time: fast
     memory_usage: moderate
@@ -52,26 +52,26 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - education
-  - desktop applications
-  - scripting
+    - education
+    - desktop applications
+    - scripting
   secondary:
-  - scientific computing
-  - text processing
-  - automation
+    - scientific computing
+    - text processing
+    - automation
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
-  - DOS
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
+    - DOS
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - platform-independent
+    - x86
+    - x86-64
+    - ARM
+    - platform-independent
 ecosystem:
   maturity: moderate
   community_size: medium
@@ -98,17 +98,17 @@ language_features:
     implementation: simple reference counting
     manual_control: false
   key_features:
-  - string interpolation
-  - modules
-  - variadic functions
+    - string interpolation
+    - modules
+    - variadic functions
 concurrency:
   model: none
   ease_of_use: low
 error_handling:
   primary_mechanism: error codes
   features:
-  - error propagation
-  - error reporting
+    - error propagation
+    - error reporting
   stack_traces: false
   debugging:
     source_maps: false
@@ -119,50 +119,49 @@ package_managers:
 popular_frameworks: {}
 development_tools:
   debugging:
-  - built-in debuggers
+    - built-in debuggers
 standard_library:
   maturity: moderate
   key_areas:
-  - file I/O
-  - text processing
-  - mathematics
-  - date/time
-  - random number generation
-  - file system operations
+    - file I/O
+    - text processing
+    - mathematics
+    - date/time
+    - random number generation
+    - file system operations
   size: small
-  documentation_quality: moderate
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: moderate
 history:
   inception: 1964-01-01
   developer:
-  - Dartmouth College
+    - Dartmouth College
   designed_by:
-  - John G. Kemeny
-  - Thomas E. Kurtz
+    - John G. Kemeny
+    - Thomas E. Kurtz
   influenced_by:
     languages:
-    - FORTRAN
-    - ALGOL
-    - JOSS
+      - FORTRAN
+      - ALGOL
+      - JOSS
     paradigms:
-    - imperative
-    - procedural
+      - imperative
+      - procedural
 documentation:
   quality: moderate
   community_resources:
-  - https://www.freebasic.net/wiki/
-  - https://qb64phoenix.com/forum/
+    - https://www.freebasic.net/wiki/
+    - https://qb64phoenix.com/forum/
 references:
   github_topics:
-  - basic
-  - basic-language
-  - qbasic
-  - visual-basic
+    - basic
+    - basic-language
+    - qbasic
+    - visual-basic
   quora_topics:
-  - Basic-Computer-Language
+    - Basic-Computer-Language
   stackexchange_tags:
-  - basic
+    - basic
   wikidata_id: Q766419
 color: '#ff0000'

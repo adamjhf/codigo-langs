@@ -3,24 +3,24 @@ description: R is a programming language and free software environment for stati
 category: programming
 status: active
 aliases:
-- Rscript
-- splus
+  - Rscript
+  - splus
 file_extensions:
-- r
-- rd
-- rsx
+  - r
+  - rd
+  - rsx
 compilers:
-- name: R
-  type: interpreter
-  license: GPL-2.0
-  source_url: https://github.com/wch/r-source
-  is_reference: true
+  - name: R
+    type: interpreter
+    license: GPL-2.0
+    source_url: https://github.com/wch/r-source
+    is_reference: true
 paradigms:
-- functional
-- imperative
-- object-oriented
-- reflective
-- array-oriented
+  - functional
+  - imperative
+  - object-oriented
+  - reflective
+  - array-oriented
 typing:
   system: dynamic
   structural: true
@@ -31,13 +31,13 @@ typing:
   type_annotations: none
 execution:
   type:
-  - interpreted
-  - interpreted with JIT compilation
+    - interpreted
+    - interpreted with JIT compilation
   compiles_to:
-  - bytecode
+    - bytecode
   runtime_environments:
-  - language-specific runtime
-  - native OS process
+    - language-specific runtime
+    - native OS process
   performance:
     startup_time: moderate
     memory_usage: high
@@ -45,33 +45,33 @@ execution:
     compilation_speed: moderate
 domains:
   primary:
-  - data science
-  - statistics
-  - scientific computing
-  - data visualization
-  - numerical analysis
-  - bioinformatics
-  - analysis
+    - data science
+    - statistics
+    - scientific computing
+    - data visualization
+    - numerical analysis
+    - bioinformatics
+    - analysis
   secondary:
-  - machine learning
-  - education
-  - text processing
+    - machine learning
+    - education
+    - text processing
   emerging:
-  - web development
-  - artificial intelligence
+    - web development
+    - artificial intelligence
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
-  - platform-independent
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - platform-independent
 ecosystem:
   maturity: very high
   package_registry: CRAN
@@ -99,25 +99,25 @@ language_features:
     implementation: reference counting with mark-and-sweep
     manual_control: false
   key_features:
-  - first-class functions
-  - closures
-  - type inference
-  - operator overloading
-  - reflection
-  - meta-programming
-  - named arguments
-  - modules
+    - first-class functions
+    - closures
+    - type inference
+    - operator overloading
+    - reflection
+    - meta-programming
+    - named arguments
+    - modules
 concurrency:
   model: none
   features:
-  - parallel collections
+    - parallel collections
   ease_of_use: low
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error chaining
-  - custom error types
+    - stack traces
+    - error chaining
+    - custom error types
   stack_traces: true
   debugging:
     source_maps: false
@@ -126,102 +126,101 @@ error_handling:
 package_managers:
   primary: CRAN
   alternatives:
-  - Bioconductor
-  - renv
-  - packrat
+    - Bioconductor
+    - renv
+    - packrat
 popular_frameworks:
   frontend:
-  - Shiny
-  - htmlwidgets
-  - flexdashboard
+    - Shiny
+    - htmlwidgets
+    - flexdashboard
   backend:
-  - plumber
-  - Rserve
+    - plumber
+    - Rserve
   testing:
-  - testthat
-  - tinytest
-  - RUnit
+    - testthat
+    - tinytest
+    - RUnit
 development_tools:
   lsps:
-  - r-languageserver
+    - r-languageserver
   debugging:
-  - debug
-  - browser
-  - trace
-  - debugonce
+    - debug
+    - browser
+    - trace
+    - debugonce
   profiling:
-  - profvis
-  - Rprof
-  - microbenchmark
+    - profvis
+    - Rprof
+    - microbenchmark
   build_systems:
-  - devtools
-  - usethis
+    - devtools
+    - usethis
   linters:
-  - lintr
-  - styler
+    - lintr
+    - styler
 standard_library:
   maturity: very high
   key_areas:
-  - data structures
-  - algorithms
-  - mathematics
-  - date/time
-  - text processing
-  - file I/O
-  - graphics
-  - regular expressions
-  - random number generation
-  - serialization
+    - data structures
+    - algorithms
+    - mathematics
+    - date/time
+    - text processing
+    - file I/O
+    - graphics
+    - regular expressions
+    - random number generation
+    - serialization
   size: large
-  documentation_quality: very high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
 history:
   inception: 1993-08-01
   developer:
-  - R Core Team
-  - R Foundation for Statistical Computing
+    - R Core Team
+    - R Foundation for Statistical Computing
   designed_by:
-  - Ross Ihaka
-  - Robert Gentleman
+    - Ross Ihaka
+    - Robert Gentleman
   described_by: R Language Definition
   standards_bodies:
-  - R Foundation for Statistical Computing
+    - R Foundation for Statistical Computing
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/R%20logo.svg
   influenced_by:
     languages:
-    - S
-    - Scheme
-    - LISP
+      - S
+      - Scheme
+      - LISP
     paradigms:
-    - functional
-    - object-oriented
+      - functional
+      - object-oriented
 official_website: https://www.r-project.org
 official_blog_rss: https://blog.r-project.org/index.xml
 documentation:
   quality: very high
   official_sources:
-  - https://cran.r-project.org/manuals.html
-  - https://www.rdocumentation.org/
+    - https://cran.r-project.org/manuals.html
+    - https://www.rdocumentation.org/
   community_resources:
-  - https://stackoverflow.com/questions/tagged/r
-  - https://www.statmethods.net/
-  - https://www.tidyverse.org/
+    - https://stackoverflow.com/questions/tagged/r
+    - https://www.statmethods.net/
+    - https://www.tidyverse.org/
 references:
   github_topics:
-  - r
-  - rstats
-  - r-language
+    - r
+    - rstats
+    - r-language
   quora_topics:
-  - GNU-R
-  - Lenguaje-R
-  - R-programming-language
-  - R语言
+    - GNU-R
+    - Lenguaje-R
+    - R-programming-language
+    - R语言
   stackexchange_tags:
-  - r
-  - rstudio
-  - tidyverse
+    - r
+    - rstudio
+    - tidyverse
   wikidata_id: Q206904
   subreddit: Rlanguage
   x_handle: rstats_tweets

@@ -3,17 +3,17 @@ description: Jinja is a modern and designer-friendly templating language for Pyt
 category: markup
 status: active
 aliases:
-- django
-- html+django
-- html+jinja
-- htmldjango
+  - django
+  - html+django
+  - html+jinja
+  - htmldjango
 file_extensions:
-- jinja
-- j2
-- jinja2
+  - jinja
+  - j2
+  - jinja2
 paradigms:
-- declarative
-- template-based
+  - declarative
+  - template-based
 typing:
   system: dynamic
   strength: weak
@@ -23,35 +23,35 @@ typing:
   type_annotations: none
 execution:
   type:
-  - interpreted
+    - interpreted
   compiles_to:
-  - other intermediate representation
+    - other intermediate representation
   runtime_environments:
-  - language-specific runtime
-  - embedded interpreter
+    - language-specific runtime
+    - embedded interpreter
   performance:
     memory_usage: low
     computation_speed: fast
 domains:
   primary:
-  - web development
-  - text processing
-  - templating
+    - web development
+    - text processing
+    - templating
   secondary:
-  - configuration management
-  - automation
-  - DevOps
+    - configuration management
+    - automation
+    - DevOps
   emerging:
-  - infrastructure as code
+    - infrastructure as code
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
   architectures:
-  - platform-independent
+    - platform-independent
 ecosystem:
   maturity: high
   package_registry: PyPI
@@ -65,56 +65,55 @@ complexity:
   semantic_complexity: low
 language_features:
   key_features:
-  - string interpolation
-  - modules
+    - string interpolation
+    - modules
 error_handling:
   primary_mechanism: exceptions
   features:
-  - error context
-  - error reporting
-  - error formatting
+    - error context
+    - error reporting
+    - error formatting
 standard_library:
   maturity: high
   key_areas:
-  - text processing
-  - file I/O
-  - date/time
+    - text processing
+    - file I/O
+    - date/time
   size: medium
-  documentation_quality: high
 versioning:
   release_cycle: semantic versioning
   backwards_compatibility: high
 history:
   inception: 2008-01-01
   developer:
-  - Pocoo Team
-  - Armin Ronacher
+    - Pocoo Team
+    - Armin Ronacher
   designed_by:
-  - Armin Ronacher
+    - Armin Ronacher
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Jinja%20software%20logo.svg
   influenced_by:
     languages:
-    - Django Templates
-    - Python
-    - Twig
+      - Django Templates
+      - Python
+      - Twig
     paradigms:
-    - declarative
-    - template-based
+      - declarative
+      - template-based
 official_website: https://palletsprojects.com/p/jinja/
 documentation:
   quality: high
   official_sources:
-  - https://jinja.palletsprojects.com/en/latest/
+    - https://jinja.palletsprojects.com/en/latest/
   community_resources:
-  - https://realpython.com/primer-on-jinja-templating/
-  - https://docs.ansible.com/ansible/latest/user_guide/playbooks_templating.html
+    - https://realpython.com/primer-on-jinja-templating/
+    - https://docs.ansible.com/ansible/latest/user_guide/playbooks_templating.html
 references:
   github_topics:
-  - jinja
-  - jinja2
-  - template-engine
+    - jinja
+    - jinja2
+    - template-engine
   stackexchange_tags:
-  - jinja2
-  - jinja
+    - jinja2
+    - jinja
   wikidata_id: Q2749221
 color: '#a52a22'

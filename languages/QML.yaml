@@ -3,17 +3,17 @@ description: QML (Qt Modeling Language) is a declarative language developed by Q
 category: programming
 status: active
 aliases:
-- Qt Modeling Language
-- Qt Meta Language
-- Qt Quick
+  - Qt Modeling Language
+  - Qt Meta Language
+  - Qt Quick
 file_extensions:
-- qml
-- qbs
+  - qml
+  - qbs
 paradigms:
-- declarative
-- object-oriented
-- event-driven
-- reactive
+  - declarative
+  - object-oriented
+  - event-driven
+  - reactive
 typing:
   system: dynamic
   strength: strong
@@ -23,40 +23,40 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - interpreted
-  - compiled
+    - interpreted
+    - compiled
   compiles_to:
-  - bytecode
+    - bytecode
   runtime_environments:
-  - language-specific runtime
-  - native OS process
+    - language-specific runtime
+    - native OS process
   performance:
     startup_time: fast
     memory_usage: moderate
     computation_speed: moderate
 domains:
   primary:
-  - user interface
-  - desktop applications
-  - mobile development
+    - user interface
+    - desktop applications
+    - mobile development
   secondary:
-  - embedded systems
-  - IoT
+    - embedded systems
+    - IoT
   emerging:
-  - virtual reality
+    - virtual reality
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Android
-  - iOS
-  - embedded
+    - Windows
+    - macOS
+    - Linux
+    - Android
+    - iOS
+    - embedded
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
 ecosystem:
   maturity: high
   package_registry: Qt Marketplace
@@ -74,22 +74,22 @@ language_features:
   c_interop: true
   pattern_matching: false
   key_features:
-  - string interpolation
-  - modules
-  - extension methods
-  - destructuring
-  - decorators/annotations
+    - string interpolation
+    - modules
+    - extension methods
+    - destructuring
+    - decorators/annotations
 concurrency:
   model: event loop
   features:
-  - promises/futures
-  - async/await
+    - promises/futures
+    - async/await
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - error chaining
-  - custom error types
+    - error chaining
+    - custom error types
   stack_traces: true
   debugging:
     source_maps: true
@@ -97,73 +97,72 @@ error_handling:
     step_debugging: true
 popular_frameworks:
   frontend:
-  - Qt Quick
-  - Qt Quick Controls
-  - Qt Quick 3D
+    - Qt Quick
+    - Qt Quick Controls
+    - Qt Quick 3D
   mobile:
-  - Qt Quick
-  - Felgo
+    - Qt Quick
+    - Felgo
 development_tools:
   lsps:
-  - Qt Creator
+    - Qt Creator
   debugging:
-  - Qt Creator Debugger
+    - Qt Creator Debugger
   profiling:
-  - Qt Profiler
+    - Qt Profiler
   build_systems:
-  - qmake
-  - CMake
+    - qmake
+    - CMake
   linters:
-  - Qt Quick Code Checking
+    - Qt Quick Code Checking
 standard_library:
   maturity: high
   key_areas:
-  - GUI
-  - graphics
-  - networking
-  - date/time
-  - file I/O
+    - GUI
+    - graphics
+    - networking
+    - date/time
+    - file I/O
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
 history:
   inception: 2009-01-01
   developer:
-  - The Qt Company
-  - Qt Project
+    - The Qt Company
+    - Qt Project
   designed_by:
-  - Trolltech
-  - Nokia
-  - Digia
-  - The Qt Company
+    - Trolltech
+    - Nokia
+    - Digia
+    - The Qt Company
   influenced_by:
     languages:
-    - JavaScript
-    - CSS
-    - JSON
-    - Qt
-    - Extensible Application Markup Language
+      - JavaScript
+      - CSS
+      - JSON
+      - Qt
+      - Extensible Application Markup Language
     paradigms:
-    - declarative
-    - object-oriented
+      - declarative
+      - object-oriented
 official_website: https://doc.qt.io/qt-5/qmlapplications.html
 documentation:
   quality: high
   official_sources:
-  - https://doc.qt.io/qt-6/qmlapplications.html
-  - https://doc.qt.io/qt-6/qmlreference.html
+    - https://doc.qt.io/qt-6/qmlapplications.html
+    - https://doc.qt.io/qt-6/qmlreference.html
 references:
   github_topics:
-  - qml
-  - qt-qml
-  - qtquick
+    - qml
+    - qt-qml
+    - qtquick
   quora_topics:
-  - QML-1
+    - QML-1
   stackexchange_tags:
-  - qml
-  - qt-quick
+    - qml
+    - qt-quick
   wikidata_id: Q1471886
   subreddit: QML
 color: '#44a51c'

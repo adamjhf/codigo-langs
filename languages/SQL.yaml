@@ -3,20 +3,20 @@ description: SQL (Structured Query Language) is a domain-specific language for m
 category: query
 status: active
 aliases:
-- Structured Query Language
+  - Structured Query Language
 file_extensions:
-- sql
-- cql
-- ddl
-- inc
-- mysql
-- prc
-- tab
-- udf
-- viw
+  - sql
+  - cql
+  - ddl
+  - inc
+  - mysql
+  - prc
+  - tab
+  - udf
+  - viw
 paradigms:
-- declarative
-- query
+  - declarative
+  - query
 typing:
   system: static
   strength: strong
@@ -26,38 +26,38 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - interpreted
-  - compiled
-  - query-optimized
+    - interpreted
+    - compiled
+    - query-optimized
   compiles_to:
-  - query plan
+    - query plan
   runtime_environments:
-  - language-specific runtime
-  - native OS process
-  - embedded interpreter
+    - language-specific runtime
+    - native OS process
+    - embedded interpreter
   performance:
     startup_time: moderate
     memory_usage: moderate
     computation_speed: moderate
 domains:
   primary:
-  - database management
-  - data integration
+    - database management
+    - data integration
   secondary:
-  - analysis
-  - web development
+    - analysis
+    - web development
   emerging:
-  - data science
-  - blockchain
+    - data science
+    - blockchain
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Unix
-  - BSD
+    - Windows
+    - macOS
+    - Linux
+    - Unix
+    - BSD
   architectures:
-  - platform-independent
+    - platform-independent
 ecosystem:
   maturity: very high
   community_size: very large
@@ -76,8 +76,8 @@ language_features:
 error_handling:
   primary_mechanism: exceptions
   features:
-  - error context
-  - error reporting
+    - error context
+    - error reporting
   stack_traces: true
   debugging:
     source_maps: false
@@ -85,78 +85,77 @@ error_handling:
     step_debugging: true
 popular_frameworks:
   backend:
-  - SQLAlchemy
-  - Hibernate
-  - Entity Framework
-  - Prisma
-  - Sequelize
+    - SQLAlchemy
+    - Hibernate
+    - Entity Framework
+    - Prisma
+    - Sequelize
 development_tools:
   lsps:
-  - SQL Language Server
+    - SQL Language Server
   debugging:
-  - Database-specific debuggers
+    - Database-specific debuggers
   profiling:
-  - Database query analyzers
-  - Execution plan visualizers
+    - Database query analyzers
+    - Execution plan visualizers
   linters:
-  - SQLFluff
-  - SQL Lint
-  - pgLint
+    - SQLFluff
+    - SQL Lint
+    - pgLint
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - text processing
-  - date/time
-  - mathematics
-  - regular expressions
+    - data structures
+    - text processing
+    - date/time
+    - mathematics
+    - regular expressions
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: long-term support
   backwards_compatibility: high
 history:
   inception: 1974-01-01
   developer:
-  - IBM
-  - International Organization for Standardization
+    - IBM
+    - International Organization for Standardization
   designed_by:
-  - Donald D. Chamberlin
-  - Raymond F. Boyce
+    - Donald D. Chamberlin
+    - Raymond F. Boyce
   described_by: ISO/IEC 9075
   standards_bodies:
-  - ANSI
-  - ISO
+    - ANSI
+    - ISO
   influenced_by:
     languages:
-    - Structured English Query Language
-    - Query By Example
-    - Datalog
+      - Structured English Query Language
+      - Query By Example
+      - Datalog
     paradigms:
-    - declarative
-    - query
+      - declarative
+      - query
 official_website: https://www.iso.org/standard/76583.html
 documentation:
   quality: high
   official_sources:
-  - https://www.iso.org/standard/63555.html
+    - https://www.iso.org/standard/63555.html
   community_resources:
-  - https://www.w3schools.com/sql/
-  - https://mode.com/sql-tutorial/
-  - https://www.sqlcourse.com/
+    - https://www.w3schools.com/sql/
+    - https://mode.com/sql-tutorial/
+    - https://www.sqlcourse.com/
 references:
   github_topics:
-  - sql
-  - sql-database
-  - sql-query
+    - sql
+    - sql-database
+    - sql-query
   quora_topics:
-  - SQL
+    - SQL
   stackexchange_tags:
-  - sql
-  - tsql
-  - plsql
-  - mysql
-  - postgresql
+    - sql
+    - tsql
+    - plsql
+    - mysql
+    - postgresql
   wikidata_id: Q47322
   subreddit: SQL
 color: '#e38c00'

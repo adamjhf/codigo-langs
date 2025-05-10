@@ -3,25 +3,25 @@ description: A typesetting system designed by Donald Knuth for creating high-qua
 category: markup
 status: active
 aliases:
-- latex
+  - latex
 file_extensions:
-- tex
-- aux
-- bbx
-- cbx
-- cls
-- dtx
-- ins
-- lbx
-- ltx
-- mkii
-- mkiv
-- mkvi
-- sty
-- toc
+  - tex
+  - aux
+  - bbx
+  - cbx
+  - cls
+  - dtx
+  - ins
+  - lbx
+  - ltx
+  - mkii
+  - mkiv
+  - mkvi
+  - sty
+  - toc
 paradigms:
-- declarative
-- markup
+  - declarative
+  - markup
 typing:
   system: untyped
   strength: weak
@@ -29,25 +29,25 @@ typing:
   type_checking: runtime
 execution:
   type:
-  - interpreted
+    - interpreted
   runtime_environments:
-  - language-specific runtime
+    - language-specific runtime
 domains:
   primary:
-  - typesetting
-  - scientific computing
+    - typesetting
+    - scientific computing
   secondary:
-  - education
-  - mathematics
-  - publishing
+    - education
+    - mathematics
+    - publishing
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - Unix
   architectures:
-  - platform-independent
+    - platform-independent
 ecosystem:
   maturity: very high
   package_registry: CTAN
@@ -61,42 +61,41 @@ complexity:
 language_features:
   metaprogramming: true
   key_features:
-  - macros
+    - macros
 error_handling:
   primary_mechanism: error codes
   features:
-  - error reporting
+    - error reporting
 standard_library:
   maturity: very high
   key_areas:
-  - text processing
-  - mathematics
+    - text processing
+    - mathematics
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: very high
 history:
   inception: 1978-01-01
   developer:
-  - Donald Knuth
+    - Donald Knuth
   designed_by:
-  - Donald Knuth
+    - Donald Knuth
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/TeX%20logo.svg
   influenced_by:
     languages:
-    - METAFONT
+      - METAFONT
 official_website: https://www.tug.org/
 documentation:
   quality: very high
   official_sources:
-  - https://www.tug.org/texlive/doc.html
-  - https://ctan.org/pkg/texbook
+    - https://www.tug.org/texlive/doc.html
+    - https://ctan.org/pkg/texbook
 references:
   github_topics:
-  - tex
+    - tex
   quora_topics:
-  - TeX-Programming-Language
+    - TeX-Programming-Language
   wikidata_id: Q5301
   subreddit: tex
 color: '#3D6117'

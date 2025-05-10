@@ -3,24 +3,24 @@ description: A strict syntactical superset of JavaScript that adds static typing
 category: programming
 status: active
 aliases:
-- ts
+  - ts
 file_extensions:
-- ts
-- cts
-- mts
+  - ts
+  - cts
+  - mts
 compilers:
-- name: TypeScript Compiler (tsc)
-  type: compiler
-  license: Apache-2.0
-  source_url: https://github.com/microsoft/TypeScript
-  is_reference: true
+  - name: TypeScript Compiler (tsc)
+    type: compiler
+    license: Apache-2.0
+    source_url: https://github.com/microsoft/TypeScript
+    is_reference: true
 paradigms:
-- imperative
-- object-oriented
-- functional
-- prototype-based
-- generic
-- event-driven
+  - imperative
+  - object-oriented
+  - functional
+  - prototype-based
+  - generic
+  - event-driven
 typing:
   system: gradual
   structural: true
@@ -31,12 +31,12 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - transpiled
+    - transpiled
   compiles_to:
-  - JavaScript
+    - JavaScript
   runtime_environments:
-  - browser
-  - native OS process
+    - browser
+    - native OS process
   performance:
     startup_time: moderate
     memory_usage: moderate
@@ -44,30 +44,30 @@ execution:
     compilation_speed: moderate
 domains:
   primary:
-  - web development
-  - server-side applications
-  - desktop applications
+    - web development
+    - server-side applications
+    - desktop applications
   secondary:
-  - mobile development
-  - game development
+    - mobile development
+    - game development
   emerging:
-  - WebAssembly
-  - edge computing
+    - WebAssembly
+    - edge computing
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
   architectures:
-  - platform-independent
+    - platform-independent
   cloud_function_environments:
-  - AWS Lambda
-  - Google Cloud Functions
-  - Azure Functions
-  - Vercel Functions
-  - Netlify Functions
+    - AWS Lambda
+    - Google Cloud Functions
+    - Azure Functions
+    - Vercel Functions
+    - Netlify Functions
 ecosystem:
   maturity: very high
   package_registry: npm
@@ -93,27 +93,27 @@ language_features:
   memory_management:
     type: garbage collection
   key_features:
-  - string interpolation
-  - destructuring
-  - modules
-  - iterators/generators
-  - lambdas
-  - decorators/annotations
-  - type inference
-  - generics
-  - async/await
+    - string interpolation
+    - destructuring
+    - modules
+    - iterators/generators
+    - lambdas
+    - decorators/annotations
+    - type inference
+    - generics
+    - async/await
 concurrency:
   model: event loop
   features:
-  - async/await
-  - promises/futures
+    - async/await
+    - promises/futures
   ease_of_use: high
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error chaining
-  - custom error types
+    - stack traces
+    - error chaining
+    - custom error types
   stack_traces: true
   debugging:
     source_maps: true
@@ -122,86 +122,85 @@ error_handling:
 package_managers:
   primary: npm
   alternatives:
-  - yarn
-  - pnpm
+    - yarn
+    - pnpm
 popular_frameworks:
   frontend:
-  - React
-  - Angular
-  - Vue.js
-  - Svelte
+    - React
+    - Angular
+    - Vue.js
+    - Svelte
   backend:
-  - Express.js
-  - NestJS
-  - Fastify
-  - Deno
+    - Express.js
+    - NestJS
+    - Fastify
+    - Deno
   testing:
-  - Jest
-  - Mocha
-  - Jasmine
-  - Cypress
+    - Jest
+    - Mocha
+    - Jasmine
+    - Cypress
 development_tools:
   lsps:
-  - TypeScript Language Server
+    - TypeScript Language Server
   debugging:
-  - Chrome DevTools
-  - VS Code Debugger
+    - Chrome DevTools
+    - VS Code Debugger
   profiling:
-  - Chrome Performance Tools
-  - Node.js profiler
+    - Chrome Performance Tools
+    - Node.js profiler
   build_systems:
-  - tsc
-  - webpack
-  - esbuild
-  - Vite
+    - tsc
+    - webpack
+    - esbuild
+    - Vite
   linters:
-  - ESLint
-  - TSLint (deprecated)
+    - ESLint
+    - TSLint (deprecated)
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - algorithms
-  - regular expressions
-  - date/time
-  - text processing
+    - data structures
+    - algorithms
+    - regular expressions
+    - date/time
+    - text processing
   size: medium
-  documentation_quality: very high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
 history:
   inception: 2012-10-01
   developer:
-  - Microsoft
+    - Microsoft
   designed_by:
-  - Anders Hejlsberg
-  - Microsoft
+    - Anders Hejlsberg
+    - Microsoft
   described_by: TypeScript Language Specification
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Typescript%20logo%202020.svg
   influenced_by:
     languages:
-    - JavaScript
-    - C#
-    - Java
-    - Scala
-    - Haskell
-    - CoffeeScript
+      - JavaScript
+      - C#
+      - Java
+      - Scala
+      - Haskell
+      - CoffeeScript
 official_website: https://www.typescriptlang.org/
 official_blog_rss: https://devblogs.microsoft.com/typescript/feed/
 documentation:
   quality: very high
   official_sources:
-  - https://www.typescriptlang.org/docs/
-  - https://github.com/microsoft/TypeScript/tree/main/doc
+    - https://www.typescriptlang.org/docs/
+    - https://github.com/microsoft/TypeScript/tree/main/doc
   community_resources:
-  - https://typescript-handbook.com/
-  - https://basarat.gitbook.io/typescript/
+    - https://typescript-handbook.com/
+    - https://basarat.gitbook.io/typescript/
 references:
   github_topics:
-  - typescript
+    - typescript
   stackexchange_tags:
-  - typescript
+    - typescript
   wikidata_id: Q19199
   subreddit: typescript
 color: '#3178c6'

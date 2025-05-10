@@ -3,25 +3,25 @@ description: A systems programming language with C-like syntax and static typing
 category: programming
 status: active
 aliases:
-- Dlang
+  - Dlang
 file_extensions:
-- d
-- di
+  - d
+  - di
 compilers:
-- name: DMD
-  type: compiler
-  source_url: https://github.com/dlang/dmd
-  is_reference: true
-- name: LDC
-  type: compiler
-  license: BSD-3-Clause
-  source_url: https://github.com/ldc-developers/ldc
-- name: GDC
-  type: compiler
-  license: GPL-3.0
-  source_url: https://github.com/D-Programming-GDC/GDC
+  - name: DMD
+    type: compiler
+    source_url: https://github.com/dlang/dmd
+    is_reference: true
+  - name: LDC
+    type: compiler
+    license: BSD-3-Clause
+    source_url: https://github.com/ldc-developers/ldc
+  - name: GDC
+    type: compiler
+    license: GPL-3.0
+    source_url: https://github.com/D-Programming-GDC/GDC
 paradigms:
-- imperative
+  - imperative
 typing:
   system: static
   structural: false
@@ -32,12 +32,12 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - machine code
-  - LLVM IR
+    - machine code
+    - LLVM IR
   runtime_environments:
-  - native OS process
+    - native OS process
   performance:
     startup_time: very fast
     memory_usage: moderate
@@ -45,31 +45,31 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - systems programming
-  - game development
-  - server-side applications
-  - scientific computing
+    - systems programming
+    - game development
+    - server-side applications
+    - scientific computing
   secondary:
-  - web development
-  - desktop applications
-  - compiler
-  - high-performance computing
+    - web development
+    - desktop applications
+    - compiler
+    - high-performance computing
   emerging:
-  - embedded systems
-  - blockchain
+    - embedded systems
+    - blockchain
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
-  - PowerPC
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - PowerPC
 ecosystem:
   maturity: moderate
   package_registry: https://code.dlang.org/
@@ -97,38 +97,38 @@ language_features:
     implementation: mark and sweep with optional manual control
     manual_control: true
   key_features:
-  - first-class functions
-  - closures
-  - algebraic data types
-  - type inference
-  - operator overloading
-  - traits/interfaces
-  - zero-cost abstractions
-  - native FFI
-  - reflection
-  - meta-programming
-  - destructuring
-  - variadic functions
-  - modules
-  - generics
-  - lambdas
-  - coroutines
+    - first-class functions
+    - closures
+    - algebraic data types
+    - type inference
+    - operator overloading
+    - traits/interfaces
+    - zero-cost abstractions
+    - native FFI
+    - reflection
+    - meta-programming
+    - destructuring
+    - variadic functions
+    - modules
+    - generics
+    - lambdas
+    - coroutines
 concurrency:
   model: threads
   features:
-  - shared memory
-  - message passing
-  - work stealing
-  - lock-free data structures
-  - atomic operations
+    - shared memory
+    - message passing
+    - work stealing
+    - lock-free data structures
+    - atomic operations
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - custom error types
-  - error chaining
-  - resource management
+    - stack traces
+    - custom error types
+    - error chaining
+    - resource management
   stack_traces: true
   debugging:
     source_maps: true
@@ -137,93 +137,92 @@ error_handling:
 package_managers:
   primary: DUB
   alternatives:
-  - DDS
+    - DDS
 popular_frameworks:
   frontend:
-  - GtkD
-  - DlangUI
+    - GtkD
+    - DlangUI
   backend:
-  - vibe.d
-  - Hunt
-  - Arsd
+    - vibe.d
+    - Hunt
+    - Arsd
   testing:
-  - DUnit
-  - unit-threaded
+    - DUnit
+    - unit-threaded
 development_tools:
   lsps:
-  - serve-d
+    - serve-d
   debugging:
-  - GDB
-  - LLDB
+    - GDB
+    - LLDB
   profiling:
-  - perf
-  - valgrind
+    - perf
+    - valgrind
   build_systems:
-  - DUB
-  - Make
+    - DUB
+    - Make
   linters:
-  - D-Scanner
+    - D-Scanner
 standard_library:
   maturity: high
   key_areas:
-  - file I/O
-  - networking
-  - concurrency
-  - data structures
-  - algorithms
-  - text processing
-  - date/time
-  - mathematics
-  - serialization
-  - testing
-  - logging
-  - file system operations
-  - random number generation
+    - file I/O
+    - networking
+    - concurrency
+    - data structures
+    - algorithms
+    - text processing
+    - date/time
+    - mathematics
+    - serialization
+    - testing
+    - logging
+    - file system operations
+    - random number generation
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: high
 history:
   inception: 2001-12-08
   developer:
-  - Digital Mars
-  - Walter Bright
-  - D Language Foundation
+    - Digital Mars
+    - Walter Bright
+    - D Language Foundation
   designed_by:
-  - Walter Bright
+    - Walter Bright
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/D%20Programming%20Language%20logo.svg
   influenced_by:
     languages:
-    - C++
-    - C
-    - Java
-    - Python
-    - Ruby
-    - Eiffel
-    - C#
+      - C++
+      - C
+      - Java
+      - Python
+      - Ruby
+      - Eiffel
+      - C#
     paradigms:
-    - imperative
-    - object-oriented
-    - functional
-    - procedural
+      - imperative
+      - object-oriented
+      - functional
+      - procedural
 official_website: https://dlang.org
 official_blog_rss: https://feeds.feedburner.com/OfficialDBlog
 documentation:
   quality: high
   official_sources:
-  - https://dlang.org/documentation.html
-  - https://wiki.dlang.org/
+    - https://dlang.org/documentation.html
+    - https://wiki.dlang.org/
   community_resources:
-  - https://forum.dlang.org/
-  - https://tour.dlang.org/
+    - https://forum.dlang.org/
+    - https://tour.dlang.org/
 references:
   github_topics:
-  - dlang
-  - d-language
+    - dlang
+    - d-language
   stackexchange_tags:
-  - d
-  - dlang
+    - d
+    - dlang
   wikidata_id: Q473819
   subreddit: dlang
 color: '#ba595e'

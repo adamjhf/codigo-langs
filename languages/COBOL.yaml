@@ -3,30 +3,30 @@ description: Common Business-Oriented Language designed for business use with an
 category: programming
 status: legacy
 aliases:
-- COmmon Business-Oriented Language
+  - COmmon Business-Oriented Language
 file_extensions:
-- cob
-- cbl
-- ccp
-- cobol
-- cpy
+  - cob
+  - cbl
+  - ccp
+  - cobol
+  - cpy
 compilers:
-- name: GnuCOBOL
-  type: compiler
-  license: GPL-3.0
-  source_url: https://sourceforge.net/projects/open-cobol/
-  is_reference: false
-- name: IBM Enterprise COBOL
-  type: compiler
-  license: proprietary
-  is_reference: false
-- name: Micro Focus Visual COBOL
-  type: compiler
-  license: proprietary
-  is_reference: false
+  - name: GnuCOBOL
+    type: compiler
+    license: GPL-3.0
+    source_url: https://sourceforge.net/projects/open-cobol/
+    is_reference: false
+  - name: IBM Enterprise COBOL
+    type: compiler
+    license: proprietary
+    is_reference: false
+  - name: Micro Focus Visual COBOL
+    type: compiler
+    license: proprietary
+    is_reference: false
 paradigms:
-- imperative
-- procedural
+  - imperative
+  - procedural
 typing:
   system: static
   structural: false
@@ -37,12 +37,12 @@ typing:
   type_annotations: required
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - machine code
+    - machine code
   runtime_environments:
-  - native OS process
-  - language-specific runtime
+    - native OS process
+    - language-specific runtime
   performance:
     startup_time: moderate
     memory_usage: high
@@ -50,22 +50,22 @@ execution:
     compilation_speed: moderate
 domains:
   primary:
-  - financial systems
-  - database management
-  - business applications
+    - financial systems
+    - database management
+    - business applications
   secondary:
-  - data processing
+    - data processing
   emerging:
-  - cloud computing
+    - cloud computing
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - Unix
   architectures:
-  - x86
-  - x86-64
+    - x86
+    - x86-64
 ecosystem:
   maturity: high
   community_size: small
@@ -92,15 +92,15 @@ language_features:
     implementation: static allocation
     manual_control: false
   key_features:
-  - modules
+    - modules
 concurrency:
   model: none
   ease_of_use: low
 error_handling:
   primary_mechanism: error codes
   features:
-  - cleanup actions
-  - error reporting
+    - cleanup actions
+    - error reporting
   stack_traces: false
   debugging:
     source_maps: false
@@ -108,69 +108,68 @@ error_handling:
     step_debugging: true
 popular_frameworks:
   testing:
-  - COBOL Unit Test Framework
+    - COBOL Unit Test Framework
 development_tools:
   lsps:
-  - COBOL Language Support
+    - COBOL Language Support
   debugging:
-  - IBM Debug Tool
-  - Micro Focus COBOL Debugger
+    - IBM Debug Tool
+    - Micro Focus COBOL Debugger
   build_systems:
-  - JCL (Job Control Language)
+    - JCL (Job Control Language)
   linters:
-  - COBOL Code Analyzer
+    - COBOL Code Analyzer
 standard_library:
   maturity: moderate
   key_areas:
-  - file I/O
-  - data structures
-  - date/time
-  - text processing
+    - file I/O
+    - data structures
+    - date/time
+    - text processing
   size: medium
-  documentation_quality: moderate
 versioning:
   release_cycle: long-term support
   backwards_compatibility: high
 history:
   inception: 1959-05-28
   developer:
-  - CODASYL
-  - International Organization for Standardization
-  - American National Standards Institute
+    - CODASYL
+    - International Organization for Standardization
+    - American National Standards Institute
   designed_by:
-  - Grace Hopper
-  - William Selden
-  - Gertrude Tierney
-  - Howard Bromberg
-  - Howard Discount
-  - Vernon Reeves
+    - Grace Hopper
+    - William Selden
+    - Gertrude Tierney
+    - Howard Bromberg
+    - Howard Discount
+    - Vernon Reeves
   described_by: Armenian Soviet Encyclopedia, vol. 5
   standards_bodies:
-  - ANSI
-  - ISO
+    - ANSI
+    - ISO
   influenced_by:
     languages:
-    - FLOW-MATIC
-    - COMTRAN
-    - FACT
+      - FLOW-MATIC
+      - COMTRAN
+      - FACT
     paradigms:
-    - imperative
-    - procedural
+      - imperative
+      - procedural
 official_website: https://www.cobol.org/
 documentation:
   quality: moderate
   official_sources:
-  - https://www.ibm.com/docs/en/cobol-zos
-  - https://www.microfocus.com/documentation/visual-cobol/
+    - https://www.ibm.com/docs/en/cobol-zos
+    - https://www.microfocus.com/documentation/visual-cobol/
   community_resources:
-  - https://gnucobol.sourceforge.io/
+    - https://gnucobol.sourceforge.io/
 references:
   github_topics:
-  - cobol
+    - cobol
   quora_topics:
-  - COBOL
+    - COBOL
   stackexchange_tags:
-  - cobol
+    - cobol
   wikidata_id: Q131140
   subreddit: cobol
 color: '#005CA5'

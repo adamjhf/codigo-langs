@@ -3,20 +3,20 @@ description: Go is a statically typed, compiled programming language designed at
 category: programming
 status: active
 aliases:
-- golang
+  - golang
 file_extensions:
-- go
+  - go
 compilers:
-- name: gc
-  type: compiler
-  license: BSD-3-Clause
-  source_url: https://github.com/golang/go
-  is_reference: true
-- name: gccgo
-  type: compiler
-  license: GPL-3.0
+  - name: gc
+    type: compiler
+    license: BSD-3-Clause
+    source_url: https://github.com/golang/go
+    is_reference: true
+  - name: gccgo
+    type: compiler
+    license: GPL-3.0
 paradigms:
-- imperative
+  - imperative
 typing:
   system: static
   structural: true
@@ -27,14 +27,14 @@ typing:
   type_annotations: required
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - machine code
+    - machine code
   runtime_environments:
-  - native OS process
-  - Docker container
-  - native binary
-  - cloud function environment
+    - native OS process
+    - Docker container
+    - native binary
+    - cloud function environment
   performance:
     startup_time: fast
     memory_usage: moderate
@@ -42,44 +42,44 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - server-side applications
-  - cloud computing
-  - systems programming
-  - web development
-  - distributed system
+    - server-side applications
+    - cloud computing
+    - systems programming
+    - web development
+    - distributed system
   secondary:
-  - DevOps
-  - network programming
-  - microservices
-  - database management
+    - DevOps
+    - network programming
+    - microservices
+    - database management
   emerging:
-  - WebAssembly
-  - IoT
-  - edge computing
+    - WebAssembly
+    - IoT
+    - edge computing
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
-  - Android
-  - iOS
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
+    - Android
+    - iOS
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
-  - RISC-V
-  - MIPS
-  - PowerPC
-  - WebAssembly
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - RISC-V
+    - MIPS
+    - PowerPC
+    - WebAssembly
   cloud_function_environments:
-  - AWS Lambda
-  - Google Cloud Functions
-  - Azure Functions
-  - Cloudflare Workers
-  - DigitalOcean Functions
+    - AWS Lambda
+    - Google Cloud Functions
+    - Azure Functions
+    - Cloudflare Workers
+    - DigitalOcean Functions
 ecosystem:
   maturity: high
   package_registry: pkg.go.dev
@@ -107,27 +107,27 @@ language_features:
     implementation: concurrent mark and sweep
     manual_control: false
   key_features:
-  - first-class functions
-  - closures
-  - zero-cost abstractions
-  - native FFI
-  - channels
-  - iterators/generators
-  - modules
+    - first-class functions
+    - closures
+    - zero-cost abstractions
+    - native FFI
+    - channels
+    - iterators/generators
+    - modules
 concurrency:
   model: goroutines
   features:
-  - channels
-  - shared memory
-  - concurrent data structures
-  - atomic operations
+    - channels
+    - shared memory
+    - concurrent data structures
+    - atomic operations
   ease_of_use: high
 error_handling:
   primary_mechanism: result types
   features:
-  - error chaining
-  - custom error types
-  - error context
+    - error chaining
+    - custom error types
+    - error context
   stack_traces: true
   debugging:
     source_maps: true
@@ -136,114 +136,113 @@ error_handling:
 package_managers:
   primary: go modules
   alternatives:
-  - dep
-  - godep
+    - dep
+    - godep
 popular_frameworks:
   frontend:
-  - GopherJS
-  - Vecty
+    - GopherJS
+    - Vecty
   backend:
-  - Gin
-  - Echo
-  - Fiber
-  - Beego
-  - Revel
-  - Buffalo
+    - Gin
+    - Echo
+    - Fiber
+    - Beego
+    - Revel
+    - Buffalo
   testing:
-  - testing (standard library)
-  - testify
-  - gocheck
-  - ginkgo
+    - testing (standard library)
+    - testify
+    - gocheck
+    - ginkgo
   mobile:
-  - Fyne
-  - gomobile
+    - Fyne
+    - gomobile
 development_tools:
   lsps:
-  - gopls
+    - gopls
   debugging:
-  - Delve
+    - Delve
   profiling:
-  - pprof
+    - pprof
   build_systems:
-  - go build
-  - Bazel
+    - go build
+    - Bazel
   linters:
-  - golangci-lint
-  - staticcheck
-  - golint
+    - golangci-lint
+    - staticcheck
+    - golint
 standard_library:
   maturity: high
   key_areas:
-  - file I/O
-  - networking
-  - concurrency
-  - data structures
-  - algorithms
-  - text processing
-  - cryptography
-  - HTTP client/server
-  - JSON/XML processing
-  - regular expressions
-  - date/time
-  - testing
-  - logging
+    - file I/O
+    - networking
+    - concurrency
+    - data structures
+    - algorithms
+    - text processing
+    - cryptography
+    - HTTP client/server
+    - JSON/XML processing
+    - regular expressions
+    - date/time
+    - testing
+    - logging
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: very high
 history:
   inception: 2009-11-10
   developer:
-  - Google
-  - The Go Authors
+    - Google
+    - The Go Authors
   designed_by:
-  - Robert Griesemer
-  - Rob Pike
-  - Ken Thompson
+    - Robert Griesemer
+    - Rob Pike
+    - Ken Thompson
   described_by: Go Language Specification
   standards_bodies:
-  - Go team at Google
+    - Go team at Google
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Go%20Logo%20Blue.svg
   influenced_by:
     languages:
-    - C
-    - Pascal
-    - Oberon
-    - Modula
-    - Limbo
-    - Occam
-    - Smalltalk
-    - Newsqueak
-    - APL
-    - Active Oberon
-    - Modula-2
-    - BCPL
-    - Alef
-    - Oberon-2
+      - C
+      - Pascal
+      - Oberon
+      - Modula
+      - Limbo
+      - Occam
+      - Smalltalk
+      - Newsqueak
+      - APL
+      - Active Oberon
+      - Modula-2
+      - BCPL
+      - Alef
+      - Oberon-2
     paradigms:
-    - imperative
-    - procedural
-    - concurrent
+      - imperative
+      - procedural
+      - concurrent
 official_website: https://go.dev
 official_blog_rss: https://go.dev/blog/feed.atom
 documentation:
   quality: high
   official_sources:
-  - https://go.dev/doc/
-  - https://pkg.go.dev/
+    - https://go.dev/doc/
+    - https://pkg.go.dev/
   community_resources:
-  - https://github.com/golang/go/wiki
-  - https://gobyexample.com/
+    - https://github.com/golang/go/wiki
+    - https://gobyexample.com/
 references:
   github_topics:
-  - go
-  - golang
+    - go
+    - golang
   quora_topics:
-  - Go-programming-language
+    - Go-programming-language
   stackexchange_tags:
-  - go
-  - golang
+    - go
+    - golang
   wikidata_id: Q37227
   subreddit: golang
   x_handle: golang

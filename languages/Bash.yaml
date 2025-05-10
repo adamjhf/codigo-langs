@@ -8,19 +8,16 @@ file_extensions:
   - bash
 category: programming
 status: active
-
 compilers:
   - name: Bash
     type: interpreter
     license: GPL-3.0
     is_reference: true
     source_url: https://git.savannah.gnu.org/cgit/bash.git
-
 paradigms:
   - imperative
   - procedural
   - structured
-
 typing:
   system: dynamic
   type_checking: runtime
@@ -28,7 +25,6 @@ typing:
   inference: none
   type_coercion: aggressive
   type_annotations: none
-
 execution:
   type:
     - interpreted
@@ -38,7 +34,6 @@ execution:
     startup_time: fast
     memory_usage: low
     computation_speed: moderate
-
 domains:
   primary:
     - shell
@@ -52,7 +47,6 @@ domains:
     - configuration management
     - infrastructure as code
     - build management
-
 platforms:
   operating_systems:
     - Linux
@@ -69,19 +63,16 @@ platforms:
     - RISC-V
     - MIPS
     - PowerPC
-
 ecosystem:
   maturity: very high
   community_size: very large
   learning_resources: very large
   job_market_demand: high
-
 complexity:
   learning_curve: moderate
   cognitive_load: moderate
   syntax_complexity: moderate
   semantic_complexity: moderate
-
 language_features:
   immutability: none
   enums: none
@@ -99,14 +90,12 @@ language_features:
     - string interpolation
     - modules
     - variadic functions
-
 concurrency:
   model: none
   features:
     - shared memory
     - message passing
   ease_of_use: moderate
-
 error_handling:
   primary_mechanism: error codes
   features:
@@ -118,7 +107,6 @@ error_handling:
     source_maps: false
     breakpoints: true
     step_debugging: true
-
 standard_library:
   maturity: high
   key_areas:
@@ -128,12 +116,9 @@ standard_library:
     - file system operations
     - networking
   size: medium
-  documentation_quality: high
-
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: very high
-
 history:
   inception: "1989-06-08"
   developer:
@@ -149,9 +134,7 @@ history:
     paradigms:
       - imperative
       - procedural
-
 official_website: https://www.gnu.org/software/bash/
-
 documentation:
   quality: high
   official_sources:
@@ -161,7 +144,6 @@ documentation:
     - https://wiki.bash-hackers.org/
     - https://tldp.org/LDP/Bash-Beginners-Guide/html/
     - https://tldp.org/LDP/abs/html/
-
 references:
   github_topics:
     - bash
@@ -171,5 +153,4 @@ references:
     - shell
   wikidata_id: Q189933
   subreddit: bash
-
 color: "#4EAA25"

@@ -3,21 +3,21 @@ description: GAP (Groups, Algorithms, Programming) is a system for computational
 category: programming
 status: active
 aliases:
-- Groups, Algorithms, Programming
+  - Groups, Algorithms, Programming
 file_extensions:
-- g
-- gap
-- gd
-- gi
-- tst
+  - g
+  - gap
+  - gd
+  - gi
+  - tst
 compilers:
-- name: GAP Interpreter
-  type: interpreter
-  license: GPL-2.0
-  source_url: https://github.com/gap-system/gap
-  is_reference: true
+  - name: GAP Interpreter
+    type: interpreter
+    license: GPL-2.0
+    source_url: https://github.com/gap-system/gap
+    is_reference: true
 paradigms:
-- imperative
+  - imperative
 typing:
   system: dynamic
   structural: true
@@ -28,36 +28,36 @@ typing:
   type_annotations: none
 execution:
   type:
-  - interpreted
+    - interpreted
   runtime_environments:
-  - language-specific runtime
-  - native OS process
+    - language-specific runtime
+    - native OS process
   performance:
     startup_time: moderate
     memory_usage: moderate
     computation_speed: moderate
 domains:
   primary:
-  - mathematics
-  - scientific computing
-  - education
+    - mathematics
+    - scientific computing
+    - education
   secondary:
-  - analysis
-  - automated theorem proving
+    - analysis
+    - automated theorem proving
   emerging:
-  - bioinformatics
+    - bioinformatics
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - Unix
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
-  - platform-independent
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - platform-independent
 ecosystem:
   maturity: high
   package_registry: https://gap-packages.github.io/
@@ -80,20 +80,20 @@ language_features:
   memory_management:
     type: garbage collection
   key_features:
-  - first-class functions
-  - reflection
-  - meta-programming
-  - modules
-  - variadic functions
+    - first-class functions
+    - reflection
+    - meta-programming
+    - modules
+    - variadic functions
 concurrency:
   model: none
   ease_of_use: low
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error chaining
-  - custom error types
+    - stack traces
+    - error chaining
+    - custom error types
   stack_traces: true
   debugging:
     breakpoints: true
@@ -102,56 +102,55 @@ package_managers:
   primary: PackageManager
 popular_frameworks:
   testing:
-  - GAP Test Framework
+    - GAP Test Framework
 development_tools:
   lsps:
-  - gap-language-server
+    - gap-language-server
   debugging:
-  - GAP Debugger
+    - GAP Debugger
   build_systems:
-  - GAP Build System
+    - GAP Build System
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - algorithms
-  - mathematics
+    - data structures
+    - algorithms
+    - mathematics
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: high
 history:
   inception: 1986-01-01
   developer:
-  - RWTH Aachen University
-  - University of St Andrews
+    - RWTH Aachen University
+    - University of St Andrews
   designed_by:
-  - Martin Schönert
-  - Johannes Meier
-  - Alice Niemeyer
-  - Werner Nickel
-  - Joachim Neubüser
+    - Martin Schönert
+    - Johannes Meier
+    - Alice Niemeyer
+    - Werner Nickel
+    - Joachim Neubüser
   standards_bodies:
-  - GAP Council
+    - GAP Council
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/GAP%20computer%20algebra%20system%20icon.png
   influenced_by:
     languages:
-    - Lisp
-    - Mathematica
+      - Lisp
+      - Mathematica
     paradigms:
-    - functional
-    - imperative
+      - functional
+      - imperative
 official_website: https://www.gap-system.org/
 documentation:
   quality: high
   official_sources:
-  - https://www.gap-system.org/Manuals/doc/ref/chap0.html
+    - https://www.gap-system.org/Manuals/doc/ref/chap0.html
   community_resources:
-  - https://github.com/gap-system/gap/wiki
+    - https://github.com/gap-system/gap/wiki
 references:
   github_topics:
-  - gap
-  - computational-group-theory
+    - gap
+    - computational-group-theory
   wikidata_id: Q1493614
 color: '#0000cc'

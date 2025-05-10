@@ -8,18 +8,15 @@ file_extensions:
   - xhtml
 category: markup
 status: active
-
 paradigms:
   - markup
   - declarative
-
 typing:
   system: untyped
   strength: weak
   inference: none
   type_coercion: none
   type_annotations: none
-
 execution:
   type:
     - parsed
@@ -31,7 +28,6 @@ execution:
     startup_time: very fast
     memory_usage: very low
     compilation_speed: very fast
-
 domains:
   primary:
     - web development
@@ -41,32 +37,26 @@ domains:
     - publishing
   emerging:
     - WebAssembly
-
 platforms:
   architectures:
     - platform-independent
-
 ecosystem:
   maturity: very high
   package_registry: npm
   community_size: very large
   learning_resources: very large
   job_market_demand: very high
-
 complexity:
   learning_curve: low
   cognitive_load: low
   syntax_complexity: low
   semantic_complexity: low
-
 language_features:
   key_features:
     - semantic markup
     - accessibility attributes
-
 concurrency:
   model: none
-
 error_handling:
   primary_mechanism: other
   features:
@@ -77,19 +67,15 @@ error_handling:
     source_maps: true
     breakpoints: false
     step_debugging: false
-
 standard_library:
   maturity: very high
   key_areas:
     - accessibility
     - web components
   size: medium
-  documentation_quality: very high
-
 versioning:
   release_cycle: living standard
   backwards_compatibility: very high
-
 history:
   inception: "1993-01-01"
   developer:
@@ -109,9 +95,7 @@ history:
     paradigms:
       - markup
       - declarative
-
 official_website: "https://html.spec.whatwg.org/"
-
 documentation:
   quality: very high
   official_sources:
@@ -120,7 +104,6 @@ documentation:
   community_resources:
     - "https://www.w3schools.com/html/"
     - "https://web.dev/learn/html/"
-
 references:
   github_topics:
     - html
@@ -130,5 +113,4 @@ references:
     - html5
   wikidata_id: "Q8811"
   subreddit: "html"
-
 color: "#e34c26"

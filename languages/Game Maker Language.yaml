@@ -75,7 +75,6 @@ standard_library:
     - mathematics
     - graphics
   size: medium
-  documentation_quality: high
 history:
   inception: "1999-01-01"
   developer:

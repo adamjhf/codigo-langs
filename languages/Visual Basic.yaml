@@ -121,7 +121,6 @@ standard_library:
     - database access
     - GUI
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high

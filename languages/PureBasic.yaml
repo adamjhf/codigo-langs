@@ -3,16 +3,16 @@ description: A compiled BASIC-like language with advanced features such as point
 category: programming
 status: active
 file_extensions:
-- pb
-- pbi
+  - pb
+  - pbi
 compilers:
-- name: PureBasic Compiler
-  type: compiler
-  license: proprietary
-  is_reference: true
+  - name: PureBasic Compiler
+    type: compiler
+    license: proprietary
+    is_reference: true
 paradigms:
-- imperative
-- structured
+  - imperative
+  - structured
 typing:
   system: static
   structural: false
@@ -23,11 +23,11 @@ typing:
   type_annotations: required
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - machine code
+    - machine code
   runtime_environments:
-  - native OS process
+    - native OS process
   performance:
     startup_time: very fast
     memory_usage: low
@@ -35,26 +35,26 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - desktop applications
-  - systems programming
-  - game development
+    - desktop applications
+    - systems programming
+    - game development
   secondary:
-  - web development
-  - network programming
-  - automation
+    - web development
+    - network programming
+    - automation
   emerging:
-  - IoT
-  - embedded systems
+    - IoT
+    - embedded systems
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
+    - Windows
+    - macOS
+    - Linux
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
 ecosystem:
   maturity: moderate
   package_registry: PureBasic Code Archive Network (PCAN)
@@ -81,20 +81,20 @@ language_features:
     type: manual
     manual_control: true
   key_features:
-  - modules
-  - variadic functions
-  - named arguments
+    - modules
+    - variadic functions
+    - named arguments
 concurrency:
   model: threads
   features:
-  - thread pools
-  - shared memory
+    - thread pools
+    - shared memory
   ease_of_use: moderate
 error_handling:
   primary_mechanism: error codes
   features:
-  - custom error types
-  - error propagation
+    - custom error types
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -104,52 +104,51 @@ package_managers:
   primary: PCAN
 popular_frameworks:
   frontend:
-  - PureGUI
+    - PureGUI
 development_tools:
   debugging:
-  - PureBasic IDE Debugger
+    - PureBasic IDE Debugger
   build_systems:
-  - PureBasic IDE
+    - PureBasic IDE
 standard_library:
   maturity: high
   key_areas:
-  - file I/O
-  - networking
-  - concurrency
-  - data structures
-  - text processing
-  - date/time
-  - mathematics
-  - GUI
-  - file system operations
+    - file I/O
+    - networking
+    - concurrency
+    - data structures
+    - text processing
+    - date/time
+    - mathematics
+    - GUI
+    - file system operations
   size: medium
-  documentation_quality: moderate
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: high
 history:
   inception: 1998-01-01
   developer:
-  - Fantaisie Software
+    - Fantaisie Software
   designed_by:
-  - Frédéric Laboureur
+    - Frédéric Laboureur
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/PureBasic%20IDE%205.10.png
   influenced_by:
     languages:
-    - BASIC
-    - BlitzBasic
-    - C
+      - BASIC
+      - BlitzBasic
+      - C
     paradigms:
-    - procedural
-    - imperative
+      - procedural
+      - imperative
 official_website: https://www.purebasic.com/
 documentation:
   quality: moderate
   official_sources:
-  - https://www.purebasic.com/documentation/
+    - https://www.purebasic.com/documentation/
   community_resources:
-  - https://www.purebasic.fr/english/
+    - https://www.purebasic.fr/english/
 references:
   quora_topics:
-  - PureBasic
+    - PureBasic
 color: '#5a6986'

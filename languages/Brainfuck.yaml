@@ -3,19 +3,19 @@ description: An esoteric programming language consisting of only eight simple co
 category: programming
 status: active
 aliases:
-- BF
+  - BF
 file_extensions:
-- b
-- bf
+  - b
+  - bf
 compilers:
-- name: bf
-  type: interpreter
-  license: public domain
-  is_reference: false
+  - name: bf
+    type: interpreter
+    license: public domain
+    is_reference: false
 paradigms:
-- imperative
-- structured
-- esoteric
+  - imperative
+  - structured
+  - esoteric
 typing:
   system: untyped
   strength: weak
@@ -25,26 +25,26 @@ typing:
   type_annotations: none
 execution:
   type:
-  - interpreted
+    - interpreted
   runtime_environments:
-  - language-specific runtime
-  - embedded interpreter
+    - language-specific runtime
+    - embedded interpreter
   performance:
     startup_time: fast
     memory_usage: very low
     computation_speed: very slow
 domains:
   primary:
-  - education
+    - education
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
   architectures:
-  - platform-independent
+    - platform-independent
 ecosystem:
   maturity: very low
   community_size: very small
@@ -81,26 +81,25 @@ error_handling:
 standard_library:
   maturity: very low
   size: very small
-  documentation_quality: very low
 versioning:
   backwards_compatibility: very high
 history:
   inception: 1993-01-01
   developer:
-  - Urban Müller
+    - Urban Müller
   designed_by:
-  - Urban Müller
+    - Urban Müller
   described_by: Esolang
   influenced_by:
     languages:
-    - P″
-    - 'FALSE'
-    - P′′
+      - P″
+      - 'FALSE'
+      - P′′
 official_website: https://brainfuck.org/
 references:
   quora_topics:
-  - Brainfuck-programming-language
+    - Brainfuck-programming-language
   stackexchange_tags:
-  - https://stackoverflow.com/tags/brainfuck
+    - https://stackoverflow.com/tags/brainfuck
   subreddit: brainfuck
 color: '#2F2530'

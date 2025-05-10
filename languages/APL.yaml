@@ -111,7 +111,6 @@ standard_library:
     - text processing
     - file I/O
   size: medium
-  documentation_quality: moderate
 history:
   inception: "1966-01-01"
   designed_by:

@@ -3,30 +3,30 @@ description: AWK is a domain-specific language designed for text processing and 
 category: programming
 status: active
 aliases:
-- gawk
-- nawk
-- mawk
+  - gawk
+  - nawk
+  - mawk
 file_extensions:
-- awk
-- gawk
-- mawk
-- nawk
+  - awk
+  - gawk
+  - mawk
+  - nawk
 compilers:
-- name: gawk
-  type: interpreter
-  license: GPL-3.0
-  source_url: https://www.gnu.org/software/gawk/
-  is_reference: true
-- name: mawk
-  type: interpreter
-  license: GPL-2.0
-- name: nawk
-  type: interpreter
-  license: BSD-3-Clause
+  - name: gawk
+    type: interpreter
+    license: GPL-3.0
+    source_url: https://www.gnu.org/software/gawk/
+    is_reference: true
+  - name: mawk
+    type: interpreter
+    license: GPL-2.0
+  - name: nawk
+    type: interpreter
+    license: BSD-3-Clause
 paradigms:
-- imperative
-- declarative
-- data-driven
+  - imperative
+  - declarative
+  - data-driven
 typing:
   system: dynamic
   strength: weak
@@ -36,32 +36,32 @@ typing:
   type_annotations: none
 execution:
   type:
-  - interpreted
+    - interpreted
   runtime_environments:
-  - native OS process
+    - native OS process
   performance:
     startup_time: fast
     memory_usage: low
     computation_speed: moderate
 domains:
   primary:
-  - text processing
-  - automation
-  - data integration
+    - text processing
+    - automation
+    - data integration
   secondary:
-  - scripting
-  - data visualization
-  - system administration
-  - shell
+    - scripting
+    - data visualization
+    - system administration
+    - shell
 platforms:
   operating_systems:
-  - Linux
-  - macOS
-  - Windows
-  - BSD
-  - Unix
+    - Linux
+    - macOS
+    - Windows
+    - BSD
+    - Unix
   architectures:
-  - platform-independent
+    - platform-independent
 ecosystem:
   maturity: high
   community_size: medium
@@ -82,8 +82,8 @@ language_features:
   memory_management:
     type: garbage collection
   key_features:
-  - pattern matching
-  - string interpolation
+    - pattern matching
+    - string interpolation
 concurrency:
   model: none
 error_handling:
@@ -92,33 +92,32 @@ error_handling:
 standard_library:
   maturity: moderate
   key_areas:
-  - text processing
-  - regular expressions
-  - file I/O
-  - mathematics
+    - text processing
+    - regular expressions
+    - file I/O
+    - mathematics
   size: small
-  documentation_quality: moderate
 history:
   inception: 1977-01-01
   developer:
-  - Bell Labs
+    - Bell Labs
   designed_by:
-  - Alfred Aho
-  - Peter Weinberger
-  - Brian Kernighan
+    - Alfred Aho
+    - Peter Weinberger
+    - Brian Kernighan
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/The-AWK-Programming-Language.svg
   influenced_by:
     languages:
-    - C
-    - SNOBOL
-    - Bourne shell
+      - C
+      - SNOBOL
+      - Bourne shell
 official_website: https://www.gnu.org/software/gawk/
 documentation:
   quality: high
   official_sources:
-  - https://www.gnu.org/software/gawk/manual/
+    - https://www.gnu.org/software/gawk/manual/
 references:
   stackexchange_tags:
-  - awk
+    - awk
   subreddit: awk
 color: '#c30e9b'

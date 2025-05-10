@@ -3,23 +3,23 @@ description: Tool Command Language (Tcl) is a high-level, dynamic scripting lang
 category: programming
 status: active
 aliases:
-- sdc
-- xdc
+  - sdc
+  - xdc
 file_extensions:
-- tcl
-- adp
-- sdc
-- tcl.in
-- tm
-- xdc
+  - tcl
+  - adp
+  - sdc
+  - tcl.in
+  - tm
+  - xdc
 compilers:
-- name: Tcl Core
-  type: interpreter
-  license: BSD-3-Clause
-  source_url: https://core.tcl-lang.org/tcl/
-  is_reference: true
+  - name: Tcl Core
+    type: interpreter
+    license: BSD-3-Clause
+    source_url: https://core.tcl-lang.org/tcl/
+    is_reference: true
 paradigms:
-- imperative
+  - imperative
 typing:
   system: dynamic
   strength: weak
@@ -29,43 +29,43 @@ typing:
   type_annotations: none
 execution:
   type:
-  - interpreted
+    - interpreted
   runtime_environments:
-  - language-specific runtime
-  - native OS process
+    - language-specific runtime
+    - native OS process
   performance:
     startup_time: fast
     memory_usage: low
     computation_speed: moderate
 domains:
   primary:
-  - scripting
-  - automation
-  - testing
-  - user interface
-  - text processing
-  - embedded systems
+    - scripting
+    - automation
+    - testing
+    - user interface
+    - text processing
+    - embedded systems
   secondary:
-  - web development
-  - network programming
-  - database management
+    - web development
+    - network programming
+    - database management
   emerging:
-  - IoT
+    - IoT
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Unix
-  - BSD
-  - embedded
+    - Windows
+    - macOS
+    - Linux
+    - Unix
+    - BSD
+    - embedded
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
-  - PowerPC
-  - platform-independent
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - PowerPC
+    - platform-independent
 ecosystem:
   maturity: high
   package_registry: https://core.tcl-lang.org/tcllib/
@@ -91,25 +91,25 @@ language_features:
   memory_management:
     type: reference counting
   key_features:
-  - reflection
-  - string interpolation
-  - modules
-  - variadic functions
-  - named arguments
+    - reflection
+    - string interpolation
+    - modules
+    - variadic functions
+    - named arguments
 concurrency:
   model: event loop
   features:
-  - async/await
-  - promises/futures
-  - thread pools
+    - async/await
+    - promises/futures
+    - thread pools
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - custom error types
-  - error chaining
-  - error propagation
+    - stack traces
+    - custom error types
+    - error chaining
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -118,78 +118,77 @@ error_handling:
 package_managers:
   primary: Teapot
   alternatives:
-  - ActiveTcl
-  - Tclkit
+    - ActiveTcl
+    - Tclkit
 popular_frameworks:
   frontend:
-  - Tk
-  - BLT
+    - Tk
+    - BLT
   backend:
-  - Tcllib
-  - Tclx
+    - Tcllib
+    - Tclx
   testing:
-  - tcltest
-  - Expect
+    - tcltest
+    - Expect
 development_tools:
   lsps:
-  - TclDevKit LSP
+    - TclDevKit LSP
   debugging:
-  - TclPro Debugger
-  - Tcl Debugger
+    - TclPro Debugger
+    - Tcl Debugger
   profiling:
-  - TclProf
+    - TclProf
   linters:
-  - Nagelfar
+    - Nagelfar
 standard_library:
   maturity: high
   key_areas:
-  - file I/O
-  - networking
-  - text processing
-  - regular expressions
-  - date/time
-  - process management
-  - file system operations
-  - internationalization
+    - file I/O
+    - networking
+    - text processing
+    - regular expressions
+    - date/time
+    - process management
+    - file system operations
+    - internationalization
   size: medium
-  documentation_quality: high
 versioning:
   release_cycle: semantic versioning
   backwards_compatibility: high
 history:
   inception: 1988-01-01
   developer:
-  - University of California, Berkeley
-  - John Ousterhout
+    - University of California, Berkeley
+    - John Ousterhout
   designed_by:
-  - John Ousterhout
+    - John Ousterhout
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Tcl.svg
   influenced_by:
     languages:
-    - Bourne shell
-    - Lisp
-    - C
-    - AWK
+      - Bourne shell
+      - Lisp
+      - C
+      - AWK
     paradigms:
-    - imperative
-    - procedural
+      - imperative
+      - procedural
 official_website: https://tcl.tk
 documentation:
   quality: high
   official_sources:
-  - https://www.tcl-lang.org/doc/
-  - https://www.tcl.tk/man/
+    - https://www.tcl-lang.org/doc/
+    - https://www.tcl.tk/man/
   community_resources:
-  - https://wiki.tcl-lang.org/
+    - https://wiki.tcl-lang.org/
 references:
   github_topics:
-  - tcl
-  - tcl-tk
+    - tcl
+    - tcl-tk
   quora_topics:
-  - Tcl-tk
+    - Tcl-tk
   stackexchange_tags:
-  - tcl
-  - tk
-  - expect
+    - tcl
+    - tk
+    - expect
   wikidata_id: Q170430
 color: '#e4cc98'

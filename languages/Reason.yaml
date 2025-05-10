@@ -3,22 +3,22 @@ description: Reason is a syntax extension for OCaml created by Facebook that mak
 category: programming
 status: active
 file_extensions:
-- re
-- rei
+  - re
+  - rei
 compilers:
-- name: BuckleScript/ReScript
-  type: compiler
-  license: MIT
-  source_url: https://github.com/rescript-lang/rescript-compiler
-  is_reference: true
-- name: OCaml
-  type: compiler
-  license: LGPL-2.1
-  source_url: https://github.com/ocaml/ocaml
+  - name: BuckleScript/ReScript
+    type: compiler
+    license: MIT
+    source_url: https://github.com/rescript-lang/rescript-compiler
+    is_reference: true
+  - name: OCaml
+    type: compiler
+    license: LGPL-2.1
+    source_url: https://github.com/ocaml/ocaml
 paradigms:
-- functional
-- imperative
-- object-oriented
+  - functional
+  - imperative
+  - object-oriented
 typing:
   system: static
   structural: true
@@ -29,14 +29,14 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
-  - transpiled
+    - compiled
+    - transpiled
   compiles_to:
-  - JavaScript
-  - machine code
+    - JavaScript
+    - machine code
   runtime_environments:
-  - browser
-  - native OS process
+    - browser
+    - native OS process
   performance:
     startup_time: fast
     memory_usage: low
@@ -44,22 +44,22 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - web development
+    - web development
   secondary:
-  - mobile development
-  - desktop applications
+    - mobile development
+    - desktop applications
   emerging:
-  - WebAssembly
+    - WebAssembly
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
+    - Windows
+    - macOS
+    - Linux
   architectures:
-  - x86-64
-  - ARM64
-  - WebAssembly
-  - platform-independent
+    - x86-64
+    - ARM64
+    - WebAssembly
+    - platform-independent
 ecosystem:
   maturity: moderate
   package_registry: npm
@@ -82,21 +82,21 @@ language_features:
   memory_management:
     type: garbage collection
   key_features:
-  - pattern matching
-  - algebraic data types
-  - type inference
-  - first-class functions
-  - closures
-  - modules
+    - pattern matching
+    - algebraic data types
+    - type inference
+    - first-class functions
+    - closures
+    - modules
 concurrency:
   model: none
   features:
-  - promises/futures
+    - promises/futures
   ease_of_use: moderate
 error_handling:
   primary_mechanism: result types
   features:
-  - custom error types
+    - custom error types
   stack_traces: true
   debugging:
     source_maps: true
@@ -105,57 +105,56 @@ error_handling:
 package_managers:
   primary: npm
   alternatives:
-  - yarn
-  - pnpm
+    - yarn
+    - pnpm
 popular_frameworks:
   frontend:
-  - ReasonReact
+    - ReasonReact
   testing:
-  - Jest
+    - Jest
 development_tools:
   lsps:
-  - reason-language-server
+    - reason-language-server
   linters:
-  - refmt
+    - refmt
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - algorithms
-  - text processing
+    - data structures
+    - algorithms
+    - text processing
   size: medium
-  documentation_quality: moderate
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: high
 history:
   inception: 2016-03-01
   developer:
-  - Facebook
-  - Meta Platforms
+    - Facebook
+    - Meta Platforms
   designed_by:
-  - Jordan Walke
+    - Jordan Walke
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Reason-logo.svg
   influenced_by:
     languages:
-    - OCaml
-    - JavaScript
-    - Rust
+      - OCaml
+      - JavaScript
+      - Rust
     paradigms:
-    - functional
-    - object-oriented
+      - functional
+      - object-oriented
 official_website: https://reasonml.github.io/
 documentation:
   quality: moderate
   official_sources:
-  - https://reasonml.github.io/docs/en/what-and-why
+    - https://reasonml.github.io/docs/en/what-and-why
   community_resources:
-  - https://github.com/reasonml/reason-react
-  - https://reasonml.github.io/reason-react/
+    - https://github.com/reasonml/reason-react
+    - https://reasonml.github.io/reason-react/
 references:
   github_topics:
-  - reasonml
-  - reason
+    - reasonml
+    - reason
   wikidata_id: Q28846390
   subreddit: reasonml
 color: '#ff5847'

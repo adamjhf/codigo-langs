@@ -7,20 +7,17 @@ file_extensions:
   - elc
 category: programming
 status: active
-
 compilers:
   - name: GNU Emacs
     type: interpreter
     license: GPL-3.0
     source_url: https://github.com/emacs-mirror/emacs
     is_reference: true
-
 paradigms:
   - functional
   - imperative
   - reflective
   - meta-programming
-
 typing:
   system: dynamic
   type_checking: runtime
@@ -29,7 +26,6 @@ typing:
   inference: none
   type_coercion: moderate
   type_annotations: none
-
 execution:
   type:
     - interpreted
@@ -37,7 +33,6 @@ execution:
     startup_time: moderate
     memory_usage: moderate
     computation_speed: moderate
-
 domains:
   primary:
     - text processing
@@ -49,7 +44,6 @@ domains:
     - configuration management
   emerging:
     - DevOps
-
 platforms:
   operating_systems:
     - Windows
@@ -59,20 +53,17 @@ platforms:
     - Unix
   architectures:
     - platform-independent
-
 ecosystem:
   maturity: high
   package_registry: MELPA
   community_size: medium
   learning_resources: medium
   job_market_demand: low
-
 complexity:
   learning_curve: high
   cognitive_load: high
   syntax_complexity: moderate
   semantic_complexity: high
-
 language_features:
   immutability: optional
   metaprogramming: true
@@ -87,11 +78,9 @@ language_features:
     - macros
     - reflection
     - meta-programming
-
 concurrency:
   model: none
   ease_of_use: low
-
 error_handling:
   primary_mechanism: conditions
   features:
@@ -102,18 +91,15 @@ error_handling:
   debugging:
     breakpoints: true
     step_debugging: true
-
 package_managers:
   primary: package.el
   alternatives:
     - straight.el
     - el-get
-
 popular_frameworks:
   testing:
     - ERT
     - Buttercup
-
 development_tools:
   lsps:
     - emacs-lsp
@@ -122,7 +108,6 @@ development_tools:
   linters:
     - Flycheck
     - Flymake
-
 standard_library:
   maturity: high
   key_areas:
@@ -131,12 +116,9 @@ standard_library:
     - data structures
     - process management
   size: large
-  documentation_quality: high
-
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
-
 history:
   inception: 1985-01-01
   developer:
@@ -150,18 +132,15 @@ history:
     paradigms:
       - functional
       - imperative
-
 official_website: https://www.gnu.org/software/emacs/
 documentation:
   quality: high
   official_sources:
     - https://www.gnu.org/software/emacs/manual/html_node/elisp/
-
 references:
   github_topics:
     - emacs-lisp
   stackexchange_tags:
     - emacs-lisp
   subreddit: emacs
-
 color: "#c065db"

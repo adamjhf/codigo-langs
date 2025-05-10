@@ -3,32 +3,32 @@ description: Pascal is a procedural programming language designed in the late 19
 category: programming
 status: active
 aliases:
-- delphi
-- objectpascal
+  - delphi
+  - objectpascal
 file_extensions:
-- pas
-- dfm
-- dpr
-- inc
-- lpr
-- pascal
-- pp
+  - pas
+  - dfm
+  - dpr
+  - inc
+  - lpr
+  - pascal
+  - pp
 compilers:
-- name: Free Pascal
-  type: compiler
-  license: GPL-2.0
-  source_url: https://gitlab.com/freepascal.org/fpc/source
-  is_reference: false
-- name: GNU Pascal
-  type: compiler
-  license: GPL-3.0
-  is_reference: false
-- name: Turbo Pascal
-  type: compiler
-  license: proprietary
-  is_reference: false
+  - name: Free Pascal
+    type: compiler
+    license: GPL-2.0
+    source_url: https://gitlab.com/freepascal.org/fpc/source
+    is_reference: false
+  - name: GNU Pascal
+    type: compiler
+    license: GPL-3.0
+    is_reference: false
+  - name: Turbo Pascal
+    type: compiler
+    license: proprietary
+    is_reference: false
 paradigms:
-- imperative
+  - imperative
 typing:
   system: static
   structural: false
@@ -39,12 +39,12 @@ typing:
   type_annotations: required
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - machine code
-  - bytecode
+    - machine code
+    - bytecode
   runtime_environments:
-  - native OS process
+    - native OS process
   performance:
     startup_time: very fast
     memory_usage: low
@@ -52,24 +52,24 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - education
-  - desktop applications
-  - systems programming
+    - education
+    - desktop applications
+    - systems programming
   secondary:
-  - scientific computing
-  - business applications
+    - scientific computing
+    - business applications
   emerging:
-  - embedded systems
+    - embedded systems
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - DOS
+    - Windows
+    - macOS
+    - Linux
+    - DOS
   architectures:
-  - x86
-  - x86-64
-  - ARM
+    - x86
+    - x86-64
+    - ARM
 ecosystem:
   maturity: high
   community_size: medium
@@ -96,16 +96,16 @@ language_features:
     implementation: stack and heap allocation
     manual_control: true
   key_features:
-  - modules
-  - range types
-  - named arguments
+    - modules
+    - range types
+    - named arguments
 concurrency:
   model: none
   ease_of_use: low
 error_handling:
   primary_mechanism: exceptions
   features:
-  - cleanup actions
+    - cleanup actions
   stack_traces: true
   debugging:
     source_maps: false
@@ -114,62 +114,61 @@ error_handling:
 package_managers:
   primary: fppkg
   alternatives:
-  - OPM
+    - OPM
 popular_frameworks:
   frontend:
-  - Lazarus
+    - Lazarus
   backend:
-  - FreePascal
+    - FreePascal
 development_tools:
   lsps:
-  - Pascal Language Server
+    - Pascal Language Server
   debugging:
-  - GDB
-  - Lazarus IDE Debugger
+    - GDB
+    - Lazarus IDE Debugger
   build_systems:
-  - FPC Build System
-  - MSBuild
+    - FPC Build System
+    - MSBuild
 standard_library:
   maturity: high
   key_areas:
-  - file I/O
-  - text processing
-  - mathematics
-  - date/time
-  - data structures
+    - file I/O
+    - text processing
+    - mathematics
+    - date/time
+    - data structures
   size: medium
-  documentation_quality: high
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: high
 history:
   inception: 1970-01-01
   developer:
-  - Niklaus Wirth
+    - Niklaus Wirth
   designed_by:
-  - Niklaus Wirth
+    - Niklaus Wirth
   influenced_by:
     languages:
-    - ALGOL
-    - ALGOL W
-    - Simula
-    - ALGOL 60
+      - ALGOL
+      - ALGOL W
+      - Simula
+      - ALGOL 60
     paradigms:
-    - structured
-    - procedural
+      - structured
+      - procedural
 official_website: https://www.freepascal.org/
 documentation:
   quality: high
   official_sources:
-  - https://www.freepascal.org/docs.html
-  - https://wiki.freepascal.org/
+    - https://www.freepascal.org/docs.html
+    - https://wiki.freepascal.org/
   community_resources:
-  - https://wiki.lazarus.freepascal.org/
+    - https://wiki.lazarus.freepascal.org/
 references:
   github_topics:
-  - pascal
+    - pascal
   quora_topics:
-  - Pascal-Programming-Language
+    - Pascal-Programming-Language
   wikidata_id: Q81571
   subreddit: pascal
 color: '#E3F171'

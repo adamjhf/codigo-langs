@@ -3,28 +3,28 @@ description: PHP is a widely-used open source general-purpose scripting language
 category: programming
 status: active
 aliases:
-- inc
+  - inc
 file_extensions:
-- php
-- aw
-- ctp
-- fcgi
-- inc
-- php3
-- php4
-- php5
-- phps
-- phpt
+  - php
+  - aw
+  - ctp
+  - fcgi
+  - inc
+  - php3
+  - php4
+  - php5
+  - phps
+  - phpt
 compilers:
-- name: Zend Engine
-  type: interpreter
-  is_reference: true
-- name: HHVM
-  type: hybrid
-  license: BSD-3-Clause
-  source_url: https://github.com/facebook/hhvm
+  - name: Zend Engine
+    type: interpreter
+    is_reference: true
+  - name: HHVM
+    type: hybrid
+    license: BSD-3-Clause
+    source_url: https://github.com/facebook/hhvm
 paradigms:
-- imperative
+  - imperative
 typing:
   system: gradual
   structural: true
@@ -35,13 +35,13 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - interpreted
-  - interpreted with JIT compilation
+    - interpreted
+    - interpreted with JIT compilation
   compiles_to:
-  - bytecode
+    - bytecode
   runtime_environments:
-  - language-specific runtime
-  - native OS process
+    - language-specific runtime
+    - native OS process
   performance:
     startup_time: moderate
     memory_usage: moderate
@@ -49,32 +49,32 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - web development
-  - server-side applications
+    - web development
+    - server-side applications
   secondary:
-  - scripting
-  - data integration
-  - automation
+    - scripting
+    - data integration
+    - automation
   emerging:
-  - cloud computing
-  - DevOps
+    - cloud computing
+    - DevOps
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
   cloud_function_environments:
-  - AWS Lambda
-  - Google Cloud Functions
-  - Azure Functions
-  - Vercel Functions
+    - AWS Lambda
+    - Google Cloud Functions
+    - Azure Functions
+    - Vercel Functions
 ecosystem:
   maturity: high
   package_registry: Packagist
@@ -102,27 +102,27 @@ language_features:
     implementation: reference counting with cycle collection
     manual_control: false
   key_features:
-  - first-class functions
-  - closures
-  - reflection
-  - string interpolation
-  - modules
-  - variadic functions
-  - named arguments
-  - destructuring
+    - first-class functions
+    - closures
+    - reflection
+    - string interpolation
+    - modules
+    - variadic functions
+    - named arguments
+    - destructuring
 concurrency:
   model: threads
   features:
-  - thread pools
-  - shared memory
+    - thread pools
+    - shared memory
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error chaining
-  - custom error types
-  - error propagation
+    - stack traces
+    - error chaining
+    - custom error types
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -131,122 +131,121 @@ error_handling:
 package_managers:
   primary: Composer
   alternatives:
-  - PEAR
+    - PEAR
 popular_frameworks:
   backend:
-  - Laravel
-  - Symfony
-  - CodeIgniter
-  - CakePHP
-  - Zend Framework
-  - Yii
-  - Slim
-  - Laminas
+    - Laravel
+    - Symfony
+    - CodeIgniter
+    - CakePHP
+    - Zend Framework
+    - Yii
+    - Slim
+    - Laminas
   testing:
-  - PHPUnit
-  - Codeception
-  - Behat
-  - Pest
+    - PHPUnit
+    - Codeception
+    - Behat
+    - Pest
 development_tools:
   lsps:
-  - PHP Language Server
-  - Intelephense
+    - PHP Language Server
+    - Intelephense
   debugging:
-  - Xdebug
-  - PHPDebugBar
+    - Xdebug
+    - PHPDebugBar
   profiling:
-  - Xdebug
-  - Blackfire
+    - Xdebug
+    - Blackfire
   build_systems:
-  - Phing
-  - Robo
+    - Phing
+    - Robo
   linters:
-  - PHP_CodeSniffer
-  - PHPStan
-  - Psalm
+    - PHP_CodeSniffer
+    - PHPStan
+    - Psalm
 standard_library:
   maturity: high
   key_areas:
-  - file I/O
-  - networking
-  - data structures
-  - text processing
-  - cryptography
-  - database access
-  - HTTP client/server
-  - JSON/XML processing
-  - regular expressions
-  - date/time
-  - mathematics
-  - compression
-  - serialization
-  - process management
+    - file I/O
+    - networking
+    - data structures
+    - text processing
+    - cryptography
+    - database access
+    - HTTP client/server
+    - JSON/XML processing
+    - regular expressions
+    - date/time
+    - mathematics
+    - compression
+    - serialization
+    - process management
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: moderate
 history:
   inception: 1995-06-08
   developer:
-  - The PHP Group
-  - Zeev Suraski
-  - Rasmus Lerdorf
-  - Zend Technologies
-  - Andi Gutmans
-  - PHP Group
+    - The PHP Group
+    - Zeev Suraski
+    - Rasmus Lerdorf
+    - Zend Technologies
+    - Andi Gutmans
+    - PHP Group
   designed_by:
-  - Rasmus Lerdorf
-  - Zeev Suraski
-  - Andi Gutmans
+    - Rasmus Lerdorf
+    - Zeev Suraski
+    - Andi Gutmans
   described_by: PHP Manual
   standards_bodies:
-  - The PHP Group
+    - The PHP Group
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Webysther%2020160423%20-%20Elephpant.svg
   influenced_by:
     languages:
-    - C
-    - Perl
-    - Java
-    - C++
-    - JavaScript
-    - Tcl
-    - HTML
+      - C
+      - Perl
+      - Java
+      - C++
+      - JavaScript
+      - Tcl
+      - HTML
     paradigms:
-    - imperative
-    - procedural
-    - object-oriented
+      - imperative
+      - procedural
+      - object-oriented
 official_website: https://www.php.net
 official_blog_rss: https://www.php.net/feed.atom
 documentation:
   quality: high
   official_sources:
-  - https://www.php.net/docs.php
-  - https://www.php.net/manual/en/
+    - https://www.php.net/docs.php
+    - https://www.php.net/manual/en/
   community_resources:
-  - https://phptherightway.com/
-  - https://laracasts.com/
+    - https://phptherightway.com/
+    - https://laracasts.com/
 references:
   github_topics:
-  - php
+    - php
   quora_topics:
-  - PHP-programming-language-1
+    - PHP-programming-language-1
   stackexchange_tags:
-  - php
-  - https://ja.stackoverflow.com/tags/php/
-  - https://stackoverflow.com/tags/php
-  - https://stackoverflow.com/tags/php-5.2
-  - https://stackoverflow.com/tags/php-5.3
-  - https://stackoverflow.com/tags/php-5.4
-  - https://stackoverflow.com/tags/php-5.5
-  - https://stackoverflow.com/tags/php-5.6
-  - https://stackoverflow.com/tags/php-7
-  - https://stackoverflow.com/tags/php-7.1
-  - https://stackoverflow.com/tags/php-7.2
-  - https://stackoverflow.com/tags/php4
-  - https://superuser.com/tags/php
-  - https://unix.stackexchange.com/tags/php
-  - https://webmasters.stackexchange.com/tags/php
+    - php
+    - https://ja.stackoverflow.com/tags/php/
+    - https://stackoverflow.com/tags/php
+    - https://stackoverflow.com/tags/php-5.2
+    - https://stackoverflow.com/tags/php-5.3
+    - https://stackoverflow.com/tags/php-5.4
+    - https://stackoverflow.com/tags/php-5.5
+    - https://stackoverflow.com/tags/php-5.6
+    - https://stackoverflow.com/tags/php-7
+    - https://stackoverflow.com/tags/php-7.1
+    - https://stackoverflow.com/tags/php-7.2
+    - https://stackoverflow.com/tags/php4
+    - https://superuser.com/tags/php
+    - https://unix.stackexchange.com/tags/php
+    - https://webmasters.stackexchange.com/tags/php
   wikidata_id: Q59
   subreddit: PHP
 color: '#4F5D95'

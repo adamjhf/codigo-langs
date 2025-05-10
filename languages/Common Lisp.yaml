@@ -11,7 +11,6 @@ file_extensions:
   - asd
 category: programming
 status: active
-
 compilers:
   - name: SBCL
     type: compiler
@@ -43,7 +42,6 @@ compilers:
     license: GPL-2.0
     source_url: https://github.com/armedbear/abcl
     is_reference: false
-
 paradigms:
   - functional
   - procedural
@@ -51,7 +49,6 @@ paradigms:
   - meta-programming
   - reflective
   - symbolic
-
 typing:
   system: dynamic
   type_checking: runtime
@@ -60,7 +57,6 @@ typing:
   inference: partial
   type_coercion: moderate
   type_annotations: optional
-
 execution:
   type:
     - compiled
@@ -76,7 +72,6 @@ execution:
     memory_usage: high
     computation_speed: moderate
     compilation_speed: moderate
-
 domains:
   primary:
     - artificial intelligence
@@ -89,7 +84,6 @@ domains:
     - mathematics
   emerging:
     - machine learning
-
 platforms:
   operating_systems:
     - Windows
@@ -103,20 +97,17 @@ platforms:
     - ARM
     - ARM64
     - platform-independent
-
 ecosystem:
   maturity: high
   package_registry: Quicklisp
   community_size: small
   learning_resources: medium
   job_market_demand: low
-
 complexity:
   learning_curve: high
   cognitive_load: high
   syntax_complexity: moderate
   semantic_complexity: high
-
 language_features:
   immutability: optional
   enums: none
@@ -142,7 +133,6 @@ language_features:
     - multiple inheritance
     - REPL
     - interactive development
-
 concurrency:
   model: threads
   features:
@@ -150,7 +140,6 @@ concurrency:
     - thread pools
     - concurrent data structures
   ease_of_use: moderate
-
 error_handling:
   primary_mechanism: conditions
   features:
@@ -164,13 +153,11 @@ error_handling:
     source_maps: true
     breakpoints: true
     step_debugging: true
-
 package_managers:
   primary: Quicklisp
   alternatives:
     - ASDF
     - Qlot
-
 popular_frameworks:
   frontend:
     - Weblocks
@@ -181,7 +168,6 @@ popular_frameworks:
   testing:
     - FiveAM
     - Prove
-
 development_tools:
   lsps:
     - cl-lsp
@@ -194,7 +180,6 @@ development_tools:
     - ASDF
   linters:
     - sblint
-
 standard_library:
   maturity: high
   key_areas:
@@ -209,12 +194,9 @@ standard_library:
     - testing
     - logging
   size: large
-  documentation_quality: high
-
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: very high
-
 history:
   inception: 1984-01-01
   developer:
@@ -238,7 +220,6 @@ history:
       - procedural
       - object-oriented
       - symbolic
-
 official_website: https://common-lisp.net/
 documentation:
   quality: high
@@ -247,7 +228,6 @@ documentation:
   community_resources:
     - https://lispcookbook.github.io/cl-cookbook/
     - https://gigamonkeys.com/book/
-
 references:
   github_topics:
     - common-lisp
@@ -256,5 +236,4 @@ references:
     - common-lisp
   wikidata_id: Q101130
   subreddit: lisp
-
 color: "#3fb68b"
