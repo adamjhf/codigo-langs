@@ -862,9 +862,6 @@ properties:
       size:
         $ref: "#/definitions/size_scale"
         description: Relative size or extent of the standard library
-      documentation_quality:
-        $ref: "#/definitions/rating_scale"
-        description: Quality of official documentation for the standard library
 
   versioning:
     type: object

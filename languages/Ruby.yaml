@@ -3,57 +3,57 @@ description: Ruby is a dynamic, object-oriented programming language designed fo
 category: programming
 status: active
 aliases:
-- jruby
-- macruby
-- rake
-- rb
-- rbx
+  - jruby
+  - macruby
+  - rake
+  - rb
+  - rbx
 file_extensions:
-- rb
-- builder
-- eye
-- fcgi
-- gemspec
-- god
-- jbuilder
-- mspec
-- pluginspec
-- podspec
-- prawn
-- rabl
-- rake
-- rbi
-- rbuild
-- rbw
-- rbx
-- ru
-- ruby
-- spec
-- thor
-- watchr
+  - rb
+  - builder
+  - eye
+  - fcgi
+  - gemspec
+  - god
+  - jbuilder
+  - mspec
+  - pluginspec
+  - podspec
+  - prawn
+  - rabl
+  - rake
+  - rbi
+  - rbuild
+  - rbw
+  - rbx
+  - ru
+  - ruby
+  - spec
+  - thor
+  - watchr
 compilers:
-- name: MRI/CRuby
-  type: interpreter
-  license: BSD-2-Clause
-  source_url: https://github.com/ruby/ruby
-  is_reference: true
-- name: JRuby
-  type: interpreter
-  license: MIT
-  source_url: https://github.com/jruby/jruby
-- name: TruffleRuby
-  type: interpreter
-  license: MIT
-  source_url: https://github.com/oracle/truffleruby
-- name: mruby
-  type: interpreter
-  license: MIT
-  source_url: https://github.com/mruby/mruby
+  - name: MRI/CRuby
+    type: interpreter
+    license: BSD-2-Clause
+    source_url: https://github.com/ruby/ruby
+    is_reference: true
+  - name: JRuby
+    type: interpreter
+    license: MIT
+    source_url: https://github.com/jruby/jruby
+  - name: TruffleRuby
+    type: interpreter
+    license: MIT
+    source_url: https://github.com/oracle/truffleruby
+  - name: mruby
+    type: interpreter
+    license: MIT
+    source_url: https://github.com/mruby/mruby
 paradigms:
-- object-oriented
-- imperative
-- functional
-- reflective
+  - object-oriented
+  - imperative
+  - functional
+  - reflective
 typing:
   system: dynamic
   structural: true
@@ -64,13 +64,13 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - interpreted
-  - interpreted with JIT compilation
+    - interpreted
+    - interpreted with JIT compilation
   compiles_to:
-  - bytecode
+    - bytecode
   runtime_environments:
-  - language-specific runtime
-  - JVM
+    - language-specific runtime
+    - JVM
   performance:
     startup_time: moderate
     memory_usage: moderate
@@ -78,37 +78,37 @@ execution:
     compilation_speed: moderate
 domains:
   primary:
-  - web development
-  - server-side applications
-  - scripting
-  - automation
-  - text processing
+    - web development
+    - server-side applications
+    - scripting
+    - automation
+    - text processing
   secondary:
-  - desktop applications
-  - game development
-  - DevOps
-  - build automation
+    - desktop applications
+    - game development
+    - DevOps
+    - build automation
   emerging:
-  - data science
-  - machine learning
+    - data science
+    - machine learning
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
-  - platform-independent
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - platform-independent
   cloud_function_environments:
-  - AWS Lambda
-  - Google Cloud Functions
-  - Azure Functions
-  - Heroku
+    - AWS Lambda
+    - Google Cloud Functions
+    - Azure Functions
+    - Heroku
 ecosystem:
   maturity: high
   package_registry: https://rubygems.org
@@ -136,34 +136,34 @@ language_features:
     implementation: Mark and Sweep with incremental and generational options
     manual_control: false
   key_features:
-  - first-class functions
-  - closures
-  - modules
-  - mixins
-  - reflection
-  - meta-programming
-  - string interpolation
-  - destructuring
-  - iterators/generators
-  - lambdas
-  - decorators/annotations
+    - first-class functions
+    - closures
+    - modules
+    - mixins
+    - reflection
+    - meta-programming
+    - string interpolation
+    - destructuring
+    - iterators/generators
+    - lambdas
+    - decorators/annotations
 concurrency:
   model: threads
   features:
-  - thread pools
-  - concurrent data structures
-  - atomic operations
+    - thread pools
+    - concurrent data structures
+    - atomic operations
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error chaining
-  - custom error types
-  - recovery mechanisms
-  - panic/catch
-  - cleanup actions
-  - error logging
+    - stack traces
+    - error chaining
+    - custom error types
+    - recovery mechanisms
+    - panic/catch
+    - cleanup actions
+    - error logging
   stack_traces: true
   debugging:
     source_maps: true
@@ -172,115 +172,114 @@ error_handling:
 package_managers:
   primary: RubyGems
   alternatives:
-  - Bundler
+    - Bundler
 popular_frameworks:
   frontend:
-  - Sinatra
-  - Hanami
+    - Sinatra
+    - Hanami
   backend:
-  - Ruby on Rails
-  - Sinatra
-  - Grape
-  - Hanami
+    - Ruby on Rails
+    - Sinatra
+    - Grape
+    - Hanami
   testing:
-  - RSpec
-  - MiniTest
-  - Cucumber
-  - Capybara
+    - RSpec
+    - MiniTest
+    - Cucumber
+    - Capybara
   mobile:
-  - RubyMotion
+    - RubyMotion
 development_tools:
   lsps:
-  - Solargraph
-  - ruby-lsp
+    - Solargraph
+    - ruby-lsp
   debugging:
-  - byebug
-  - ruby-debug
-  - pry
+    - byebug
+    - ruby-debug
+    - pry
   profiling:
-  - ruby-prof
-  - stackprof
+    - ruby-prof
+    - stackprof
   build_systems:
-  - Rake
-  - Bundler
+    - Rake
+    - Bundler
   linters:
-  - RuboCop
-  - Reek
-  - Standard
+    - RuboCop
+    - Reek
+    - Standard
 standard_library:
   maturity: high
   key_areas:
-  - file I/O
-  - networking
-  - concurrency
-  - data structures
-  - algorithms
-  - text processing
-  - cryptography
-  - database access
-  - HTTP client/server
-  - JSON/XML processing
-  - regular expressions
-  - date/time
-  - mathematics
-  - compression
-  - serialization
-  - testing
-  - logging
-  - CLI tools
-  - process management
+    - file I/O
+    - networking
+    - concurrency
+    - data structures
+    - algorithms
+    - text processing
+    - cryptography
+    - database access
+    - HTTP client/server
+    - JSON/XML processing
+    - regular expressions
+    - date/time
+    - mathematics
+    - compression
+    - serialization
+    - testing
+    - logging
+    - CLI tools
+    - process management
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: moderate
 history:
   inception: 1995-01-01
   developer:
-  - Ruby Community
+    - Ruby Community
   designed_by:
-  - Yukihiro Matsumoto
+    - Yukihiro Matsumoto
   standards_bodies:
-  - Ruby Core Team
+    - Ruby Core Team
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Ruby%20logo.svg
   influenced_by:
     languages:
-    - Perl
-    - Smalltalk
-    - Eiffel
-    - Lisp
-    - Python
-    - CLU
-    - C++
-    - BASIC
-    - Ada
-    - Emacs
-    - Lua
-    - Dylan
+      - Perl
+      - Smalltalk
+      - Eiffel
+      - Lisp
+      - Python
+      - CLU
+      - C++
+      - BASIC
+      - Ada
+      - Emacs
+      - Lua
+      - Dylan
     paradigms:
-    - object-oriented
-    - functional
-    - imperative
+      - object-oriented
+      - functional
+      - imperative
 official_website: https://www.ruby-lang.org/
 official_blog_rss: https://www.ruby-lang.org/en/feeds/news.rss
 documentation:
   quality: high
   official_sources:
-  - https://ruby-doc.org
-  - https://docs.ruby-lang.org
+    - https://ruby-doc.org
+    - https://docs.ruby-lang.org
   community_resources:
-  - https://rubydoc.info
-  - https://www.ruby-lang.org/en/documentation
-  - https://rubyapi.org
+    - https://rubydoc.info
+    - https://www.ruby-lang.org/en/documentation
+    - https://rubyapi.org
 references:
   github_topics:
-  - ruby
-  - ruby-language
+    - ruby
+    - ruby-language
   quora_topics:
-  - Ruby-programming-language
+    - Ruby-programming-language
   stackexchange_tags:
-  - ruby
-  - ruby-on-rails
+    - ruby
+    - ruby-on-rails
   wikidata_id: Q161053
   subreddit: ruby
   x_handle: yukihiro_matz

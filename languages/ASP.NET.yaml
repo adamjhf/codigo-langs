@@ -3,31 +3,31 @@ description: A server-side web application framework developed by Microsoft, des
 category: programming
 status: active
 aliases:
-- aspx
-- aspx-vb
+  - aspx
+  - aspx-vb
 file_extensions:
-- asax
-- ascx
-- ashx
-- asmx
-- aspx
-- axd
+  - asax
+  - ascx
+  - ashx
+  - asmx
+  - aspx
+  - axd
 compilers:
-- name: .NET Framework
-  type: compiler
-  license: MIT
-  is_reference: true
-- name: .NET Core
-  type: compiler
-  license: MIT
-  source_url: https://github.com/dotnet/aspnetcore
+  - name: .NET Framework
+    type: compiler
+    license: MIT
+    is_reference: true
+  - name: .NET Core
+    type: compiler
+    license: MIT
+    source_url: https://github.com/dotnet/aspnetcore
 paradigms:
-- object-oriented
-- imperative
-- event-driven
-- declarative
-- functional
-- generic
+  - object-oriented
+  - imperative
+  - event-driven
+  - declarative
+  - functional
+  - generic
 typing:
   system: static
   structural: false
@@ -38,13 +38,13 @@ typing:
   type_annotations: required
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - bytecode
-  - machine code
+    - bytecode
+    - machine code
   runtime_environments:
-  - language-specific runtime
-  - native OS process
+    - language-specific runtime
+    - native OS process
   performance:
     startup_time: moderate
     memory_usage: moderate
@@ -52,29 +52,29 @@ execution:
     compilation_speed: moderate
 domains:
   primary:
-  - web development
-  - server-side applications
-  - distributed system
-  - publishing
+    - web development
+    - server-side applications
+    - distributed system
+    - publishing
   secondary:
-  - cloud computing
-  - DevOps
-  - business applications
+    - cloud computing
+    - DevOps
+    - business applications
   emerging:
-  - WebAssembly
+    - WebAssembly
 platforms:
   operating_systems:
-  - Windows
-  - Linux
-  - macOS
+    - Windows
+    - Linux
+    - macOS
   architectures:
-  - x86-64
-  - ARM64
-  - platform-independent
+    - x86-64
+    - ARM64
+    - platform-independent
   cloud_function_environments:
-  - AWS Lambda
-  - Azure Functions
-  - Google Cloud Functions
+    - AWS Lambda
+    - Azure Functions
+    - Google Cloud Functions
 ecosystem:
   maturity: very high
   package_registry: NuGet
@@ -102,31 +102,31 @@ language_features:
     implementation: .NET CLR Garbage Collector
     manual_control: false
   key_features:
-  - async/await
-  - reflection
-  - lambdas
-  - extension methods
-  - string interpolation
-  - generics
-  - traits/interfaces
-  - decorators/annotations
+    - async/await
+    - reflection
+    - lambdas
+    - extension methods
+    - string interpolation
+    - generics
+    - traits/interfaces
+    - decorators/annotations
 concurrency:
   model: threads
   features:
-  - async/await
-  - promises/futures
-  - thread pools
-  - task parallelism
-  - parallel collections
+    - async/await
+    - promises/futures
+    - thread pools
+    - task parallelism
+    - parallel collections
   ease_of_use: high
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error chaining
-  - custom error types
-  - recovery mechanisms
-  - error context
+    - stack traces
+    - error chaining
+    - custom error types
+    - recovery mechanisms
+    - error context
   stack_traces: true
   debugging:
     source_maps: true
@@ -135,94 +135,93 @@ error_handling:
 package_managers:
   primary: NuGet
   alternatives:
-  - MyGet
-  - GitHub Packages
+    - MyGet
+    - GitHub Packages
 popular_frameworks:
   frontend:
-  - Blazor
-  - Razor Pages
+    - Blazor
+    - Razor Pages
   backend:
-  - ASP.NET Core MVC
-  - ASP.NET Web API
-  - SignalR
-  - Minimal APIs
+    - ASP.NET Core MVC
+    - ASP.NET Web API
+    - SignalR
+    - Minimal APIs
   testing:
-  - xUnit
-  - NUnit
-  - MSTest
-  - Moq
+    - xUnit
+    - NUnit
+    - MSTest
+    - Moq
 development_tools:
   lsps:
-  - Omnisharp
-  - Visual Studio IntelliSense
+    - Omnisharp
+    - Visual Studio IntelliSense
   debugging:
-  - Visual Studio Debugger
-  - VS Code Debugger
+    - Visual Studio Debugger
+    - VS Code Debugger
   profiling:
-  - dotTrace
-  - Visual Studio Profiler
+    - dotTrace
+    - Visual Studio Profiler
   build_systems:
-  - MSBuild
-  - .NET CLI
+    - MSBuild
+    - .NET CLI
   linters:
-  - StyleCop
-  - Roslyn Analyzers
-  - Roslynator
+    - StyleCop
+    - Roslyn Analyzers
+    - Roslynator
 standard_library:
   maturity: very high
   key_areas:
-  - networking
-  - file I/O
-  - data structures
-  - algorithms
-  - text processing
-  - HTTP client/server
-  - JSON/XML processing
-  - database access
-  - date/time
-  - cryptography
-  - serialization
-  - logging
+    - networking
+    - file I/O
+    - data structures
+    - algorithms
+    - text processing
+    - HTTP client/server
+    - JSON/XML processing
+    - database access
+    - date/time
+    - cryptography
+    - serialization
+    - logging
   size: very large
-  documentation_quality: very high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
 history:
   inception: 2002-01-01
   developer:
-  - Microsoft
+    - Microsoft
   designed_by:
-  - Microsoft
+    - Microsoft
   described_by: ECMA-335
   standards_bodies:
-  - ECMA
+    - ECMA
   influenced_by:
     languages:
-    - C#
-    - Visual Basic
-    - C++
-    - Java
+      - C#
+      - Visual Basic
+      - C++
+      - Java
     paradigms:
-    - object-oriented
-    - imperative
+      - object-oriented
+      - imperative
 official_website: https://dotnet.microsoft.com/en-us/apps/aspnet
 documentation:
   quality: very high
   official_sources:
-  - https://learn.microsoft.com/en-us/aspnet/core
-  - https://docs.microsoft.com/en-us/aspnet
+    - https://learn.microsoft.com/en-us/aspnet/core
+    - https://docs.microsoft.com/en-us/aspnet
 references:
   github_topics:
-  - aspnet
-  - aspnetcore
-  - dotnet
+    - aspnet
+    - aspnetcore
+    - dotnet
   quora_topics:
-  - ASP-NET
+    - ASP-NET
   stackexchange_tags:
-  - asp.net
-  - asp.net-core
-  - asp.net-mvc
+    - asp.net
+    - asp.net-core
+    - asp.net-mvc
   wikidata_id: Q306646
   subreddit: dotnet
 color: '#9400ff'

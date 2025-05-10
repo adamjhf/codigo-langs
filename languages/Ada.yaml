@@ -3,23 +3,23 @@ description: Ada is a structured, statically typed, object-oriented high-level p
 category: programming
 status: active
 aliases:
-- ada95
-- ada2005
+  - ada95
+  - ada2005
 file_extensions:
-- adb
-- ada
-- ads
+  - adb
+  - ada
+  - ads
 compilers:
-- name: GNAT
-  type: compiler
-  license: GPL-3.0
-  source_url: https://github.com/gcc-mirror/gcc/tree/master/gcc/ada
-  is_reference: true
-- name: Rational Apex
-  type: compiler
-  license: proprietary
+  - name: GNAT
+    type: compiler
+    license: GPL-3.0
+    source_url: https://github.com/gcc-mirror/gcc/tree/master/gcc/ada
+    is_reference: true
+  - name: Rational Apex
+    type: compiler
+    license: proprietary
 paradigms:
-- imperative
+  - imperative
 typing:
   system: static
   structural: false
@@ -30,12 +30,12 @@ typing:
   type_annotations: required
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - machine code
+    - machine code
   runtime_environments:
-  - native OS process
-  - embedded interpreter
+    - native OS process
+    - embedded interpreter
   performance:
     startup_time: fast
     memory_usage: moderate
@@ -43,31 +43,31 @@ execution:
     compilation_speed: moderate
 domains:
   primary:
-  - embedded systems
-  - real-time computing
-  - safety-critical systems
-  - systems programming
-  - aerospace
+    - embedded systems
+    - real-time computing
+    - safety-critical systems
+    - systems programming
+    - aerospace
   secondary:
-  - scientific computing
-  - simulation
-  - telecommunications
+    - scientific computing
+    - simulation
+    - telecommunications
   emerging:
-  - IoT
+    - IoT
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Unix
-  - embedded
-  - bare metal
+    - Windows
+    - macOS
+    - Linux
+    - Unix
+    - embedded
+    - bare metal
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - PowerPC
-  - SPARC
+    - x86
+    - x86-64
+    - ARM
+    - PowerPC
+    - SPARC
 ecosystem:
   maturity: high
   package_registry: Alire
@@ -95,24 +95,24 @@ language_features:
     implementation: RAII
     manual_control: true
   key_features:
-  - modules
-  - generics
-  - contracts
+    - modules
+    - generics
+    - contracts
 concurrency:
   model: threads
   features:
-  - message passing
-  - shared memory
-  - task parallelism
-  - concurrent data structures
-  - supervisors
+    - message passing
+    - shared memory
+    - task parallelism
+    - concurrent data structures
+    - supervisors
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - custom error types
-  - error propagation
+    - stack traces
+    - custom error types
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -121,79 +121,78 @@ error_handling:
 package_managers:
   primary: Alire
   alternatives:
-  - GPRbuild
+    - GPRbuild
 popular_frameworks:
   backend:
-  - AWS (Ada Web Server)
+    - AWS (Ada Web Server)
   testing:
-  - AUnit
+    - AUnit
 development_tools:
   lsps:
-  - ada_language_server
+    - ada_language_server
   debugging:
-  - GDB
+    - GDB
   build_systems:
-  - GPRbuild
-  - Alire
+    - GPRbuild
+    - Alire
   linters:
-  - AdaControl
+    - AdaControl
 standard_library:
   maturity: high
   key_areas:
-  - file I/O
-  - networking
-  - concurrency
-  - data structures
-  - text processing
-  - date/time
-  - mathematics
+    - file I/O
+    - networking
+    - concurrency
+    - data structures
+    - text processing
+    - date/time
+    - mathematics
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
 history:
   inception: 1980-01-01
   developer:
-  - U.S. Department of Defense
-  - CII Honeywell Bull
-  - Jean Ichbiah
-  - S. Tucker Taft
+    - U.S. Department of Defense
+    - CII Honeywell Bull
+    - Jean Ichbiah
+    - S. Tucker Taft
   designed_by:
-  - Jean Ichbiah
-  - S. Tucker Taft
+    - Jean Ichbiah
+    - S. Tucker Taft
   described_by: ISO/IEC 8652
   standards_bodies:
-  - ISO
-  - ANSI
+    - ISO
+    - ANSI
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Ada%20horizon%20green%20logo%20with%20slogan.svg
   influenced_by:
     languages:
-    - Pascal
-    - ALGOL 68
-    - Green
-    - ALGOL 60
-    - Ada 95
-    - Java
-    - C++
-    - Smalltalk
-    - Eiffel
-    - Modula-2
+      - Pascal
+      - ALGOL 68
+      - Green
+      - ALGOL 60
+      - Ada 95
+      - Java
+      - C++
+      - Smalltalk
+      - Eiffel
+      - Modula-2
     paradigms:
-    - imperative
-    - procedural
-    - object-oriented
+      - imperative
+      - procedural
+      - object-oriented
 official_website: https://www.adaic.org
 documentation:
   quality: high
   official_sources:
-  - https://www.adaic.org/resources/add_content/docs/
+    - https://www.adaic.org/resources/add_content/docs/
 references:
   github_topics:
-  - ada
-  - ada-lang
+    - ada
+    - ada-lang
   stackexchange_tags:
-  - ada
+    - ada
   wikidata_id: Q302
   subreddit: ada
 color: '#02f88c'

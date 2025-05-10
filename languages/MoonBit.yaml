@@ -2,16 +2,13 @@ name: MoonBit
 description: MoonBit is a modern, statically-typed programming language designed for safety, performance, and developer productivity. It combines functional and imperative paradigms with a clean syntax and powerful type system.
 category: programming
 status: active
-
 file_extensions:
   - mbt
-
 paradigms:
   - functional
   - imperative
   - object-oriented
   - concurrent
-
 typing:
   system: static
   type_checking: compile-time
@@ -20,7 +17,6 @@ typing:
   inference: full
   type_coercion: conservative
   type_annotations: optional
-
 execution:
   type:
     - compiled
@@ -36,7 +32,6 @@ execution:
     memory_usage: low
     computation_speed: fast
     compilation_speed: fast
-
 domains:
   primary:
     - web development
@@ -48,7 +43,6 @@ domains:
   emerging:
     - WebAssembly
     - cloud computing
-
 platforms:
   operating_systems:
     - Windows
@@ -58,19 +52,16 @@ platforms:
     - x86-64
     - ARM64
     - WebAssembly
-
 ecosystem:
   maturity: moderate
   community_size: small
   learning_resources: small
   job_market_demand: low
-
 complexity:
   learning_curve: moderate
   cognitive_load: low
   syntax_complexity: low
   semantic_complexity: moderate
-
 language_features:
   immutability: optional
   generics: true
@@ -89,14 +80,12 @@ language_features:
     - async/await
     - modules
     - generics
-
 concurrency:
   model: event loop
   features:
     - async/await
     - promises/futures
   ease_of_use: high
-
 error_handling:
   primary_mechanism: result types
   features:
@@ -107,7 +96,6 @@ error_handling:
     source_maps: true
     breakpoints: true
     step_debugging: true
-
 standard_library:
   maturity: moderate
   key_areas:
@@ -118,20 +106,15 @@ standard_library:
     - networking
     - concurrency
   size: medium
-  documentation_quality: high
-
 versioning:
   release_cycle: semantic versioning
   backwards_compatibility: high
-
 history:
   inception: "2022-01-01"
   developer:
     - MoonBit Team
   designed_by:
     - MoonBit Team
-
 official_website: https://www.moonbitlang.com/
 official_blog_rss: https://www.moonbitlang.com/blog/atom.xml
-
 color: "#6F4E37"

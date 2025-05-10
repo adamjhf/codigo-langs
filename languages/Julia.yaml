@@ -3,19 +3,19 @@ description: Julia is a high-level, high-performance dynamic programming languag
 category: programming
 status: active
 aliases:
-- JuliaLang
+  - JuliaLang
 file_extensions:
-- jl
+  - jl
 compilers:
-- name: Julia
-  type: compiler
-  license: MIT
-  source_url: https://github.com/JuliaLang/julia
-  is_reference: true
+  - name: Julia
+    type: compiler
+    license: MIT
+    source_url: https://github.com/JuliaLang/julia
+    is_reference: true
 paradigms:
-- imperative
-- functional
-- object-oriented
+  - imperative
+  - functional
+  - object-oriented
 typing:
   system: dynamic
   structural: false
@@ -26,14 +26,14 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
-  - interpreted with JIT compilation
+    - compiled
+    - interpreted with JIT compilation
   compiles_to:
-  - LLVM IR
-  - machine code
+    - LLVM IR
+    - machine code
   runtime_environments:
-  - language-specific runtime
-  - native OS process
+    - language-specific runtime
+    - native OS process
   performance:
     startup_time: moderate
     memory_usage: moderate
@@ -41,32 +41,32 @@ execution:
     compilation_speed: moderate
 domains:
   primary:
-  - scientific computing
-  - data science
-  - numerical analysis
-  - statistics
-  - machine learning frameworks
+    - scientific computing
+    - data science
+    - numerical analysis
+    - statistics
+    - machine learning frameworks
   secondary:
-  - artificial intelligence
-  - distributed system
-  - web development
-  - server-side applications
+    - artificial intelligence
+    - distributed system
+    - web development
+    - server-side applications
   emerging:
-  - quantum programming
-  - blockchain
-  - robotics
+    - quantum programming
+    - blockchain
+    - robotics
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
   architectures:
-  - x86-64
-  - ARM64
-  - PowerPC
-  - ARM
+    - x86-64
+    - ARM64
+    - PowerPC
+    - ARM
 ecosystem:
   maturity: high
   package_registry: https://juliahub.com
@@ -94,36 +94,36 @@ language_features:
     implementation: Mark and sweep
     manual_control: false
   key_features:
-  - first-class functions
-  - type inference
-  - meta-programming
-  - macros
-  - operator overloading
-  - modules
-  - interactive development
-  - REPL
-  - native FFI
-  - string interpolation
-  - coroutines
-  - variadic functions
-  - named arguments
+    - first-class functions
+    - type inference
+    - meta-programming
+    - macros
+    - operator overloading
+    - modules
+    - interactive development
+    - REPL
+    - native FFI
+    - string interpolation
+    - coroutines
+    - variadic functions
+    - named arguments
 concurrency:
   model: parallel tasks
   features:
-  - green threads
-  - channels
-  - parallel collections
-  - task parallelism
-  - data parallelism
-  - shared memory
-  - distributed computing
+    - green threads
+    - channels
+    - parallel collections
+    - task parallelism
+    - data parallelism
+    - shared memory
+    - distributed computing
   ease_of_use: high
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - custom error types
-  - error chaining
+    - stack traces
+    - custom error types
+    - error chaining
   stack_traces: true
   debugging:
     source_maps: true
@@ -132,100 +132,99 @@ error_handling:
 package_managers:
   primary: Pkg
   alternatives:
-  - PkgTemplates
+    - PkgTemplates
 popular_frameworks:
   frontend:
-  - Genie.jl
-  - Dash.jl
+    - Genie.jl
+    - Dash.jl
   backend:
-  - HTTP.jl
+    - HTTP.jl
   testing:
-  - Test.jl
-  - TestItems.jl
+    - Test.jl
+    - TestItems.jl
 development_tools:
   lsps:
-  - LanguageServer.jl
+    - LanguageServer.jl
   debugging:
-  - Debugger.jl
-  - Infiltrator.jl
+    - Debugger.jl
+    - Infiltrator.jl
   profiling:
-  - Profile.jl
-  - ProfileView.jl
+    - Profile.jl
+    - ProfileView.jl
   build_systems:
-  - BinaryBuilder.jl
+    - BinaryBuilder.jl
   linters:
-  - JuliaFormatter.jl
-  - StaticLint.jl
+    - JuliaFormatter.jl
+    - StaticLint.jl
 standard_library:
   maturity: high
   key_areas:
-  - file I/O
-  - networking
-  - concurrency
-  - data structures
-  - algorithms
-  - text processing
-  - cryptography
-  - JSON/XML processing
-  - regular expressions
-  - date/time
-  - mathematics
-  - compression
-  - serialization
-  - testing
-  - logging
-  - process management
-  - random number generation
+    - file I/O
+    - networking
+    - concurrency
+    - data structures
+    - algorithms
+    - text processing
+    - cryptography
+    - JSON/XML processing
+    - regular expressions
+    - date/time
+    - mathematics
+    - compression
+    - serialization
+    - testing
+    - logging
+    - process management
+    - random number generation
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: semantic versioning
   backwards_compatibility: high
 history:
   inception: 2009-08-23
   developer:
-  - MIT
-  - Julia Computing (now JuliaHub)
+    - MIT
+    - Julia Computing (now JuliaHub)
   designed_by:
-  - Jeff Bezanson
-  - Stefan Karpinski
-  - Viral B. Shah
-  - Alan Edelman
+    - Jeff Bezanson
+    - Stefan Karpinski
+    - Viral B. Shah
+    - Alan Edelman
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Julia%20Programming%20Language%20Logo.svg
   influenced_by:
     languages:
-    - Python
-    - R
-    - MATLAB
-    - Lisp
-    - Ruby
-    - C
-    - Lua
-    - Mathematica
+      - Python
+      - R
+      - MATLAB
+      - Lisp
+      - Ruby
+      - C
+      - Lua
+      - Mathematica
     paradigms:
-    - functional
-    - procedural
-    - object-oriented
+      - functional
+      - procedural
+      - object-oriented
 official_website: https://julialang.org/
 official_blog_rss: https://julialang.org/feed.xml
 documentation:
   quality: high
   official_sources:
-  - https://docs.julialang.org
-  - https://julialang.org/learning/
+    - https://docs.julialang.org
+    - https://julialang.org/learning/
   community_resources:
-  - https://juliahub.com
-  - https://juliadocs.github.io/Julia-Cheat-Sheet/
-  - https://juliaacademy.com
+    - https://juliahub.com
+    - https://juliadocs.github.io/Julia-Cheat-Sheet/
+    - https://juliaacademy.com
 references:
   github_topics:
-  - julia
-  - julialang
+    - julia
+    - julialang
   quora_topics:
-  - Julia-programming-language
+    - Julia-programming-language
   stackexchange_tags:
-  - julia
-  - julia-lang
+    - julia
+    - julia-lang
   wikidata_id: Q15194
   subreddit: Julia
   x_handle: JuliaLanguage

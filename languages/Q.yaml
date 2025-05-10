@@ -2,24 +2,20 @@ name: Q
 category: programming
 status: active
 description: A general-purpose, array processing programming language originally developed at Morgan Stanley, designed for analytical processing of big data with a focus on financial time series data.
-
 aliases:
   - kdb+/q
   - kdb+
   - k/q
-
 file_extensions:
   - q
   - k
   - qsd
   - qsm
-
 paradigms:
   - array-oriented
   - functional
   - imperative
   - dataflow
-
 typing:
   system: dynamic
   type_checking: runtime
@@ -27,7 +23,6 @@ typing:
   inference: full
   type_coercion: conservative
   type_annotations: none
-
 execution:
   type:
     - interpreted
@@ -38,12 +33,10 @@ execution:
     startup_time: fast
     memory_usage: moderate
     computation_speed: very fast
-
 compilers:
   - name: kdb+
     type: interpreter
     license: proprietary
-
 domains:
   primary:
     - financial systems
@@ -54,7 +47,6 @@ domains:
     - scientific computing
     - data science
     - database management
-
 platforms:
   operating_systems:
     - Windows
@@ -64,19 +56,16 @@ platforms:
   architectures:
     - x86-64
     - ARM64
-
 ecosystem:
   maturity: high
   community_size: small
   learning_resources: small
   job_market_demand: moderate
-
 complexity:
   learning_curve: high
   cognitive_load: high
   syntax_complexity: high
   semantic_complexity: high
-
 language_features:
   immutability: optional
   metaprogramming: true
@@ -90,18 +79,15 @@ language_features:
     - first-class functions
     - iterators/generators
     - meta-programming
-
 concurrency:
   model: threads
   features:
     - shared memory
     - parallel collections
   ease_of_use: moderate
-
 error_handling:
   primary_mechanism: error codes
   stack_traces: true
-
 standard_library:
   maturity: high
   key_areas:
@@ -112,8 +98,6 @@ standard_library:
     - date/time
     - mathematics
   size: medium
-  documentation_quality: moderate
-
 history:
   inception: "1993-01-01"
   developer:
@@ -128,18 +112,14 @@ history:
     paradigms:
       - array-oriented
       - functional
-
 official_website: https://code.kx.com/q/
 color: "#0080ff"
-
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
-
 development_tools:
   lsps:
     - kdb-language-server
-
 references:
   wikidata_id: Q2421869
   github_topics:

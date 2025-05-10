@@ -9,7 +9,6 @@ file_extensions:
   - dfm
 category: programming
 status: active
-
 compilers:
   - name: Embarcadero Delphi
     type: compiler
@@ -19,7 +18,6 @@ compilers:
     type: compiler
     license: GPL-2.0
     source_url: https://gitlab.com/freepascal.org/fpc/source
-
 paradigms:
   - object-oriented
   - imperative
@@ -27,7 +25,6 @@ paradigms:
   - structured
   - event-driven
   - generic
-
 typing:
   system: static
   type_checking: compile-time
@@ -36,7 +33,6 @@ typing:
   inference: partial
   type_coercion: conservative
   type_annotations: required
-
 execution:
   type:
     - compiled
@@ -49,7 +45,6 @@ execution:
     memory_usage: moderate
     computation_speed: fast
     compilation_speed: fast
-
 domains:
   primary:
     - desktop applications
@@ -61,7 +56,6 @@ domains:
   emerging:
     - mobile development
     - IoT
-
 platforms:
   operating_systems:
     - Windows
@@ -74,20 +68,17 @@ platforms:
     - x86-64
     - ARM
     - ARM64
-
 ecosystem:
   maturity: high
   package_registry: GetIt
   community_size: medium
   learning_resources: medium
   job_market_demand: moderate
-
 complexity:
   learning_curve: moderate
   cognitive_load: moderate
   syntax_complexity: moderate
   semantic_complexity: moderate
-
 language_features:
   immutability: optional
   enums: basic
@@ -109,14 +100,12 @@ language_features:
     - operator overloading
     - extension methods
     - modules
-
 concurrency:
   model: threads
   features:
     - thread pools
     - shared memory
   ease_of_use: moderate
-
 error_handling:
   primary_mechanism: exceptions
   features:
@@ -129,13 +118,11 @@ error_handling:
     source_maps: true
     breakpoints: true
     step_debugging: true
-
 package_managers:
   primary: GetIt
   alternatives:
     - Delphinus
     - Boss
-
 popular_frameworks:
   frontend:
     - VCL (Visual Component Library)
@@ -149,7 +136,6 @@ popular_frameworks:
     - DUnitX
   mobile:
     - FireMonkey
-
 development_tools:
   lsps:
     - DelphiLanguageServer
@@ -165,7 +151,6 @@ development_tools:
   linters:
     - DelphiCodeAnalyzer
     - Pascal Analyzer
-
 standard_library:
   maturity: high
   key_areas:
@@ -179,12 +164,9 @@ standard_library:
     - GUI
     - graphics
   size: large
-  documentation_quality: high
-
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
-
 history:
   inception: "1995-02-14"
   developer:
@@ -203,16 +185,13 @@ history:
       - object-oriented
       - imperative
       - procedural
-
 official_website: https://www.embarcadero.com/products/delphi
-
 documentation:
   quality: high
   official_sources:
     - https://docwiki.embarcadero.com/RADStudio/en/Main_Page
   community_resources:
     - https://delphi.fandom.com/
-
 references:
   github_topics:
     - delphi
@@ -223,5 +202,4 @@ references:
     - pascal
   wikidata_id: Q187038
   subreddit: delphi
-
 color: "#EE1F35"

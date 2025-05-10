@@ -3,30 +3,30 @@ description: Scala is a static-typed language combining functional and object-or
 category: programming
 status: active
 aliases:
-- Scala 3
-- Dotty
+  - Scala 3
+  - Dotty
 file_extensions:
-- scala
-- kojo
-- sbt
-- sc
+  - scala
+  - kojo
+  - sbt
+  - sc
 compilers:
-- name: scalac
-  type: compiler
-  license: Apache-2.0
-  source_url: https://github.com/scala/scala
-  is_reference: true
-- name: Dotty
-  type: compiler
-  license: Apache-2.0
-  source_url: https://github.com/lampepfl/dotty
-  is_reference: false
+  - name: scalac
+    type: compiler
+    license: Apache-2.0
+    source_url: https://github.com/scala/scala
+    is_reference: true
+  - name: Dotty
+    type: compiler
+    license: Apache-2.0
+    source_url: https://github.com/lampepfl/dotty
+    is_reference: false
 paradigms:
-- functional
-- object-oriented
-- imperative
-- concurrent
-- generic
+  - functional
+  - object-oriented
+  - imperative
+  - concurrent
+  - generic
 typing:
   system: static
   structural: true
@@ -37,17 +37,17 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
-  - hybrid
+    - compiled
+    - hybrid
   compiles_to:
-  - bytecode
-  - machine code
-  - JavaScript
+    - bytecode
+    - machine code
+    - JavaScript
   runtime_environments:
-  - JVM
-  - native OS process
-  - browser
-  - native binary
+    - JVM
+    - native OS process
+    - browser
+    - native binary
   performance:
     startup_time: moderate
     memory_usage: moderate
@@ -55,35 +55,35 @@ execution:
     compilation_speed: moderate
 domains:
   primary:
-  - data science
-  - distributed system
-  - server-side applications
-  - web development
-  - big data
+    - data science
+    - distributed system
+    - server-side applications
+    - web development
+    - big data
   secondary:
-  - artificial intelligence
-  - scientific computing
-  - IoT
-  - cloud computing
+    - artificial intelligence
+    - scientific computing
+    - IoT
+    - cloud computing
   emerging:
-  - blockchain
-  - machine learning frameworks
-  - WebAssembly
+    - blockchain
+    - machine learning frameworks
+    - WebAssembly
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
   architectures:
-  - x86-64
-  - ARM64
-  - platform-independent
+    - x86-64
+    - ARM64
+    - platform-independent
   cloud_function_environments:
-  - AWS Lambda
-  - Google Cloud Functions
-  - Azure Functions
+    - AWS Lambda
+    - Google Cloud Functions
+    - Azure Functions
 ecosystem:
   maturity: high
   package_registry: Maven Central
@@ -111,34 +111,34 @@ language_features:
     implementation: JVM garbage collector
     manual_control: false
   key_features:
-  - first-class functions
-  - closures
-  - pattern matching
-  - algebraic data types
-  - type inference
-  - operator overloading
-  - traits/interfaces
-  - extension methods
-  - string interpolation
-  - reflection
-  - meta-programming
-  - macros
-  - type classes
+    - first-class functions
+    - closures
+    - pattern matching
+    - algebraic data types
+    - type inference
+    - operator overloading
+    - traits/interfaces
+    - extension methods
+    - string interpolation
+    - reflection
+    - meta-programming
+    - macros
+    - type classes
 concurrency:
   model: actors
   features:
-  - async/await
-  - promises/futures
-  - actors
-  - parallel collections
-  - software transactional memory
+    - async/await
+    - promises/futures
+    - actors
+    - parallel collections
+    - software transactional memory
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error chaining
-  - custom error types
+    - stack traces
+    - error chaining
+    - custom error types
   stack_traces: true
   debugging:
     source_maps: true
@@ -147,114 +147,113 @@ error_handling:
 package_managers:
   primary: sbt
   alternatives:
-  - Mill
-  - Gradle
-  - Maven
+    - Mill
+    - Gradle
+    - Maven
 popular_frameworks:
   frontend:
-  - Scala.js
-  - Play Framework
+    - Scala.js
+    - Play Framework
   backend:
-  - Play Framework
-  - Akka
-  - http4s
-  - ZIO
-  - Cats Effect
+    - Play Framework
+    - Akka
+    - http4s
+    - ZIO
+    - Cats Effect
   testing:
-  - ScalaTest
-  - Specs2
-  - MUnit
-  - ScalaCheck
+    - ScalaTest
+    - Specs2
+    - MUnit
+    - ScalaCheck
 development_tools:
   lsps:
-  - Metals
-  - Scala Language Server
+    - Metals
+    - Scala Language Server
   debugging:
-  - IntelliJ IDEA debugger
-  - Eclipse Scala debugger
+    - IntelliJ IDEA debugger
+    - Eclipse Scala debugger
   profiling:
-  - VisualVM
-  - JProfiler
-  - YourKit
+    - VisualVM
+    - JProfiler
+    - YourKit
   build_systems:
-  - sbt
-  - Mill
-  - Gradle
-  - Maven
+    - sbt
+    - Mill
+    - Gradle
+    - Maven
   linters:
-  - Scalafmt
-  - Scalafix
-  - WartRemover
+    - Scalafmt
+    - Scalafix
+    - WartRemover
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - algorithms
-  - text processing
-  - concurrency
-  - file I/O
-  - networking
-  - date/time
-  - regular expressions
-  - JSON/XML processing
+    - data structures
+    - algorithms
+    - text processing
+    - concurrency
+    - file I/O
+    - networking
+    - date/time
+    - regular expressions
+    - JSON/XML processing
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: moderate
 history:
   inception: 2004-01-20
   developer:
-  - École Polytechnique Fédérale de Lausanne (EPFL)
-  - Lightbend (formerly Typesafe)
-  - Swiss Federal Institute of Technology in Lausanne
-  - Martin Odersky
+    - École Polytechnique Fédérale de Lausanne (EPFL)
+    - Lightbend (formerly Typesafe)
+    - Swiss Federal Institute of Technology in Lausanne
+    - Martin Odersky
   designed_by:
-  - Martin Odersky
+    - Martin Odersky
   standards_bodies:
-  - Scala Center
+    - Scala Center
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Scala-full-color.svg
   influenced_by:
     languages:
-    - Java
-    - Haskell
-    - ML
-    - Erlang
-    - Lisp
-    - Pizza
-    - Scheme
-    - OCaml
-    - Smalltalk
-    - Standard ML
-    - Eiffel
-    - Common Lisp
-    - Oz
+      - Java
+      - Haskell
+      - ML
+      - Erlang
+      - Lisp
+      - Pizza
+      - Scheme
+      - OCaml
+      - Smalltalk
+      - Standard ML
+      - Eiffel
+      - Common Lisp
+      - Oz
     paradigms:
-    - functional
-    - object-oriented
+      - functional
+      - object-oriented
 official_website: https://www.scala-lang.org/
 official_blog_rss: https://www.scala-lang.org/feed/index.xml
 documentation:
   quality: high
   official_sources:
-  - https://docs.scala-lang.org/
-  - https://www.scala-lang.org/api/current/
+    - https://docs.scala-lang.org/
+    - https://www.scala-lang.org/api/current/
   community_resources:
-  - https://www.baeldung.com/scala/
-  - https://twitter.github.io/scala_school/
-  - https://docs.scala-lang.org/overviews/
+    - https://www.baeldung.com/scala/
+    - https://twitter.github.io/scala_school/
+    - https://docs.scala-lang.org/overviews/
 references:
   github_topics:
-  - scala
-  - scala3
-  - dotty
+    - scala
+    - scala3
+    - dotty
   quora_topics:
-  - Scala-Programming-Language
-  - Scala-programming-language-1
+    - Scala-Programming-Language
+    - Scala-programming-language-1
   stackexchange_tags:
-  - scala
-  - scala3
-  - dotty
+    - scala
+    - scala3
+    - dotty
   wikidata_id: Q242521
   subreddit: scala
   x_handle: scala_lang

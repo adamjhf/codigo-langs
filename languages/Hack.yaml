@@ -3,21 +3,21 @@ description: Hack is a dialect of PHP developed by Facebook that adds static typ
 category: programming
 status: active
 file_extensions:
-- hack
-- hh
-- hhi
-- php
+  - hack
+  - hh
+  - hhi
+  - php
 compilers:
-- name: HHVM
-  type: hybrid
-  license: MIT
-  source_url: https://github.com/facebook/hhvm
-  is_reference: true
+  - name: HHVM
+    type: hybrid
+    license: MIT
+    source_url: https://github.com/facebook/hhvm
+    is_reference: true
 paradigms:
-- imperative
-- object-oriented
-- functional
-- structured
+  - imperative
+  - object-oriented
+  - functional
+  - structured
 typing:
   system: gradual
   structural: true
@@ -28,12 +28,12 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
-  - interpreted with JIT compilation
+    - compiled
+    - interpreted with JIT compilation
   compiles_to:
-  - bytecode
+    - bytecode
   runtime_environments:
-  - language-specific runtime
+    - language-specific runtime
   performance:
     startup_time: fast
     memory_usage: moderate
@@ -41,20 +41,20 @@ execution:
     compilation_speed: moderate
 domains:
   primary:
-  - web development
-  - server-side applications
+    - web development
+    - server-side applications
   secondary:
-  - distributed system
-  - DevOps
+    - distributed system
+    - DevOps
   emerging:
-  - data science
+    - data science
 platforms:
   operating_systems:
-  - Linux
-  - macOS
+    - Linux
+    - macOS
   architectures:
-  - x86-64
-  - ARM64
+    - x86-64
+    - ARM64
 ecosystem:
   maturity: moderate
   package_registry: Composer (via PHP compatibility)
@@ -80,23 +80,23 @@ language_features:
   memory_management:
     type: garbage collection
   key_features:
-  - algebraic data types
-  - type inference
-  - traits/interfaces
-  - async/await
-  - generics
+    - algebraic data types
+    - type inference
+    - traits/interfaces
+    - async/await
+    - generics
 concurrency:
   model: event loop
   features:
-  - async/await
-  - promises/futures
+    - async/await
+    - promises/futures
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - custom error types
-  - error propagation
+    - stack traces
+    - custom error types
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -106,56 +106,55 @@ package_managers:
   primary: Composer
 popular_frameworks:
   backend:
-  - Hack Standard Library (HSL)
-  - Hack Frameworks Library (HFL)
+    - Hack Standard Library (HSL)
+    - Hack Frameworks Library (HFL)
 development_tools:
   lsps:
-  - Hack Language Server
+    - Hack Language Server
   linters:
-  - Hack Typechecker
+    - Hack Typechecker
 standard_library:
   maturity: moderate
   key_areas:
-  - data structures
-  - file I/O
-  - networking
-  - text processing
-  - date/time
+    - data structures
+    - file I/O
+    - networking
+    - text processing
+    - date/time
   size: medium
-  documentation_quality: high
 versioning:
   release_cycle: semantic versioning
   backwards_compatibility: high
 history:
   inception: 2014-01-01
   developer:
-  - Facebook
-  - Meta Platforms
+    - Facebook
+    - Meta Platforms
   designed_by:
-  - Facebook Engineering Team
+    - Facebook Engineering Team
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Webysther%2020160330%20-%20Hack%20%28language%29.svg
   influenced_by:
     languages:
-    - PHP
-    - OCaml
-    - TypeScript
-    - Scala
-    - C#
-    - Haskell
-    - Java
+      - PHP
+      - OCaml
+      - TypeScript
+      - Scala
+      - C#
+      - Haskell
+      - Java
 official_website: https://hacklang.org
 documentation:
   quality: high
   official_sources:
-  - https://docs.hhvm.com/hack/
+    - https://docs.hhvm.com/hack/
 references:
   github_topics:
-  - hack
-  - hhvm
+    - hack
+    - hhvm
   quora_topics:
-  - Hack-programming-language-1
+    - Hack-programming-language-1
   stackexchange_tags:
-  - hack
-  - hhvm
+    - hack
+    - hhvm
   wikidata_id: Q16958473
 color: '#878787'

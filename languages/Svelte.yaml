@@ -3,10 +3,10 @@ description: A component-based JavaScript framework that shifts work from runtim
 category: programming
 status: active
 file_extensions:
-- svelte
+  - svelte
 paradigms:
-- declarative
-- reactive
+  - declarative
+  - reactive
 typing:
   system: static
   strength: strong
@@ -15,13 +15,13 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
-  - transpiled
+    - compiled
+    - transpiled
   compiles_to:
-  - JavaScript
+    - JavaScript
   runtime_environments:
-  - browser
-  - native OS process
+    - browser
+    - native OS process
   performance:
     startup_time: fast
     memory_usage: low
@@ -29,22 +29,22 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - web development
-  - user interface
+    - web development
+    - user interface
   secondary:
-  - mobile development
-  - desktop applications
+    - mobile development
+    - desktop applications
   emerging:
-  - WebAssembly
+    - WebAssembly
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Android
-  - iOS
+    - Windows
+    - macOS
+    - Linux
+    - Android
+    - iOS
   architectures:
-  - platform-independent
+    - platform-independent
 ecosystem:
   maturity: high
   package_registry: npm
@@ -63,15 +63,15 @@ language_features:
   pattern_matching: false
   null_safety: false
   key_features:
-  - hot reload
-  - string interpolation
-  - destructuring
+    - hot reload
+    - string interpolation
+    - destructuring
 error_handling:
   primary_mechanism: exceptions
   features:
-  - custom error types
-  - error propagation
-  - error formatting
+    - custom error types
+    - error propagation
+    - error formatting
   stack_traces: true
   debugging:
     source_maps: true
@@ -80,62 +80,61 @@ error_handling:
 package_managers:
   primary: npm
   alternatives:
-  - yarn
-  - pnpm
+    - yarn
+    - pnpm
 popular_frameworks:
   frontend:
-  - SvelteKit
-  - Sapper
+    - SvelteKit
+    - Sapper
 development_tools:
   lsps:
-  - svelte-language-server
+    - svelte-language-server
   debugging:
-  - Chrome DevTools
-  - Firefox DevTools
+    - Chrome DevTools
+    - Firefox DevTools
   build_systems:
-  - Vite
-  - Rollup
-  - webpack
+    - Vite
+    - Rollup
+    - webpack
   linters:
-  - ESLint
-  - svelte-check
+    - ESLint
+    - svelte-check
 standard_library:
   maturity: moderate
   size: small
-  documentation_quality: high
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: high
 history:
   inception: 2016-11-26
   developer:
-  - Svelte team
-  - Rich Harris
+    - Svelte team
+    - Rich Harris
   designed_by:
-  - Rich Harris
+    - Rich Harris
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Svelte%20Logo.svg
   influenced_by:
     languages:
-    - React
-    - Vue.js
-    - Ractive.js
+      - React
+      - Vue.js
+      - Ractive.js
     paradigms:
-    - declarative
-    - reactive
+      - declarative
+      - reactive
 official_website: https://svelte.dev/
 documentation:
   quality: high
   official_sources:
-  - https://svelte.dev/docs
-  - https://svelte.dev/tutorial
+    - https://svelte.dev/docs
+    - https://svelte.dev/tutorial
   community_resources:
-  - https://github.com/sveltejs/community
+    - https://github.com/sveltejs/community
 references:
   github_topics:
-  - svelte
-  - sveltejs
+    - svelte
+    - sveltejs
   stackexchange_tags:
-  - svelte
-  - svelte.js
+    - svelte
+    - svelte.js
   subreddit: sveltejs
 color: '#ff3e00'

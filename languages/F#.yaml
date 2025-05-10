@@ -3,25 +3,25 @@ description: F# is a functional-first, strongly typed programming language that 
 category: programming
 status: active
 aliases:
-- fsharp
+  - fsharp
 file_extensions:
-- fs
-- fsi
-- fsx
+  - fs
+  - fsi
+  - fsx
 compilers:
-- name: F# Compiler
-  type: compiler
-  license: MIT
-  source_url: https://github.com/dotnet/fsharp
-  is_reference: true
+  - name: F# Compiler
+    type: compiler
+    license: MIT
+    source_url: https://github.com/dotnet/fsharp
+    is_reference: true
 paradigms:
-- functional
-- object-oriented
-- imperative
-- concurrent
-- meta-programming
-- generic
-- reflective
+  - functional
+  - object-oriented
+  - imperative
+  - concurrent
+  - meta-programming
+  - generic
+  - reflective
 typing:
   system: static
   structural: true
@@ -32,14 +32,14 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - bytecode
-  - WebAssembly
+    - bytecode
+    - WebAssembly
   runtime_environments:
-  - CLR
-  - native OS process
-  - browser
+    - CLR
+    - native OS process
+    - browser
   performance:
     startup_time: moderate
     memory_usage: moderate
@@ -47,37 +47,37 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - data science
-  - financial systems
-  - scientific computing
-  - server-side applications
-  - web development
+    - data science
+    - financial systems
+    - scientific computing
+    - server-side applications
+    - web development
   secondary:
-  - artificial intelligence
-  - cloud computing
-  - compiler
-  - desktop applications
+    - artificial intelligence
+    - cloud computing
+    - compiler
+    - desktop applications
   emerging:
-  - WebAssembly
-  - quantum programming
+    - WebAssembly
+    - quantum programming
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Android
-  - iOS
+    - Windows
+    - macOS
+    - Linux
+    - Android
+    - iOS
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
-  - WebAssembly
-  - platform-independent
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - WebAssembly
+    - platform-independent
   cloud_function_environments:
-  - AWS Lambda
-  - Google Cloud Functions
-  - Azure Functions
+    - AWS Lambda
+    - Google Cloud Functions
+    - Azure Functions
 ecosystem:
   maturity: high
   package_registry: NuGet
@@ -105,32 +105,32 @@ language_features:
     implementation: .NET GC
     manual_control: false
   key_features:
-  - pattern matching
-  - algebraic data types
-  - type inference
-  - first-class functions
-  - closures
-  - traits/interfaces
-  - async/await
+    - pattern matching
+    - algebraic data types
+    - type inference
+    - first-class functions
+    - closures
+    - traits/interfaces
+    - async/await
 concurrency:
   model: threads
   features:
-  - async/await
-  - promises/futures
-  - channels
-  - message passing
-  - shared memory
-  - task parallelism
-  - data parallelism
-  - concurrent data structures
+    - async/await
+    - promises/futures
+    - channels
+    - message passing
+    - shared memory
+    - task parallelism
+    - data parallelism
+    - concurrent data structures
   ease_of_use: high
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - custom error types
-  - error chaining
-  - error propagation
+    - stack traces
+    - custom error types
+    - error chaining
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -139,98 +139,97 @@ error_handling:
 package_managers:
   primary: NuGet
   alternatives:
-  - Paket
+    - Paket
 popular_frameworks:
   frontend:
-  - Fable
-  - Feliz
-  - Elmish
+    - Fable
+    - Feliz
+    - Elmish
   backend:
-  - Giraffe
-  - Saturn
-  - Suave
-  - SAFE Stack
+    - Giraffe
+    - Saturn
+    - Suave
+    - SAFE Stack
   testing:
-  - Expecto
-  - FsUnit
-  - Unquote
-  - FsCheck
+    - Expecto
+    - FsUnit
+    - Unquote
+    - FsCheck
 development_tools:
   lsps:
-  - FsAutoComplete
-  - Ionide
+    - FsAutoComplete
+    - Ionide
   debugging:
-  - Visual Studio Debugger
-  - JetBrains Rider Debugger
-  - VS Code Debugger
+    - Visual Studio Debugger
+    - JetBrains Rider Debugger
+    - VS Code Debugger
   profiling:
-  - dotTrace
-  - Visual Studio Profiler
+    - dotTrace
+    - Visual Studio Profiler
   build_systems:
-  - FAKE
-  - MSBuild
+    - FAKE
+    - MSBuild
   linters:
-  - FSharpLint
+    - FSharpLint
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - algorithms
-  - text processing
-  - file I/O
-  - networking
-  - concurrency
-  - date/time
-  - regular expressions
-  - serialization
-  - testing
+    - data structures
+    - algorithms
+    - text processing
+    - file I/O
+    - networking
+    - concurrency
+    - date/time
+    - regular expressions
+    - serialization
+    - testing
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: semantic versioning
   backwards_compatibility: high
 history:
   inception: 2005-01-01
   developer:
-  - Microsoft Research
-  - Microsoft
-  - F# Software Foundation
+    - Microsoft Research
+    - Microsoft
+    - F# Software Foundation
   designed_by:
-  - Don Syme
-  - Microsoft Research
+    - Don Syme
+    - Microsoft Research
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/F%20Sharp%20logo.svg
   influenced_by:
     languages:
-    - OCaml
-    - C#
-    - Haskell
-    - Python
-    - Scala
-    - Erlang
-    - ML
+      - OCaml
+      - C#
+      - Haskell
+      - Python
+      - Scala
+      - Erlang
+      - ML
     paradigms:
-    - functional
-    - object-oriented
-    - imperative
-    - concurrent
+      - functional
+      - object-oriented
+      - imperative
+      - concurrent
 official_website: https://fsharp.org/
 documentation:
   quality: high
   official_sources:
-  - https://docs.microsoft.com/en-us/dotnet/fsharp/
-  - https://fsharp.org/docs/
+    - https://docs.microsoft.com/en-us/dotnet/fsharp/
+    - https://fsharp.org/docs/
   community_resources:
-  - https://fsharpforfunandprofit.com/
-  - https://fsharpforbeginners.com/
+    - https://fsharpforfunandprofit.com/
+    - https://fsharpforbeginners.com/
 references:
   github_topics:
-  - fsharp
-  - f-sharp
+    - fsharp
+    - f-sharp
   quora_topics:
-  - F-programming-language
+    - F-programming-language
   stackexchange_tags:
-  - f#
-  - fsharp
+    - f#
+    - fsharp
   wikidata_id: Q1034000
   subreddit: fsharp
 color: '#b845fc'

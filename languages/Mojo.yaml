@@ -4,17 +4,15 @@ category: programming
 status: active
 file_extensions:
   - mojo
-  - 🔥
+  - "\U0001F525"
 aliases:
-  - Mojo🔥
-
+  - "Mojo\U0001F525"
 compilers:
   - name: Modular Mojo Compiler
     type: compiler
     license: proprietary
     is_reference: true
     source_url: https://github.com/modularml/mojo
-
 paradigms:
   - imperative
   - procedural
@@ -23,7 +21,6 @@ paradigms:
   - concurrent
   - generic
   - meta-programming
-
 typing:
   system: static
   type_checking: compile-time
@@ -32,7 +29,6 @@ typing:
   inference: partial
   type_coercion: conservative
   type_annotations: optional
-
 execution:
   type:
     - compiled
@@ -48,7 +44,6 @@ execution:
     memory_usage: low
     computation_speed: very fast
     compilation_speed: fast
-
 domains:
   primary:
     - artificial intelligence
@@ -64,7 +59,6 @@ domains:
     - machine learning
     - robotics
     - embedded systems
-
 platforms:
   operating_systems:
     - Linux
@@ -72,20 +66,17 @@ platforms:
   architectures:
     - x86-64
     - ARM64
-
 ecosystem:
   maturity: low
   package_registry: modular.com
   community_size: small
   learning_resources: small
   job_market_demand: low
-
 complexity:
   learning_curve: moderate
   cognitive_load: moderate
   syntax_complexity: low
   semantic_complexity: moderate
-
 language_features:
   immutability: optional
   enums: basic
@@ -108,7 +99,6 @@ language_features:
     - generics
     - native FFI
     - ownership system
-
 concurrency:
   model: parallel tasks
   features:
@@ -117,7 +107,6 @@ concurrency:
     - data parallelism
     - atomic operations
   ease_of_use: moderate
-
 error_handling:
   primary_mechanism: result types
   features:
@@ -129,16 +118,13 @@ error_handling:
     source_maps: true
     breakpoints: true
     step_debugging: true
-
 package_managers:
   primary: modular
-
 popular_frameworks:
   backend:
     - Modular ML
   testing:
     - Mojo built-in testing
-
 development_tools:
   lsps:
     - Mojo Language Server
@@ -146,7 +132,6 @@ development_tools:
     - Modular Mojo Debugger
   build_systems:
     - Mojo Build
-
 standard_library:
   maturity: moderate
   key_areas:
@@ -156,12 +141,9 @@ standard_library:
     - text processing
     - mathematics
   size: medium
-  documentation_quality: high
-
 versioning:
   release_cycle: rapid release
   backwards_compatibility: high
-
 history:
   inception: "2023-05-02"
   developer:
@@ -169,11 +151,9 @@ history:
   designed_by:
     - Chris Lattner
     - Tim Davis
-
 official_website: https://www.modular.com/mojo
 official_blog_rss: https://www.modular.com/blog/rss.xml
 color: "#FF7000"
-
 references:
   github_topics:
     - mojo-lang

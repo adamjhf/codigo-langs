@@ -3,13 +3,13 @@ description: A business intelligence query language for self-service data access
 category: query
 status: active
 aliases:
-- mumps
+  - mumps
 file_extensions:
-- mumps
-- m
+  - mumps
+  - m
 paradigms:
-- declarative
-- functional
+  - declarative
+  - functional
 typing:
   system: static
   strength: strong
@@ -19,25 +19,25 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - interpreted
-  - query-optimized
+    - interpreted
+    - query-optimized
   runtime_environments:
-  - language-specific runtime
-  - native OS process
+    - language-specific runtime
+    - native OS process
 domains:
   primary:
-  - data integration
-  - data science
-  - database management
+    - data integration
+    - data science
+    - database management
   secondary:
-  - desktop applications
-  - data visualization
+    - desktop applications
+    - data visualization
 platforms:
   operating_systems:
-  - Windows
-  - macOS
+    - Windows
+    - macOS
   architectures:
-  - platform-independent
+    - platform-independent
 ecosystem:
   maturity: high
   community_size: large
@@ -54,39 +54,38 @@ language_features:
   generics: false
   pattern_matching: false
   key_features:
-  - first-class functions
-  - lazy evaluation
-  - string interpolation
+    - first-class functions
+    - lazy evaluation
+    - string interpolation
 concurrency:
   model: none
 error_handling:
   primary_mechanism: exceptions
   features:
-  - error reporting
+    - error reporting
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - text processing
-  - date/time
-  - mathematics
-  - HTTP client/server
-  - JSON/XML processing
+    - data structures
+    - text processing
+    - date/time
+    - mathematics
+    - HTTP client/server
+    - JSON/XML processing
   size: large
-  documentation_quality: high
 history:
   inception: 2008-01-01
   developer:
-  - Microsoft
+    - Microsoft
   designed_by:
-  - Microsoft
+    - Microsoft
   influenced_by:
     languages:
-    - ML
+      - ML
 official_website: https://learn.microsoft.com/en-us/powerquery-m/
 documentation:
   quality: high
   official_sources:
-  - https://learn.microsoft.com/en-us/powerquery-m/power-query-m-language-specification
-  - https://learn.microsoft.com/en-us/powerquery-m/power-query-m-function-reference
+    - https://learn.microsoft.com/en-us/powerquery-m/power-query-m-language-specification
+    - https://learn.microsoft.com/en-us/powerquery-m/power-query-m-function-reference
 color: '#00a4ef'

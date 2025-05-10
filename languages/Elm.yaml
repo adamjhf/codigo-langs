@@ -3,12 +3,12 @@ description: A delightful language for reliable web applications. Elm is a funct
 category: programming
 status: active
 file_extensions:
-- elm
+  - elm
 paradigms:
-- purely functional
-- declarative
-- functional
-- reactive
+  - purely functional
+  - declarative
+  - functional
+  - reactive
 typing:
   system: static
   structural: true
@@ -19,25 +19,25 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
-  - transpiled
+    - compiled
+    - transpiled
   compiles_to:
-  - JavaScript
+    - JavaScript
   runtime_environments:
-  - browser
+    - browser
   performance:
     startup_time: fast
     memory_usage: moderate
     computation_speed: moderate
 domains:
   primary:
-  - web development
-  - user interface
+    - web development
+    - user interface
   secondary:
-  - data visualization
+    - data visualization
 platforms:
   architectures:
-  - platform-independent
+    - platform-independent
 ecosystem:
   maturity: high
   package_registry: package.elm-lang.org
@@ -63,17 +63,17 @@ language_features:
   memory_management:
     type: garbage collection
   key_features:
-  - algebraic data types
-  - pattern matching
-  - type inference
-  - modules
+    - algebraic data types
+    - pattern matching
+    - type inference
+    - modules
 concurrency:
   model: none
   ease_of_use: high
 error_handling:
   primary_mechanism: result types
   features:
-  - custom error types
+    - custom error types
   stack_traces: true
   debugging:
     source_maps: true
@@ -83,57 +83,56 @@ package_managers:
   primary: elm
 popular_frameworks:
   frontend:
-  - elm-ui
-  - elm-css
+    - elm-ui
+    - elm-css
   testing:
-  - elm-test
+    - elm-test
 development_tools:
   lsps:
-  - elm-language-server
+    - elm-language-server
   debugging:
-  - elm-debug-transformer
+    - elm-debug-transformer
   build_systems:
-  - elm make
+    - elm make
   linters:
-  - elm-review
+    - elm-review
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - text processing
-  - date/time
+    - data structures
+    - text processing
+    - date/time
   size: medium
-  documentation_quality: very high
 versioning:
   release_cycle: semantic versioning
   backwards_compatibility: high
 history:
   inception: 2012-01-01
   developer:
-  - Evan Czaplicki
+    - Evan Czaplicki
   designed_by:
-  - Evan Czaplicki
+    - Evan Czaplicki
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Elm%20logo.svg
   influenced_by:
     languages:
-    - Haskell
-    - ML
-    - F#
-    - OCaml
+      - Haskell
+      - ML
+      - F#
+      - OCaml
     paradigms:
-    - purely functional
-    - functional
+      - purely functional
+      - functional
 official_website: https://elm-lang.org/
 documentation:
   quality: very high
   official_sources:
-  - https://guide.elm-lang.org/
-  - https://package.elm-lang.org/
+    - https://guide.elm-lang.org/
+    - https://package.elm-lang.org/
 references:
   github_topics:
-  - elm
+    - elm
   stackexchange_tags:
-  - elm
+    - elm
   wikidata_id: Q15405549
   subreddit: elm
 color: '#60B5CC'

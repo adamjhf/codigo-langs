@@ -9,20 +9,17 @@ file_extensions:
   - frm
 category: programming
 status: maintenance
-
 compilers:
   - name: Microsoft VBA
     type: interpreter
     license: proprietary
     is_reference: true
-
 paradigms:
   - imperative
   - procedural
   - object-oriented
   - event-driven
   - structured
-
 typing:
   system: static
   type_checking: compile-time
@@ -31,7 +28,6 @@ typing:
   inference: partial
   type_coercion: moderate
   type_annotations: optional
-
 execution:
   type:
     - interpreted
@@ -41,7 +37,6 @@ execution:
     startup_time: fast
     memory_usage: low
     computation_speed: moderate
-
 domains:
   primary:
     - automation
@@ -53,7 +48,6 @@ domains:
     - text processing
   emerging:
     - low code development
-
 platforms:
   operating_systems:
     - Windows
@@ -61,19 +55,16 @@ platforms:
   architectures:
     - x86
     - x86-64
-
 ecosystem:
   maturity: high
   community_size: large
   learning_resources: large
   job_market_demand: moderate
-
 complexity:
   learning_curve: moderate
   cognitive_load: moderate
   syntax_complexity: moderate
   semantic_complexity: moderate
-
 language_features:
   immutability: none
   enums: basic
@@ -92,11 +83,9 @@ language_features:
     - string interpolation
     - reflection
     - first-class functions
-
 concurrency:
   model: none
   ease_of_use: low
-
 error_handling:
   primary_mechanism: exceptions
   features:
@@ -106,7 +95,6 @@ error_handling:
   debugging:
     breakpoints: true
     step_debugging: true
-
 development_tools:
   linters:
     - Rubberduck
@@ -114,7 +102,6 @@ development_tools:
   debugging:
     - VBA Editor
     - Rubberduck
-
 standard_library:
   maturity: moderate
   key_areas:
@@ -125,12 +112,9 @@ standard_library:
     - mathematics
     - file system operations
   size: medium
-  documentation_quality: moderate
-
 versioning:
   release_cycle: long-term support
   backwards_compatibility: high
-
 history:
   inception: "1993-01-01"
   developer:
@@ -145,16 +129,13 @@ history:
       - procedural
       - object-oriented
       - event-driven
-
 official_website: https://docs.microsoft.com/en-us/office/vba/library-reference/concepts/getting-started-with-vba-in-office
-
 documentation:
   quality: moderate
   official_sources:
     - https://docs.microsoft.com/en-us/office/vba/api/overview/
   community_resources:
     - https://www.excelmacromastery.com/
-
 references:
   github_topics:
     - vba
@@ -165,5 +146,4 @@ references:
     - access-vba
     - word-vba
   subreddit: vba
-
 color: "#867DB1"

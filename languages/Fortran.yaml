@@ -3,32 +3,32 @@ description: Fortran (Formula Translation) is one of the oldest high-level progr
 category: programming
 status: active
 aliases:
-- FORTRAN
+  - FORTRAN
 file_extensions:
-- f
-- f77
-- for
-- fpp
+  - f
+  - f77
+  - for
+  - fpp
 compilers:
-- name: GNU Fortran
-  type: compiler
-  license: GPL-3.0
-  source_url: https://gcc.gnu.org/git/?p=gcc.git
-- name: Intel Fortran Compiler
-  type: compiler
-  license: proprietary
-- name: IBM XL Fortran
-  type: compiler
-  license: proprietary
-- name: NAG Fortran Compiler
-  type: compiler
-  license: proprietary
-- name: Flang
-  type: compiler
-  license: Apache-2.0
-  source_url: https://github.com/flang-compiler/flang
+  - name: GNU Fortran
+    type: compiler
+    license: GPL-3.0
+    source_url: https://gcc.gnu.org/git/?p=gcc.git
+  - name: Intel Fortran Compiler
+    type: compiler
+    license: proprietary
+  - name: IBM XL Fortran
+    type: compiler
+    license: proprietary
+  - name: NAG Fortran Compiler
+    type: compiler
+    license: proprietary
+  - name: Flang
+    type: compiler
+    license: Apache-2.0
+    source_url: https://github.com/flang-compiler/flang
 paradigms:
-- imperative
+  - imperative
 typing:
   system: static
   structural: false
@@ -39,13 +39,13 @@ typing:
   type_annotations: required
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - machine code
-  - LLVM IR
+    - machine code
+    - LLVM IR
   runtime_environments:
-  - native OS process
-  - native binary
+    - native OS process
+    - native binary
   performance:
     startup_time: very fast
     memory_usage: low
@@ -53,34 +53,34 @@ execution:
     compilation_speed: moderate
 domains:
   primary:
-  - scientific computing
-  - numerical analysis
-  - high-performance computing
-  - physics
-  - chemistry
-  - analysis
+    - scientific computing
+    - numerical analysis
+    - high-performance computing
+    - physics
+    - chemistry
+    - analysis
   secondary:
-  - data science
-  - statistics
-  - simulation
+    - data science
+    - statistics
+    - simulation
   emerging:
-  - machine learning frameworks
+    - machine learning frameworks
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Unix
-  - Solaris
+    - Windows
+    - macOS
+    - Linux
+    - Unix
+    - Solaris
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
-  - PowerPC
-  - SPARC
-  - SPARC64
-  - MIPS
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - PowerPC
+    - SPARC
+    - SPARC64
+    - MIPS
 ecosystem:
   maturity: very high
   package_registry: https://fortran-lang.org/packages/
@@ -108,23 +108,23 @@ language_features:
     implementation: static allocation with optional dynamic allocation
     manual_control: true
   key_features:
-  - modules
-  - operator overloading
-  - pure functions
-  - type inference
-  - first-class functions
-  - native FFI
+    - modules
+    - operator overloading
+    - pure functions
+    - type inference
+    - first-class functions
+    - native FFI
 concurrency:
   model: threads
   features:
-  - parallel collections
-  - shared memory
-  - data parallelism
+    - parallel collections
+    - shared memory
+    - data parallelism
   ease_of_use: moderate
 error_handling:
   primary_mechanism: error codes
   features:
-  - error propagation
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -133,78 +133,77 @@ error_handling:
 package_managers:
   primary: fpm
   alternatives:
-  - spack
-  - conda
-  - meson
+    - spack
+    - conda
+    - meson
 popular_frameworks:
   testing:
-  - pFUnit
-  - FRUIT
+    - pFUnit
+    - FRUIT
 development_tools:
   lsps:
-  - Fortran Language Server
-  - fortls
+    - Fortran Language Server
+    - fortls
   debugging:
-  - gdb
-  - lldb
-  - Intel Debugger
-  - totalview
+    - gdb
+    - lldb
+    - Intel Debugger
+    - totalview
   profiling:
-  - gprof
-  - Intel VTune
-  - TAU
+    - gprof
+    - Intel VTune
+    - TAU
   build_systems:
-  - make
-  - cmake
-  - meson
-  - FPM
+    - make
+    - cmake
+    - meson
+    - FPM
   linters:
-  - flint
-  - fprettify
+    - flint
+    - fprettify
 standard_library:
   maturity: high
   key_areas:
-  - file I/O
-  - mathematics
-  - random number generation
-  - date/time
+    - file I/O
+    - mathematics
+    - random number generation
+    - date/time
   size: medium
-  documentation_quality: moderate
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: moderate
 history:
   inception: 1957-01-01
   developer:
-  - IBM
-  - John Backus
+    - IBM
+    - John Backus
   designed_by:
-  - John Backus
+    - John Backus
   described_by: ISO/IEC 1539
   standards_bodies:
-  - ISO
+    - ISO
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Fortran%20logo.svg
   influenced_by:
     languages:
-    - IBM 704 assembly
-    - ALGOL
-    - Speedcoding
+      - IBM 704 assembly
+      - ALGOL
+      - Speedcoding
 official_website: https://fortran-lang.org
 documentation:
   quality: moderate
   official_sources:
-  - https://fortran-lang.org/learn/
+    - https://fortran-lang.org/learn/
   community_resources:
-  - https://fortranwiki.org/
+    - https://fortranwiki.org/
 references:
   github_topics:
-  - fortran
+    - fortran
   quora_topics:
-  - Fortran-1
-  - FORTRAN-programming-language
+    - Fortran-1
+    - FORTRAN-programming-language
   stackexchange_tags:
-  - fortran
-  - https://stackoverflow.com/tags/fortran
+    - fortran
+    - https://stackoverflow.com/tags/fortran
   wikidata_id: Q100277
   subreddit: fortran
 color: '#4d41b1'

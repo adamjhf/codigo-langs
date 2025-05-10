@@ -3,36 +3,36 @@ description: A high-level, multi-paradigm programming language designed for flex
 category: programming
 status: active
 aliases:
-- perl6
-- perl-6
+  - perl6
+  - perl-6
 file_extensions:
-- 6pl
-- 6pm
-- nqp
-- p6
-- p6l
-- p6m
-- pl
-- pl6
-- pm
-- pm6
-- raku
-- rakumod
-- t
+  - 6pl
+  - 6pm
+  - nqp
+  - p6
+  - p6l
+  - p6m
+  - pl
+  - pl6
+  - pm
+  - pm6
+  - raku
+  - rakumod
+  - t
 compilers:
-- name: Rakudo
-  type: hybrid
-  source_url: https://github.com/rakudo/rakudo
-  is_reference: true
-- name: MoarVM
-  type: hybrid
-  source_url: https://github.com/MoarVM/MoarVM
+  - name: Rakudo
+    type: hybrid
+    source_url: https://github.com/rakudo/rakudo
+    is_reference: true
+  - name: MoarVM
+    type: hybrid
+    source_url: https://github.com/MoarVM/MoarVM
 paradigms:
-- imperative
-- object-oriented
-- functional
-- concurrent
-- meta-programming
+  - imperative
+  - object-oriented
+  - functional
+  - concurrent
+  - meta-programming
 typing:
   system: gradual
   structural: true
@@ -43,13 +43,13 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - interpreted with JIT compilation
-  - compiled
+    - interpreted with JIT compilation
+    - compiled
   compiles_to:
-  - bytecode
+    - bytecode
   runtime_environments:
-  - language-specific runtime
-  - native OS process
+    - language-specific runtime
+    - native OS process
   performance:
     startup_time: slow
     memory_usage: high
@@ -57,28 +57,28 @@ execution:
     compilation_speed: slow
 domains:
   primary:
-  - text processing
-  - scripting
-  - automation
-  - web development
+    - text processing
+    - scripting
+    - automation
+    - web development
   secondary:
-  - data processing
-  - system administration
-  - build management
+    - data processing
+    - system administration
+    - build management
   emerging:
-  - data science
-  - DevOps
+    - data science
+    - DevOps
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
   architectures:
-  - x86-64
-  - ARM64
-  - platform-independent
+    - x86-64
+    - ARM64
+    - platform-independent
 ecosystem:
   maturity: moderate
   package_registry: https://modules.raku.org/
@@ -106,48 +106,48 @@ language_features:
     implementation: MoarVM GC
     manual_control: false
   key_features:
-  - first-class functions
-  - closures
-  - pattern matching
-  - algebraic data types
-  - type inference
-  - operator overloading
-  - mixins
-  - traits/interfaces
-  - REPL
-  - native FFI
-  - macros
-  - async/await
-  - reflection
-  - meta-programming
-  - destructuring
-  - range types
-  - variadic functions
-  - named arguments
-  - modules
-  - iterators/generators
-  - generics
-  - lambdas
-  - coroutines
+    - first-class functions
+    - closures
+    - pattern matching
+    - algebraic data types
+    - type inference
+    - operator overloading
+    - mixins
+    - traits/interfaces
+    - REPL
+    - native FFI
+    - macros
+    - async/await
+    - reflection
+    - meta-programming
+    - destructuring
+    - range types
+    - variadic functions
+    - named arguments
+    - modules
+    - iterators/generators
+    - generics
+    - lambdas
+    - coroutines
 concurrency:
   model: threads
   features:
-  - async/await
-  - promises/futures
-  - channels
-  - message passing
-  - shared memory
+    - async/await
+    - promises/futures
+    - channels
+    - message passing
+    - shared memory
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error chaining
-  - custom error types
-  - recovery mechanisms
-  - panic/catch
-  - error context
-  - error propagation
+    - stack traces
+    - error chaining
+    - custom error types
+    - recovery mechanisms
+    - panic/catch
+    - error context
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -156,100 +156,99 @@ error_handling:
 package_managers:
   primary: zef
   alternatives:
-  - App::Mi6
+    - App::Mi6
 popular_frameworks:
   frontend:
-  - Cro::WebApp
+    - Cro::WebApp
   backend:
-  - Cro
-  - Red
+    - Cro
+    - Red
   testing:
-  - Test
-  - Test::META
+    - Test
+    - Test::META
 development_tools:
   lsps:
-  - Comma IDE
+    - Comma IDE
   debugging:
-  - Debugger::UI::CommandLine
+    - Debugger::UI::CommandLine
   profiling:
-  - Telemetry
+    - Telemetry
   build_systems:
-  - App::Mi6
+    - App::Mi6
   linters:
-  - Raku::Lint
+    - Raku::Lint
 standard_library:
   maturity: high
   key_areas:
-  - file I/O
-  - networking
-  - concurrency
-  - data structures
-  - algorithms
-  - text processing
-  - regular expressions
-  - date/time
-  - mathematics
-  - serialization
-  - testing
-  - logging
-  - process management
-  - random number generation
+    - file I/O
+    - networking
+    - concurrency
+    - data structures
+    - algorithms
+    - text processing
+    - regular expressions
+    - date/time
+    - mathematics
+    - serialization
+    - testing
+    - logging
+    - process management
+    - random number generation
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: semantic versioning
   backwards_compatibility: moderate
 history:
   inception: 2015-12-25
   developer:
-  - The Perl Foundation
-  - Raku Community
+    - The Perl Foundation
+    - Raku Community
   designed_by:
-  - Larry Wall
-  - The Perl 6 design team
-  - Audrey Tang
-  - Damian Conway
+    - Larry Wall
+    - The Perl 6 design team
+    - Audrey Tang
+    - Damian Conway
   described_by: The Raku language specification
   standards_bodies:
-  - The Perl Foundation
+    - The Perl Foundation
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Camelia.svg
   influenced_by:
     languages:
-    - Perl
-    - Haskell
-    - Ruby
-    - Python
-    - Lisp
-    - CLU
-    - Smalltalk
-    - Ada
-    - APL
-    - Common Lisp
-    - Self
-    - META II
+      - Perl
+      - Haskell
+      - Ruby
+      - Python
+      - Lisp
+      - CLU
+      - Smalltalk
+      - Ada
+      - APL
+      - Common Lisp
+      - Self
+      - META II
     paradigms:
-    - object-oriented
-    - functional
-    - procedural
-    - declarative
-    - concurrent
+      - object-oriented
+      - functional
+      - procedural
+      - declarative
+      - concurrent
 official_website: https://raku.org/
 official_blog_rss: https://planet.raku.org/atom.xml
 documentation:
   quality: high
   official_sources:
-  - https://docs.raku.org/
-  - https://raku.guide/
+    - https://docs.raku.org/
+    - https://raku.guide/
   community_resources:
-  - https://raku-musings.com/
-  - https://raku-advent.blog/
+    - https://raku-musings.com/
+    - https://raku-advent.blog/
 references:
   github_topics:
-  - raku
-  - perl6
+    - raku
+    - perl6
   stackexchange_tags:
-  - raku
-  - perl6
+    - raku
+    - perl6
   wikidata_id: Q13592750
   subreddit: rakulang
 color: '#0000fb'

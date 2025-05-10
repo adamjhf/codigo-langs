@@ -3,36 +3,36 @@ description: A dynamic, functional Lisp dialect that runs on the JVM, CLR, and J
 category: programming
 status: active
 aliases:
-- clj
-- cljs
+  - clj
+  - cljs
 file_extensions:
-- clj
-- bb
-- boot
-- cl2
-- cljc
-- cljs
-- cljs.hl
-- cljscm
-- cljx
-- hic
+  - clj
+  - bb
+  - boot
+  - cl2
+  - cljc
+  - cljs
+  - cljs.hl
+  - cljscm
+  - cljx
+  - hic
 compilers:
-- name: Clojure Compiler
-  type: hybrid
-  source_url: https://github.com/clojure/clojure
-  is_reference: true
-- name: ClojureScript Compiler
-  type: compiler
-  source_url: https://github.com/clojure/clojurescript
+  - name: Clojure Compiler
+    type: hybrid
+    source_url: https://github.com/clojure/clojure
+    is_reference: true
+  - name: ClojureScript Compiler
+    type: compiler
+    source_url: https://github.com/clojure/clojurescript
 paradigms:
-- functional
-- concurrent
-- declarative
-- meta-programming
-- symbolic
-- modular
-- agent-oriented
-- logic
+  - functional
+  - concurrent
+  - declarative
+  - meta-programming
+  - symbolic
+  - modular
+  - agent-oriented
+  - logic
 typing:
   system: dynamic
   structural: true
@@ -43,16 +43,16 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
-  - interpreted with JIT compilation
+    - compiled
+    - interpreted with JIT compilation
   compiles_to:
-  - bytecode
-  - JavaScript
+    - bytecode
+    - JavaScript
   runtime_environments:
-  - JVM
-  - browser
-  - native OS process
-  - WebAssembly
+    - JVM
+    - browser
+    - native OS process
+    - WebAssembly
   performance:
     startup_time: slow
     memory_usage: high
@@ -60,33 +60,33 @@ execution:
     compilation_speed: moderate
 domains:
   primary:
-  - web development
-  - data science
-  - server-side applications
-  - text processing
-  - data integration
+    - web development
+    - data science
+    - server-side applications
+    - text processing
+    - data integration
   secondary:
-  - scripting
-  - distributed system
-  - financial systems
+    - scripting
+    - distributed system
+    - financial systems
   emerging:
-  - machine learning frameworks
-  - cloud computing
+    - machine learning frameworks
+    - cloud computing
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Unix
-  - BSD
-  - Android
+    - Windows
+    - macOS
+    - Linux
+    - Unix
+    - BSD
+    - Android
   architectures:
-  - x86-64
-  - ARM64
-  - platform-independent
+    - x86-64
+    - ARM64
+    - platform-independent
   cloud_function_environments:
-  - AWS Lambda
-  - Google Cloud Functions
+    - AWS Lambda
+    - Google Cloud Functions
 ecosystem:
   maturity: high
   package_registry: https://clojars.org
@@ -114,26 +114,26 @@ language_features:
     implementation: JVM garbage collector
     manual_control: false
   key_features:
-  - first-class functions
-  - closures
-  - macros
-  - destructuring
-  - REPL
-  - interactive development
-  - native FFI
-  - meta-programming
+    - first-class functions
+    - closures
+    - macros
+    - destructuring
+    - REPL
+    - interactive development
+    - native FFI
+    - meta-programming
 concurrency:
   model: STM
   features:
-  - software transactional memory
-  - promises/futures
+    - software transactional memory
+    - promises/futures
   ease_of_use: high
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error chaining
-  - custom error types
+    - stack traces
+    - error chaining
+    - custom error types
   stack_traces: true
   debugging:
     source_maps: true
@@ -142,92 +142,91 @@ error_handling:
 package_managers:
   primary: Leiningen
   alternatives:
-  - deps.edn (tools.deps)
-  - Boot
-  - Maven
+    - deps.edn (tools.deps)
+    - Boot
+    - Maven
 popular_frameworks:
   frontend:
-  - Reagent
-  - re-frame
-  - Fulcro
+    - Reagent
+    - re-frame
+    - Fulcro
   backend:
-  - Ring
-  - Compojure
-  - Pedestal
-  - Aleph
+    - Ring
+    - Compojure
+    - Pedestal
+    - Aleph
   testing:
-  - clojure.test
-  - Expectations
-  - Midje
+    - clojure.test
+    - Expectations
+    - Midje
 development_tools:
   lsps:
-  - clojure-lsp
+    - clojure-lsp
   debugging:
-  - CIDER
-  - Cursive
+    - CIDER
+    - Cursive
   profiling:
-  - clj-async-profiler
-  - YourKit
+    - clj-async-profiler
+    - YourKit
   build_systems:
-  - Leiningen
-  - Boot
-  - tools.deps
+    - Leiningen
+    - Boot
+    - tools.deps
   linters:
-  - clj-kondo
-  - eastwood
+    - clj-kondo
+    - eastwood
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - concurrency
-  - text processing
-  - file I/O
-  - networking
-  - date/time
-  - JSON/XML processing
-  - regular expressions
+    - data structures
+    - concurrency
+    - text processing
+    - file I/O
+    - networking
+    - date/time
+    - JSON/XML processing
+    - regular expressions
   size: medium
-  documentation_quality: high
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: high
 history:
   inception: 2007-01-01
   developer:
-  - Rich Hickey
+    - Rich Hickey
   designed_by:
-  - Rich Hickey
+    - Rich Hickey
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Clojure%20logo.svg
   influenced_by:
     languages:
-    - Lisp
-    - Scheme
-    - ML
-    - Haskell
-    - Erlang
-    - Common Lisp
+      - Lisp
+      - Scheme
+      - ML
+      - Haskell
+      - Erlang
+      - Common Lisp
     paradigms:
-    - functional
-    - declarative
-    - concurrent
+      - functional
+      - declarative
+      - concurrent
 official_website: https://clojure.org/
 documentation:
   quality: high
   official_sources:
-  - https://clojure.org/reference/documentation
-  - https://clojuredocs.org
+    - https://clojure.org/reference/documentation
+    - https://clojuredocs.org
   community_resources:
-  - https://www.braveclojure.com/
-  - https://guide.clojure.style/
+    - https://www.braveclojure.com/
+    - https://guide.clojure.style/
 references:
   github_topics:
-  - clojure
-  - clojurescript
+    - clojure
+    - clojurescript
   quora_topics:
-  - Clojure-programming-language
+    - Clojure-programming-language
   stackexchange_tags:
-  - clojure
-  - clojurescript
+    - clojure
+    - clojurescript
   wikidata_id: Q42254
   subreddit: Clojure
 color: '#db5855'

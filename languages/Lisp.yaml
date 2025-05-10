@@ -3,34 +3,34 @@ description: A family of programming languages with fully parenthesized prefix n
 category: programming
 status: active
 aliases:
-- LISP
+  - LISP
 file_extensions:
-- lisp
-- lsp
-- cl
-- el
-- scm
+  - lisp
+  - lsp
+  - cl
+  - el
+  - scm
 compilers:
-- name: SBCL
-  type: compiler
-  license: BSD-2-Clause
-  source_url: https://sourceforge.net/projects/sbcl/
-  is_reference: true
-- name: Clozure CL
-  type: compiler
-  license: Apache-2.0
-  source_url: https://github.com/Clozure/ccl
-- name: CLISP
-  type: interpreter
-  license: GPL-2.0
-  source_url: https://gitlab.com/gnu-clisp/clisp
+  - name: SBCL
+    type: compiler
+    license: BSD-2-Clause
+    source_url: https://sourceforge.net/projects/sbcl/
+    is_reference: true
+  - name: Clozure CL
+    type: compiler
+    license: Apache-2.0
+    source_url: https://github.com/Clozure/ccl
+  - name: CLISP
+    type: interpreter
+    license: GPL-2.0
+    source_url: https://gitlab.com/gnu-clisp/clisp
 paradigms:
-- functional
-- imperative
-- meta-programming
-- symbolic
-- reflective
-- structured
+  - functional
+  - imperative
+  - meta-programming
+  - symbolic
+  - reflective
+  - structured
 typing:
   system: dynamic
   structural: true
@@ -41,14 +41,14 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
-  - interpreted
+    - compiled
+    - interpreted
   compiles_to:
-  - bytecode
-  - machine code
+    - bytecode
+    - machine code
   runtime_environments:
-  - language-specific runtime
-  - native OS process
+    - language-specific runtime
+    - native OS process
   performance:
     startup_time: moderate
     memory_usage: moderate
@@ -56,28 +56,28 @@ execution:
     compilation_speed: moderate
 domains:
   primary:
-  - artificial intelligence
-  - scripting
-  - analysis
+    - artificial intelligence
+    - scripting
+    - analysis
   secondary:
-  - scientific computing
-  - education
-  - text processing
-  - automated theorem proving
+    - scientific computing
+    - education
+    - text processing
+    - automated theorem proving
   emerging:
-  - web development
+    - web development
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - platform-independent
+    - x86
+    - x86-64
+    - ARM
+    - platform-independent
 ecosystem:
   maturity: high
   package_registry: Quicklisp
@@ -105,27 +105,27 @@ language_features:
     implementation: Various implementations use different GC methods
     manual_control: false
   key_features:
-  - first-class functions
-  - closures
-  - macros
-  - REPL
-  - interactive development
-  - reflection
-  - meta-programming
+    - first-class functions
+    - closures
+    - macros
+    - REPL
+    - interactive development
+    - reflection
+    - meta-programming
 concurrency:
   model: threads
   features:
-  - shared memory
-  - promises/futures
-  - thread pools
+    - shared memory
+    - promises/futures
+    - thread pools
   ease_of_use: moderate
 error_handling:
   primary_mechanism: conditions
   features:
-  - recovery mechanisms
-  - error context
-  - cleanup actions
-  - error propagation
+    - recovery mechanisms
+    - error context
+    - cleanup actions
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -134,82 +134,81 @@ error_handling:
 package_managers:
   primary: Quicklisp
   alternatives:
-  - ASDF
+    - ASDF
 popular_frameworks:
   frontend:
-  - Parenscript
-  - CLJS
+    - Parenscript
+    - CLJS
   backend:
-  - Hunchentoot
-  - Caveman
-  - CLACK
+    - Hunchentoot
+    - Caveman
+    - CLACK
   testing:
-  - FiveAM
-  - Prove
+    - FiveAM
+    - Prove
 development_tools:
   lsps:
-  - cl-lsp
-  - Sly
-  - SLIME
+    - cl-lsp
+    - Sly
+    - SLIME
   debugging:
-  - SLDB
-  - Trace
+    - SLDB
+    - Trace
   profiling:
-  - sb-sprof
+    - sb-sprof
   build_systems:
-  - ASDF
+    - ASDF
   linters:
-  - sblint
+    - sblint
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - algorithms
-  - text processing
-  - file I/O
-  - networking
-  - mathematics
+    - data structures
+    - algorithms
+    - text processing
+    - file I/O
+    - networking
+    - mathematics
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: high
 history:
   inception: 1958-01-01
   developer:
-  - MIT
-  - ANSI
+    - MIT
+    - ANSI
   designed_by:
-  - John McCarthy
+    - John McCarthy
   described_by: ANSI Common Lisp standard
   standards_bodies:
-  - ANSI
+    - ANSI
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Lisp%20logo.svg
   influenced_by:
     languages:
-    - IPL
-    - Information Processing Language
+      - IPL
+      - Information Processing Language
     paradigms:
-    - functional
-    - symbolic
+      - functional
+      - symbolic
 official_website: https://common-lisp.net/
 documentation:
   quality: high
   official_sources:
-  - https://common-lisp.net/documentation
-  - https://www.lispworks.com/documentation/HyperSpec/Front/index.htm
+    - https://common-lisp.net/documentation
+    - https://www.lispworks.com/documentation/HyperSpec/Front/index.htm
   community_resources:
-  - https://lispcookbook.github.io/cl-cookbook/
-  - https://www.gigamonkeys.com/book/
+    - https://lispcookbook.github.io/cl-cookbook/
+    - https://www.gigamonkeys.com/book/
 references:
   github_topics:
-  - lisp
-  - common-lisp
+    - lisp
+    - common-lisp
   quora_topics:
-  - Lisp-programming-language
+    - Lisp-programming-language
   stackexchange_tags:
-  - lisp
-  - common-lisp
+    - lisp
+    - common-lisp
   wikidata_id: Q132843
   subreddit: lisp
 color: '#3fb68b'

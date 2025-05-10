@@ -3,34 +3,34 @@ description: C# is a statically-typed, object-oriented programming language deve
 category: programming
 status: active
 aliases:
-- csharp
-- cake
-- cakescript
+  - csharp
+  - cake
+  - cakescript
 file_extensions:
-- cs
-- cake
-- cs.pp
-- csx
-- linq
+  - cs
+  - cake
+  - cs.pp
+  - csx
+  - linq
 compilers:
-- name: Roslyn
-  type: compiler
-  license: MIT
-  source_url: https://github.com/dotnet/roslyn
-  is_reference: true
-- name: Mono C# Compiler
-  type: compiler
-  license: MIT
-  source_url: https://github.com/mono/mono
+  - name: Roslyn
+    type: compiler
+    license: MIT
+    source_url: https://github.com/dotnet/roslyn
+    is_reference: true
+  - name: Mono C# Compiler
+    type: compiler
+    license: MIT
+    source_url: https://github.com/mono/mono
 paradigms:
-- object-oriented
-- imperative
-- functional
-- generic
-- structured
-- declarative
-- reflective
-- event-driven
+  - object-oriented
+  - imperative
+  - functional
+  - generic
+  - structured
+  - declarative
+  - reflective
+  - event-driven
 typing:
   system: static
   structural: false
@@ -41,17 +41,17 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - bytecode
-  - machine code
-  - WebAssembly
+    - bytecode
+    - machine code
+    - WebAssembly
   runtime_environments:
-  - language-specific runtime
-  - native OS process
-  - browser
-  - cloud function environment
-  - CLR
+    - language-specific runtime
+    - native OS process
+    - browser
+    - cloud function environment
+    - CLR
   performance:
     startup_time: moderate
     memory_usage: moderate
@@ -59,39 +59,39 @@ execution:
     compilation_speed: moderate
 domains:
   primary:
-  - web development
-  - desktop applications
-  - game development
-  - server-side applications
-  - cloud computing
-  - mobile development
+    - web development
+    - desktop applications
+    - game development
+    - server-side applications
+    - cloud computing
+    - mobile development
   secondary:
-  - artificial intelligence
-  - data science
-  - IoT
-  - DevOps
+    - artificial intelligence
+    - data science
+    - IoT
+    - DevOps
   emerging:
-  - WebAssembly
-  - blockchain
-  - machine learning frameworks
+    - WebAssembly
+    - blockchain
+    - machine learning frameworks
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Android
-  - iOS
-  - embedded
+    - Windows
+    - macOS
+    - Linux
+    - Android
+    - iOS
+    - embedded
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
-  - WebAssembly
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - WebAssembly
   cloud_function_environments:
-  - AWS Lambda
-  - Azure Functions
-  - Google Cloud Functions
+    - AWS Lambda
+    - Azure Functions
+    - Google Cloud Functions
 ecosystem:
   maturity: very high
   package_registry: NuGet
@@ -119,40 +119,40 @@ language_features:
     implementation: Generational GC
     manual_control: false
   key_features:
-  - lambdas
-  - extension methods
-  - async/await
-  - reflection
-  - destructuring
-  - string interpolation
-  - generics
-  - named arguments
-  - iterators/generators
-  - type inference
-  - operator overloading
-  - meta-programming
-  - pattern matching
+    - lambdas
+    - extension methods
+    - async/await
+    - reflection
+    - destructuring
+    - string interpolation
+    - generics
+    - named arguments
+    - iterators/generators
+    - type inference
+    - operator overloading
+    - meta-programming
+    - pattern matching
 concurrency:
   model: threads
   features:
-  - async/await
-  - promises/futures
-  - thread pools
-  - parallel collections
-  - task parallelism
-  - concurrent data structures
-  - atomic operations
+    - async/await
+    - promises/futures
+    - thread pools
+    - parallel collections
+    - task parallelism
+    - concurrent data structures
+    - atomic operations
   ease_of_use: high
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error chaining
-  - custom error types
-  - cleanup actions
-  - resource management
-  - error logging
-  - error propagation
+    - stack traces
+    - error chaining
+    - custom error types
+    - cleanup actions
+    - resource management
+    - error logging
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -161,139 +161,138 @@ error_handling:
 package_managers:
   primary: NuGet
   alternatives:
-  - Paket
-  - dotnet CLI
+    - Paket
+    - dotnet CLI
 popular_frameworks:
   frontend:
-  - ASP.NET Core MVC
-  - Blazor
-  - MAUI
-  - WPF
-  - Windows Forms
+    - ASP.NET Core MVC
+    - Blazor
+    - MAUI
+    - WPF
+    - Windows Forms
   backend:
-  - ASP.NET Core
-  - Entity Framework Core
-  - Minimal API
-  - gRPC
+    - ASP.NET Core
+    - Entity Framework Core
+    - Minimal API
+    - gRPC
   testing:
-  - xUnit
-  - NUnit
-  - MSTest
-  - Moq
-  - FluentAssertions
+    - xUnit
+    - NUnit
+    - MSTest
+    - Moq
+    - FluentAssertions
   mobile:
-  - Xamarin
-  - MAUI
+    - Xamarin
+    - MAUI
 development_tools:
   lsps:
-  - OmniSharp
-  - Roslyn Language Server
+    - OmniSharp
+    - Roslyn Language Server
   debugging:
-  - Visual Studio Debugger
-  - JetBrains Rider Debugger
-  - VSCode C# Debugger
+    - Visual Studio Debugger
+    - JetBrains Rider Debugger
+    - VSCode C# Debugger
   profiling:
-  - dotTrace
-  - Visual Studio Profiler
-  - PerfView
+    - dotTrace
+    - Visual Studio Profiler
+    - PerfView
   build_systems:
-  - MSBuild
-  - dotnet CLI
-  - Cake
-  - FAKE
+    - MSBuild
+    - dotnet CLI
+    - Cake
+    - FAKE
   linters:
-  - Roslynator
-  - StyleCop
-  - SonarLint
-  - CodeCracker
+    - Roslynator
+    - StyleCop
+    - SonarLint
+    - CodeCracker
 standard_library:
   maturity: very high
   key_areas:
-  - file I/O
-  - networking
-  - concurrency
-  - data structures
-  - algorithms
-  - text processing
-  - cryptography
-  - database access
-  - HTTP client/server
-  - JSON/XML processing
-  - regular expressions
-  - date/time
-  - mathematics
-  - compression
-  - serialization
-  - testing
-  - logging
+    - file I/O
+    - networking
+    - concurrency
+    - data structures
+    - algorithms
+    - text processing
+    - cryptography
+    - database access
+    - HTTP client/server
+    - JSON/XML processing
+    - regular expressions
+    - date/time
+    - mathematics
+    - compression
+    - serialization
+    - testing
+    - logging
   size: large
-  documentation_quality: very high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
 history:
   inception: 2000-01-01
   developer:
-  - Microsoft
+    - Microsoft
   designed_by:
-  - Anders Hejlsberg
-  - Mads Torgersen
-  - Scott Wiltamuth
-  - Microsoft
+    - Anders Hejlsberg
+    - Mads Torgersen
+    - Scott Wiltamuth
+    - Microsoft
   described_by: 'ISO/IEC 23270: Information technology -- C# Language Specification'
   standards_bodies:
-  - ECMA
-  - ISO/IEC
+    - ECMA
+    - ISO/IEC
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/C%20Sharp%20Logo%202023.svg
   influenced_by:
     languages:
-    - C++
-    - Java
-    - Delphi
-    - Visual Basic
-    - C
-    - Haskell
-    - Rust
-    - Object Pascal
-    - F#
-    - Eiffel
-    - ML
-    - Visual J++
-    - Cω
-    - Icon
-    - J#
-    - Modula-3
+      - C++
+      - Java
+      - Delphi
+      - Visual Basic
+      - C
+      - Haskell
+      - Rust
+      - Object Pascal
+      - F#
+      - Eiffel
+      - ML
+      - Visual J++
+      - Cω
+      - Icon
+      - J#
+      - Modula-3
     paradigms:
-    - object-oriented
-    - functional
-    - imperative
-    - generic
+      - object-oriented
+      - functional
+      - imperative
+      - generic
 official_website: https://docs.microsoft.com/ja-jp/dotnet/csharp/
 official_blog_rss: https://devblogs.microsoft.com/dotnet/feed/
 documentation:
   quality: very high
   official_sources:
-  - https://learn.microsoft.com/en-us/dotnet/csharp/
-  - https://docs.microsoft.com/en-us/dotnet/api/
+    - https://learn.microsoft.com/en-us/dotnet/csharp/
+    - https://docs.microsoft.com/en-us/dotnet/api/
   community_resources:
-  - https://www.c-sharpcorner.com/
-  - https://www.tutorialsteacher.com/csharp
+    - https://www.c-sharpcorner.com/
+    - https://www.tutorialsteacher.com/csharp
 references:
   github_topics:
-  - csharp
-  - dotnet
-  - c-sharp
+    - csharp
+    - dotnet
+    - c-sharp
   quora_topics:
-  - C-programming-language-2
+    - C-programming-language-2
   stackexchange_tags:
-  - c#
-  - .net
-  - csharp
-  - https://es.stackoverflow.com/tags/c%23
-  - https://ja.stackoverflow.com/tags/c%23
-  - https://pt.stackoverflow.com/tags/c%23
-  - https://ru.stackoverflow.com/tags/c%23
-  - https://stackoverflow.com/tags/c%23
+    - c#
+    - .net
+    - csharp
+    - https://es.stackoverflow.com/tags/c%23
+    - https://ja.stackoverflow.com/tags/c%23
+    - https://pt.stackoverflow.com/tags/c%23
+    - https://ru.stackoverflow.com/tags/c%23
+    - https://stackoverflow.com/tags/c%23
   wikidata_id: Q2370
   subreddit: csharp
 color: '#178600'

@@ -3,33 +3,33 @@ description: A comprehensive system for modern technical computing that combines
 category: programming
 status: active
 aliases:
-- mma
-- wolfram
-- wolfram language
-- wolfram lang
-- wl
+  - mma
+  - wolfram
+  - wolfram language
+  - wolfram lang
+  - wl
 file_extensions:
-- mathematica
-- cdf
-- m
-- ma
-- mt
-- nb
-- nbp
-- wl
-- wlt
+  - mathematica
+  - cdf
+  - m
+  - ma
+  - mt
+  - nb
+  - nbp
+  - wl
+  - wlt
 compilers:
-- name: Wolfram Engine
-  type: interpreter
-  license: proprietary
-  is_reference: true
+  - name: Wolfram Engine
+    type: interpreter
+    license: proprietary
+    is_reference: true
 paradigms:
-- functional
-- symbolic
-- rule-based
-- declarative
-- imperative
-- array-oriented
+  - functional
+  - symbolic
+  - rule-based
+  - declarative
+  - imperative
+  - array-oriented
 typing:
   system: dynamic
   strength: strong
@@ -39,44 +39,44 @@ typing:
   type_annotations: none
 execution:
   type:
-  - interpreted
-  - interpreted with JIT compilation
+    - interpreted
+    - interpreted with JIT compilation
   runtime_environments:
-  - language-specific runtime
-  - native OS process
+    - language-specific runtime
+    - native OS process
   performance:
     startup_time: moderate
     memory_usage: high
     computation_speed: moderate
 domains:
   primary:
-  - scientific computing
-  - data science
-  - numerical analysis
-  - data visualization
-  - education
+    - scientific computing
+    - data science
+    - numerical analysis
+    - data visualization
+    - education
   secondary:
-  - artificial intelligence
-  - statistics
-  - physics
-  - chemistry
-  - bioinformatics
-  - image processing
-  - natural-language
+    - artificial intelligence
+    - statistics
+    - physics
+    - chemistry
+    - bioinformatics
+    - image processing
+    - natural-language
   emerging:
-  - machine learning frameworks
-  - quantum programming
+    - machine learning frameworks
+    - quantum programming
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - iOS
-  - Android
+    - Windows
+    - macOS
+    - Linux
+    - iOS
+    - Android
   architectures:
-  - x86-64
-  - ARM64
-  - platform-independent
+    - x86-64
+    - ARM64
+    - platform-independent
 ecosystem:
   maturity: very high
   package_registry: Wolfram Resource System
@@ -101,20 +101,20 @@ language_features:
   memory_management:
     type: garbage collection
   key_features:
-  - pattern matching
-  - meta-programming
-  - reflection
+    - pattern matching
+    - meta-programming
+    - reflection
 concurrency:
   model: parallel tasks
   features:
-  - task parallelism
-  - data parallelism
+    - task parallelism
+    - data parallelism
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error context
+    - stack traces
+    - error context
   stack_traces: true
   debugging:
     breakpoints: true
@@ -122,73 +122,72 @@ error_handling:
 package_managers:
   primary: Wolfram Paclet Manager
   alternatives:
-  - ResourceFunction["GitHubInstall"]
+    - ResourceFunction["GitHubInstall"]
 popular_frameworks:
   testing:
-  - MUnit
+    - MUnit
 development_tools:
   debugging:
-  - Wolfram Workbench
-  - Debug[] function
+    - Wolfram Workbench
+    - Debug[] function
   profiling:
-  - Timing[]
-  - AbsoluteTiming[]
-  - Profile[]
+    - Timing[]
+    - AbsoluteTiming[]
+    - Profile[]
   build_systems:
-  - Wolfram Paclet Manager
+    - Wolfram Paclet Manager
 standard_library:
   maturity: very high
   key_areas:
-  - mathematics
-  - algorithms
-  - data structures
-  - graphics
-  - text processing
-  - networking
-  - file I/O
-  - date/time
-  - database access
+    - mathematics
+    - algorithms
+    - data structures
+    - graphics
+    - text processing
+    - networking
+    - file I/O
+    - date/time
+    - database access
   size: very large
-  documentation_quality: very high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
 history:
   inception: 1988-06-23
   developer:
-  - Wolfram Research
+    - Wolfram Research
   designed_by:
-  - Stephen Wolfram
+    - Stephen Wolfram
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Mathematica%20Logo.svg
   influenced_by:
     languages:
-    - Lisp
-    - APL
-    - Prolog
-    - Symbolic Manipulation Program
+      - Lisp
+      - APL
+      - Prolog
+      - Symbolic Manipulation Program
     paradigms:
-    - functional
-    - symbolic
-    - rule-based
+      - functional
+      - symbolic
+      - rule-based
 official_website: https://www.wolfram.com/mathematica/
 documentation:
   quality: very high
   official_sources:
-  - https://reference.wolfram.com/language/
-  - https://www.wolfram.com/language/fast-introduction-for-programmers/en/
+    - https://reference.wolfram.com/language/
+    - https://www.wolfram.com/language/fast-introduction-for-programmers/en/
   community_resources:
-  - https://community.wolfram.com/
-  - https://mathematica.stackexchange.com/
+    - https://community.wolfram.com/
+    - https://mathematica.stackexchange.com/
 references:
   github_topics:
-  - mathematica
-  - wolfram-language
+    - mathematica
+    - wolfram-language
   quora_topics:
-  - Mathematica
+    - Mathematica
   stackexchange_tags:
-  - mathematica
-  - wolfram-language
-  - wolfram-mathematica
+    - mathematica
+    - wolfram-language
+    - wolfram-mathematica
   wikidata_id: Q184794
   subreddit: Mathematica
 color: '#dd1100'

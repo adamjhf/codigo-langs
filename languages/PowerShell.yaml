@@ -3,25 +3,25 @@ description: A task automation and configuration management framework consisting
 category: programming
 status: active
 aliases:
-- posh
-- pwsh
+  - posh
+  - pwsh
 file_extensions:
-- ps1
-- psd1
-- psm1
+  - ps1
+  - psd1
+  - psm1
 compilers:
-- name: PowerShell Engine
-  type: interpreter
-  license: MIT
-  is_reference: true
-- name: PowerShell Core
-  type: interpreter
-  license: MIT
-  source_url: https://github.com/PowerShell/PowerShell
+  - name: PowerShell Engine
+    type: interpreter
+    license: MIT
+    is_reference: true
+  - name: PowerShell Core
+    type: interpreter
+    license: MIT
+    source_url: https://github.com/PowerShell/PowerShell
 paradigms:
-- object-oriented
-- imperative
-- functional
+  - object-oriented
+  - imperative
+  - functional
 typing:
   system: dynamic
   structural: true
@@ -32,43 +32,43 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - interpreted
-  - interpreted with JIT compilation
+    - interpreted
+    - interpreted with JIT compilation
   compiles_to:
-  - bytecode
+    - bytecode
   runtime_environments:
-  - language-specific runtime
-  - native OS process
+    - language-specific runtime
+    - native OS process
   performance:
     startup_time: moderate
     memory_usage: moderate
     computation_speed: moderate
 domains:
   primary:
-  - DevOps
-  - automation
-  - systems programming
-  - configuration management
-  - scripting
+    - DevOps
+    - automation
+    - systems programming
+    - configuration management
+    - scripting
   secondary:
-  - web development
-  - cloud computing
-  - server-side applications
-  - build automation
+    - web development
+    - cloud computing
+    - server-side applications
+    - build automation
   emerging:
-  - infrastructure as code
+    - infrastructure as code
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
+    - Windows
+    - macOS
+    - Linux
   architectures:
-  - x86-64
-  - ARM64
-  - ARM
+    - x86-64
+    - ARM64
+    - ARM
   cloud_function_environments:
-  - AWS Lambda
-  - Azure Functions
+    - AWS Lambda
+    - Azure Functions
 ecosystem:
   maturity: high
   package_registry: PowerShell Gallery
@@ -94,30 +94,30 @@ language_features:
   memory_management:
     type: garbage collection
   key_features:
-  - first-class functions
-  - closures
-  - string interpolation
-  - reflection
-  - meta-programming
-  - destructuring
-  - modules
-  - named arguments
+    - first-class functions
+    - closures
+    - string interpolation
+    - reflection
+    - meta-programming
+    - destructuring
+    - modules
+    - named arguments
 concurrency:
   model: threads
   features:
-  - async/await
-  - promises/futures
-  - thread pools
-  - parallel collections
+    - async/await
+    - promises/futures
+    - thread pools
+    - parallel collections
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error chaining
-  - custom error types
-  - error context
-  - error propagation
+    - stack traces
+    - error chaining
+    - custom error types
+    - error context
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -126,95 +126,94 @@ error_handling:
 package_managers:
   primary: PowerShellGet
   alternatives:
-  - NuGet
+    - NuGet
 popular_frameworks:
   backend:
-  - PSFramework
-  - Pester
-  - PoshRSJob
+    - PSFramework
+    - Pester
+    - PoshRSJob
   testing:
-  - Pester
-  - PSScriptAnalyzer
+    - Pester
+    - PSScriptAnalyzer
 development_tools:
   lsps:
-  - PowerShell Language Server
+    - PowerShell Language Server
   debugging:
-  - PowerShell ISE
-  - Visual Studio Code PowerShell Extension
+    - PowerShell ISE
+    - Visual Studio Code PowerShell Extension
   profiling:
-  - PowerShell Script Analyzer
+    - PowerShell Script Analyzer
   build_systems:
-  - PSake
-  - Invoke-Build
+    - PSake
+    - Invoke-Build
   linters:
-  - PSScriptAnalyzer
+    - PSScriptAnalyzer
 standard_library:
   maturity: high
   key_areas:
-  - file I/O
-  - networking
-  - text processing
-  - process management
-  - security
-  - date/time
-  - logging
-  - CLI tools
-  - file system operations
-  - JSON/XML processing
+    - file I/O
+    - networking
+    - text processing
+    - process management
+    - security
+    - date/time
+    - logging
+    - CLI tools
+    - file system operations
+    - JSON/XML processing
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: semantic versioning
   backwards_compatibility: moderate
 history:
   inception: 2006-11-14
   developer:
-  - Microsoft
+    - Microsoft
   designed_by:
-  - Jeffrey Snover
+    - Jeffrey Snover
   standards_bodies:
-  - Microsoft
+    - Microsoft
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/PowerShell%20Core%206.0%20icon.png
   influenced_by:
     languages:
-    - C#
-    - Perl
-    - Ksh
-    - Bash
-    - SQL
-    - Tcl
-    - Chef
-    - Python
-    - GNU Bash
-    - KornShell
-    - Control Language
-    - DIGITAL Command Language
-    - Tk
-    - Puppet
+      - C#
+      - Perl
+      - Ksh
+      - Bash
+      - SQL
+      - Tcl
+      - Chef
+      - Python
+      - GNU Bash
+      - KornShell
+      - Control Language
+      - DIGITAL Command Language
+      - Tk
+      - Puppet
     paradigms:
-    - object-oriented
-    - functional
-    - procedural
+      - object-oriented
+      - functional
+      - procedural
 official_website: https://microsoft.com/powershell
 documentation:
   quality: high
   official_sources:
-  - https://learn.microsoft.com/en-us/powershell/
-  - https://github.com/PowerShell/PowerShell/tree/master/docs
+    - https://learn.microsoft.com/en-us/powershell/
+    - https://github.com/PowerShell/PowerShell/tree/master/docs
   community_resources:
-  - https://www.powershellgallery.com/
-  - https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/00-introduction
+    - https://www.powershellgallery.com/
+    - https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/00-introduction
 references:
   github_topics:
-  - powershell
-  - powershell-module
-  - powershell-scripts
+    - powershell
+    - powershell-module
+    - powershell-scripts
   quora_topics:
-  - Microsoft-Windows-PowerShell
-  - Windows-Powershell-Scripting
+    - Microsoft-Windows-PowerShell
+    - Windows-Powershell-Scripting
   stackexchange_tags:
-  - powershell
-  - https://stackoverflow.com/tags/powershell
+    - powershell
+    - https://stackoverflow.com/tags/powershell
   wikidata_id: Q837763
   subreddit: PowerShell
 color: '#012456'

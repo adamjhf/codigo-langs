@@ -3,16 +3,16 @@ description: A general-purpose programming language and toolchain for maintainin
 category: programming
 status: active
 file_extensions:
-- zig
-- zig.zon
+  - zig
+  - zig.zon
 compilers:
-- name: Zig Compiler
-  type: compiler
-  license: MIT
-  source_url: https://github.com/ziglang/zig
-  is_reference: true
+  - name: Zig Compiler
+    type: compiler
+    license: MIT
+    source_url: https://github.com/ziglang/zig
+    is_reference: true
 paradigms:
-- imperative
+  - imperative
 typing:
   system: static
   structural: true
@@ -23,16 +23,16 @@ typing:
   type_annotations: required
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - machine code
-  - WebAssembly
-  - C
-  - LLVM IR
+    - machine code
+    - WebAssembly
+    - C
+    - LLVM IR
   runtime_environments:
-  - native OS process
-  - native binary
-  - WebAssembly
+    - native OS process
+    - native binary
+    - WebAssembly
   performance:
     startup_time: very fast
     memory_usage: low
@@ -40,33 +40,33 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - systems programming
-  - game development
-  - embedded systems
-  - operating systems
-  - WebAssembly
+    - systems programming
+    - game development
+    - embedded systems
+    - operating systems
+    - WebAssembly
   secondary:
-  - web development
-  - compiler
-  - desktop applications
+    - web development
+    - compiler
+    - desktop applications
   emerging:
-  - distributed system
-  - robotics
-  - IoT
+    - distributed system
+    - robotics
+    - IoT
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - bare metal
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - bare metal
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
-  - RISC-V
-  - WebAssembly
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - RISC-V
+    - WebAssembly
 ecosystem:
   maturity: moderate
   package_registry: https://astrolabe.pm/
@@ -94,25 +94,25 @@ language_features:
     implementation: RAII
     manual_control: true
   key_features:
-  - algebraic data types
-  - zero-cost abstractions
-  - REPL
-  - native FFI
-  - generics
-  - modules
+    - algebraic data types
+    - zero-cost abstractions
+    - REPL
+    - native FFI
+    - generics
+    - modules
 concurrency:
   model: threads
   features:
-  - async/await
-  - promises/futures
-  - thread pools
+    - async/await
+    - promises/futures
+    - thread pools
   ease_of_use: moderate
 error_handling:
   primary_mechanism: result types
   features:
-  - stack traces
-  - custom error types
-  - error propagation
+    - stack traces
+    - custom error types
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -121,79 +121,78 @@ error_handling:
 package_managers:
   primary: zigmod
   alternatives:
-  - gyro
-  - zpm
+    - gyro
+    - zpm
 popular_frameworks:
   frontend:
-  - Mach Engine
+    - Mach Engine
   backend:
-  - zap
+    - zap
   testing:
-  - built-in test framework
+    - built-in test framework
 development_tools:
   lsps:
-  - zls
+    - zls
   debugging:
-  - gdb
-  - lldb
+    - gdb
+    - lldb
   profiling:
-  - built-in profiler
+    - built-in profiler
   build_systems:
-  - zig build
+    - zig build
   linters:
-  - zig fmt
+    - zig fmt
 standard_library:
   maturity: moderate
   key_areas:
-  - file I/O
-  - networking
-  - concurrency
-  - data structures
-  - algorithms
-  - text processing
-  - cryptography
-  - testing
-  - process management
+    - file I/O
+    - networking
+    - concurrency
+    - data structures
+    - algorithms
+    - text processing
+    - cryptography
+    - testing
+    - process management
   size: medium
-  documentation_quality: high
 versioning:
   release_cycle: semantic versioning
   backwards_compatibility: moderate
 history:
   inception: 2015-01-01
   developer:
-  - Zig Software Foundation
-  - Andrew Kelley
+    - Zig Software Foundation
+    - Andrew Kelley
   designed_by:
-  - Andrew Kelley
+    - Andrew Kelley
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Zig%20logo%202020.svg
   influenced_by:
     languages:
-    - C
-    - Rust
-    - Go
-    - Swift
-    - JavaScript
-    - C++
+      - C
+      - Rust
+      - Go
+      - Swift
+      - JavaScript
+      - C++
     paradigms:
-    - imperative
-    - procedural
-    - structured
+      - imperative
+      - procedural
+      - structured
 official_website: https://ziglang.org/
 official_blog_rss: https://ziglang.org/devlog/index.xml
 documentation:
   quality: high
   official_sources:
-  - https://ziglang.org/documentation/master/
-  - https://ziglearn.org/
+    - https://ziglang.org/documentation/master/
+    - https://ziglearn.org/
   community_resources:
-  - https://github.com/zigasm/awesome-zig
-  - https://ziglings.org/
+    - https://github.com/zigasm/awesome-zig
+    - https://ziglings.org/
 references:
   github_topics:
-  - zig
-  - ziglang
+    - zig
+    - ziglang
   stackexchange_tags:
-  - https://stackoverflow.com/tags/zig
+    - https://stackoverflow.com/tags/zig
   subreddit: Zig
 color: '#ec915c'

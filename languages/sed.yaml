@@ -3,42 +3,42 @@ description: A stream editor that's a specialized programming tool for parsing a
 category: programming
 status: active
 file_extensions:
-- sed
+  - sed
 compilers:
-- name: GNU sed
-  type: interpreter
-  license: GPL-3.0
-  is_reference: true
-- name: BSD sed
-  type: interpreter
-  license: BSD-3-Clause
+  - name: GNU sed
+    type: interpreter
+    license: GPL-3.0
+    is_reference: true
+  - name: BSD sed
+    type: interpreter
+    license: BSD-3-Clause
 paradigms:
-- declarative
-- data-driven
+  - declarative
+  - data-driven
 typing:
   system: untyped
 execution:
   type:
-  - interpreted
+    - interpreted
   runtime_environments:
-  - native OS process
+    - native OS process
 domains:
   primary:
-  - text processing
-  - automation
-  - scripting
+    - text processing
+    - automation
+    - scripting
   secondary:
-  - data integration
-  - build management
+    - data integration
+    - build management
 platforms:
   operating_systems:
-  - Linux
-  - macOS
-  - BSD
-  - Unix
-  - Windows
+    - Linux
+    - macOS
+    - BSD
+    - Unix
+    - Windows
   architectures:
-  - platform-independent
+    - platform-independent
 ecosystem:
   maturity: high
   community_size: medium
@@ -58,8 +58,8 @@ language_features:
     type: managed
     level: high
   key_features:
-  - pattern matching
-  - string interpolation
+    - pattern matching
+    - string interpolation
 concurrency:
   model: none
 error_handling:
@@ -72,29 +72,28 @@ error_handling:
 standard_library:
   maturity: moderate
   key_areas:
-  - text processing
-  - regular expressions
+    - text processing
+    - regular expressions
   size: small
-  documentation_quality: moderate
 versioning:
   backwards_compatibility: high
 history:
   inception: 1974-01-01
   developer:
-  - Bell Labs
+    - Bell Labs
   designed_by:
-  - Lee E. McMahon
+    - Lee E. McMahon
   influenced_by:
     languages:
-    - ed
-    - grep
+      - ed
+      - grep
 official_website: https://www.gnu.org/software/sed/
 documentation:
   quality: moderate
   official_sources:
-  - https://www.gnu.org/software/sed/manual/sed.html
+    - https://www.gnu.org/software/sed/manual/sed.html
 references:
   stackexchange_tags:
-  - sed
+    - sed
   wikidata_id: Q193503
 color: '#64b970'

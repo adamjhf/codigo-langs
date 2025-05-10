@@ -3,20 +3,20 @@ description: Lean is a functional programming language and interactive theorem p
 category: programming
 status: active
 aliases:
-- Lean Theorem Prover
+  - Lean Theorem Prover
 file_extensions:
-- lean
-- hlean
+  - lean
+  - hlean
 compilers:
-- name: Lean
-  type: compiler
-  license: Apache-2.0
-  source_url: https://github.com/leanprover/lean4
-  is_reference: true
+  - name: Lean
+    type: compiler
+    license: Apache-2.0
+    source_url: https://github.com/leanprover/lean4
+    is_reference: true
 paradigms:
-- functional
-- purely functional
-- meta-programming
+  - functional
+  - purely functional
+  - meta-programming
 typing:
   system: dependent
   structural: true
@@ -27,12 +27,12 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - machine code
-  - C
+    - machine code
+    - C
   runtime_environments:
-  - native OS process
+    - native OS process
   performance:
     startup_time: moderate
     memory_usage: moderate
@@ -40,22 +40,22 @@ execution:
     compilation_speed: moderate
 domains:
   primary:
-  - automated theorem proving
-  - formal verification
-  - education
+    - automated theorem proving
+    - formal verification
+    - education
   secondary:
-  - mathematics
-  - compiler
+    - mathematics
+    - compiler
   emerging:
-  - data science
+    - data science
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
+    - Windows
+    - macOS
+    - Linux
   architectures:
-  - x86-64
-  - ARM64
+    - x86-64
+    - ARM64
 ecosystem:
   maturity: moderate
   package_registry: Lake
@@ -81,19 +81,19 @@ language_features:
   memory_management:
     type: garbage collection
   key_features:
-  - first-class functions
-  - pattern matching
-  - algebraic data types
-  - type inference
-  - meta-programming
+    - first-class functions
+    - pattern matching
+    - algebraic data types
+    - type inference
+    - meta-programming
 concurrency:
   model: none
   ease_of_use: low
 error_handling:
   primary_mechanism: result types
   features:
-  - custom error types
-  - error propagation
+    - custom error types
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -102,61 +102,60 @@ error_handling:
 package_managers:
   primary: Lake
   alternatives:
-  - Elan
+    - Elan
 development_tools:
   lsps:
-  - lean-language-server
+    - lean-language-server
   debugging:
-  - VS Code Lean extension
+    - VS Code Lean extension
   build_systems:
-  - Lake
+    - Lake
 standard_library:
   maturity: moderate
   key_areas:
-  - mathematics
-  - data structures
-  - algorithms
+    - mathematics
+    - data structures
+    - algorithms
   size: medium
-  documentation_quality: high
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: moderate
 history:
   inception: 2013-01-01
   developer:
-  - Microsoft Research
-  - Carnegie Mellon University
-  - Leonardo de Moura
+    - Microsoft Research
+    - Carnegie Mellon University
+    - Leonardo de Moura
   designed_by:
-  - Leonardo de Moura
-  - Sebastian Ullrich
+    - Leonardo de Moura
+    - Sebastian Ullrich
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Lean%20logo2.svg
   influenced_by:
     languages:
-    - Coq
-    - Agda
-    - ML
-    - Haskell
-    - Idris
-    - Isabelle
+      - Coq
+      - Agda
+      - ML
+      - Haskell
+      - Idris
+      - Isabelle
     paradigms:
-    - functional
-    - purely functional
-    - meta-programming
+      - functional
+      - purely functional
+      - meta-programming
 official_website: https://leanprover.github.io/
 documentation:
   quality: high
   official_sources:
-  - https://leanprover.github.io/documentation/
+    - https://leanprover.github.io/documentation/
   community_resources:
-  - https://leanprover-community.github.io/
+    - https://leanprover-community.github.io/
 references:
   github_topics:
-  - lean
-  - lean-theorem-prover
-  - lean4
+    - lean
+    - lean-theorem-prover
+    - lean4
   stackexchange_tags:
-  - lean
+    - lean
   wikidata_id: Q29539064
   subreddit: leanprover
 color: '#2b4c7e'

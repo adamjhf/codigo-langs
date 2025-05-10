@@ -3,19 +3,19 @@ description: A strongly-typed language that compiles to JavaScript, with a focus
 category: programming
 status: active
 aliases:
-- ReasonML for JavaScript
+  - ReasonML for JavaScript
 file_extensions:
-- res
+  - res
 compilers:
-- name: rescript
-  type: compiler
-  license: MIT
-  source_url: https://github.com/rescript-lang/rescript-compiler
-  is_reference: true
+  - name: rescript
+    type: compiler
+    license: MIT
+    source_url: https://github.com/rescript-lang/rescript-compiler
+    is_reference: true
 paradigms:
-- functional
-- imperative
-- object-oriented
+  - functional
+  - imperative
+  - object-oriented
 typing:
   system: static
   structural: true
@@ -26,13 +26,13 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
-  - transpiled
+    - compiled
+    - transpiled
   compiles_to:
-  - JavaScript
+    - JavaScript
   runtime_environments:
-  - browser
-  - native OS process
+    - browser
+    - native OS process
   performance:
     startup_time: fast
     memory_usage: low
@@ -40,20 +40,20 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - web development
-  - user interface
+    - web development
+    - user interface
   secondary:
-  - server-side applications
-  - mobile development
+    - server-side applications
+    - mobile development
   emerging:
-  - WebAssembly
+    - WebAssembly
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
+    - Windows
+    - macOS
+    - Linux
   architectures:
-  - platform-independent
+    - platform-independent
 ecosystem:
   maturity: moderate
   package_registry: npm
@@ -80,25 +80,25 @@ language_features:
     type: garbage collection
     implementation: JavaScript GC
   key_features:
-  - pattern matching
-  - algebraic data types
-  - type inference
-  - zero-cost abstractions
-  - first-class functions
-  - modules
-  - destructuring
+    - pattern matching
+    - algebraic data types
+    - type inference
+    - zero-cost abstractions
+    - first-class functions
+    - modules
+    - destructuring
 concurrency:
   model: event loop
   features:
-  - promises/futures
-  - async/await
+    - promises/futures
+    - async/await
   ease_of_use: high
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - custom error types
-  - error propagation
+    - stack traces
+    - custom error types
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -107,58 +107,57 @@ error_handling:
 package_managers:
   primary: npm
   alternatives:
-  - yarn
-  - pnpm
+    - yarn
+    - pnpm
 popular_frameworks:
   frontend:
-  - React
-  - ReasonReact
+    - React
+    - ReasonReact
 development_tools:
   lsps:
-  - rescript-vscode
+    - rescript-vscode
   debugging:
-  - Chrome DevTools
+    - Chrome DevTools
   linters:
-  - rescript-linter
+    - rescript-linter
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - algorithms
-  - text processing
-  - date/time
+    - data structures
+    - algorithms
+    - text processing
+    - date/time
   size: medium
-  documentation_quality: high
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: high
 history:
   inception: '2015-01-01'
   developer:
-  - ReScript Team
-  - Facebook
-  - Bloomberg L.P.
+    - ReScript Team
+    - Facebook
+    - Bloomberg L.P.
   designed_by:
-  - Hongbo Zhang
-  - Cheng Lou
+    - Hongbo Zhang
+    - Cheng Lou
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Rescript-logo.svg
   influenced_by:
     languages:
-    - OCaml
-    - Reason
-    - TypeScript
-    - JavaScript
+      - OCaml
+      - Reason
+      - TypeScript
+      - JavaScript
     paradigms:
-    - functional
-    - object-oriented
+      - functional
+      - object-oriented
 official_website: https://rescript-lang.org/
 documentation:
   quality: high
   official_sources:
-  - https://rescript-lang.org/docs/manual/latest/introduction
+    - https://rescript-lang.org/docs/manual/latest/introduction
 references:
   github_topics:
-  - rescript
-  - rescript-lang
+    - rescript
+    - rescript-lang
   wikidata_id: Q106465602
 color: '#ed5051'

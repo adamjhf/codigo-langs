@@ -3,20 +3,20 @@ description: Crystal is a compiled, statically-typed language with Ruby-like syn
 category: programming
 status: active
 aliases:
-- cr
+  - cr
 file_extensions:
-- cr
+  - cr
 compilers:
-- name: Crystal Compiler
-  type: compiler
-  license: Apache-2.0
-  source_url: https://github.com/crystal-lang/crystal
-  is_reference: true
+  - name: Crystal Compiler
+    type: compiler
+    license: Apache-2.0
+    source_url: https://github.com/crystal-lang/crystal
+    is_reference: true
 paradigms:
-- object-oriented
-- imperative
-- functional
-- concurrent
+  - object-oriented
+  - imperative
+  - functional
+  - concurrent
 typing:
   system: static
   structural: false
@@ -27,12 +27,12 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - machine code
-  - LLVM IR
+    - machine code
+    - LLVM IR
   runtime_environments:
-  - native OS process
+    - native OS process
   performance:
     startup_time: fast
     memory_usage: moderate
@@ -40,24 +40,24 @@ execution:
     compilation_speed: moderate
 domains:
   primary:
-  - web development
-  - server-side applications
+    - web development
+    - server-side applications
   secondary:
-  - systems programming
-  - data processing
-  - scripting
+    - systems programming
+    - data processing
+    - scripting
   emerging:
-  - DevOps
-  - microservices
+    - DevOps
+    - microservices
 platforms:
   operating_systems:
-  - Linux
-  - macOS
-  - Windows
-  - BSD
+    - Linux
+    - macOS
+    - Windows
+    - BSD
   architectures:
-  - x86-64
-  - ARM64
+    - x86-64
+    - ARM64
 ecosystem:
   maturity: moderate
   package_registry: https://shardbox.org/
@@ -85,29 +85,29 @@ language_features:
     implementation: Boehm GC
     manual_control: false
   key_features:
-  - type inference
-  - macros
-  - algebraic data types
-  - string interpolation
-  - pattern matching
-  - operator overloading
-  - REPL
-  - modules
-  - first-class functions
-  - named arguments
+    - type inference
+    - macros
+    - algebraic data types
+    - string interpolation
+    - pattern matching
+    - operator overloading
+    - REPL
+    - modules
+    - first-class functions
+    - named arguments
 concurrency:
   model: fibers
   features:
-  - channels
-  - promises/futures
-  - async/await
+    - channels
+    - promises/futures
+    - async/await
   ease_of_use: high
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - custom error types
-  - error propagation
+    - stack traces
+    - custom error types
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -117,79 +117,78 @@ package_managers:
   primary: Shards
 popular_frameworks:
   backend:
-  - Kemal
-  - Lucky
-  - Amber
+    - Kemal
+    - Lucky
+    - Amber
   testing:
-  - Spec
-  - Mocks
+    - Spec
+    - Mocks
 development_tools:
   lsps:
-  - crystalline
-  - scry
+    - crystalline
+    - scry
   debugging:
-  - lldb
-  - gdb
+    - lldb
+    - gdb
   profiling:
-  - perf
+    - perf
   build_systems:
-  - make
-  - shard.yml
+    - make
+    - shard.yml
   linters:
-  - ameba
+    - ameba
 standard_library:
   maturity: high
   key_areas:
-  - file I/O
-  - networking
-  - concurrency
-  - data structures
-  - HTTP client/server
-  - JSON/XML processing
-  - regular expressions
-  - date/time
-  - mathematics
-  - cryptography
-  - process management
+    - file I/O
+    - networking
+    - concurrency
+    - data structures
+    - HTTP client/server
+    - JSON/XML processing
+    - regular expressions
+    - date/time
+    - mathematics
+    - cryptography
+    - process management
   size: medium
-  documentation_quality: high
 versioning:
   release_cycle: semantic versioning
   backwards_compatibility: high
 history:
   inception: 2014-01-01
   developer:
-  - Manas Technology Solutions
-  - Ary Borenzweig
+    - Manas Technology Solutions
+    - Ary Borenzweig
   designed_by:
-  - Ary Borenszweig
-  - Juan Wajnerman
-  - Brian Cardiff
+    - Ary Borenszweig
+    - Juan Wajnerman
+    - Brian Cardiff
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Crystal%20language%20logo.svg
   influenced_by:
     languages:
-    - Ruby
-    - Go
-    - Rust
-    - C
-    - C#
-    - Python
+      - Ruby
+      - Go
+      - Rust
+      - C
+      - C#
+      - Python
 official_website: https://crystal-lang.org/
 documentation:
   quality: high
   official_sources:
-  - https://crystal-lang.org/reference/
-  - https://crystal-lang.org/api/
+    - https://crystal-lang.org/reference/
+    - https://crystal-lang.org/api/
   community_resources:
-  - https://forum.crystal-lang.org/
-  - https://github.com/veelenga/awesome-crystal
+    - https://forum.crystal-lang.org/
+    - https://github.com/veelenga/awesome-crystal
 references:
   github_topics:
-  - crystal
-  - crystal-lang
+    - crystal
+    - crystal-lang
   stackexchange_tags:
-  - crystal
-  - crystal-lang
+    - crystal
+    - crystal-lang
   wikidata_id: Q17072511
   subreddit: crystal_programming
 color: '#000100'

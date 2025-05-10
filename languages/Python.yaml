@@ -3,50 +3,50 @@ description: Python is a high-level, interpreted programming language known for 
 category: programming
 status: active
 aliases:
-- python3
-- rusthon
+  - python3
+  - rusthon
 file_extensions:
-- py
-- cgi
-- fcgi
-- gyp
-- gypi
-- lmi
-- py3
-- pyde
-- pyi
-- pyp
-- pyt
-- pyw
-- rpy
-- spec
-- tac
-- wsgi
-- xpy
+  - py
+  - cgi
+  - fcgi
+  - gyp
+  - gypi
+  - lmi
+  - py3
+  - pyde
+  - pyi
+  - pyp
+  - pyt
+  - pyw
+  - rpy
+  - spec
+  - tac
+  - wsgi
+  - xpy
 compilers:
-- name: CPython
-  type: interpreter
-  license: GPL-3.0
-  source_url: https://github.com/python/cpython
-  is_reference: true
-- name: PyPy
-  type: interpreter
-  license: MIT
-  source_url: https://github.com/pypy/pypy
-- name: IronPython
-  type: interpreter
-  license: Apache-2.0
-  source_url: https://github.com/IronLanguages/ironpython3
-- name: Jython
-  type: interpreter
-  license: BSD-3-Clause
-  source_url: https://github.com/jython/jython
+  - name: CPython
+    type: interpreter
+    license: GPL-3.0
+    source_url: https://github.com/python/cpython
+    is_reference: true
+  - name: PyPy
+    type: interpreter
+    license: MIT
+    source_url: https://github.com/pypy/pypy
+  - name: IronPython
+    type: interpreter
+    license: Apache-2.0
+    source_url: https://github.com/IronLanguages/ironpython3
+  - name: Jython
+    type: interpreter
+    license: BSD-3-Clause
+    source_url: https://github.com/jython/jython
 paradigms:
-- imperative
-- procedural
-- object-oriented
-- functional
-- reflective
+  - imperative
+  - procedural
+  - object-oriented
+  - functional
+  - reflective
 typing:
   system: gradual
   structural: true
@@ -57,15 +57,15 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - interpreted
-  - interpreted with JIT compilation
+    - interpreted
+    - interpreted with JIT compilation
   compiles_to:
-  - bytecode
+    - bytecode
   runtime_environments:
-  - language-specific runtime
-  - native OS process
-  - browser
-  - WebAssembly
+    - language-specific runtime
+    - native OS process
+    - browser
+    - WebAssembly
   performance:
     startup_time: moderate
     memory_usage: moderate
@@ -73,52 +73,52 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - web development
-  - data science
-  - scientific computing
-  - artificial intelligence
-  - automation
-  - scripting
-  - education
-  - analysis
+    - web development
+    - data science
+    - scientific computing
+    - artificial intelligence
+    - automation
+    - scripting
+    - education
+    - analysis
   secondary:
-  - desktop applications
-  - server-side applications
-  - DevOps
-  - text processing
-  - testing
-  - game development
+    - desktop applications
+    - server-side applications
+    - DevOps
+    - text processing
+    - testing
+    - game development
   emerging:
-  - machine learning frameworks
-  - WebAssembly
-  - IoT
+    - machine learning frameworks
+    - WebAssembly
+    - IoT
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
-  - Android
-  - iOS
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
+    - Android
+    - iOS
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
-  - PowerPC
-  - SPARC
-  - MIPS
-  - WebAssembly
-  - platform-independent
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - PowerPC
+    - SPARC
+    - MIPS
+    - WebAssembly
+    - platform-independent
   cloud_function_environments:
-  - AWS Lambda
-  - Google Cloud Functions
-  - Azure Functions
-  - Vercel Functions
-  - Netlify Functions
-  - IBM Cloud Functions
-  - Oracle Cloud Functions
+    - AWS Lambda
+    - Google Cloud Functions
+    - Azure Functions
+    - Vercel Functions
+    - Netlify Functions
+    - IBM Cloud Functions
+    - Oracle Cloud Functions
 ecosystem:
   maturity: very high
   package_registry: PyPI
@@ -146,44 +146,44 @@ language_features:
     implementation: reference counting with cycle detection
     manual_control: false
   key_features:
-  - first-class functions
-  - closures
-  - pattern matching
-  - type inference
-  - decorators/annotations
-  - iterators/generators
-  - reflection
-  - meta-programming
-  - string interpolation
-  - modules
-  - lambdas
-  - destructuring
-  - named arguments
-  - REPL
-  - interactive development
+    - first-class functions
+    - closures
+    - pattern matching
+    - type inference
+    - decorators/annotations
+    - iterators/generators
+    - reflection
+    - meta-programming
+    - string interpolation
+    - modules
+    - lambdas
+    - destructuring
+    - named arguments
+    - REPL
+    - interactive development
 concurrency:
   model: threads
   features:
-  - async/await
-  - promises/futures
-  - thread pools
-  - work stealing
-  - message passing
-  - shared memory
-  - concurrent data structures
-  - distributed computing
+    - async/await
+    - promises/futures
+    - thread pools
+    - work stealing
+    - message passing
+    - shared memory
+    - concurrent data structures
+    - distributed computing
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error chaining
-  - custom error types
-  - recovery mechanisms
-  - error context
-  - cleanup actions
-  - resource management
-  - error logging
+    - stack traces
+    - error chaining
+    - custom error types
+    - recovery mechanisms
+    - error context
+    - cleanup actions
+    - resource management
+    - error logging
   stack_traces: true
   debugging:
     source_maps: true
@@ -192,149 +192,148 @@ error_handling:
 package_managers:
   primary: pip
   alternatives:
-  - conda
-  - poetry
-  - pipenv
+    - conda
+    - poetry
+    - pipenv
 popular_frameworks:
   frontend:
-  - Flask
-  - Django
-  - FastAPI
-  - Streamlit
+    - Flask
+    - Django
+    - FastAPI
+    - Streamlit
   backend:
-  - Django
-  - Flask
-  - FastAPI
-  - Tornado
-  - Pyramid
+    - Django
+    - Flask
+    - FastAPI
+    - Tornado
+    - Pyramid
   testing:
-  - pytest
-  - unittest
-  - nose
-  - doctest
+    - pytest
+    - unittest
+    - nose
+    - doctest
   mobile:
-  - Kivy
-  - BeeWare
+    - Kivy
+    - BeeWare
 development_tools:
   lsps:
-  - Pyright
-  - Pylance
-  - Jedi
-  - python-language-server
+    - Pyright
+    - Pylance
+    - Jedi
+    - python-language-server
   debugging:
-  - pdb
-  - ipdb
-  - debugpy
-  - VS Code Debugger
+    - pdb
+    - ipdb
+    - debugpy
+    - VS Code Debugger
   profiling:
-  - cProfile
-  - line_profiler
-  - memory_profiler
-  - py-spy
+    - cProfile
+    - line_profiler
+    - memory_profiler
+    - py-spy
   build_systems:
-  - setuptools
-  - flit
-  - hatch
-  - pybuild
+    - setuptools
+    - flit
+    - hatch
+    - pybuild
   linters:
-  - pylint
-  - flake8
-  - mypy
-  - pytype
-  - black
-  - isort
+    - pylint
+    - flake8
+    - mypy
+    - pytype
+    - black
+    - isort
 standard_library:
   maturity: very high
   key_areas:
-  - file I/O
-  - networking
-  - concurrency
-  - data structures
-  - algorithms
-  - text processing
-  - cryptography
-  - database access
-  - HTTP client/server
-  - JSON/XML processing
-  - regular expressions
-  - date/time
-  - mathematics
-  - compression
-  - serialization
-  - testing
-  - logging
-  - CLI tools
-  - process management
+    - file I/O
+    - networking
+    - concurrency
+    - data structures
+    - algorithms
+    - text processing
+    - cryptography
+    - database access
+    - HTTP client/server
+    - JSON/XML processing
+    - regular expressions
+    - date/time
+    - mathematics
+    - compression
+    - serialization
+    - testing
+    - logging
+    - CLI tools
+    - process management
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
 history:
   inception: 1991-02-20
   developer:
-  - Python Software Foundation
-  - Guido van Rossum
+    - Python Software Foundation
+    - Guido van Rossum
   designed_by:
-  - Guido van Rossum
+    - Guido van Rossum
   described_by: The Python Language Reference
   standards_bodies:
-  - Python Software Foundation
+    - Python Software Foundation
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Python%20logo%20and%20wordmark.svg
   influenced_by:
     languages:
-    - ABC
-    - Modula-3
-    - C
-    - C++
-    - Lisp
-    - Perl
-    - Java
-    - Haskell
-    - APL
-    - Standard ML
-    - CLU
-    - Icon
-    - Dylan
-    - ALGOL 68
+      - ABC
+      - Modula-3
+      - C
+      - C++
+      - Lisp
+      - Perl
+      - Java
+      - Haskell
+      - APL
+      - Standard ML
+      - CLU
+      - Icon
+      - Dylan
+      - ALGOL 68
     paradigms:
-    - imperative
-    - procedural
-    - object-oriented
-    - functional
+      - imperative
+      - procedural
+      - object-oriented
+      - functional
 official_website: https://www.python.org/
 official_blog_rss: https://blog.python.org/feeds/posts/default
 documentation:
   quality: high
   official_sources:
-  - https://docs.python.org/
-  - https://www.python.org/doc/
+    - https://docs.python.org/
+    - https://www.python.org/doc/
   community_resources:
-  - https://realpython.com/
-  - https://www.w3schools.com/python/
-  - https://www.learnpython.org/
+    - https://realpython.com/
+    - https://www.w3schools.com/python/
+    - https://www.learnpython.org/
 references:
   github_topics:
-  - python
-  - python3
+    - python
+    - python3
   quora_topics:
-  - Python-programming-language
-  - Python-programming-language-1
-  - Python-Programming-Languages
+    - Python-programming-language
+    - Python-programming-language-1
+    - Python-Programming-Languages
   stackexchange_tags:
-  - python
-  - python-3.x
-  - https://stackoverflow.com/tags/python
-  - https://quantumcomputing.stackexchange.com/tags/python
-  - https://softwareengineering.stackexchange.com/tags/python
-  - https://codereview.stackexchange.com/tags/python
-  - https://datascience.stackexchange.com/tags/python
-  - https://unix.stackexchange.com/tags/python
-  - https://dsp.stackexchange.com/tags/python
-  - https://raspberrypi.stackexchange.com/tags/python
-  - https://askubuntu.com/tags/python
-  - https://gis.stackexchange.com/tags/python
-  - https://ai.stackexchange.com/tags/python
+    - python
+    - python-3.x
+    - https://stackoverflow.com/tags/python
+    - https://quantumcomputing.stackexchange.com/tags/python
+    - https://softwareengineering.stackexchange.com/tags/python
+    - https://codereview.stackexchange.com/tags/python
+    - https://datascience.stackexchange.com/tags/python
+    - https://unix.stackexchange.com/tags/python
+    - https://dsp.stackexchange.com/tags/python
+    - https://raspberrypi.stackexchange.com/tags/python
+    - https://askubuntu.com/tags/python
+    - https://gis.stackexchange.com/tags/python
+    - https://ai.stackexchange.com/tags/python
   wikidata_id: Q28865
   subreddit: learnpython
   x_handle: ThePSF

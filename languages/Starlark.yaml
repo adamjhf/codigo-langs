@@ -3,19 +3,19 @@ description: Starlark is a Python-like configuration language designed for use i
 category: DSL
 status: active
 aliases:
-- bazel
-- bzl
+  - bazel
+  - bzl
 file_extensions:
-- bzl
-- star
+  - bzl
+  - star
 compilers:
-- name: Bazel Starlark Interpreter
-  type: interpreter
-  license: Apache-2.0
-  is_reference: true
+  - name: Bazel Starlark Interpreter
+    type: interpreter
+    license: Apache-2.0
+    is_reference: true
 paradigms:
-- imperative
-- structured
+  - imperative
+  - structured
 typing:
   system: dynamic
   strength: strong
@@ -25,29 +25,29 @@ typing:
   type_annotations: none
 execution:
   type:
-  - interpreted
+    - interpreted
   runtime_environments:
-  - embedded interpreter
-  - native OS process
+    - embedded interpreter
+    - native OS process
   performance:
     startup_time: fast
     memory_usage: low
     computation_speed: moderate
 domains:
   primary:
-  - configuration management
-  - build automation
-  - software build
+    - configuration management
+    - build automation
+    - software build
   secondary:
-  - scripting
-  - build management
+    - scripting
+    - build management
 platforms:
   operating_systems:
-  - Linux
-  - macOS
-  - Windows
+    - Linux
+    - macOS
+    - Windows
   architectures:
-  - platform-independent
+    - platform-independent
 ecosystem:
   maturity: moderate
   community_size: medium
@@ -71,46 +71,45 @@ language_features:
   memory_management:
     type: garbage collection
   key_features:
-  - first-class functions
-  - string interpolation
-  - iterators/generators
-  - modules
+    - first-class functions
+    - string interpolation
+    - iterators/generators
+    - modules
 concurrency:
   model: none
 error_handling:
   primary_mechanism: exceptions
   features:
-  - error formatting
-  - stack traces
+    - error formatting
+    - stack traces
   stack_traces: true
 development_tools:
   linters:
-  - Buildifier
+    - Buildifier
 standard_library:
   maturity: moderate
   key_areas:
-  - data structures
-  - text processing
-  - file system operations
+    - data structures
+    - text processing
+    - file system operations
   size: small
-  documentation_quality: high
 history:
   inception: '2017-01-01'
   developer:
-  - Google
+    - Google
   designed_by:
-  - Laurent Le Brun
-  - Alan Donovan
+    - Laurent Le Brun
+    - Alan Donovan
 official_website: https://docs.bazel.build/versions/master/skylark/language.html
 documentation:
   quality: high
   official_sources:
-  - https://github.com/bazelbuild/starlark/blob/master/spec.md
-  - https://docs.bazel.build/versions/master/skylark/language.html
+    - https://github.com/bazelbuild/starlark/blob/master/spec.md
+    - https://docs.bazel.build/versions/master/skylark/language.html
 references:
   github_topics:
-  - starlark
-  - skylark
-  - bazel
+    - starlark
+    - skylark
+    - bazel
   wikidata_id: Q56428020
 color: '#76d275'

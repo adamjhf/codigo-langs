@@ -2,11 +2,9 @@ name: Zephyr
 description: Zephyr is a lightweight, secure, and scalable protocol-oriented language for the Internet of Things (IoT) and embedded systems. It emphasizes safety, efficiency, and interoperability in resource-constrained environments.
 category: programming
 status: active
-
 file_extensions:
   - zpr
   - zph
-
 typing:
   system: static
   type_checking: compile-time
@@ -15,13 +13,11 @@ typing:
   structural: false
   type_coercion: conservative
   type_annotations: required
-
 paradigms:
   - imperative
   - procedural
   - concurrent
   - modular
-
 execution:
   type:
     - compiled
@@ -37,7 +33,6 @@ execution:
     memory_usage: very low
     computation_speed: fast
     compilation_speed: fast
-
 domains:
   primary:
     - IoT
@@ -52,7 +47,6 @@ domains:
   emerging:
     - edge computing
     - distributed system
-
 platforms:
   operating_systems:
     - Linux
@@ -65,7 +59,6 @@ platforms:
     - x86-64
     - RISC-V
     - AVR
-
 language_features:
   immutability: optional
   enums: algebraic
@@ -90,7 +83,6 @@ language_features:
     - traits/interfaces
     - first-class functions
     - modules
-
 concurrency:
   model: actors
   features:
@@ -100,7 +92,6 @@ concurrency:
     - concurrent data structures
     - atomic operations
   ease_of_use: moderate
-
 error_handling:
   primary_mechanism: result types
   features:
@@ -116,31 +107,26 @@ error_handling:
     source_maps: true
     breakpoints: true
     step_debugging: true
-
 compilers:
   - name: ZephyrC
     type: compiler
     license: Apache-2.0
     is_reference: true
-
 ecosystem:
   maturity: moderate
   package_registry: "zeph.io/packages"
   community_size: small
   learning_resources: small
   job_market_demand: low
-
 complexity:
   learning_curve: high
   cognitive_load: moderate
   syntax_complexity: moderate
   semantic_complexity: moderate
-
 package_managers:
   primary: zpkg
   alternatives:
     - zipt
-
 standard_library:
   maturity: moderate
   key_areas:
@@ -153,8 +139,6 @@ standard_library:
     - logging
     - process management
   size: medium
-  documentation_quality: high
-
 development_tools:
   lsps:
     - zephlsp
@@ -166,11 +150,9 @@ development_tools:
     - zbuild
   linters:
     - zlint
-
 versioning:
   release_cycle: semantic versioning
   backwards_compatibility: high
-
 history:
   inception: "2018-01-01"
   developer:
@@ -180,14 +162,11 @@ history:
     - Marcus Chen
   standards_bodies:
     - Zephyr Language Consortium
-
 official_website: "https://zephyr-lang.org"
-
 documentation:
   quality: high
   official_sources:
     - "https://docs.zephyr-lang.org"
   community_resources:
     - "https://github.com/zephyr-community/resources"
-
 color: "#2E8B57"

@@ -3,18 +3,18 @@ description: Odin is a general-purpose, systems programming language designed fo
 category: programming
 status: active
 aliases:
-- odinlang
-- odin-lang
+  - odinlang
+  - odin-lang
 file_extensions:
-- odin
+  - odin
 compilers:
-- name: Odin Compiler
-  type: compiler
-  license: BSD-3-Clause
-  source_url: https://github.com/odin-lang/Odin
-  is_reference: true
+  - name: Odin Compiler
+    type: compiler
+    license: BSD-3-Clause
+    source_url: https://github.com/odin-lang/Odin
+    is_reference: true
 paradigms:
-- imperative
+  - imperative
 typing:
   system: static
   structural: true
@@ -25,12 +25,12 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - machine code
-  - LLVM IR
+    - machine code
+    - LLVM IR
   runtime_environments:
-  - native OS process
+    - native OS process
   performance:
     startup_time: very fast
     memory_usage: low
@@ -38,24 +38,24 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - systems programming
-  - game development
-  - high-performance computing
+    - systems programming
+    - game development
+    - high-performance computing
   secondary:
-  - desktop applications
-  - server-side applications
-  - scientific computing
+    - desktop applications
+    - server-side applications
+    - scientific computing
   emerging:
-  - embedded systems
-  - WebAssembly
+    - embedded systems
+    - WebAssembly
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
+    - Windows
+    - macOS
+    - Linux
   architectures:
-  - x86-64
-  - ARM64
+    - x86-64
+    - ARM64
 ecosystem:
   maturity: moderate
   package_registry: https://github.com/odin-lang/Odin/tree/master/core
@@ -83,26 +83,26 @@ language_features:
     implementation: RAII-like with context system
     manual_control: true
   key_features:
-  - first-class functions
-  - closures
-  - algebraic data types
-  - zero-cost abstractions
-  - native FFI
-  - reflection
-  - destructuring
-  - modules
+    - first-class functions
+    - closures
+    - algebraic data types
+    - zero-cost abstractions
+    - native FFI
+    - reflection
+    - destructuring
+    - modules
 concurrency:
   model: threads
   features:
-  - atomic operations
-  - thread pools
+    - atomic operations
+    - thread pools
   ease_of_use: moderate
 error_handling:
   primary_mechanism: result types
   features:
-  - stack traces
-  - custom error types
-  - multiple error types
+    - stack traces
+    - custom error types
+    - multiple error types
   stack_traces: true
   debugging:
     breakpoints: true
@@ -110,45 +110,44 @@ error_handling:
 standard_library:
   maturity: moderate
   key_areas:
-  - file I/O
-  - networking
-  - data structures
-  - algorithms
-  - text processing
-  - date/time
-  - mathematics
-  - serialization
-  - testing
-  - logging
+    - file I/O
+    - networking
+    - data structures
+    - algorithms
+    - text processing
+    - date/time
+    - mathematics
+    - serialization
+    - testing
+    - logging
   size: medium
-  documentation_quality: moderate
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: high
 history:
   inception: 2016-07-01
   designed_by:
-  - Ginger Bill
+    - Ginger Bill
   influenced_by:
     languages:
-    - C
-    - Go
-    - Jai
-    - Pascal
-    - Oberon
+      - C
+      - Go
+      - Jai
+      - Pascal
+      - Oberon
     paradigms:
-    - imperative
-    - procedural
+      - imperative
+      - procedural
 official_website: https://odin-lang.org/
 official_blog_rss: https://odin-lang.org//categories/newsletter/index.xml
 documentation:
   quality: moderate
   official_sources:
-  - https://odin-lang.org/docs/
-  - https://github.com/odin-lang/Odin/tree/master/examples
+    - https://odin-lang.org/docs/
+    - https://github.com/odin-lang/Odin/tree/master/examples
 references:
   github_topics:
-  - odin
-  - odin-lang
+    - odin
+    - odin-lang
   wikidata_id: Q56482635
 color: '#60AFFE'

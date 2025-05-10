@@ -127,7 +127,6 @@ standard_library:
     - text processing
     - mathematics
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high

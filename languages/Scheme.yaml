@@ -3,40 +3,40 @@ description: Scheme is a minimalist dialect of Lisp known for its simplicity, el
 category: programming
 status: active
 aliases:
-- R5RS
-- R6RS
-- R7RS
+  - R5RS
+  - R6RS
+  - R7RS
 file_extensions:
-- scm
-- sch
-- sld
-- sls
-- sps
-- ss
+  - scm
+  - sch
+  - sld
+  - sls
+  - sps
+  - ss
 compilers:
-- name: Racket
-  type: hybrid
-  license: LGPL-3.0
-  source_url: https://github.com/racket/racket
-- name: Chez Scheme
-  type: compiler
-  license: Apache-2.0
-  source_url: https://github.com/cisco/ChezScheme
-- name: Guile
-  type: hybrid
-  license: LGPL-3.0
-  source_url: https://git.savannah.gnu.org/cgit/guile.git
-- name: Chicken
-  type: compiler
-  license: BSD-3-Clause
-  source_url: https://code.call-cc.org/cgi-bin/gitweb.cgi?p=chicken-core.git
-- name: Gambit
-  type: compiler
-  license: Apache-2.0
-  source_url: https://github.com/gambit/gambit
+  - name: Racket
+    type: hybrid
+    license: LGPL-3.0
+    source_url: https://github.com/racket/racket
+  - name: Chez Scheme
+    type: compiler
+    license: Apache-2.0
+    source_url: https://github.com/cisco/ChezScheme
+  - name: Guile
+    type: hybrid
+    license: LGPL-3.0
+    source_url: https://git.savannah.gnu.org/cgit/guile.git
+  - name: Chicken
+    type: compiler
+    license: BSD-3-Clause
+    source_url: https://code.call-cc.org/cgi-bin/gitweb.cgi?p=chicken-core.git
+  - name: Gambit
+    type: compiler
+    license: Apache-2.0
+    source_url: https://github.com/gambit/gambit
 paradigms:
-- functional
-- imperative
+  - functional
+  - imperative
 typing:
   system: dynamic
   structural: true
@@ -47,17 +47,17 @@ typing:
   type_annotations: none
 execution:
   type:
-  - interpreted
-  - compiled
-  - interpreted with JIT compilation
+    - interpreted
+    - compiled
+    - interpreted with JIT compilation
   compiles_to:
-  - bytecode
-  - machine code
-  - C
+    - bytecode
+    - machine code
+    - C
   runtime_environments:
-  - language-specific runtime
-  - native OS process
-  - embedded interpreter
+    - language-specific runtime
+    - native OS process
+    - embedded interpreter
   performance:
     startup_time: moderate
     memory_usage: moderate
@@ -65,32 +65,32 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - education
-  - artificial intelligence
-  - compiler
-  - scientific computing
-  - scripting
+    - education
+    - artificial intelligence
+    - compiler
+    - scientific computing
+    - scripting
   secondary:
-  - interpreter
-  - text processing
-  - data science
+    - interpreter
+    - text processing
+    - data science
   emerging:
-  - web development
-  - embedded systems
+    - web development
+    - embedded systems
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
-  - embedded
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
+    - embedded
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
-  - platform-independent
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - platform-independent
 ecosystem:
   maturity: moderate
   package_registry: https://snow-fort.org/
@@ -118,23 +118,23 @@ language_features:
     implementation: mostly generational
     manual_control: false
   key_features:
-  - first-class functions
-  - closures
-  - tail-call optimization
-  - macros
-  - reflection
-  - meta-programming
+    - first-class functions
+    - closures
+    - tail-call optimization
+    - macros
+    - reflection
+    - meta-programming
 concurrency:
   model: none
   features:
-  - concurrent data structures
+    - concurrent data structures
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - custom error types
-  - error propagation
+    - stack traces
+    - custom error types
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -143,70 +143,69 @@ error_handling:
 package_managers:
   primary: Snow
   alternatives:
-  - Akku
+    - Akku
 popular_frameworks:
   backend:
-  - Gerbil
-  - Racket Web Server
+    - Gerbil
+    - Racket Web Server
   testing:
-  - SchemeUnit
+    - SchemeUnit
 development_tools:
   lsps:
-  - racket-langserver
+    - racket-langserver
   debugging:
-  - Racket Debugging Tools
-  - Guile Debugger
+    - Racket Debugging Tools
+    - Guile Debugger
   linters:
-  - SchemeUnit
+    - SchemeUnit
 standard_library:
   maturity: moderate
   key_areas:
-  - file I/O
-  - data structures
-  - algorithms
-  - text processing
-  - mathematics
+    - file I/O
+    - data structures
+    - algorithms
+    - text processing
+    - mathematics
   size: small
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
 history:
   inception: 1975-01-01
   developer:
-  - MIT
+    - MIT
   designed_by:
-  - Guy L. Steele Jr.
-  - Gerald Jay Sussman
+    - Guy L. Steele Jr.
+    - Gerald Jay Sussman
   described_by: R7RS
   standards_bodies:
-  - Scheme Steering Committee
+    - Scheme Steering Committee
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Lambda%20lc.svg
   influenced_by:
     languages:
-    - Lisp
-    - ALGOL
-    - MDL
+      - Lisp
+      - ALGOL
+      - MDL
     paradigms:
-    - functional
-    - procedural
+      - functional
+      - procedural
 official_website: https://www.scheme.org/
 official_blog_rss: https://planet.scheme.org/atom.xml
 documentation:
   quality: high
   official_sources:
-  - https://schemers.org/Documents/Standards/R5RS/
-  - https://small.r7rs.org/
+    - https://schemers.org/Documents/Standards/R5RS/
+    - https://small.r7rs.org/
   community_resources:
-  - https://community.schemewiki.org/
+    - https://community.schemewiki.org/
 references:
   github_topics:
-  - scheme
-  - scheme-language
+    - scheme
+    - scheme-language
   quora_topics:
-  - Scheme-programming-language-1
+    - Scheme-programming-language-1
   stackexchange_tags:
-  - scheme
+    - scheme
   wikidata_id: Q192465
   subreddit: scheme
 color: '#1e4aec'

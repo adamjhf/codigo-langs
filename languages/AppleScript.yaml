@@ -3,16 +3,16 @@ description: AppleScript is a scripting language created by Apple for macOS auto
 category: programming
 status: active
 aliases:
-- osascript
+  - osascript
 file_extensions:
-- applescript
-- scpt
+  - applescript
+  - scpt
 paradigms:
-- imperative
-- event-driven
-- declarative
-- object-oriented
-- natural-language
+  - imperative
+  - event-driven
+  - declarative
+  - object-oriented
+  - natural-language
 typing:
   system: dynamic
   strength: weak
@@ -22,33 +22,33 @@ typing:
   type_annotations: none
 execution:
   type:
-  - interpreted
-  - compiled
+    - interpreted
+    - compiled
   compiles_to:
-  - bytecode
+    - bytecode
   runtime_environments:
-  - language-specific runtime
-  - native OS process
+    - language-specific runtime
+    - native OS process
   performance:
     startup_time: moderate
     memory_usage: moderate
     computation_speed: moderate
 domains:
   primary:
-  - automation
-  - scripting
+    - automation
+    - scripting
   secondary:
-  - desktop applications
-  - text processing
-  - workflow management
+    - desktop applications
+    - text processing
+    - workflow management
   emerging:
-  - IoT
+    - IoT
 platforms:
   operating_systems:
-  - macOS
+    - macOS
   architectures:
-  - x86-64
-  - ARM64
+    - x86-64
+    - ARM64
 ecosystem:
   maturity: moderate
   community_size: small
@@ -73,17 +73,17 @@ language_features:
   memory_management:
     type: garbage collection
   key_features:
-  - string interpolation
-  - reflection
-  - modules
+    - string interpolation
+    - reflection
+    - modules
 concurrency:
   model: none
   ease_of_use: low
 error_handling:
   primary_mechanism: exceptions
   features:
-  - error propagation
-  - custom error types
+    - error propagation
+    - custom error types
   stack_traces: true
   debugging:
     breakpoints: true
@@ -91,37 +91,36 @@ error_handling:
 standard_library:
   maturity: moderate
   key_areas:
-  - text processing
-  - file I/O
-  - process management
+    - text processing
+    - file I/O
+    - process management
   size: small
-  documentation_quality: moderate
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: moderate
 history:
   inception: 1993-01-01
   developer:
-  - Apple Inc.
-  - Apple
+    - Apple Inc.
+    - Apple
   designed_by:
-  - William Cook
-  - Warren Harris
+    - William Cook
+    - Warren Harris
   influenced_by:
     languages:
-    - HyperTalk
-    - English
+      - HyperTalk
+      - English
     paradigms:
-    - natural-language
+      - natural-language
 official_website: https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide
 documentation:
   quality: moderate
   official_sources:
-  - https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html
+    - https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html
 references:
   quora_topics:
-  - AppleScript
+    - AppleScript
   stackexchange_tags:
-  - applescript
+    - applescript
   wikidata_id: Q621009
 color: '#101F1F'

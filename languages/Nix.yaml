@@ -3,56 +3,56 @@ description: A purely functional package management and system configuration lan
 category: programming
 status: active
 aliases:
-- nixos
+  - nixos
 file_extensions:
-- nix
+  - nix
 compilers:
-- name: Nix
-  type: interpreter
-  license: LGPL-2.1
-  source_url: https://github.com/NixOS/nix
-  is_reference: true
+  - name: Nix
+    type: interpreter
+    license: LGPL-2.1
+    source_url: https://github.com/NixOS/nix
+    is_reference: true
 paradigms:
-- declarative
-- functional
-- purely functional
+  - declarative
+  - functional
+  - purely functional
 typing:
   system: dynamic
   strength: strong
   type_checking: runtime
 execution:
   type:
-  - interpreted
+    - interpreted
   runtime_environments:
-  - native OS process
-  - language-specific runtime
+    - native OS process
+    - language-specific runtime
   performance:
     startup_time: moderate
     memory_usage: moderate
     computation_speed: moderate
 domains:
   primary:
-  - configuration management
-  - build management
-  - infrastructure as code
-  - DevOps
+    - configuration management
+    - build management
+    - infrastructure as code
+    - DevOps
   secondary:
-  - systems programming
-  - scripting
-  - build automation
+    - systems programming
+    - scripting
+    - build automation
   emerging:
-  - cloud computing
-  - software build
+    - cloud computing
+    - software build
 platforms:
   operating_systems:
-  - Linux
-  - macOS
-  - Windows
-  - BSD
+    - Linux
+    - macOS
+    - Windows
+    - BSD
   architectures:
-  - x86-64
-  - ARM64
-  - platform-independent
+    - x86-64
+    - ARM64
+    - platform-independent
 ecosystem:
   maturity: moderate
   package_registry: Nixpkgs
@@ -77,80 +77,79 @@ language_features:
   memory_management:
     type: garbage collection
   key_features:
-  - lazy evaluation
-  - pure functions
-  - modules
-  - first-class functions
-  - pattern matching
-  - algebraic data types
+    - lazy evaluation
+    - pure functions
+    - modules
+    - first-class functions
+    - pattern matching
+    - algebraic data types
 concurrency:
   model: none
   ease_of_use: low
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error propagation
+    - stack traces
+    - error propagation
   stack_traces: true
 package_managers:
   primary: nix
   alternatives:
-  - nix-env
-  - home-manager
+    - nix-env
+    - home-manager
 popular_frameworks:
   testing:
-  - nixos-test
+    - nixos-test
 development_tools:
   lsps:
-  - rnix-lsp
-  - nil
+    - rnix-lsp
+    - nil
   debugging:
-  - nix-repl
+    - nix-repl
   build_systems:
-  - nix-build
+    - nix-build
   linters:
-  - statix
-  - deadnix
+    - statix
+    - deadnix
 standard_library:
   maturity: moderate
   key_areas:
-  - file I/O
-  - data structures
-  - text processing
-  - serialization
-  - file system operations
+    - file I/O
+    - data structures
+    - text processing
+    - serialization
+    - file system operations
   size: medium
-  documentation_quality: moderate
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
 history:
   inception: 2003-01-01
   developer:
-  - NixOS Foundation
-  - Eelco Dolstra
+    - NixOS Foundation
+    - Eelco Dolstra
   designed_by:
-  - Eelco Dolstra
+    - Eelco Dolstra
   influenced_by:
     languages:
-    - Haskell
-    - OCaml
+      - Haskell
+      - OCaml
     paradigms:
-    - functional
-    - declarative
-    - purely functional
+      - functional
+      - declarative
+      - purely functional
 official_website: https://nixos.org/
 official_blog_rss: https://nixos.org/blog/announcements-rss.xml
 documentation:
   quality: moderate
   official_sources:
-  - https://nixos.org/manual/nix/stable/
+    - https://nixos.org/manual/nix/stable/
   community_resources:
-  - https://nix.dev/
+    - https://nix.dev/
 references:
   github_topics:
-  - nix
-  - nixos
-  - nixpkgs
+    - nix
+    - nixos
+    - nixpkgs
   subreddit: NixOS
 color: '#7e7eff'

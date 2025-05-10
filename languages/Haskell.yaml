@@ -3,35 +3,35 @@ description: A purely functional programming language with strong static typing 
 category: programming
 status: active
 aliases:
-- GHC Haskell
+  - GHC Haskell
 file_extensions:
-- hs
-- hs-boot
-- hsc
+  - hs
+  - hs-boot
+  - hsc
 compilers:
-- name: GHC
-  type: compiler
-  license: BSD-3-Clause
-  source_url: https://gitlab.haskell.org/ghc/ghc
-  is_reference: true
-- name: GHCJS
-  type: compiler
-  license: BSD-3-Clause
-  source_url: https://github.com/ghcjs/ghcjs
-- name: Hugs
-  type: interpreter
-  license: BSD-3-Clause
-- name: Eta
-  type: compiler
-  license: BSD-3-Clause
-  source_url: https://github.com/typelead/eta
+  - name: GHC
+    type: compiler
+    license: BSD-3-Clause
+    source_url: https://gitlab.haskell.org/ghc/ghc
+    is_reference: true
+  - name: GHCJS
+    type: compiler
+    license: BSD-3-Clause
+    source_url: https://github.com/ghcjs/ghcjs
+  - name: Hugs
+    type: interpreter
+    license: BSD-3-Clause
+  - name: Eta
+    type: compiler
+    license: BSD-3-Clause
+    source_url: https://github.com/typelead/eta
 paradigms:
-- purely functional
-- declarative
-- generic
-- concurrent
-- meta-programming
-- functional
+  - purely functional
+  - declarative
+  - generic
+  - concurrent
+  - meta-programming
+  - functional
 typing:
   system: static
   structural: false
@@ -42,18 +42,18 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - machine code
-  - bytecode
-  - C
-  - JavaScript
-  - LLVM IR
+    - machine code
+    - bytecode
+    - C
+    - JavaScript
+    - LLVM IR
   runtime_environments:
-  - language-specific runtime
-  - native OS process
-  - browser
-  - WebAssembly
+    - language-specific runtime
+    - native OS process
+    - browser
+    - WebAssembly
   performance:
     startup_time: moderate
     memory_usage: high
@@ -61,35 +61,35 @@ execution:
     compilation_speed: moderate
 domains:
   primary:
-  - compiler
-  - financial systems
-  - formal verification
-  - automated theorem proving
+    - compiler
+    - financial systems
+    - formal verification
+    - automated theorem proving
   secondary:
-  - web development
-  - server-side applications
-  - scientific computing
-  - data science
-  - distributed system
+    - web development
+    - server-side applications
+    - scientific computing
+    - data science
+    - distributed system
   emerging:
-  - blockchain
-  - WebAssembly
-  - machine learning frameworks
+    - blockchain
+    - WebAssembly
+    - machine learning frameworks
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
   architectures:
-  - x86-64
-  - ARM64
-  - ARM
-  - WebAssembly
-  - platform-independent
+    - x86-64
+    - ARM64
+    - ARM
+    - WebAssembly
+    - platform-independent
   cloud_function_environments:
-  - AWS Lambda
+    - AWS Lambda
 ecosystem:
   maturity: high
   package_registry: Hackage
@@ -117,30 +117,30 @@ language_features:
     implementation: generational
     manual_control: false
   key_features:
-  - algebraic data types
-  - type classes
-  - pattern matching
-  - lazy evaluation
-  - type inference
-  - monads
-  - pure functions
-  - currying
-  - first-class functions
-  - tail-call optimization
+    - algebraic data types
+    - type classes
+    - pattern matching
+    - lazy evaluation
+    - type inference
+    - monads
+    - pure functions
+    - currying
+    - first-class functions
+    - tail-call optimization
 concurrency:
   model: threads
   features:
-  - software transactional memory
-  - green threads
-  - parallel collections
-  - concurrent data structures
+    - software transactional memory
+    - green threads
+    - parallel collections
+    - concurrent data structures
   ease_of_use: moderate
 error_handling:
   primary_mechanism: monadic error handling
   features:
-  - custom error types
-  - error propagation
-  - multiple error types
+    - custom error types
+    - error propagation
+    - multiple error types
   stack_traces: true
   debugging:
     source_maps: true
@@ -149,113 +149,112 @@ error_handling:
 package_managers:
   primary: Cabal
   alternatives:
-  - Stack
-  - Nix
+    - Stack
+    - Nix
 popular_frameworks:
   frontend:
-  - Reflex
-  - Miso
-  - IHP
+    - Reflex
+    - Miso
+    - IHP
   backend:
-  - Yesod
-  - Servant
-  - Scotty
-  - Snap
+    - Yesod
+    - Servant
+    - Scotty
+    - Snap
   testing:
-  - QuickCheck
-  - HSpec
-  - Tasty
-  - HUnit
+    - QuickCheck
+    - HSpec
+    - Tasty
+    - HUnit
 development_tools:
   lsps:
-  - Haskell Language Server
+    - Haskell Language Server
   debugging:
-  - GHCi
-  - ghc-debug
+    - GHCi
+    - ghc-debug
   profiling:
-  - ghc-prof
-  - ThreadScope
+    - ghc-prof
+    - ThreadScope
   build_systems:
-  - Cabal
-  - Stack
-  - Make
-  - Shake
+    - Cabal
+    - Stack
+    - Make
+    - Shake
   linters:
-  - HLint
-  - Stan
+    - HLint
+    - Stan
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - algorithms
-  - text processing
-  - concurrency
-  - file I/O
-  - networking
-  - JSON/XML processing
-  - date/time
-  - mathematics
-  - cryptography
-  - regular expressions
-  - testing
+    - data structures
+    - algorithms
+    - text processing
+    - concurrency
+    - file I/O
+    - networking
+    - JSON/XML processing
+    - date/time
+    - mathematics
+    - cryptography
+    - regular expressions
+    - testing
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: moderate
 history:
   inception: 1990-01-01
   developer:
-  - Haskell Committee
+    - Haskell Committee
   designed_by:
-  - Simon Peyton Jones
-  - Philip Wadler
-  - Lennart Augustsson
-  - John Hughes
-  - Warren Burton
-  - Erik Meijer
-  - Paul Hudak
-  - Thomas Johnsson
-  - John Launchbury
-  - Kevin Hammond
-  - Alastair Reid
+    - Simon Peyton Jones
+    - Philip Wadler
+    - Lennart Augustsson
+    - John Hughes
+    - Warren Burton
+    - Erik Meijer
+    - Paul Hudak
+    - Thomas Johnsson
+    - John Launchbury
+    - Kevin Hammond
+    - Alastair Reid
   described_by: Haskell Report
   standards_bodies:
-  - Haskell Committee
+    - Haskell Committee
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/Haskell-Logo.svg
   influenced_by:
     languages:
-    - Miranda
-    - ML
-    - FP
-    - Hope
-    - Lisp
-    - Clean
-    - Lazy ML
-    - Orwell
+      - Miranda
+      - ML
+      - FP
+      - Hope
+      - Lisp
+      - Clean
+      - Lazy ML
+      - Orwell
     paradigms:
-    - purely functional
-    - declarative
+      - purely functional
+      - declarative
 official_website: https://www.haskell.org
 official_blog_rss: https://blog.haskell.org/atom.xml
 documentation:
   quality: high
   official_sources:
-  - https://www.haskell.org/documentation/
-  - https://www.haskell.org/ghc/
+    - https://www.haskell.org/documentation/
+    - https://www.haskell.org/ghc/
   community_resources:
-  - https://haskellbook.com/
-  - https://learnyouahaskell.com/
-  - https://wiki.haskell.org/
+    - https://haskellbook.com/
+    - https://learnyouahaskell.com/
+    - https://wiki.haskell.org/
 references:
   github_topics:
-  - haskell
-  - ghc
-  - haskell-library
+    - haskell
+    - ghc
+    - haskell-library
   quora_topics:
-  - Haskell-programming-language
+    - Haskell-programming-language
   stackexchange_tags:
-  - haskell
+    - haskell
   wikidata_id: Q206904
   subreddit: haskell
   x_handle: HaskellOrg

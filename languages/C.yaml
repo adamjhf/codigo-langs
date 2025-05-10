@@ -3,30 +3,30 @@ description: C is a procedural programming language that provides high-level abs
 category: programming
 status: active
 file_extensions:
-- c
-- cats
-- h
-- h.in
-- idc
+  - c
+  - cats
+  - h
+  - h.in
+  - idc
 compilers:
-- name: GCC
-  type: compiler
-  license: GPL-3.0
-  source_url: https://gcc.gnu.org/git/gcc.git
-  is_reference: false
-- name: Clang
-  type: compiler
-  license: Apache-2.0
-  source_url: https://github.com/llvm/llvm-project
-  is_reference: false
-- name: MSVC
-  type: compiler
-  license: proprietary
-  is_reference: false
+  - name: GCC
+    type: compiler
+    license: GPL-3.0
+    source_url: https://gcc.gnu.org/git/gcc.git
+    is_reference: false
+  - name: Clang
+    type: compiler
+    license: Apache-2.0
+    source_url: https://github.com/llvm/llvm-project
+    is_reference: false
+  - name: MSVC
+    type: compiler
+    license: proprietary
+    is_reference: false
 paradigms:
-- imperative
-- procedural
-- structured
+  - imperative
+  - procedural
+  - structured
 typing:
   system: static
   structural: false
@@ -37,13 +37,13 @@ typing:
   type_annotations: required
 execution:
   type:
-  - compiled
+    - compiled
   compiles_to:
-  - machine code
-  - assembly
+    - machine code
+    - assembly
   runtime_environments:
-  - native OS process
-  - native binary
+    - native OS process
+    - native binary
   performance:
     startup_time: very fast
     memory_usage: low
@@ -51,43 +51,43 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - systems programming
-  - operating systems
-  - embedded systems
-  - compiler
-  - interpreter
+    - systems programming
+    - operating systems
+    - embedded systems
+    - compiler
+    - interpreter
   secondary:
-  - game development
-  - scientific computing
-  - database management
-  - network programming
+    - game development
+    - scientific computing
+    - database management
+    - network programming
   emerging:
-  - IoT
+    - IoT
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - BSD
-  - Unix
-  - Solaris
-  - Android
-  - iOS
-  - embedded
-  - bare metal
+    - Windows
+    - macOS
+    - Linux
+    - BSD
+    - Unix
+    - Solaris
+    - Android
+    - iOS
+    - embedded
+    - bare metal
   architectures:
-  - x86
-  - x86-64
-  - ARM
-  - ARM64
-  - RISC-V
-  - MIPS
-  - PowerPC
-  - SPARC
-  - SPARC64
-  - IA-64
-  - Alpha
-  - AVR
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+    - RISC-V
+    - MIPS
+    - PowerPC
+    - SPARC
+    - SPARC64
+    - IA-64
+    - Alpha
+    - AVR
 ecosystem:
   maturity: very high
   package_registry: none
@@ -114,19 +114,19 @@ language_features:
     type: manual
     manual_control: true
   key_features:
-  - modules
-  - variadic functions
+    - modules
+    - variadic functions
 concurrency:
   model: threads
   features:
-  - shared memory
-  - atomic operations
+    - shared memory
+    - atomic operations
   ease_of_use: low
 error_handling:
   primary_mechanism: error codes
   features:
-  - custom error types
-  - resource management
+    - custom error types
+    - resource management
   stack_traces: false
   debugging:
     source_maps: false
@@ -135,96 +135,95 @@ error_handling:
 package_managers:
   primary: none
   alternatives:
-  - vcpkg
-  - conan
+    - vcpkg
+    - conan
 popular_frameworks:
   testing:
-  - CUnit
-  - Check
-  - Unity
+    - CUnit
+    - Check
+    - Unity
 development_tools:
   lsps:
-  - clangd
-  - ccls
+    - clangd
+    - ccls
   debugging:
-  - GDB
-  - LLDB
-  - WinDbg
+    - GDB
+    - LLDB
+    - WinDbg
   profiling:
-  - Valgrind
-  - gprof
-  - perf
+    - Valgrind
+    - gprof
+    - perf
   build_systems:
-  - Make
-  - CMake
-  - Ninja
-  - Meson
+    - Make
+    - CMake
+    - Ninja
+    - Meson
   linters:
-  - Clang-Tidy
-  - cppcheck
-  - PC-lint
+    - Clang-Tidy
+    - cppcheck
+    - PC-lint
 standard_library:
   maturity: high
   key_areas:
-  - file I/O
-  - text processing
-  - date/time
-  - mathematics
-  - serialization
-  - file system operations
-  - random number generation
+    - file I/O
+    - text processing
+    - date/time
+    - mathematics
+    - serialization
+    - file system operations
+    - random number generation
   size: small
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: very high
 history:
   inception: 1972-01-01
   developer:
-  - Bell Labs
-  - International Organization for Standardization
-  - American National Standards Institute
+    - Bell Labs
+    - International Organization for Standardization
+    - American National Standards Institute
   designed_by:
-  - Dennis Ritchie
-  - Ken Thompson
+    - Dennis Ritchie
+    - Ken Thompson
   described_by: ISO/IEC 9899
   standards_bodies:
-  - ISO
-  - ANSI
+    - ISO
+    - ANSI
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/The%20C%20Programming%20Language%20logo.svg
   influenced_by:
     languages:
-    - B
-    - ALGOL 68
-    - BCPL
-    - Fortran
-    - assembly language
-    - ALGOL
-    - PL/I
-    - ALGOL 60
-    - CPL
+      - B
+      - ALGOL 68
+      - BCPL
+      - Fortran
+      - assembly language
+      - ALGOL
+      - PL/I
+      - ALGOL 60
+      - CPL
     paradigms:
-    - imperative
-    - procedural
-    - structured
+      - imperative
+      - procedural
+      - structured
 official_website: https://www.open-std.org/jtc1/sc22/wg14/
 documentation:
   quality: high
   official_sources:
-  - https://www.open-std.org/jtc1/sc22/wg14/
+    - https://www.open-std.org/jtc1/sc22/wg14/
   community_resources:
-  - https://en.cppreference.com/w/c
-  - https://www.learn-c.org/
+    - https://en.cppreference.com/w/c
+    - https://www.learn-c.org/
 references:
   github_topics:
-  - c
-  - c-language
-  - c-programming
+    - c
+    - c-language
+    - c-programming
   quora_topics:
-  - C-programming-language
+    - C-programming-language
   stackexchange_tags:
-  - c
-  - https://stackoverflow.com/tags/c
+    - c
+    - https://stackoverflow.com/tags/c
   wikidata_id: Q15777
   subreddit: C_Programming
 color: '#555555'

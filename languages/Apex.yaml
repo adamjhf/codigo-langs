@@ -3,12 +3,12 @@ description: Apex is a strongly-typed, object-oriented programming language that
 category: programming
 status: active
 file_extensions:
-- cls
-- apex
-- trigger
+  - cls
+  - apex
+  - trigger
 paradigms:
-- object-oriented
-- imperative
+  - object-oriented
+  - imperative
 typing:
   system: static
   strength: strong
@@ -18,32 +18,32 @@ typing:
   type_annotations: optional
 execution:
   type:
-  - compiled
-  - interpreted
+    - compiled
+    - interpreted
   compiles_to:
-  - bytecode
+    - bytecode
   runtime_environments:
-  - language-specific runtime
-  - cloud function environment
+    - language-specific runtime
+    - cloud function environment
   performance:
     startup_time: moderate
     memory_usage: moderate
     computation_speed: moderate
 domains:
   primary:
-  - server-side applications
-  - business applications
-  - cloud computing
+    - server-side applications
+    - business applications
+    - cloud computing
   secondary:
-  - web development
-  - data integration
-  - database management
+    - web development
+    - data integration
+    - database management
   emerging:
-  - IoT
-  - mobile development
+    - IoT
+    - mobile development
 platforms:
   architectures:
-  - platform-independent
+    - platform-independent
 ecosystem:
   maturity: high
   package_registry: Salesforce AppExchange
@@ -69,20 +69,20 @@ language_features:
   memory_management:
     type: garbage collection
   key_features:
-  - first-class functions
-  - reflection
-  - decorators/annotations
-  - string interpolation
-  - modules
+    - first-class functions
+    - reflection
+    - decorators/annotations
+    - string interpolation
+    - modules
 concurrency:
   model: none
   ease_of_use: low
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - custom error types
-  - error chaining
+    - stack traces
+    - custom error types
+    - error chaining
   stack_traces: true
   debugging:
     source_maps: true
@@ -91,79 +91,78 @@ error_handling:
 package_managers:
   primary: Salesforce Package Manager
   alternatives:
-  - SFDX
+    - SFDX
 popular_frameworks:
   backend:
-  - Lightning Platform
-  - Force.com
+    - Lightning Platform
+    - Force.com
   testing:
-  - ApexUnit
-  - Salesforce DX
+    - ApexUnit
+    - Salesforce DX
 development_tools:
   lsps:
-  - Salesforce Language Server
+    - Salesforce Language Server
   debugging:
-  - Developer Console
-  - Illuminated Cloud
-  - VS Code with Salesforce Extensions
+    - Developer Console
+    - Illuminated Cloud
+    - VS Code with Salesforce Extensions
   profiling:
-  - Developer Console Logs
+    - Developer Console Logs
   build_systems:
-  - SFDX
-  - Metadata API
+    - SFDX
+    - Metadata API
   linters:
-  - PMD
-  - ApexPMD
-  - Checkmarx
+    - PMD
+    - ApexPMD
+    - Checkmarx
 standard_library:
   maturity: high
   key_areas:
-  - data structures
-  - database access
-  - HTTP client/server
-  - JSON/XML processing
-  - date/time
-  - mathematics
-  - testing
-  - logging
+    - data structures
+    - database access
+    - HTTP client/server
+    - JSON/XML processing
+    - date/time
+    - mathematics
+    - testing
+    - logging
   size: large
-  documentation_quality: high
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
 history:
   inception: 2007-01-01
   developer:
-  - Salesforce
+    - Salesforce
   designed_by:
-  - Salesforce Platform Team
+    - Salesforce Platform Team
   influenced_by:
     languages:
-    - Java
-    - C#
+      - Java
+      - C#
     paradigms:
-    - object-oriented
-    - imperative
+      - object-oriented
+      - imperative
 official_website: https://build.pldb.com/languages/apex.html
 documentation:
   quality: high
   official_sources:
-  - https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/
-  - https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/
+    - https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/
+    - https://developer.salesforce.com/docs/atlas.en-us.apexref.meta/apexref/
   community_resources:
-  - https://trailhead.salesforce.com/
-  - https://developer.salesforce.com/forums/
+    - https://trailhead.salesforce.com/
+    - https://developer.salesforce.com/forums/
 references:
   github_topics:
-  - apex
-  - salesforce-apex
-  - apex-salesforce
+    - apex
+    - salesforce-apex
+    - apex-salesforce
   quora_topics:
-  - Apex-Programming
-  - Salesforce-Apex-Programming
+    - Apex-Programming
+    - Salesforce-Apex-Programming
   stackexchange_tags:
-  - apex
-  - salesforce-apex
+    - apex
+    - salesforce-apex
   wikidata_id: Q4778364
   subreddit: salesforce
 color: '#1797c0'

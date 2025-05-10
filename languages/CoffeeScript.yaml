@@ -3,25 +3,25 @@ description: CoffeeScript is a programming language that transcompiles to JavaSc
 category: programming
 status: maintenance
 aliases:
-- coffee
-- coffee-script
+  - coffee
+  - coffee-script
 file_extensions:
-- coffee
-- _coffee
-- cake
-- cjsx
-- iced
+  - coffee
+  - _coffee
+  - cake
+  - cjsx
+  - iced
 compilers:
-- name: CoffeeScript Compiler
-  type: compiler
-  license: MIT
-  source_url: https://github.com/jashkenas/coffeescript
-  is_reference: true
+  - name: CoffeeScript Compiler
+    type: compiler
+    license: MIT
+    source_url: https://github.com/jashkenas/coffeescript
+    is_reference: true
 paradigms:
-- functional
-- object-oriented
-- imperative
-- prototype-based
+  - functional
+  - object-oriented
+  - imperative
+  - prototype-based
 typing:
   system: dynamic
   structural: true
@@ -32,13 +32,13 @@ typing:
   type_annotations: none
 execution:
   type:
-  - transpiled
+    - transpiled
   compiles_to:
-  - JavaScript
+    - JavaScript
   runtime_environments:
-  - browser
-  - native OS process
-  - language-specific runtime
+    - browser
+    - native OS process
+    - language-specific runtime
   performance:
     startup_time: moderate
     memory_usage: moderate
@@ -46,29 +46,29 @@ execution:
     compilation_speed: fast
 domains:
   primary:
-  - web development
-  - scripting
+    - web development
+    - scripting
   secondary:
-  - server-side applications
-  - automation
-  - text processing
+    - server-side applications
+    - automation
+    - text processing
   emerging:
-  - data visualization
+    - data visualization
 platforms:
   operating_systems:
-  - Windows
-  - macOS
-  - Linux
-  - Unix
-  - Android
-  - iOS
+    - Windows
+    - macOS
+    - Linux
+    - Unix
+    - Android
+    - iOS
   architectures:
-  - platform-independent
+    - platform-independent
   cloud_function_environments:
-  - AWS Lambda
-  - Google Cloud Functions
-  - Azure Functions
-  - Vercel Functions
+    - AWS Lambda
+    - Google Cloud Functions
+    - Azure Functions
+    - Vercel Functions
 ecosystem:
   maturity: moderate
   package_registry: npm
@@ -96,26 +96,26 @@ language_features:
     implementation: JavaScript engine garbage collector
     manual_control: false
   key_features:
-  - first-class functions
-  - closures
-  - string interpolation
-  - destructuring
-  - lambdas
-  - iterators/generators
-  - modules
+    - first-class functions
+    - closures
+    - string interpolation
+    - destructuring
+    - lambdas
+    - iterators/generators
+    - modules
 concurrency:
   model: event loop
   features:
-  - promises/futures
-  - async/await
+    - promises/futures
+    - async/await
   ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
-  - stack traces
-  - error chaining
-  - custom error types
-  - error propagation
+    - stack traces
+    - error chaining
+    - custom error types
+    - error propagation
   stack_traces: true
   debugging:
     source_maps: true
@@ -124,70 +124,69 @@ error_handling:
 package_managers:
   primary: npm
   alternatives:
-  - yarn
-  - pnpm
+    - yarn
+    - pnpm
 popular_frameworks:
   frontend:
-  - Backbone.js
-  - Chaplin.js
+    - Backbone.js
+    - Chaplin.js
   backend:
-  - Express.js
+    - Express.js
   testing:
-  - Jasmine
-  - Mocha
+    - Jasmine
+    - Mocha
 development_tools:
   lsps:
-  - CoffeeScript Language Server
+    - CoffeeScript Language Server
   debugging:
-  - Chrome DevTools
-  - Node.js debugger
+    - Chrome DevTools
+    - Node.js debugger
   profiling:
-  - Chrome DevTools
+    - Chrome DevTools
   build_systems:
-  - Grunt
-  - Gulp
-  - Webpack
+    - Grunt
+    - Gulp
+    - Webpack
   linters:
-  - coffeelint
+    - coffeelint
 standard_library:
   maturity: moderate
   key_areas:
-  - data structures
-  - text processing
-  - regular expressions
+    - data structures
+    - text processing
+    - regular expressions
   size: small
-  documentation_quality: moderate
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: high
 history:
   inception: 2009-12-13
   developer:
-  - Jeremy Ashkenas
+    - Jeremy Ashkenas
   designed_by:
-  - Jeremy Ashkenas
+    - Jeremy Ashkenas
   logo: https://commons.wikimedia.org/wiki/Special:FilePath/CoffeeScript-logo.svg
   influenced_by:
     languages:
-    - JavaScript
-    - Ruby
-    - Python
-    - Haskell
-    - Erlang
+      - JavaScript
+      - Ruby
+      - Python
+      - Haskell
+      - Erlang
 official_website: https://coffeescript.org/
 documentation:
   quality: high
   official_sources:
-  - https://coffeescript.org/
+    - https://coffeescript.org/
   community_resources:
-  - https://github.com/jashkenas/coffeescript/wiki
+    - https://github.com/jashkenas/coffeescript/wiki
 references:
   github_topics:
-  - coffeescript
+    - coffeescript
   quora_topics:
-  - CoffeeScript
+    - CoffeeScript
   stackexchange_tags:
-  - coffeescript
+    - coffeescript
   wikidata_id: Q2897774
   subreddit: coffeescript
 color: '#244776'

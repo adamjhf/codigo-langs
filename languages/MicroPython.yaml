@@ -5,20 +5,17 @@ status: active
 file_extensions:
   - py
   - mpy
-
 compilers:
   - name: MicroPython
     type: interpreter
     license: MIT
     source_url: https://github.com/micropython/micropython
     is_reference: true
-
 paradigms:
   - imperative
   - procedural
   - object-oriented
   - functional
-
 typing:
   system: dynamic
   type_checking: runtime
@@ -27,7 +24,6 @@ typing:
   inference: full
   type_coercion: moderate
   type_annotations: optional
-
 execution:
   type:
     - interpreted
@@ -42,7 +38,6 @@ execution:
     memory_usage: very low
     computation_speed: moderate
     compilation_speed: fast
-
 domains:
   primary:
     - embedded systems
@@ -55,7 +50,6 @@ domains:
     - scientific computing
   emerging:
     - edge computing
-
 platforms:
   operating_systems:
     - bare metal
@@ -67,20 +61,17 @@ platforms:
     - x86
     - x86-64
     - RISC-V
-
 ecosystem:
   maturity: moderate
   package_registry: https://pypi.org
   community_size: medium
   learning_resources: medium
   job_market_demand: moderate
-
 complexity:
   learning_curve: moderate
   cognitive_load: moderate
   syntax_complexity: low
   semantic_complexity: moderate
-
 language_features:
   immutability: optional
   enums: basic
@@ -103,11 +94,9 @@ language_features:
     - iterators/generators
     - REPL
     - interactive development
-
 concurrency:
   model: none
   ease_of_use: moderate
-
 error_handling:
   primary_mechanism: exceptions
   features:
@@ -119,19 +108,16 @@ error_handling:
     source_maps: false
     breakpoints: true
     step_debugging: true
-
 package_managers:
   primary: upip
   alternatives:
     - pip
-
 popular_frameworks:
   frontend: []
   backend: []
   testing:
     - unittest
   mobile: []
-
 development_tools:
   lsps:
     - Pylance
@@ -146,7 +132,6 @@ development_tools:
   linters:
     - pylint
     - flake8
-
 standard_library:
   maturity: moderate
   key_areas:
@@ -158,12 +143,9 @@ standard_library:
     - mathematics
     - random number generation
   size: small
-  documentation_quality: high
-
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: high
-
 history:
   inception: "2013-12-01"
   developer:
@@ -178,14 +160,11 @@ history:
       - imperative
       - object-oriented
       - functional
-
 official_website: https://micropython.org/
-
 documentation:
   quality: high
   official_sources:
     - https://docs.micropython.org/
-
 references:
   github_topics:
     - micropython
@@ -196,5 +175,4 @@ references:
   wikidata_id: Q16943277
   subreddit: micropython
   discord: micropython
-
 color: "#2B2728"
