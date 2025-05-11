@@ -84,9 +84,9 @@ platforms:
 ecosystem:
   maturity: very high
   package_registry: https://fortran-lang.org/packages/
-  community_size: medium
+  community_size: small
   learning_resources: medium
-  job_market_demand: moderate
+  job_market_demand: low
 complexity:
   learning_curve: moderate
   cognitive_load: moderate

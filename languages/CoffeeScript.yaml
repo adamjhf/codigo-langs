@@ -42,7 +42,7 @@ execution:
   performance:
     startup_time: moderate
     memory_usage: moderate
-    computation_speed: moderate
+    computation_speed: slow
     compilation_speed: fast
 domains:
   primary:
@@ -72,12 +72,12 @@ platforms:
 ecosystem:
   maturity: moderate
   package_registry: npm
-  community_size: medium
+  community_size: small
   learning_resources: medium
   job_market_demand: low
 complexity:
-  learning_curve: moderate
-  cognitive_load: moderate
+  learning_curve: low
+  cognitive_load: low
   syntax_complexity: low
   semantic_complexity: moderate
 language_features:

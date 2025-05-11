@@ -42,7 +42,7 @@ execution:
   performance:
     startup_time: moderate
     memory_usage: moderate
-    computation_speed: fast
+    computation_speed: moderate
     compilation_speed: fast
 domains:
   primary:
@@ -79,7 +79,7 @@ ecosystem:
   package_registry: pub.dev
   community_size: large
   learning_resources: large
-  job_market_demand: high
+  job_market_demand: moderate
 complexity:
   learning_curve: moderate
   cognitive_load: moderate

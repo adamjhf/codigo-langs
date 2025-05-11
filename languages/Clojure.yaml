@@ -90,9 +90,9 @@ platforms:
 ecosystem:
   maturity: high
   package_registry: https://clojars.org
-  community_size: medium
+  community_size: small
   learning_resources: medium
-  job_market_demand: moderate
+  job_market_demand: low
 complexity:
   learning_curve: high
   cognitive_load: moderate

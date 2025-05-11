@@ -29,7 +29,7 @@ execution:
   performance:
     startup_time: moderate
     memory_usage: moderate
-    computation_speed: moderate
+    computation_speed: slow
 domains:
   primary:
     - configuration management
@@ -56,12 +56,12 @@ platforms:
 ecosystem:
   maturity: moderate
   package_registry: Nixpkgs
-  community_size: medium
-  learning_resources: medium
+  community_size: small
+  learning_resources: small
   job_market_demand: low
 complexity:
   learning_curve: high
-  cognitive_load: moderate
+  cognitive_load: high
   syntax_complexity: moderate
   semantic_complexity: high
 language_features:

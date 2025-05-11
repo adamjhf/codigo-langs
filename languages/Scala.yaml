@@ -51,8 +51,8 @@ execution:
   performance:
     startup_time: moderate
     memory_usage: moderate
-    computation_speed: fast
-    compilation_speed: moderate
+    computation_speed: moderate
+    compilation_speed: slow
 domains:
   primary:
     - data science
@@ -89,11 +89,11 @@ ecosystem:
   package_registry: Maven Central
   community_size: medium
   learning_resources: medium
-  job_market_demand: moderate
+  job_market_demand: low
 complexity:
   learning_curve: high
   cognitive_load: high
-  syntax_complexity: moderate
+  syntax_complexity: high
   semantic_complexity: high
 language_features:
   immutability: optional
@@ -200,7 +200,7 @@ standard_library:
   size: large
 versioning:
   release_cycle: fixed schedule
-  backwards_compatibility: moderate
+  backwards_compatibility: low
 history:
   inception: 2004-01-20
   developer:

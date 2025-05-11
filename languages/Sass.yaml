@@ -43,7 +43,7 @@ execution:
     startup_time: fast
     memory_usage: low
     computation_speed: fast
-    compilation_speed: fast
+    compilation_speed: very fast
 domains:
   primary:
     - web development
@@ -63,12 +63,12 @@ ecosystem:
   package_registry: npm
   community_size: large
   learning_resources: large
-  job_market_demand: high
+  job_market_demand: moderate
 complexity:
-  learning_curve: moderate
-  cognitive_load: moderate
-  syntax_complexity: moderate
-  semantic_complexity: moderate
+  learning_curve: low
+  cognitive_load: low
+  syntax_complexity: low
+  semantic_complexity: low
 language_features:
   immutability: none
   enums: none

@@ -37,7 +37,7 @@ execution:
     startup_time: fast
     memory_usage: very low
     computation_speed: moderate
-    compilation_speed: fast
+    compilation_speed: very fast
 domains:
   primary:
     - embedded systems
@@ -64,9 +64,9 @@ platforms:
 ecosystem:
   maturity: moderate
   package_registry: https://pypi.org
-  community_size: medium
+  community_size: small
   learning_resources: medium
-  job_market_demand: moderate
+  job_market_demand: low
 complexity:
   learning_curve: moderate
   cognitive_load: moderate

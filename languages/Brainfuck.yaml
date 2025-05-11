@@ -30,7 +30,7 @@ execution:
     - language-specific runtime
     - embedded interpreter
   performance:
-    startup_time: fast
+    startup_time: very fast
     memory_usage: very low
     computation_speed: very slow
 domains:

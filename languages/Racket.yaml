@@ -70,11 +70,11 @@ platforms:
 ecosystem:
   maturity: high
   package_registry: https://pkgs.racket-lang.org/
-  community_size: medium
-  learning_resources: large
+  community_size: small
+  learning_resources: medium
   job_market_demand: low
 complexity:
-  learning_curve: moderate
+  learning_curve: high
   cognitive_load: moderate
   syntax_complexity: low
   semantic_complexity: high

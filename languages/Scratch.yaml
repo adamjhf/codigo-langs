@@ -61,8 +61,8 @@ ecosystem:
   learning_resources: very large
   job_market_demand: low
 complexity:
-  learning_curve: low
-  cognitive_load: low
+  learning_curve: very low
+  cognitive_load: very low
   syntax_complexity: very low
   semantic_complexity: low
 language_features:

@@ -36,10 +36,10 @@ execution:
     - native binary
     - cloud function environment
   performance:
-    startup_time: fast
-    memory_usage: moderate
+    startup_time: very fast
+    memory_usage: low
     computation_speed: fast
-    compilation_speed: fast
+    compilation_speed: very fast
 domains:
   primary:
     - server-side applications
@@ -87,10 +87,10 @@ ecosystem:
   learning_resources: large
   job_market_demand: high
 complexity:
-  learning_curve: moderate
+  learning_curve: low
   cognitive_load: low
-  syntax_complexity: low
-  semantic_complexity: moderate
+  syntax_complexity: very low
+  semantic_complexity: low
 language_features:
   immutability: optional
   enums: basic
@@ -121,7 +121,7 @@ concurrency:
     - shared memory
     - concurrent data structures
     - atomic operations
-  ease_of_use: high
+  ease_of_use: very high
 error_handling:
   primary_mechanism: result types
   features:
@@ -172,7 +172,7 @@ development_tools:
     - staticcheck
     - golint
 standard_library:
-  maturity: high
+  maturity: very high
   key_areas:
     - file I/O
     - networking
@@ -227,7 +227,7 @@ history:
 official_website: https://go.dev
 official_blog_rss: https://go.dev/blog/feed.atom
 documentation:
-  quality: high
+  quality: very high
   official_sources:
     - https://go.dev/doc/
     - https://pkg.go.dev/

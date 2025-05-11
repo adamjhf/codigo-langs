@@ -43,7 +43,7 @@ execution:
   performance:
     startup_time: moderate
     memory_usage: moderate
-    computation_speed: fast
+    computation_speed: moderate
     compilation_speed: fast
 domains:
   primary:
@@ -81,14 +81,14 @@ platforms:
 ecosystem:
   maturity: high
   package_registry: NuGet
-  community_size: medium
+  community_size: small
   learning_resources: medium
-  job_market_demand: moderate
+  job_market_demand: low
 complexity:
-  learning_curve: moderate
+  learning_curve: high
   cognitive_load: moderate
   syntax_complexity: low
-  semantic_complexity: moderate
+  semantic_complexity: high
 language_features:
   immutability: default
   enums: algebraic

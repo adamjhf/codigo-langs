@@ -42,9 +42,9 @@ execution:
     - native OS process
   performance:
     startup_time: fast
-    memory_usage: moderate
+    memory_usage: low
     computation_speed: fast
-    compilation_speed: fast
+    compilation_speed: moderate
 domains:
   primary:
     - desktop applications
@@ -73,7 +73,7 @@ ecosystem:
   package_registry: GetIt
   community_size: medium
   learning_resources: medium
-  job_market_demand: moderate
+  job_market_demand: low
 complexity:
   learning_curve: moderate
   cognitive_load: moderate

@@ -41,7 +41,7 @@ execution:
     startup_time: moderate
     memory_usage: moderate
     computation_speed: moderate
-    compilation_speed: moderate
+    compilation_speed: fast
 domains:
   primary:
     - web development
@@ -78,7 +78,7 @@ complexity:
   learning_curve: moderate
   cognitive_load: moderate
   syntax_complexity: moderate
-  semantic_complexity: moderate
+  semantic_complexity: high
 language_features:
   immutability: optional
   enums: basic

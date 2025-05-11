@@ -42,7 +42,7 @@ execution:
   performance:
     startup_time: moderate
     memory_usage: moderate
-    computation_speed: moderate
+    computation_speed: slow
 domains:
   primary:
     - DevOps
@@ -72,7 +72,7 @@ platforms:
 ecosystem:
   maturity: high
   package_registry: PowerShell Gallery
-  community_size: large
+  community_size: medium
   learning_resources: large
   job_market_demand: moderate
 complexity:

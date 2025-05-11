@@ -74,9 +74,9 @@ platforms:
 ecosystem:
   maturity: high
   package_registry: Hex.pm
-  community_size: medium
-  learning_resources: large
-  job_market_demand: moderate
+  community_size: small
+  learning_resources: medium
+  job_market_demand: low
 complexity:
   learning_curve: moderate
   cognitive_load: moderate
@@ -113,7 +113,7 @@ concurrency:
     - supervisors
     - distributed computing
     - concurrent data structures
-  ease_of_use: high
+  ease_of_use: very high
 error_handling:
   primary_mechanism: pattern matching
   features:

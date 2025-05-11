@@ -1,16 +1,24 @@
 name: Game Maker Language
-description: A scripting language designed for game development, primarily used in the GameMaker Studio engine. It combines elements of JavaScript and C to provide an accessible way to create 2D games.
+description: A scripting language designed for game development in the GameMaker Studio environment, combining ease of use with game-specific functionality.
 aliases:
   - GML
 file_extensions:
   - gml
 category: programming
 status: active
+
+compilers:
+  - name: GameMaker Studio
+    type: interpreter
+    license: proprietary
+    is_reference: true
+
 paradigms:
   - imperative
   - procedural
   - event-driven
   - object-oriented
+
 typing:
   system: dynamic
   type_checking: runtime
@@ -18,6 +26,7 @@ typing:
   inference: none
   type_coercion: aggressive
   type_annotations: none
+
 execution:
   type:
     - interpreted
@@ -27,13 +36,17 @@ execution:
     startup_time: fast
     memory_usage: moderate
     computation_speed: moderate
+    compilation_speed: fast
+
 domains:
   primary:
     - game development
     - 2D computer graphics
   secondary:
-    - desktop applications
-    - mobile development
+    - education
+    - visual programming
+    - animation
+
 platforms:
   operating_systems:
     - Windows
@@ -41,40 +54,68 @@ platforms:
     - Linux
     - Android
     - iOS
+  architectures:
+    - x86
+    - x86-64
+    - ARM
+    - ARM64
+
 ecosystem:
   maturity: high
   community_size: medium
   learning_resources: large
   job_market_demand: low
+
 complexity:
   learning_curve: low
-  cognitive_load: low
+  cognitive_load: moderate
   syntax_complexity: low
   semantic_complexity: low
+
 language_features:
   immutability: none
+  enums: basic
+  metaprogramming: false
   generics: false
   c_interop: false
   pattern_matching: false
   null_safety: false
+  memory_safety:
+    type: managed
+    level: high
   memory_management:
     type: garbage collection
   key_features:
     - string interpolation
     - modules
+
 concurrency:
   model: none
+  ease_of_use: low
+
 error_handling:
   primary_mechanism: exceptions
+  features:
+    - stack traces
   stack_traces: true
+  debugging:
+    breakpoints: true
+    step_debugging: true
+
 standard_library:
   maturity: high
   key_areas:
     - data structures
-    - file I/O
     - mathematics
+    - file I/O
+    - networking
     - graphics
-  size: medium
+  size: large
+
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: moderate
+
 history:
   inception: "1999-01-01"
   developer:
@@ -83,7 +124,16 @@ history:
     - Mark Overmars
   influenced_by:
     languages:
-      - JavaScript
       - C
+      - JavaScript
+      - Delphi
+
 official_website: https://www.yoyogames.com/gamemaker
 color: "#71b417"
+documentation:
+  quality: high
+  official_sources:
+    - https://manual.yoyogames.com/
+
+references:
+  subreddit: gamemaker

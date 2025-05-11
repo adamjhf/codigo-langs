@@ -281,16 +281,40 @@ properties:
         properties:
           startup_time:
             $ref: "#/definitions/speed_scale"
-            description: Time from execution start to ready state
+            description: |
+              Typical time for a minimal 'hello world' style application (CLI or simple server) to initialize and become responsive or complete its first task.
+              * very fast: e.g., <10ms (typical for compiled native binaries)
+              * fast: e.g., 10-50ms
+              * moderate: e.g., 50-200ms (typical for lightweight JIT/VMs)
+              * slow: e.g., 200ms-1s
+              * very slow: e.g., >1s (typical for heavier runtimes or extensive initial JIT)
           memory_usage:
             $ref: "#/definitions/rating_scale"
-            description: Typical memory footprint relative to other languages
+            description: | 
+              Typical resident set size (RSS) or working set for a simple, common task (e.g., 'hello world' web server under minimal load, basic data processing script) relative to other languages. Focus on baseline runtime and simple application overhead.
+              * very low: Minimal overhead, comparable to C/Rust (e.g., <10MB for simple servers)
+              * low: Efficient, small footprint (e.g., 10-50MB)
+              * moderate: Average footprint for managed languages (e.g., 50-150MB)
+              * high: Larger footprint, noticeable overhead (e.g., 150-300MB)
+              * very high: Exceptionally large footprint (e.g., >300MB)
           computation_speed:
             $ref: "#/definitions/speed_scale"
-            description: Raw computation performance
+            description: |
+              Raw computation performance on CPU-bound tasks, often assessed using standardized benchmarks (e.g., The Computer Language Benchmarks Game).
+              * very fast: Performance comparable to C, C++, Rust (e.g., within 0-2x slower)
+              * fast: Significantly faster than average, but with a noticeable gap to the top tier (e.g., 2-5x slower than C)
+              * moderate: Average for general-purpose languages, often including JIT-compiled languages (e.g., 5-15x slower than C)
+              * slow: Typically interpreted languages or those with significant overhead (e.g., 15-50x slower than C)
+              * very slow: Among the slowest for CPU-bound tasks (e.g., >50x slower than C)
           compilation_speed:
             $ref: "#/definitions/speed_scale"
-            description: Time taken to compile/process code
+            description: |
+              Time taken to compile or build a medium-sized project (e.g., 10k-100k lines of code) from a clean state. For interpreted languages, this can refer to initial parsing/bytecode generation if significant. Consider both full and common incremental build scenarios.
+              * very fast: e.g., incremental builds in <1s, full builds in seconds
+              * fast: e.g., full builds in tens of seconds
+              * moderate: e.g., full builds in 1-5 minutes
+              * slow: e.g., full builds in 5-15 minutes
+              * very slow: e.g., full builds taking >15 minutes
 
   domains:
     type: object
@@ -483,36 +507,83 @@ properties:
     properties:
       maturity:
         $ref: "#/definitions/rating_scale"
-        description: Overall ecosystem development and stability level
+        description: |
+          Overall stability, proven track record, and predictability of the language specification, core tooling, and primary libraries.
+          * very high: Decades of widespread production use, extremely stable APIs, robust tooling (e.g., Java, C).
+          * high: Well-established (many years), stable core features, reliable ecosystem (e.g., Python, C#).
+          * moderate: Gaining widespread adoption, core is largely stable, but some ecosystem components may still be evolving rapidly (e.g., Go, Rust in recent years).
+          * low: Newer or more niche, core language may still see significant changes or refinements, ecosystem less established (e.g., Swift in its early years, Zig).
+          * very low: Experimental, actively changing, APIs and tools are in flux, not yet widely proven for diverse production use.
       package_registry:
         type: string
         description: Main package/library repository URL or name
       community_size:
         $ref: "#/definitions/size_scale"
-        description: Number of active developers and contributors
+        description: |
+          Estimated global number of active developers, contributors, and users. Based on metrics like GitHub activity, Stack Overflow questions/tags, package registry downloads, forum activity, and major conference attendance.
+          * very large: Millions of active developers (e.g., JavaScript, Python)
+          * large: Hundreds of thousands to over a million (e.g., Java, C#, C++)
+          * medium: Tens of thousands to a few hundred thousand (e.g., Go, Ruby, Swift, Rust)
+          * small: Thousands to tens of thousands (e.g., Elixir)
+          * very small: Hundreds to a few thousand (e.g., Nim, Crystal)
       learning_resources:
         $ref: "#/definitions/size_scale"
-        description: Quantity and quality of available learning materials
+        description: |
+          Quantity and perceived quality of available learning materials, including official documentation, books, online courses, tutorials, community forums, and comprehensive example projects.
+          * very large: Extensive, high-quality, and diverse resources for all skill levels across numerous platforms (e.g., Python, JavaScript)
+          * large: Abundant good quality books, excellent official documentation, many online courses and active communities (e.g., Java, C#)
+          * medium: Several well-regarded books, good official docs, a growing body of tutorials and community content (e.g., Go, Rust)
+          * small: Limited selection of books, documentation may be good but less extensive in practical guides, fewer third-party tutorials (e.g., Scala, Elixir)
+          * very small: Primarily relies on official documentation and a small number of community articles/blogs; sparse third-party resources (e.g., newer or very niche languages like Idris)
       job_market_demand:
         $ref: "#/definitions/rating_scale"
-        description: Level of employment opportunities
-
+        description: |
+          Relative level of employment opportunities and hiring demand, considering number of job postings, industry survey data, and general industry adoption trends.
+          * very high: Consistently among the most in-demand languages globally across diverse sectors (e.g., Python, JavaScript, Java)
+          * high: Strong and widespread demand, often a primary skill in many organizations (e.g., C#, C++, Go)
+          * moderate: Healthy demand, often in specific niches or as a growing skill; good opportunities exist (e.g., Swift, Kotlin, Rust, Scala)
+          * low: Limited demand, often for specialized roles, legacy systems, or in smaller markets (e.g., Ruby, Perl, Elixir)
+          * very low: Niche, academic, or very new to the market with few dedicated job postings (e.g., Haskell, Clojure, F# outside specific domains)
   complexity:
     type: object
     description: Learning and usage difficulty metrics
     properties:
       learning_curve:
         $ref: "#/definitions/rating_scale"
-        description: Effort required to learn basics to intermediate level
+        description: |
+          Effort and time required for an experienced developer (proficient in at least one other common language) to reach a level of basic to intermediate productivity.
+          * very low: Productive within days; simple syntax and core concepts (e.g., Python for scripting, Go for basic applications)
+          * low: Productive within a few weeks; intuitive for those with prior experience (e.g., JavaScript, C# for common tasks)
+          * moderate: Requires a month or more of focused effort; involves mastering a larger set of concepts or a different paradigm (e.g., Java and its ecosystem, Swift)
+          * high: Steeper curve, potentially several months; involves complex or unique concepts (e.g., Rust's ownership, Scala's type system, Haskell's purity)
+          * very high: Exceptionally challenging; requires deep understanding of abstract/complex concepts or a vast feature set from the outset (e.g., C++ for advanced usage, Ada)
       cognitive_load:
         $ref: "#/definitions/rating_scale"
-        description: Mental effort required during ongoing development
+        description: |
+          Ongoing mental effort required to write, understand, debug, and maintain code, considering language verbosity, implicitness, number of core concepts to juggle, and complexity of state management.
+          * very low: Minimal mental juggling; code is often explicit, simple, and predictable (e.g., Go)
+          * low: Generally straightforward; common tasks can be done without deep thought about language intricacies (e.g., Python for many use cases)
+          * moderate: Requires managing several interconnected concepts or being mindful of language-specific behaviors (e.g., C# with LINQ and async, JavaScript with its prototype chain and event loop)
+          * high: Often requires deep concentration on language rules, type interactions, memory management, or concurrency models (e.g., Rust, Scala, C++)
+          * very high: Consistently demands high mental effort due to extreme abstraction, density, or subtle interactions (e.g., advanced Haskell, APL, heavy C++ template metaprogramming)
       syntax_complexity:
         $ref: "#/definitions/rating_scale"
-        description: Difficulty due to language syntax
+        description: |
+          Perceived difficulty stemming from the language's grammar, number of keywords, use of symbols, syntactic sugar, and overall readability/parsability by humans.
+          * very low: Minimalist, highly regular, and often described as 'clean' (e.g., Python, Go, Lisp dialects)
+          * low: Generally intuitive with few surprising constructs for developers familiar with common language families
+          * moderate: A fair number of keywords, operators, and syntactic constructs; some constructs may be less common or require more context (e.g., Java, C#, JavaScript)
+          * high: Large grammar, many keywords/operators, potentially ambiguous constructs, or significant use of punctuation/symbols (e.g., C++, Perl, Scala)
+          * very high: Extremely dense, symbol-heavy, highly unconventional, or context-sensitive grammar that is challenging for newcomers (e.g., APL, Forth)
       semantic_complexity:
         $ref: "#/definitions/rating_scale"
-        description: Difficulty due to language semantics or concepts
+        description: |
+          Difficulty arising from the meaning, interaction, and implications of language constructs, its type system, memory model, concurrency model, or core paradigms.
+          * very low: Direct and simple semantics; behavior is highly predictable with few abstract concepts (e.g., early BASIC, simple scripting languages)
+          * low: Core concepts are straightforward and behave as expected from common programming experience (e.g., Go, Python)
+          * moderate: Involves more advanced or abstract concepts such as generics, complex inheritance/composition patterns, specific runtime behaviors, or moderately complex type systems (e.g., Java, C#)
+          * high: Relies on deep, subtle, or highly abstract concepts like advanced type systems, manual memory management with intricate rules, powerful metaprogramming, or complex concurrency models (e.g., Rust, Haskell, Scala)
+          * very high: Semantics are tied to highly abstract mathematical foundations or involve extremely complex interactions that require significant expertise to reason about (e.g., C++ template metaprogramming in depth, dependent types)
 
   language_features:
     type: object
@@ -565,7 +636,13 @@ properties:
               - unsafe
           level:
             $ref: "#/definitions/rating_scale"
-            description: Degree of memory safety guarantees
+            description: |
+              The degree to which the language, by default and through its common idioms, prevents or mitigates memory errors like buffer overflows, use-after-free, and dangling pointers.
+                * very high: Strong, often compile-time enforced guarantees against most memory errors without requiring manual intervention for safety (e.g., Rust's ownership and borrowing)
+                * high: Primarily managed runtimes with automatic garbage collection that prevent most direct memory errors, though unsafe operations might be possible via specific escape hatches (e.g., Java, C#, Go, Python)
+                * moderate: Offers mechanisms like ARC or smart pointers but still allows or requires significant programmer diligence to avoid memory errors, especially in performance-critical code (e.g., Swift, modern C++ used diligently)
+                * low: Relies heavily on programmer discipline for memory safety; language provides raw memory access with few built-in safeguards (e.g., C, C++ used without modern safety practices)
+                * very low: Essentially no built-in memory safety features beyond basic allocation/deallocation primitives; programmer is fully responsible (e.g., Assembly)
       memory_management:
         type: object
         description: Memory allocation and deallocation approach
@@ -689,7 +766,13 @@ properties:
             - actors
       ease_of_use:
         $ref: "#/definitions/rating_scale"
-        description: How easily concurrent programs can be written
+        description: |
+          How easily and safely developers can write, debug, and reason about concurrent or parallel programs, considering built-in abstractions and protection against common issues.
+          * very high: High-level, intrinsically safe, and easy-to-reason-about concurrency models are core to the language (e.g., Go's goroutines/channels, Erlang/Elixir's actors)
+          * high: Well-designed language features and standard library support that significantly simplify common concurrent tasks and mitigate risks (e.g., C# async/await, Java's modern concurrency utilities, Swift actors)
+          * moderate: Provides capable concurrency primitives, but requires careful design and deeper understanding to use safely and effectively; abstractions may be less comprehensive (e.g., Python's asyncio, Rust's async/await)
+          * low: Basic primitives (e.g., threads, locks) are available but are difficult to use correctly and safely, prone to common concurrency errors without significant expertise (e.g., C/C++ with pthreads or std::thread directly)
+          * very low: No built-in concurrency support, or mechanisms are extremely rudimentary, unsafe, or highly platform-dependent
 
   error_handling:
     type: object
@@ -824,7 +907,13 @@ properties:
     properties:
       maturity:
         $ref: "#/definitions/rating_scale"
-        description: Completeness and stability of standard library
+        description: |
+          The perceived completeness, stability, API consistency, and quality of the language's standard library.
+          * very high: Extensive, highly stable ("battle-tested"), well-documented, and consistently designed, covering a vast range of common tasks (e.g., Python, Java, .NET)
+          * high: Comprehensive for most common needs, generally stable APIs, good quality and documentation (e.g., Go, Ruby)
+          * moderate: Provides good coverage for core functionalities; some areas might still be evolving, or the API design might have some inconsistencies (e.g., Rust, Swift, C++ STL)
+          * low: Intentionally lean, relying on third-party packages for many common tasks, or newer with less field testing (e.g., JavaScript (core ECMAScript for non-browser tasks), C)
+          * very low: Very minimal, incomplete, highly unstable, or virtually non-existent, requiring external libraries for almost all non-trivial tasks
       key_areas:
         type: array
         description: Core functionality areas covered by standard library
@@ -861,7 +950,13 @@ properties:
             - random number generation
       size:
         $ref: "#/definitions/size_scale"
-        description: Relative size or extent of the standard library
+        description: |
+          The relative breadth and depth of modules, APIs, and functionalities included by default within the standard library.
+          * very large: "Batteries-included" philosophy; offers extensive built-in functionality for a wide array of domains (e.g., Python, Java, .NET/C#)
+          * large: Provides a substantial set of utilities and modules covering many common programming tasks beyond just core language support (e.g., Go, Ruby)
+          * medium: Offers essential functionalities for common tasks, relying more on third-party libraries for specialized features (e.g., Rust, Swift, C++ STL)
+          * small: Intentionally lean, focusing on core language features, minimal runtime dependencies, and fundamental utilities (e.g., C, JavaScript (core ECMAScript), Lua)
+          * very small: Extremely minimalistic, providing only the bare essentials for language operation (e.g., Scheme, Forth)
 
   versioning:
     type: object
@@ -883,7 +978,13 @@ properties:
           - living standard
       backwards_compatibility:
         $ref: "#/definitions/rating_scale"
-        description: Level of compatibility with previous versions
+        description: |
+          The degree to which code written for older versions of the language and its standard library continues to compile and run correctly with newer versions, and the predictability of breaking changes.
+          * very high: Extremely strong commitment; breaking changes are exceptionally rare, even across major versions over many years, often with formal guarantees (e.g., Go 1.x, Java)
+          * high: Strong commitment; breaking changes are infrequent, well-documented, usually follow long deprecation cycles (e.g., C#, Python within major versions)
+          * moderate: Generally good, but breaking changes can occur between major versions or occasionally in minor versions, requiring some code modification (e.g., Swift, JavaScript (language spec vs. evolving web APIs), Ruby)
+          * low: Breaking changes are relatively common between versions, or major ecosystem shifts require significant migration effort (e.g., Scala 2 to 3, Python 2 to 3)
+          * very low: Little to no guarantee of backwards compatibility; frequent and significant breaking changes are expected, typical of languages in early/experimental stages
 
   history:
     type: object
@@ -948,7 +1049,13 @@ properties:
     properties:
       quality:
         $ref: "#/definitions/rating_scale"
-        description: Quality rating of the official documentation based on clarity, completeness, and accessibility
+        description: |
+          Overall quality of the official documentation, assessed on clarity, accuracy, completeness, organization, navigability, quality of examples, and how up-to-date it is.
+          * very high: Exceptional in all aspects; widely praised. Includes comprehensive tutorials, API references, cookbooks, and conceptual explanations (e.g., Go, Rust, Python, MDN for Web APIs)
+          * high: Comprehensive, clear, accurate, well-maintained, and easy to navigate. Covers most user needs effectively (e.g., C# (Microsoft Docs), Swift.org)
+          * moderate: Generally good and covers most necessary topics but might have some gaps, occasional outdated sections, or minor issues with organization/clarity
+          * low: Lacks sufficient detail in important areas, is frequently outdated, hard to navigate, or contains inaccuracies, often forcing reliance on unofficial resources
+          * very low: Severely deficient, inaccurate, incomplete, or virtually non-existent, making it very difficult to learn or use the language effectively from official sources
       official_sources:
         type: array
         items:

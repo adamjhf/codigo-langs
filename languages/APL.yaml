@@ -60,12 +60,12 @@ platforms:
     - platform-independent
 ecosystem:
   maturity: moderate
-  community_size: small
+  community_size: very small
   learning_resources: small
-  job_market_demand: low
+  job_market_demand: very low
 complexity:
-  learning_curve: high
-  cognitive_load: high
+  learning_curve: very high
+  cognitive_load: very high
   syntax_complexity: very high
   semantic_complexity: high
 language_features:

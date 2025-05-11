@@ -35,7 +35,7 @@ execution:
     - WebAssembly
   performance:
     startup_time: very fast
-    memory_usage: low
+    memory_usage: very low
     computation_speed: very fast
     compilation_speed: fast
 domains:
@@ -71,13 +71,13 @@ ecosystem:
   maturity: moderate
   package_registry: https://astrolabe.pm/
   community_size: small
-  learning_resources: medium
+  learning_resources: small
   job_market_demand: low
 complexity:
-  learning_curve: moderate
+  learning_curve: high
   cognitive_load: moderate
   syntax_complexity: low
-  semantic_complexity: moderate
+  semantic_complexity: high
 language_features:
   immutability: optional
   enums: algebraic
@@ -154,10 +154,10 @@ standard_library:
     - cryptography
     - testing
     - process management
-  size: medium
+  size: small
 versioning:
   release_cycle: semantic versioning
-  backwards_compatibility: moderate
+  backwards_compatibility: low
 history:
   inception: 2015-01-01
   developer:

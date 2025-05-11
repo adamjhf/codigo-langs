@@ -44,7 +44,7 @@ execution:
   performance:
     startup_time: moderate
     memory_usage: moderate
-    computation_speed: moderate
+    computation_speed: slow
 domains:
   primary:
     - text processing
@@ -66,13 +66,13 @@ platforms:
     - platform-independent
 ecosystem:
   maturity: high
-  community_size: medium
+  community_size: small
   learning_resources: medium
-  job_market_demand: moderate
+  job_market_demand: low
 complexity:
-  learning_curve: moderate
-  cognitive_load: moderate
-  syntax_complexity: moderate
+  learning_curve: high
+  cognitive_load: high
+  syntax_complexity: high
   semantic_complexity: moderate
 language_features:
   immutability: enforced

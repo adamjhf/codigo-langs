@@ -61,9 +61,9 @@ platforms:
 ecosystem:
   maturity: high
   package_registry: https://gap-packages.github.io/
-  community_size: medium
-  learning_resources: medium
-  job_market_demand: low
+  community_size: small
+  learning_resources: small
+  job_market_demand: very low
 complexity:
   learning_curve: high
   cognitive_load: high

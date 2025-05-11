@@ -53,7 +53,7 @@ execution:
     startup_time: moderate
     memory_usage: moderate
     computation_speed: moderate
-    compilation_speed: moderate
+    compilation_speed: fast
 domains:
   primary:
     - artificial intelligence
@@ -81,13 +81,13 @@ platforms:
 ecosystem:
   maturity: high
   package_registry: Quicklisp
-  community_size: medium
+  community_size: small
   learning_resources: medium
   job_market_demand: low
 complexity:
   learning_curve: high
-  cognitive_load: moderate
-  syntax_complexity: low
+  cognitive_load: high
+  syntax_complexity: moderate
   semantic_complexity: high
 language_features:
   immutability: optional

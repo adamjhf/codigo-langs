@@ -87,15 +87,15 @@ platforms:
 ecosystem:
   maturity: low
   community_size: small
-  learning_resources: small
+  learning_resources: very small
 complexity:
   learning_curve: high
   cognitive_load: moderate
   syntax_complexity: moderate
   semantic_complexity: high
 standard_library:
-  maturity: moderate
-  size: medium
+  maturity: low
+  size: small
   key_areas:
     - data structures
     - algorithms
@@ -103,7 +103,7 @@ standard_library:
     - networking
 versioning:
   release_cycle: feature-driven
-  backwards_compatibility: high
+  backwards_compatibility: moderate
 history:
   inception: 2014-01-01
   designed_by:

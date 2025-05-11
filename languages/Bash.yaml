@@ -33,7 +33,7 @@ execution:
   performance:
     startup_time: fast
     memory_usage: low
-    computation_speed: moderate
+    computation_speed: slow
 domains:
   primary:
     - shell
@@ -95,7 +95,7 @@ concurrency:
   features:
     - shared memory
     - message passing
-  ease_of_use: moderate
+  ease_of_use: low
 error_handling:
   primary_mechanism: error codes
   features:

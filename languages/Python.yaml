@@ -69,7 +69,7 @@ execution:
   performance:
     startup_time: moderate
     memory_usage: moderate
-    computation_speed: moderate
+    computation_speed: slow
     compilation_speed: fast
 domains:
   primary:
@@ -124,11 +124,11 @@ ecosystem:
   package_registry: PyPI
   community_size: very large
   learning_resources: very large
-  job_market_demand: high
+  job_market_demand: very high
 complexity:
   learning_curve: low
   cognitive_load: low
-  syntax_complexity: low
+  syntax_complexity: very low
   semantic_complexity: moderate
 language_features:
   immutability: optional
@@ -265,7 +265,7 @@ standard_library:
     - logging
     - CLI tools
     - process management
-  size: large
+  size: very large
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
@@ -304,7 +304,7 @@ history:
 official_website: https://www.python.org/
 official_blog_rss: https://blog.python.org/feeds/posts/default
 documentation:
-  quality: high
+  quality: very high
   official_sources:
     - https://docs.python.org/
     - https://www.python.org/doc/

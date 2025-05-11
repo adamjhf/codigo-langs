@@ -35,7 +35,7 @@ execution:
   performance:
     startup_time: fast
     memory_usage: low
-    computation_speed: moderate
+    computation_speed: slow
 domains:
   primary:
     - automation
@@ -52,15 +52,15 @@ platforms:
     - x86
     - x86-64
 ecosystem:
-  maturity: moderate
+  maturity: high
   community_size: small
-  learning_resources: small
+  learning_resources: medium
   job_market_demand: low
 complexity:
-  learning_curve: moderate
-  cognitive_load: moderate
+  learning_curve: low
+  cognitive_load: low
   syntax_complexity: moderate
-  semantic_complexity: moderate
+  semantic_complexity: low
 language_features:
   immutability: none
   metaprogramming: false

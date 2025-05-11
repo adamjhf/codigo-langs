@@ -58,7 +58,7 @@ ecosystem:
   maturity: moderate
   package_registry: EiffelStudio libraries
   community_size: small
-  learning_resources: medium
+  learning_resources: small
   job_market_demand: low
 complexity:
   learning_curve: high

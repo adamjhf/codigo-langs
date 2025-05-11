@@ -1,16 +1,26 @@
 name: Assembly
+description: A low-level programming language with a strong correspondence between the language and the architecture's machine code instructions. Assembly languages are specific to a particular computer architecture.
+aliases:
+  - ASM
+  - Assembler
+file_extensions:
+  - asm
+  - s
+  - S
 category: assembly
-description: Assembly language is a low-level programming language that provides a direct mapping to machine code instructions. It uses mnemonics to represent operations and allows direct manipulation of hardware resources.
 status: active
+
 paradigms:
   - imperative
   - procedural
+
 typing:
   system: untyped
   strength: weak
   inference: none
   type_coercion: none
   type_annotations: none
+
 execution:
   type:
     - compiled
@@ -18,20 +28,24 @@ execution:
     - machine code
   runtime_environments:
     - native OS process
-    - native binary
   performance:
     startup_time: very fast
     memory_usage: very low
     computation_speed: very fast
+    compilation_speed: very fast
+
 domains:
   primary:
     - systems programming
     - embedded systems
     - operating systems
+    - microcontroller programming
     - real-time computing
   secondary:
-    - microcontroller programming
+    - compiler
+    - interpreter
     - high-performance computing
+
 platforms:
   operating_systems:
     - Windows
@@ -39,10 +53,9 @@ platforms:
     - Linux
     - BSD
     - Unix
-    - Solaris
-    - embedded
-    - bare metal
     - DOS
+    - bare metal
+    - embedded
   architectures:
     - x86
     - x86-64
@@ -52,39 +65,74 @@ platforms:
     - MIPS
     - PowerPC
     - SPARC
-    - SPARC64
-    - IA-64
-    - Alpha
     - AVR
+
 ecosystem:
-  maturity: high
+  maturity: very high
   community_size: medium
   learning_resources: medium
-  job_market_demand: moderate
+  job_market_demand: low
+
 complexity:
-  learning_curve: high
-  cognitive_load: high
+  learning_curve: very high
+  cognitive_load: very high
   syntax_complexity: high
   semantic_complexity: high
+
 language_features:
+  immutability: none
+  enums: none
+  metaprogramming: false
+  generics: false
+  pattern_matching: false
+  null_safety: false
   memory_safety:
     type: manual
     level: very low
   memory_management:
     type: manual
+    manual_control: true
   key_features:
-    - native FFI
+    - zero-cost abstractions
+
 concurrency:
   model: none
+  features:
+    - atomic operations
+  ease_of_use: very low
+
 error_handling:
   primary_mechanism: error codes
+  stack_traces: false
+  debugging:
+    breakpoints: true
+    step_debugging: true
+
 standard_library:
-  maturity: low
+  maturity: very low
   size: very small
+  key_areas:
+    - process management
+
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: moderate
+
 history:
   inception: "1949-01-01"
-  designed_by:
-    - Kathleen Booth
-    - Maurice Wilkes
-    - David Wheeler
-    - Stanley Gill
+
+documentation:
+  quality: moderate
+  official_sources:
+    - https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html
+    - https://developer.arm.com/documentation/
+
+references:
+  github_topics:
+    - assembly
+    - asm
+  stackexchange_tags:
+    - assembly
+    - x86
+    - arm
+  wikidata_id: Q189056

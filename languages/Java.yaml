@@ -42,7 +42,7 @@ execution:
     - JVM
     - native OS process
   performance:
-    startup_time: moderate
+    startup_time: slow
     memory_usage: high
     computation_speed: fast
     compilation_speed: moderate

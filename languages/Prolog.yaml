@@ -54,7 +54,7 @@ execution:
   performance:
     startup_time: moderate
     memory_usage: moderate
-    computation_speed: moderate
+    computation_speed: slow
     compilation_speed: fast
 domains:
   primary:
@@ -85,7 +85,7 @@ ecosystem:
   maturity: moderate
   package_registry: https://www.swi-prolog.org/pack/list
   community_size: small
-  learning_resources: medium
+  learning_resources: small
   job_market_demand: low
 complexity:
   learning_curve: high

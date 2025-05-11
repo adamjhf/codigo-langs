@@ -74,8 +74,8 @@ execution:
   performance:
     startup_time: moderate
     memory_usage: moderate
-    computation_speed: moderate
-    compilation_speed: moderate
+    computation_speed: slow
+    compilation_speed: fast
 domains:
   primary:
     - web development
@@ -112,11 +112,11 @@ platforms:
 ecosystem:
   maturity: high
   package_registry: https://rubygems.org
-  community_size: large
+  community_size: medium
   learning_resources: large
   job_market_demand: moderate
 complexity:
-  learning_curve: moderate
+  learning_curve: low
   cognitive_load: moderate
   syntax_complexity: low
   semantic_complexity: moderate
