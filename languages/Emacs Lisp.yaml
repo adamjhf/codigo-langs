@@ -126,8 +126,9 @@ history:
     languages:
       - Lisp
       - MacLisp
-official_website: https://www.gnu.org/software/emacs/
       - Common Lisp
+
+official_website: https://www.gnu.org/software/emacs/
 
 documentation:
   quality: high
@@ -143,4 +144,5 @@ references:
   stackexchange_tags:
     - emacs-lisp
   subreddit: emacs
+
 color: "#c065db"
