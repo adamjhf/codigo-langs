@@ -40,7 +40,7 @@ execution:
     - native OS process
   performance:
     startup_time: very fast
-    memory_usage: moderate
+    memory_usage: low
     computation_speed: very fast
     compilation_speed: fast
 domains:
@@ -74,13 +74,13 @@ ecosystem:
   maturity: moderate
   package_registry: https://code.dlang.org/
   community_size: small
-  learning_resources: medium
+  learning_resources: small
   job_market_demand: low
 complexity:
   learning_curve: moderate
   cognitive_load: moderate
   syntax_complexity: moderate
-  semantic_complexity: moderate
+  semantic_complexity: high
 language_features:
   immutability: optional
   enums: algebraic

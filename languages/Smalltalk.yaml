@@ -44,7 +44,7 @@ execution:
   performance:
     startup_time: moderate
     memory_usage: moderate
-    computation_speed: moderate
+    computation_speed: slow
 domains:
   primary:
     - education
@@ -67,7 +67,7 @@ platforms:
     - ARM
     - platform-independent
 ecosystem:
-  maturity: moderate
+  maturity: high
   package_registry: SmalltalkHub
   community_size: small
   learning_resources: medium

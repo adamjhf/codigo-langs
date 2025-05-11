@@ -1,5 +1,5 @@
 name: Common Lisp
-description: A multi-paradigm programming language that descended from the Lisp family, standardized in ANSI X3.226-1994. It supports functional, procedural, and object-oriented programming with a powerful macro system.
+description: A powerful multi-paradigm programming language with a long history, known for its flexibility, extensibility, and support for interactive development. Common Lisp is standardized by ANSI and features a comprehensive condition system, macros, and CLOS (Common Lisp Object System).
 aliases:
   - CL
   - ANSI Common Lisp
@@ -8,9 +8,10 @@ file_extensions:
   - cl
   - l
   - lsp
-  - asd
+  - fasl
 category: programming
 status: active
+
 compilers:
   - name: SBCL
     type: compiler
@@ -42,21 +43,24 @@ compilers:
     license: GPL-2.0
     source_url: https://github.com/armedbear/abcl
     is_reference: false
+
 paradigms:
   - functional
-  - procedural
+  - imperative
   - object-oriented
-  - meta-programming
   - reflective
+  - meta-programming
   - symbolic
+
 typing:
   system: dynamic
   type_checking: runtime
   structural: true
   strength: strong
   inference: partial
-  type_coercion: moderate
+  type_coercion: conservative
   type_annotations: optional
+
 execution:
   type:
     - compiled
@@ -69,21 +73,24 @@ execution:
     - native OS process
   performance:
     startup_time: moderate
-    memory_usage: high
+    memory_usage: moderate
     computation_speed: moderate
     compilation_speed: moderate
+
 domains:
   primary:
     - artificial intelligence
     - scientific computing
-    - knowledge-based system
+    - education
+    - automated theorem proving
   secondary:
     - web development
     - data processing
-    - education
-    - mathematics
+    - text processing
+    - simulation
   emerging:
     - machine learning
+
 platforms:
   operating_systems:
     - Windows
@@ -96,25 +103,27 @@ platforms:
     - x86-64
     - ARM
     - ARM64
-    - platform-independent
+
 ecosystem:
   maturity: high
   package_registry: Quicklisp
   community_size: small
   learning_resources: medium
   job_market_demand: low
+
 complexity:
   learning_curve: high
   cognitive_load: high
   syntax_complexity: moderate
   semantic_complexity: high
+
 language_features:
   immutability: optional
   enums: none
   metaprogramming: true
   generics: true
   c_interop: true
-  pattern_matching: false
+  pattern_matching: true
   null_safety: false
   memory_safety:
     type: managed
@@ -122,24 +131,24 @@ language_features:
   memory_management:
     type: garbage collection
     implementation: Various (implementation-dependent)
-    manual_control: false
+    manual_control: true
   key_features:
     - first-class functions
     - closures
     - macros
-    - reflection
-    - meta-programming
-    - modules
-    - multiple inheritance
     - REPL
     - interactive development
+    - reflection
+    - meta-programming
+    - symbols
+
 concurrency:
   model: threads
   features:
     - shared memory
-    - thread pools
-    - concurrent data structures
+    - atomic operations
   ease_of_use: moderate
+
 error_handling:
   primary_mechanism: conditions
   features:
@@ -147,66 +156,61 @@ error_handling:
     - error chaining
     - custom error types
     - recovery mechanisms
+    - error context
     - cleanup actions
   stack_traces: true
   debugging:
     source_maps: true
     breakpoints: true
     step_debugging: true
+
 package_managers:
   primary: Quicklisp
   alternatives:
     - ASDF
     - Qlot
+
 popular_frameworks:
-  frontend:
-    - Weblocks
-    - Parenscript
   backend:
     - Hunchentoot
     - Clack
   testing:
     - FiveAM
     - Prove
+
 development_tools:
   lsps:
     - cl-lsp
   debugging:
     - SLIME
     - SLY
-  profiling:
-    - sb-sprof
   build_systems:
     - ASDF
-  linters:
-    - sblint
+
 standard_library:
   maturity: high
   key_areas:
-    - file I/O
-    - networking
-    - concurrency
     - data structures
     - algorithms
     - text processing
+    - file I/O
     - mathematics
-    - serialization
-    - testing
-    - logging
   size: large
+
 versioning:
-  release_cycle: fixed schedule
+  release_cycle: long-term support
   backwards_compatibility: very high
+
 history:
   inception: 1984-01-01
   developer:
-    - X3J13 Committee
+    - ANSI X3J13 committee
   designed_by:
     - Guy L. Steele Jr.
     - Scott Fahlman
     - Richard P. Gabriel
     - David A. Moon
-  described_by: ANSI X3.226-1994
+  described_by: "ANSI X3.226-1994 (R1999)"
   standards_bodies:
     - ANSI
   influenced_by:
@@ -217,17 +221,18 @@ history:
       - Interlisp
     paradigms:
       - functional
-      - procedural
-      - object-oriented
       - symbolic
+
 official_website: https://common-lisp.net/
+
 documentation:
-  quality: high
+  quality: moderate
   official_sources:
     - https://www.lispworks.com/documentation/HyperSpec/Front/index.htm
   community_resources:
     - https://lispcookbook.github.io/cl-cookbook/
     - https://gigamonkeys.com/book/
+
 references:
   github_topics:
     - common-lisp
@@ -235,5 +240,6 @@ references:
   stackexchange_tags:
     - common-lisp
   wikidata_id: Q101130
+    - lisp
   subreddit: lisp
 color: "#3fb68b"

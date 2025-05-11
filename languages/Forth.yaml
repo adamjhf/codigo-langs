@@ -54,7 +54,7 @@ execution:
     startup_time: fast
     memory_usage: very low
     computation_speed: moderate
-    compilation_speed: fast
+    compilation_speed: very fast
 domains:
   primary:
     - embedded systems
@@ -89,11 +89,11 @@ ecosystem:
   maturity: moderate
   package_registry: https://theforth.net/packages
   community_size: small
-  learning_resources: medium
-  job_market_demand: low
+  learning_resources: small
+  job_market_demand: very low
 complexity:
   learning_curve: high
-  cognitive_load: moderate
+  cognitive_load: high
   syntax_complexity: low
   semantic_complexity: high
 language_features:

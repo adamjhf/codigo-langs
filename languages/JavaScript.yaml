@@ -86,7 +86,7 @@ execution:
     startup_time: fast
     memory_usage: moderate
     computation_speed: moderate
-    compilation_speed: fast
+    compilation_speed: very fast
 domains:
   primary:
     - web development
@@ -133,9 +133,9 @@ ecosystem:
   learning_resources: very large
   job_market_demand: very high
 complexity:
-  learning_curve: moderate
+  learning_curve: low
   cognitive_load: moderate
-  syntax_complexity: low
+  syntax_complexity: moderate
   semantic_complexity: moderate
 language_features:
   immutability: optional
@@ -170,7 +170,7 @@ concurrency:
     - promises/futures
     - shared memory
     - atomic operations
-  ease_of_use: moderate
+  ease_of_use: high
 error_handling:
   primary_mechanism: exceptions
   features:
@@ -232,7 +232,7 @@ development_tools:
     - StandardJS
     - JSHint
 standard_library:
-  maturity: high
+  maturity: moderate
   key_areas:
     - data structures
     - text processing
@@ -242,7 +242,7 @@ standard_library:
     - networking
     - concurrency
     - serialization
-  size: medium
+  size: small
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high

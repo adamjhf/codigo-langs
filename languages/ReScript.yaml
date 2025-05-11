@@ -37,7 +37,7 @@ execution:
     startup_time: fast
     memory_usage: low
     computation_speed: fast
-    compilation_speed: fast
+    compilation_speed: very fast
 domains:
   primary:
     - web development
@@ -75,7 +75,7 @@ language_features:
   null_safety: true
   memory_safety:
     type: managed
-    level: very high
+    level: high
   memory_management:
     type: garbage collection
     implementation: JavaScript GC
@@ -92,7 +92,7 @@ concurrency:
   features:
     - promises/futures
     - async/await
-  ease_of_use: high
+  ease_of_use: moderate
 error_handling:
   primary_mechanism: exceptions
   features:
@@ -121,7 +121,7 @@ development_tools:
   linters:
     - rescript-linter
 standard_library:
-  maturity: high
+  maturity: moderate
   key_areas:
     - data structures
     - algorithms

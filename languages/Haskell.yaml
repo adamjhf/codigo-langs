@@ -58,7 +58,7 @@ execution:
     startup_time: moderate
     memory_usage: high
     computation_speed: moderate
-    compilation_speed: moderate
+    compilation_speed: slow
 domains:
   primary:
     - compiler
@@ -93,9 +93,9 @@ platforms:
 ecosystem:
   maturity: high
   package_registry: Hackage
-  community_size: medium
-  learning_resources: large
-  job_market_demand: moderate
+  community_size: small
+  learning_resources: medium
+  job_market_demand: low
 complexity:
   learning_curve: high
   cognitive_load: high
@@ -198,7 +198,7 @@ standard_library:
     - cryptography
     - regular expressions
     - testing
-  size: large
+  size: medium
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: moderate

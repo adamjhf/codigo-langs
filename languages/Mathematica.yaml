@@ -45,7 +45,7 @@ execution:
     - language-specific runtime
     - native OS process
   performance:
-    startup_time: moderate
+    startup_time: slow
     memory_usage: high
     computation_speed: moderate
 domains:
@@ -82,11 +82,11 @@ ecosystem:
   package_registry: Wolfram Resource System
   community_size: medium
   learning_resources: large
-  job_market_demand: moderate
+  job_market_demand: low
 complexity:
   learning_curve: high
   cognitive_load: high
-  syntax_complexity: moderate
+  syntax_complexity: high
   semantic_complexity: high
 language_features:
   immutability: optional

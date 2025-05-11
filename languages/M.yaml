@@ -40,8 +40,8 @@ platforms:
     - platform-independent
 ecosystem:
   maturity: high
-  community_size: large
-  learning_resources: large
+  community_size: medium
+  learning_resources: medium
   job_market_demand: moderate
 complexity:
   learning_curve: moderate
@@ -72,7 +72,7 @@ standard_library:
     - mathematics
     - HTTP client/server
     - JSON/XML processing
-  size: large
+  size: medium
 history:
   inception: 2008-01-01
   developer:

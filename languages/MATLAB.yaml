@@ -41,7 +41,7 @@ execution:
     - language-specific runtime
     - native OS process
   performance:
-    startup_time: moderate
+    startup_time: slow
     memory_usage: high
     computation_speed: moderate
     compilation_speed: moderate
@@ -79,7 +79,7 @@ ecosystem:
   package_registry: MATLAB File Exchange
   community_size: large
   learning_resources: very large
-  job_market_demand: high
+  job_market_demand: moderate
 complexity:
   learning_curve: moderate
   cognitive_load: moderate

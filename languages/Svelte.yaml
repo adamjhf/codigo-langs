@@ -26,7 +26,7 @@ execution:
     startup_time: fast
     memory_usage: low
     computation_speed: fast
-    compilation_speed: fast
+    compilation_speed: very fast
 domains:
   primary:
     - web development
@@ -46,10 +46,10 @@ platforms:
   architectures:
     - platform-independent
 ecosystem:
-  maturity: high
+  maturity: moderate
   package_registry: npm
   community_size: medium
-  learning_resources: large
+  learning_resources: medium
   job_market_demand: moderate
 complexity:
   learning_curve: low

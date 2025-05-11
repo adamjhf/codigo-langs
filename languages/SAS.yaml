@@ -61,7 +61,7 @@ platforms:
     - x86
 ecosystem:
   maturity: very high
-  community_size: large
+  community_size: medium
   learning_resources: large
   job_market_demand: moderate
 complexity:

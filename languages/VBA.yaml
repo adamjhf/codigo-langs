@@ -36,7 +36,7 @@ execution:
   performance:
     startup_time: fast
     memory_usage: low
-    computation_speed: moderate
+    computation_speed: slow
 domains:
   primary:
     - automation
@@ -61,10 +61,10 @@ ecosystem:
   learning_resources: large
   job_market_demand: moderate
 complexity:
-  learning_curve: moderate
+  learning_curve: low
   cognitive_load: moderate
-  syntax_complexity: moderate
-  semantic_complexity: moderate
+  syntax_complexity: low
+  semantic_complexity: low
 language_features:
   immutability: none
   enums: basic
@@ -85,7 +85,7 @@ language_features:
     - first-class functions
 concurrency:
   model: none
-  ease_of_use: low
+  ease_of_use: very low
 error_handling:
   primary_mechanism: exceptions
   features:

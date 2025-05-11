@@ -47,7 +47,7 @@ execution:
     - native OS process
   performance:
     startup_time: fast
-    memory_usage: moderate
+    memory_usage: low
     computation_speed: moderate
     compilation_speed: fast
 domains:
@@ -73,9 +73,9 @@ platforms:
     - ARM
     - platform-independent
 ecosystem:
-  maturity: moderate
+  maturity: high
   community_size: medium
-  learning_resources: large
+  learning_resources: medium
   job_market_demand: low
 complexity:
   learning_curve: low
@@ -132,7 +132,7 @@ standard_library:
   size: small
 versioning:
   release_cycle: feature-driven
-  backwards_compatibility: moderate
+  backwards_compatibility: high
 history:
   inception: 1964-01-01
   developer:

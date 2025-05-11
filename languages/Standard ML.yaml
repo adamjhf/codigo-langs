@@ -1,6 +1,6 @@
 name: Standard ML
 category: programming
-description: Standard ML (SML) is a general-purpose, modular, functional programming language with compile-time type checking and type inference. It is a modern dialect of ML that includes modules, pattern matching, and a sophisticated type system.
+description: A general-purpose, modular, functional programming language with compile-time type checking and type inference. It is known for its sophisticated module system and algebraic data types.
 aliases:
   - SML
   - ML
@@ -8,94 +8,8 @@ file_extensions:
   - sml
   - sig
   - fun
-status: active
-paradigms:
-  - functional
-  - imperative
-  - modular
-typing:
-  system: static
-  type_checking: compile-time
-  strength: strong
-  inference: full
-  type_annotations: optional
-execution:
-  type:
-    - compiled
-  compiles_to:
-    - bytecode
-    - machine code
-  runtime_environments:
-    - language-specific runtime
-    - native OS process
-domains:
-  primary:
-    - education
-    - compiler
-    - formal verification
-  secondary:
-    - scientific computing
-    - mathematics
-platforms:
-  operating_systems:
-    - Windows
-    - macOS
-    - Linux
-    - Unix
-  architectures:
-    - x86
-    - x86-64
-    - ARM
-    - platform-independent
-ecosystem:
-  maturity: moderate
-  community_size: small
-  learning_resources: small
-  job_market_demand: low
-complexity:
-  learning_curve: high
-  cognitive_load: moderate
-  syntax_complexity: moderate
-  semantic_complexity: high
-language_features:
-  immutability: default
-  generics: true
-  pattern_matching: true
-  memory_management:
-    type: garbage collection
-  key_features:
-    - pattern matching
-    - algebraic data types
-    - type inference
-    - modules
-    - first-class functions
-    - closures
-error_handling:
-  primary_mechanism: exceptions
-  features:
-    - custom error types
-    - error propagation
-standard_library:
-  maturity: moderate
-  key_areas:
-    - data structures
-    - text processing
-    - file I/O
-  size: medium
-history:
-  inception: "1983-01-01"
-  designed_by:
-    - Robin Milner
-    - Mads Tofte
-    - Robert Harper
-    - David MacQueen
-  influenced_by:
-    languages:
-      - ML
-      - LISP
-    paradigms:
-      - functional
-      - imperative
+status: maintenance
+
 compilers:
   - name: Standard ML of New Jersey
     type: compiler
@@ -112,7 +26,150 @@ compilers:
     source_url: https://github.com/kfl/mosml
   - name: Poly/ML
     type: compiler
-    license: LGPL-2.1
+    license: BSD-3-Clause
     source_url: https://github.com/polyml/polyml
+
+paradigms:
+  - functional
+  - imperative
+  - modular
+
+typing:
+  system: static
+  type_checking: compile-time
+  structural: true
+  strength: strong
+  inference: full
+  type_coercion: none
+  type_annotations: optional
+
+execution:
+  type:
+    - compiled
+  compiles_to:
+    - bytecode
+    - machine code
+  runtime_environments:
+    - language-specific runtime
+    - native OS process
+  performance:
+    startup_time: moderate
+    memory_usage: moderate
+    computation_speed: moderate
+    compilation_speed: fast
+
+domains:
+  primary:
+    - education
+    - compiler
+    - formal verification
+    - automated theorem proving
+  secondary:
+    - scientific computing
+    - mathematics
+  emerging:
+    - web development
+
+platforms:
+  operating_systems:
+    - Windows
+    - macOS
+    - Linux
+    - Unix
+  architectures:
+    - x86
+    - x86-64
+    - ARM
+    - platform-independent
+
+ecosystem:
+  maturity: high
+  community_size: small
+  learning_resources: small
+  job_market_demand: very low
+
+complexity:
+  learning_curve: high
+  cognitive_load: high
+  syntax_complexity: moderate
+  semantic_complexity: high
+
+language_features:
+  immutability: default
+  enums: algebraic
+  metaprogramming: false
+  generics: true
+  c_interop: true
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: managed
+    level: high
+  memory_management:
+    type: garbage collection
+  key_features:
+    - pattern matching
+    - algebraic data types
+    - type inference
+    - first-class functions
+    - modules
+    - tail-call optimization
+    - currying
+
+concurrency:
+  model: none
+  ease_of_use: low
+
+error_handling:
+  primary_mechanism: exceptions
+  features:
+    - custom error types
+    - error propagation
+  stack_traces: true
+  debugging:
+    breakpoints: true
+    step_debugging: true
+
+standard_library:
+  maturity: moderate
+  key_areas:
+    - data structures
+    - text processing
+    - file I/O
+  size: small
+
+versioning:
+  release_cycle: feature-driven
+  backwards_compatibility: high
+
+history:
+  inception: "1983-01-01"
+  designed_by:
+    - Robin Milner
+    - Mads Tofte
+    - Robert Harper
+    - David MacQueen
+  described_by: "The Definition of Standard ML (Revised)"
+  influenced_by:
+    languages:
+      - ML
+      - LISP
+      - ISWIM
+    paradigms:
+      - functional
+      - imperative
 official_website: https://smlfamily.github.io/
 color: "#DC566D"
+
+documentation:
+  quality: moderate
+  official_sources:
+    - https://smlfamily.github.io/
+  community_resources:
+    - https://github.com/smlnj/smlnj/wiki
+
+references:
+  github_topics:
+    - standard-ml
+    - sml
+  wikidata_id: Q2298962

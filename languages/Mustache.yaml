@@ -40,13 +40,13 @@ platforms:
 ecosystem:
   maturity: high
   community_size: medium
-  learning_resources: large
+  learning_resources: medium
   job_market_demand: moderate
 complexity:
-  learning_curve: low
-  cognitive_load: low
-  syntax_complexity: low
-  semantic_complexity: low
+  learning_curve: very low
+  cognitive_load: very low
+  syntax_complexity: very low
+  semantic_complexity: very low
 language_features:
   key_features:
     - string interpolation
@@ -55,7 +55,7 @@ error_handling:
 standard_library:
   key_areas:
     - text processing
-  size: small
+  size: very small
 history:
   inception: 2009-01-01
   designed_by:

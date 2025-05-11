@@ -40,8 +40,8 @@ execution:
   runtime_environments:
     - native OS process
   performance:
-    startup_time: fast
-    memory_usage: low
+    startup_time: very fast
+    memory_usage: very low
     computation_speed: moderate
 domains:
   primary:
@@ -64,14 +64,14 @@ platforms:
     - platform-independent
 ecosystem:
   maturity: high
-  community_size: medium
+  community_size: small
   learning_resources: medium
   job_market_demand: low
 complexity:
   learning_curve: moderate
   cognitive_load: moderate
   syntax_complexity: moderate
-  semantic_complexity: moderate
+  semantic_complexity: low
 language_features:
   immutability: none
   metaprogramming: false

@@ -53,7 +53,7 @@ execution:
   performance:
     startup_time: slow
     memory_usage: high
-    computation_speed: moderate
+    computation_speed: slow
     compilation_speed: slow
 domains:
   primary:

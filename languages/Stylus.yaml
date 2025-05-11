@@ -40,14 +40,14 @@ platforms:
 ecosystem:
   maturity: moderate
   package_registry: npm
-  community_size: medium
+  community_size: small
   learning_resources: medium
   job_market_demand: low
 complexity:
-  learning_curve: moderate
+  learning_curve: low
   cognitive_load: low
   syntax_complexity: low
-  semantic_complexity: moderate
+  semantic_complexity: low
 language_features:
   key_features:
     - mixins
@@ -71,7 +71,7 @@ development_tools:
     - stylint
 standard_library:
   maturity: moderate
-  size: medium
+  size: small
 versioning:
   release_cycle: feature-driven
   backwards_compatibility: high

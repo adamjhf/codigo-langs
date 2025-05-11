@@ -31,7 +31,7 @@ execution:
     - embedded interpreter
   performance:
     memory_usage: low
-    computation_speed: fast
+    computation_speed: moderate
 domains:
   primary:
     - web development
@@ -55,8 +55,8 @@ platforms:
 ecosystem:
   maturity: high
   package_registry: PyPI
-  community_size: large
-  learning_resources: large
+  community_size: medium
+  learning_resources: medium
   job_market_demand: moderate
 complexity:
   learning_curve: low

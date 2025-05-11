@@ -81,9 +81,9 @@ platforms:
 ecosystem:
   maturity: high
   package_registry: Maven Central
-  community_size: large
+  community_size: medium
   learning_resources: large
-  job_market_demand: high
+  job_market_demand: moderate
 complexity:
   learning_curve: moderate
   cognitive_load: moderate

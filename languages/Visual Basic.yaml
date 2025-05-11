@@ -1,9 +1,7 @@
 name: Visual Basic
-category: programming
-description: A high-level programming language developed by Microsoft, known for its ease of use and GUI development capabilities. It evolved from BASIC and is designed for rapid application development.
+description: A high-level programming language developed by Microsoft, known for its ease of use and GUI development capabilities.
 aliases:
   - VB
-  - VBA
   - VB.NET
 file_extensions:
   - vb
@@ -11,13 +9,23 @@ file_extensions:
   - cls
   - frm
   - vbs
-status: legacy
+category: programming
+status: maintenance
+
+compilers:
+  - name: Visual Basic .NET Compiler
+    type: compiler
+    license: proprietary
+    source_url: https://github.com/dotnet/roslyn
+    is_reference: true
+
 paradigms:
   - imperative
   - object-oriented
   - event-driven
-  - procedural
+  - declarative
   - structured
+
 typing:
   system: static
   type_checking: compile-time
@@ -26,118 +34,191 @@ typing:
   inference: partial
   type_coercion: moderate
   type_annotations: optional
+
 execution:
   type:
     - compiled
   compiles_to:
     - bytecode
+    - machine code
   runtime_environments:
     - CLR
-    - language-specific runtime
+    - native OS process
   performance:
     startup_time: moderate
     memory_usage: moderate
     computation_speed: moderate
     compilation_speed: fast
+
 domains:
   primary:
     - desktop applications
     - business applications
-    - automation
     - data processing
+    - automation
   secondary:
     - web development
     - database management
-    - scripting
+    - education
+
 platforms:
   operating_systems:
     - Windows
+    - macOS
+    - Linux
   architectures:
     - x86
     - x86-64
+    - ARM
+    - ARM64
+
 ecosystem:
   maturity: high
   package_registry: NuGet
-  community_size: large
+  community_size: medium
   learning_resources: large
   job_market_demand: moderate
+
 complexity:
   learning_curve: low
-  cognitive_load: low
+  cognitive_load: moderate
   syntax_complexity: low
-  semantic_complexity: low
+  semantic_complexity: moderate
+
 language_features:
   immutability: optional
   enums: basic
-  metaprogramming: false
+  metaprogramming: true
   generics: true
   c_interop: true
-  pattern_matching: false
-  null_safety: false
+  pattern_matching: true
+  null_safety: true
+  memory_safety:
+    type: managed
+    level: high
   memory_management:
     type: garbage collection
+    implementation: .NET GC
+    manual_control: false
   key_features:
     - string interpolation
     - reflection
-    - modules
+    - lambdas
+    - extension methods
+    - async/await
     - named arguments
+    - modules
+    - iterators/generators
+
 concurrency:
   model: threads
   features:
     - async/await
+    - promises/futures
     - thread pools
-  ease_of_use: moderate
+    - task parallelism
+  ease_of_use: high
+
 error_handling:
   primary_mechanism: exceptions
   features:
     - stack traces
+    - error chaining
     - custom error types
-    - error propagation
+    - error context
+    - cleanup actions
   stack_traces: true
   debugging:
     source_maps: true
     breakpoints: true
     step_debugging: true
+
 package_managers:
   primary: NuGet
+  alternatives:
+    - Paket
+
 popular_frameworks:
   frontend:
     - Windows Forms
     - WPF
+    - UWP
   backend:
     - ASP.NET
+    - ASP.NET Core
   testing:
     - NUnit
     - MSTest
+    - xUnit
+
+development_tools:
+  lsps:
+    - Visual Studio
+    - OmniSharp
+  debugging:
+    - Visual Studio Debugger
+    - JetBrains Rider
+  profiling:
+    - Visual Studio Profiler
+    - ANTS Performance Profiler
+  build_systems:
+    - MSBuild
+  linters:
+    - StyleCop
+    - ReSharper
+
 standard_library:
   maturity: high
   key_areas:
     - file I/O
     - networking
+    - concurrency
     - data structures
+    - algorithms
     - text processing
+    - database access
+    - HTTP client/server
+    - JSON/XML processing
+    - regular expressions
     - date/time
     - mathematics
-    - database access
-    - GUI
+    - serialization
+    - testing
+    - logging
   size: large
+
 versioning:
   release_cycle: fixed schedule
   backwards_compatibility: high
+
 history:
-  inception: 1991-05-01
+  inception: "1991-01-01"
   developer:
     - Microsoft
   designed_by:
     - Alan Cooper
-  influenced_by:
-    languages:
-      - BASIC
-      - QuickBASIC
-    paradigms:
-      - imperative
-      - procedural
-      - object-oriented
-      - event-driven
+    - Microsoft
+  standards_bodies:
+    - ECMA
+    - ISO/IEC
+
 official_website: https://docs.microsoft.com/en-us/dotnet/visual-basic/
-color: "#945db7"
+
+documentation:
+  quality: high
+  official_sources:
+    - https://docs.microsoft.com/en-us/dotnet/visual-basic/
+  community_resources:
+    - https://www.vbtutor.net/
+    - https://www.tutorialspoint.com/vb.net/
+
+references:
+  github_topics:
+    - visual-basic
+    - vb-net
+  stackexchange_tags:
+    - vb.net
+    - vba
+    - vbscript
+  wikidata_id: Q2378
+  subreddit: visualbasic

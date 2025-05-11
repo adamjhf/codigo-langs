@@ -61,7 +61,7 @@ execution:
   performance:
     startup_time: moderate
     memory_usage: moderate
-    computation_speed: moderate
+    computation_speed: slow
     compilation_speed: fast
 domains:
   primary:
@@ -92,16 +92,16 @@ platforms:
     - ARM64
     - platform-independent
 ecosystem:
-  maturity: moderate
+  maturity: high
   package_registry: https://snow-fort.org/
   community_size: small
   learning_resources: medium
-  job_market_demand: low
+  job_market_demand: very low
 complexity:
   learning_curve: moderate
   cognitive_load: moderate
   syntax_complexity: low
-  semantic_complexity: moderate
+  semantic_complexity: high
 language_features:
   immutability: optional
   enums: none
@@ -112,7 +112,7 @@ language_features:
   null_safety: false
   memory_safety:
     type: managed
-    level: very high
+    level: high
   memory_management:
     type: garbage collection
     implementation: mostly generational
@@ -128,7 +128,7 @@ concurrency:
   model: none
   features:
     - concurrent data structures
-  ease_of_use: moderate
+  ease_of_use: low
 error_handling:
   primary_mechanism: exceptions
   features:

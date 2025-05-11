@@ -60,10 +60,10 @@ ecosystem:
   maturity: moderate
   package_registry: Lake
   community_size: small
-  learning_resources: medium
-  job_market_demand: low
+  learning_resources: small
+  job_market_demand: very low
 complexity:
-  learning_curve: high
+  learning_curve: very high
   cognitive_load: high
   syntax_complexity: moderate
   semantic_complexity: very high

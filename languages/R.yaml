@@ -41,7 +41,7 @@ execution:
   performance:
     startup_time: moderate
     memory_usage: high
-    computation_speed: moderate
+    computation_speed: slow
     compilation_speed: moderate
 domains:
   primary:
@@ -77,7 +77,7 @@ ecosystem:
   package_registry: CRAN
   community_size: large
   learning_resources: very large
-  job_market_demand: high
+  job_market_demand: moderate
 complexity:
   learning_curve: moderate
   cognitive_load: moderate

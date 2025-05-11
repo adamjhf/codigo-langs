@@ -64,15 +64,15 @@ platforms:
     - ARM64
     - WebAssembly
 ecosystem:
-  maturity: moderate
+  maturity: low
   package_registry: vpm
   community_size: small
   learning_resources: small
-  job_market_demand: low
+  job_market_demand: very low
 complexity:
   learning_curve: low
   cognitive_load: low
-  syntax_complexity: low
+  syntax_complexity: very low
   semantic_complexity: moderate
 language_features:
   immutability: default
@@ -156,7 +156,7 @@ standard_library:
   size: medium
 versioning:
   release_cycle: feature-driven
-  backwards_compatibility: high
+  backwards_compatibility: moderate
 history:
   inception: 2019-06-22
   developer:

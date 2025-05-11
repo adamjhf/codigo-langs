@@ -41,7 +41,7 @@ execution:
     - language-specific runtime
     - native OS process
   performance:
-    startup_time: fast
+    startup_time: very fast
     memory_usage: moderate
     computation_speed: fast
     compilation_speed: moderate
@@ -68,7 +68,7 @@ ecosystem:
   package_registry: CocoaPods
   community_size: medium
   learning_resources: medium
-  job_market_demand: moderate
+  job_market_demand: low
 complexity:
   learning_curve: high
   cognitive_load: high

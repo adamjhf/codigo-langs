@@ -50,9 +50,9 @@ platforms:
     - platform-independent
 ecosystem:
   maturity: moderate
-  community_size: medium
+  community_size: small
   learning_resources: small
-  job_market_demand: moderate
+  job_market_demand: low
 complexity:
   learning_curve: low
   cognitive_load: low

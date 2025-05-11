@@ -92,12 +92,12 @@ platforms:
 ecosystem:
   maturity: high
   package_registry: crates.io
-  community_size: large
+  community_size: medium
   learning_resources: large
-  job_market_demand: high
+  job_market_demand: moderate
 complexity:
   learning_curve: high
-  cognitive_load: moderate
+  cognitive_load: high
   syntax_complexity: moderate
   semantic_complexity: high
 language_features:

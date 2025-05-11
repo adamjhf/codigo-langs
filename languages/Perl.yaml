@@ -44,7 +44,7 @@ execution:
   performance:
     startup_time: moderate
     memory_usage: moderate
-    computation_speed: moderate
+    computation_speed: slow
     compilation_speed: fast
 domains:
   primary:
@@ -83,12 +83,12 @@ platforms:
 ecosystem:
   maturity: high
   package_registry: CPAN
-  community_size: large
+  community_size: medium
   learning_resources: large
-  job_market_demand: moderate
+  job_market_demand: low
 complexity:
-  learning_curve: moderate
-  cognitive_load: moderate
+  learning_curve: high
+  cognitive_load: high
   syntax_complexity: high
   semantic_complexity: moderate
 language_features:

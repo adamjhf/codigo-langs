@@ -61,7 +61,7 @@ ecosystem:
   maturity: high
   package_registry: Qt Marketplace
   community_size: medium
-  learning_resources: large
+  learning_resources: medium
   job_market_demand: moderate
 complexity:
   learning_curve: moderate

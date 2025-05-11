@@ -52,11 +52,12 @@ ecosystem:
   maturity: very high
   package_registry: CTAN
   community_size: large
-  learning_resources: very large
+  learning_resources: large
+  job_market_demand: moderate
 complexity:
   learning_curve: high
-  cognitive_load: moderate
-  syntax_complexity: moderate
+  cognitive_load: high
+  syntax_complexity: high
   semantic_complexity: high
 language_features:
   metaprogramming: true

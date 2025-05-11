@@ -45,7 +45,7 @@ execution:
     startup_time: fast
     memory_usage: low
     computation_speed: moderate
-    compilation_speed: fast
+    compilation_speed: very fast
 domains:
   primary:
     - game development
@@ -82,12 +82,12 @@ ecosystem:
   package_registry: LuaRocks
   community_size: medium
   learning_resources: medium
-  job_market_demand: moderate
+  job_market_demand: low
 complexity:
   learning_curve: low
   cognitive_load: low
   syntax_complexity: low
-  semantic_complexity: moderate
+  semantic_complexity: low
 language_features:
   immutability: optional
   enums: none

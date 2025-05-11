@@ -31,12 +31,12 @@ ecosystem:
   maturity: moderate
   community_size: small
   learning_resources: small
-  job_market_demand: moderate
+  job_market_demand: low
 platforms:
   operating_systems:
     - Windows
 complexity:
-  learning_curve: moderate
+  learning_curve: high
   syntax_complexity: moderate
 concurrency:
   model: threads

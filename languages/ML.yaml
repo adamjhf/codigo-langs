@@ -31,7 +31,7 @@ execution:
     - native OS process
   performance:
     startup_time: fast
-    memory_usage: moderate
+    memory_usage: low
     computation_speed: fast
     compilation_speed: fast
 domains:
@@ -77,7 +77,7 @@ standard_library:
     - mathematics
     - text processing
     - file I/O
-  size: medium
+  size: small
 history:
   inception: "1973-01-01"
   designed_by:
@@ -92,10 +92,10 @@ history:
 ecosystem:
   maturity: high
   community_size: small
-  learning_resources: medium
+  learning_resources: small
 complexity:
   learning_curve: high
-  cognitive_load: moderate
+  cognitive_load: high
   syntax_complexity: moderate
   semantic_complexity: high
 platforms:

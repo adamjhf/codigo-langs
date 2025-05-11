@@ -41,12 +41,12 @@ platforms:
     - platform-independent
 ecosystem:
   maturity: high
-  community_size: medium
-  learning_resources: medium
+  community_size: small
+  learning_resources: small
 complexity:
   learning_curve: moderate
   cognitive_load: moderate
-  syntax_complexity: moderate
+  syntax_complexity: high
   semantic_complexity: moderate
 language_features:
   metaprogramming: false
@@ -74,9 +74,9 @@ standard_library:
   key_areas:
     - text processing
     - regular expressions
-  size: small
+  size: very small
 versioning:
-  backwards_compatibility: high
+  backwards_compatibility: very high
 history:
   inception: 1974-01-01
   developer:

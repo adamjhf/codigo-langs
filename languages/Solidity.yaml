@@ -37,9 +37,9 @@ domains:
 ecosystem:
   maturity: high
   package_registry: npm
-  community_size: large
-  learning_resources: large
-  job_market_demand: high
+  community_size: medium
+  learning_resources: medium
+  job_market_demand: moderate
 complexity:
   learning_curve: high
   cognitive_load: high

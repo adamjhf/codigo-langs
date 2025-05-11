@@ -34,7 +34,7 @@ execution:
   performance:
     startup_time: very fast
     memory_usage: low
-    computation_speed: very fast
+    computation_speed: fast
     compilation_speed: fast
 domains:
   primary:
@@ -57,11 +57,11 @@ platforms:
     - x86-64
     - ARM64
 ecosystem:
-  maturity: moderate
+  maturity: low
   package_registry: https://github.com/odin-lang/Odin/tree/master/core
   community_size: small
   learning_resources: small
-  job_market_demand: low
+  job_market_demand: very low
 complexity:
   learning_curve: moderate
   cognitive_load: moderate
