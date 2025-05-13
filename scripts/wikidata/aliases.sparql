@@ -1,0 +1,20 @@
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT DISTINCT ?language ?languageLabel ?languageAlias WHERE {
+  ?language wdt:P31 wd:Q9143.  # Instances of programming language
+  
+  # Get aliases in English
+  ?language skos:altLabel ?languageAlias .
+  FILTER (LANG(?languageAlias) = "en")
+  
+  # Get labels
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "en".
+    ?language rdfs:label ?languageLabel.
+  }
+}
+ORDER BY ?languageLabel ?languageAlias

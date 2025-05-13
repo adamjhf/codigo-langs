@@ -1,0 +1,32 @@
+PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX wikibase: <http://wikiba.se/ontology#>
+PREFIX p: <http://www.wikidata.org/prop/>
+PREFIX ps: <http://www.wikidata.org/prop/statement/>
+SELECT DISTINCT ?language ?languageLabel ?property ?propertyLabel ?value ?valueLabel WHERE {
+  # Get languages that are either direct instances or instances of subclasses
+  ?language wdt:P31 ?subclass.  # Instance of something
+  ?subclass wdt:P279* wd:Q9143. # That something is a subclass of programming language
+  
+  ?language ?property ?value.   # Get all properties and their values
+    
+  # Filter out non-direct properties and some internal Wikidata properties
+  FILTER(STRSTARTS(STR(?property), "http://www.wikidata.org/prop/direct/"))
+  
+  # Get the property entity by stripping the prefix and adding wd:P
+  BIND(IRI(REPLACE(STR(?property), "^http://www.wikidata.org/prop/direct/", "http://www.wikidata.org/entity/")) AS ?propEntity)
+  
+  # Ensure English labels exist
+  ?language rdfs:label ?languageLabel. FILTER(LANG(?languageLabel) = "en")
+  ?propEntity rdfs:label ?propertyLabel. FILTER(LANG(?propertyLabel) = "en")
+  
+  # Get labels
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "en".
+    ?language rdfs:label ?languageLabel.
+    ?value rdfs:label ?valueLabel.
+    ?propEntity rdfs:label ?propertyLabel.
+  }
+}
+ORDER BY ?languageLabel ?propertyLabel
