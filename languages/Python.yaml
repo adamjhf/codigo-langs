@@ -283,6 +283,7 @@ history:
   influenced_by:
     languages:
       - ABC
+      - Ada
       - Modula-3
       - C
       - C++
